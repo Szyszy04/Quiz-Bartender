@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Whisky Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="quiz">
+
+        <div class="quiz-header">
+            <h1>Whisky Quiz</h1>
+
+            <div class="progress">
+                <span id="current-question">1</span>
+                /
+                <span id="total-questions">0</span>
+            </div>
+        </div>
+
+        <div class="question-box">
+            <p id="question">
+                Ładowanie pytania...
+            </p>
+        </div>
+
+        <div id="answers" class="answers">
+        </div>
+
+        <div id="result" class="result"></div>
+
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
