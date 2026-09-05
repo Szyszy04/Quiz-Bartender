@@ -1,0 +1,455 @@
+{
+    "distilleries": [
+        {
+            "id": 1,
+            "name": "Lagavulin",
+            "country": "Scotland",
+            "region": "Islay",
+            "group": "Diageo",
+            "information": [
+                "Jej nazwa pochodzi od gaelickiego i oznaczającego dolinę młyna.",
+                "Destylarnia słynie z bardzo powolnej destylacji – jednego z najdłuższych procesów w całej Szkocji. Dzięki temu whisky zyskuje wyjątkowo oleistą strukturę i głębię smaku.",
+                "Jest jednym z sześciu klasycznych słodów reprezentujących region Islay w serii Classic Malts of Scotland."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Singleton",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "Diageo",
+            "information": [
+                "Marka stworzona z myślą o osobach rozpoczynających przygodę ze szkocką whisky.",
+                "Produkcja skupia się na uzyskaniu wyjątkowo łagodnego i owocowego charakteru poprzez stosunkowo długą fermentację oraz spokojną destylację.",
+                "Od wielu lat jest najlepiej sprzedającym się single maltem w Polsce."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Mortlach",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "Diageo",
+            "information": [
+                "Została założona w 1823 roku i była pierwszą legalną destylarnią w Dufftown.",
+                "Słynie z jednego z najbardziej skomplikowanych systemów destylacji w całej Szkocji. Produkuje destylat określany jako 2,81-krotna destylacja. Efektem jest wyjątkowo ciężka, mięsista whisky o bogatej strukturze."
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Talisker",
+            "country": "Scotland",
+            "region": "Skye",
+            "group": "Diageo",
+            "information": [
+                "Destylarnia znajduje się na wyspie Skye.",
+                "Stosuje nietypowe dla szkockiej whisky skraplacze typu worm tub (spirale chłodzące zanurzone w zimnej wodzie), które pozwalają zachować cięższy i bardziej oleisty charakter destylatu.",
+                "Powstała w 1830 roku i od tego czasu produkuje whisky o niezwykle charakterystycznym morskim charakterze."
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Johnnie Walker",
+            "country": "Scotland",
+            "region": null,
+            "group": "Diageo",
+            "information": [
+                "Jest najlepiej sprzedającą się szkocką whisky na świecie.",
+                "Wykorzystuje destylaty z ponad 30 destylarni należących do Diageo. Dzięki temu Master Blender ma ogromną swobodę tworzenia poszczególnych edycji.",
+                "Jednym z najważniejszych składników wielu wersji jest whisky z destylarni Cardhu, która odpowiada za owocowy charakter blendów."
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Aberlour",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "Pernod Ricard",
+            "information": [
+                "Nazwa oznacza ujście głośnego strumienia (mouth of the chattering burn)",
+                "Destylarnia słynie z dojrzewania whisky w połączeniu beczek po bourbonie i sherry, dzięki czemu uzyskuje charakterystyczny profil pełen suszonych owoców i czekolady."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Aberfeldy",
+            "country": "Scotland",
+            "region": "Highland",
+            "group": "Bacardi-Martini",
+            "information": [
+                "Nazwa oznacza ujście (lub złączenie) rzeki Paldy.",
+                "Destylarnia została zbudowana przez rodzinę Dewar specjalnie po to, aby zapewnić wysokiej jakości whisky do ich słynnego blendu Dewars. Do dziś jest jego sercem."
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Ardbeg",
+            "country": "Scotland",
+            "region": "Islay",
+            "group": "LVMH",
+            "information": [
+                "Nazwa oznacza mały cypel (Small Headland)",
+                "Jest jedną z najbardziej torfowych destylarni na świecie, jednak jej whisky słyną bardziej z owocowości i cytrusów niż medycznych nut."
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Auchentoshan",
+            "country": "Scotland",
+            "region": "Lowland",
+            "group": "Suntory Global Spirits",
+            "information": [
+                "Nazwa oznacza zakątek pola (Corner of the Field).",
+                "To jedna z nielicznych szkockich destylarni stosujących potrójną destylację, bardziej charakterystyczną dla Irlandii. Dzięki temu whisky jest wyjątkowo lekka, delikatna i owocowa."
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Aultmore",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "Bacardi-Martini",
+            "information": [
+                "Nazwa oznacza duży strumień (Big Stream).",
+                "Przez większość swojej historii produkowała whisky niemal wyłącznie do blendów Dewars."
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Benriach",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "Brown-Forman",
+            "information": [
+                "Nazwa oznacza szarą górę (Hill of Heather – w zależności od tłumaczenia).",
+                "Destylarnia wykorzystuje bardzo szeroki wachlarz beczek – bourbon, sherry, rum, porto, madeira czy virgin oak.",
+                "Należy do nielicznych destylarni Speyside produkujących zarówno whisky nietorfowe, jak i mocno torfowe."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Craigellachie",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "Bacardi-Martini",
+            "information": [
+                "Nazwa oznacza skaliste wzgórze",
+                "Destylarnia do dziś korzysta z chłodnic typu worm tub, dzięki czemu whisky ma cięższy, bardziej mięsisty charakter oraz jest znana z nut ananasa"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "GlenDronach",
+            "country": "Scotland",
+            "region": "Highland",
+            "group": "Brown-Forman",
+            "information": [
+                "Destylarnia słynie z dojrzewania whisky w beczkach po sherry.",
+                "Była jedną z ostatnich szkockich destylarni ogrzewających alembiki bezpośrednio ogniem, zanim przeszła na ogrzewanie parowe.",
+                "Nazwa oznacza Dolinę Jeżyn (Valley of the Brambles)."
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Glenfiddich",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "William Grant & Sons",
+            "information": [
+                "Była jedną z pierwszych destylarni, która zaczęła promować single malty na rynku międzynarodowym, gdy większość szkockiej whisky trafiała do blendów.",
+                "To najczęściej sprzedawana whisky single malt na świecie.",
+                "Nazwa oznacza Dolinę Jeleni."
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Glenglassaugh",
+            "country": "Scotland",
+            "region": "Highland",
+            "group": "Brown-Forman",
+            "information": [
+                "Destylarnia leży tuż przy wybrzeżu Morza Północnego, dlatego często podkreśla wpływ morskiego klimatu na dojrzewanie whisky.",
+                "Nazwa oznacza Dolinę Zieleni (Valley of the Grey-Green)"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Glenlivet",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "Pernod Ricard",
+            "information": [
+                "Była pierwszą legalną destylarnią w regionie Speyside po zmianie prawa w 1824 roku.",
+                "Przez wiele lat te whisky było tak cenioną nazwą, że inne destylarnie dopisywały ją do swoich etykiet."
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Glenmorangie",
+            "country": "Scotland",
+            "region": "Highland",
+            "group": "LVMH",
+            "information": [
+                "Alembiki w tej destylarni należą do najwyższych w całej Szkocji (ponad 5 metrów). Dzięki temu do skraplaczy trafiają głównie najlżejsze pary alkoholu, co daje wyjątkowo elegancki i owocowy destylat.",
+                "Jako jedni z nielicznych stosują beczki z wolno rosnącego dębu z Missouri, które są wykorzystywane do maturacji tylko dwa razy, aby zachować pełnię waniliowych aromatów.",
+                "Nazwa oznacza Dolinę Spokoju (lub Dolinę Dużego Wzgórza)"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Laphroaig",
+            "country": "Scotland",
+            "region": "Islay",
+            "group": "Suntory Global Spirits",
+            "information": [
+                "Każdy właściciel butelki może symbolicznie posiadać stopę kwadratową ziemi przy destylarni dzięki specjalnemu programowi",
+                "To jedna z najbardziej charakterystycznych whisky na świecie, znana z nut jodu, bandaży i dymu.",
+                "Nazwa oznacza piękną zatokę przy szerokiej dolinie"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Macallan",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "Edrington",
+            "information": [
+                "Słynie z wyjątkowo małych alembików, które nadają destylatowi bogaty i oleisty charakter.",
+                "Produkcja jednej beczki przeznaczonej dla tej destylarni jest szczegółowo kontrolowana – od wyboru dębu, przez sezonowanie, aż po dojrzewanie sherry w Hiszpanii."
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Royal Brackla",
+            "country": "Scotland",
+            "region": "Highland",
+            "group": "Bacardi-Martini",
+            "information": [
+                "Była pierwszą szkocką destylarnią, która otrzymała królewski przywilej używania słowa Royal w nazwie. Tytuł nadał w 1833 roku król William IV po wizycie w destylarni."
+            ]
+        },
+        {
+            "id": 21,
+            "name": "The Balvenie",
+            "country": "Scotland",
+            "region": "Speyside",
+            "group": "William Grant & Sons",
+            "information": [
+                "Jest jedną z niewielu destylarni, która nadal uprawia część własnego jęczmienia.",
+                "Destylarnia zachowała również własną słodownię podłogową (traditional floor maltings), mimo że większość szkockich destylarni zrezygnowała z tego procesu wiele lat temu."
+            ]
+        }
+    ],
+    "whiskies": [
+        {
+            "id": 1,
+            "name": "Aberfeldy 12",
+            "group": "Bacardi-Martini",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Sercem destylatu jest wyjątkowo miękka woda ze strumienia Pitilie Burn. To jedna z najbardziej miodowych whisky w całej Szkocji."
+            ],
+            "aroma": [
+                "🍯 Wrzosowy miód • 🍏 Zielone jabłko • 🍐 Gruszka • 🍋 Skórka cytryny • 🌼 Wrzos • 🥥 Delikatny kokos"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Aberfeldy 16",
+            "group": "Bacardi-Martini",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Finisz w beczkach po Oloroso dodaje głębi, nie dominując jednak charakterystycznej miodowej natury."
+            ],
+            "aroma": [
+                "🍯 Miód akacjowy • 🍊 Kandyzowana pomarańcza • 🌰 Prażone migdały • 🍪 Kruche ciasteczka • 🍇 Suszone morele • 🍂 Dąb"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Aberlour 12",
+            "group": "Pernod Ricard",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Destylarnia od lat stosuje Double Cask Maturation – destylaty dojrzewają oddzielnie w beczkach po bourbonie i sherry, a następnie są kupażowane."
+            ],
+            "aroma": [
+                "🍒 Wiśnie • 🍫 Mleczna czekolada • 🍇 Rodzynki • 🥜 Orzech laskowy • 🍊 Skórka pomarańczy • 🌿 Cynamon"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Ardbeg 10",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Islay",
+            "type": "Single Malt",
+            "information": [
+                "Jedna z najbardziej torfowych whisky na świecie (około 50–55 ppm fenoli), ale dzięki wysokiej rektyfikacji zachowuje zaskakująco cytrusowy charakter."
+            ],
+            "aroma": [
+                "🔥 Ognisko • 🌊 Wodorosty • 🍋 Cytryna • 🌿 Eukaliptus • 🥓 Wędzony boczek • ⚫ Sadza"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Ardbeg An Oa",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Islay",
+            "type": "Single Malt",
+            "information": [
+                "Po dojrzewaniu w trzech róznych beczkach destylaty trafiają do ogromnej dębowej kadzi (Gathering Vat), gdzie harmonizują się przed butelkowaniem."
+            ],
+            "aroma": [
+                "🍯 Toffi • 🔥 Dym z drewna • 🍌 Grillowany banan • 🌰 Orzech włoski • 🌿 Anyż • 🧂 Morska sól"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Ardbeg Corryvreckan",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Islay",
+            "type": "Single Malt",
+            "information": [
+                "Francuski dąb nadaje intensywne przyprawowe nuty, nazwa nawiązuje do jednego z największych wirów morskich w Europie."
+            ],
+            "aroma": [
+                "☕ Espresso • 🌶 Czarny pieprz • 🍫 Gorzka czekolada • 🌑 Lukrecja • 🌲 Żywica • 🔥 Dym torfowy"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Ardbeg Uigeadail",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Islay",
+            "type": "Single Malt",
+            "information": [
+                "Łączy intensywny torf z bogactwem beczek po sherry, nazwa nawiązuje do znajdującego się na wyspie Islay jeziora."
+            ],
+            "aroma": [
+                "🍇 Daktyle • 🍒 Czereśnie • 🔥 Palone drewno • 🍬 Melasa • 🥜 Orzech pekan • 🌫 Dym"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Auchentoshan 12",
+            "group": "Suntory Global Spirits",
+            "country": "Scotland",
+            "region": "Lowland",
+            "type": "Single Malt",
+            "information": [
+                "Potrójna destylacja sprawia, że destylat jest wyjątkowo czysty i subtelny."
+            ],
+            "aroma": [
+                "🍋 Limonka • 🍯 Miód lipowy • 🥣 Płatki owsiane • 🍮 Crème brûlée • 🌰 Migdały • 🌼 Rumianek"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Auchentoshan 18",
+            "group": "Suntory Global Spirits",
+            "country": "Scotland",
+            "region": "Lowland",
+            "type": "Single Malt",
+            "information": [
+                "Destylowany trzykrotnie, co w połączeniu z 18 latami w beczce daje niezwykłą gładkość"
+            ],
+            "aroma": [
+                "🥜 Marcepan • 🍵 Czarna herbata • 🍊 Marmolada pomarańczowa • 🍪 Herbatniki maślane • 🌰 Prażone orzechy • 🍯 Miód gryczany"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Auchentoshan American Oak",
+            "group": "Suntory Global Spirits",
+            "country": "Scotland",
+            "region": "Lowland",
+            "type": "Single Malt",
+            "information": [
+                "Dojrzewa wyłącznie w beczkach po amerykańskim bourbonie pierwszego napełnienia, co w połączeniu z potrujną destylacją daje jedną z najbardziej świeżych i owocowych whisky"
+            ],
+            "aroma": [
+                "🥥 Kokos • 🍦 Lody waniliowe • 🍊 Grejpfrut • 🍏 Zielone jabłko • 🌾 Świeże zboże • 🍋 Cytrusy"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Auchentoshan Three Wood",
+            "group": "Suntory Global Spirits",
+            "country": "Scotland",
+            "region": "Lowland",
+            "type": "Single Malt",
+            "information": [
+                "Jedna z najbardziej intensywnych whisky z Lowland. Potrójna destylacja zachowuje elegancję destylatu mimo bardzo mocnego wpływu beczek po sherry."
+            ],
+            "aroma": [
+                "☕ Espresso • 🍫 Gorzka czekolada • 🍇 Rodzynki • 🍒 Czarna wiśnia • 🌰 Orzech włoski • 🍮 Toffi"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Aultmore 12",
+            "group": "Bacardi-Martini",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Nazywana jest często The Foggie Moss Malt, ponieważ źródło wody znajduje się na terenach mglistych torfowisk Foggie Moss, co od lat jest częścią tożsamości destylarni."
+            ],
+            "aroma": [
+                "🌼 Kwiaty polne • 🍏 Zielone jabłko • 🍐 Gruszka • 🌿 Świeże zioła • 🍋 Skórka cytryny • 🌾 Słód jęczmienny"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Benriach The Original Ten",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Dojrzewanie w trzech rodzajach beczek buduje złożoność mimo względnie krótkiego czasu dojrzewania."
+            ],
+            "aroma": [
+                "🍑 Brzoskwinia • 🍐 Gruszka • 🍯 Miód wrzosowy • 🌰 Prażony migdał • 🍋 Cytrusy • 🍦 Krem waniliowy"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Benriach 12",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Dodatek beczek po porto wnosi czerwone owoce, które wyróżniają tę whisky spośród większości klasycznych Speyside."
+            ],
+            "aroma": [
+                "🍑 Morela • 🍫 Kakao • 🍒 Wiśnia • 🍯 Miód • 🌰 Orzech laskowy • 🍂 Cynamon"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Benriach Smoky Twelve",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Jedna z niewielu torfowych whisky ze Speyside. Finisz w beczkach po sycylijskiej Marsali dodaje słodkich, deserowych nut."
+            ],
+            "aroma": [
+                "🔥 Dym z ogniska • 🍊 Kandyzowana pomarańcza • 🍯 Miód kasztanowy • 🌰 Prażone orzechy • 🍇 Suszone figi • 🍷 Słodkie wino"
+            ]
+        }
+    ]
+}
