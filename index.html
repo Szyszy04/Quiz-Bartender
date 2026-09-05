@@ -12,32 +12,228 @@
 
 <body>
 
-    <main class="quiz">
+    <main class="app">
 
-        <div class="quiz-header">
+        <!-- =========================
+             MENU
+        ========================== -->
+
+        <section id="menu" class="screen">
+
+            <button id="settings-button" class="settings-button" type="button" title="Ustawienia"
+                aria-label="Ustawienia">
+                ⚙
+            </button>
+
             <h1>Whisky Quiz</h1>
 
-            <div class="progress">
-                <span id="current-question">1</span>
-                /
-                <span id="total-questions">0</span>
-            </div>
-        </div>
-
-        <div class="question-box">
-            <p id="question">
-                Ładowanie pytania...
+            <p class="subtitle">
+                Wybierz rodzaj quizu
             </p>
-        </div>
 
-        <div id="answers" class="answers">
-        </div>
+            <div class="quiz-options">
 
-        <div id="result" class="result"></div>
+                <button class="quiz-option" data-quiz="distilleries" type="button">
+                    <span>Destylarnie</span>
+
+                    <small>
+                        Rozpoznaj destylarnię na podstawie informacji
+                    </small>
+                </button>
+
+
+                <button class="quiz-option" data-quiz="whiskies" type="button">
+                    <span>Whisky</span>
+
+                    <small>
+                        Rozpoznaj butelkę na podstawie informacji
+                    </small>
+                </button>
+
+
+                <button class="quiz-option" data-quiz="all" type="button">
+                    <span>Wszystko</span>
+
+                    <small>
+                        Destylarnie i whisky
+                    </small>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             USTAWIENIA
+        ========================== -->
+
+        <section id="settings" class="screen hidden">
+
+            <div class="settings-header">
+
+                <button id="close-settings" class="back-button" type="button" aria-label="Wróć">
+                    ←
+                </button>
+
+                <h2>Ustawienia</h2>
+
+            </div>
+
+
+            <p class="settings-description">
+                Wybierz koncerny, z których mają pochodzić pytania.
+            </p>
+
+
+            <div id="group-options" class="group-options">
+                <!-- Checkboxy zostaną wygenerowane przez JavaScript -->
+            </div>
+
+
+            <div id="no-groups-message" class="no-groups-message hidden">
+                Brak przypisanych koncernów w pliku danych.
+            </div>
+
+            <div class="settings-actions">
+
+                <button id="select-all-groups" type="button">
+                    Zaznacz wszystkie
+                </button>
+
+                <button id="clear-groups" type="button">
+                    Wyczyść
+                </button>
+
+            </div>
+
+            <div class="question-settings">
+
+                <h3>Liczba pytań</h3>
+
+                <div id="question-count-options" class="question-count-options">
+
+                    <label>
+                        <input type="radio" name="question-count" value="10">
+                        <span>10</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question-count" value="20">
+                        <span>20</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question-count" value="30">
+                        <span>30</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question-count" value="40">
+                        <span>40</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question-count" value="50">
+                        <span>50</span>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question-count" value="all">
+                        <span>Wszystkie</span>
+                    </label>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             QUIZ
+        ========================== -->
+
+        <section id="quiz" class="screen hidden">
+
+            <div class="quiz-header">
+
+                <button id="back-button" class="back-button" type="button" aria-label="Wróć do menu">
+                    ←
+                </button>
+
+
+                <div class="quiz-title">
+
+                    <h2 id="quiz-name">
+                        Quiz
+                    </h2>
+
+                    <div class="progress">
+
+                        <span id="current-question">
+                            1
+                        </span>
+
+                        /
+
+                        <span id="total-questions">
+                            0
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="question-box">
+
+                <p id="question">
+                    Ładowanie pytania...
+                </p>
+
+            </div>
+
+
+            <div id="answers" class="answers">
+                <!-- Odpowiedzi zostaną wygenerowane przez JavaScript -->
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             WYNIK
+        ========================== -->
+
+        <section id="result" class="screen hidden">
+
+            <h1>Quiz zakończony!</h1>
+
+            <p>Twój wynik</p>
+
+
+            <strong id="final-score">
+                0 / 0
+            </strong>
+
+
+            <button id="restart-button" type="button">
+                Zagraj ponownie
+            </button>
+
+
+            <button id="menu-button" type="button">
+                Wróć do menu
+            </button>
+
+        </section>
 
     </main>
 
-    <script src="data.js"></script>
+
     <script src="app.js"></script>
 
 </body>
