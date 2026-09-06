@@ -433,3 +433,21 @@ body {
 .question-count-options span {
     font-size: 15px;
 }
+
+/* =========================
+   AROMATY
+========================= */
+
+.aroma {
+    margin-top: 20px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #3a3a3a;
+
+    color: #999;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
