@@ -12,7 +12,8 @@ const SETTINGS_KEY = "whiskyQuizSettings";
 
 let data = {
     distilleries: [],
-    whiskies: []
+    whiskies: [],
+    wyjazd: []
 };
 
 let questions = [];
@@ -33,6 +34,7 @@ const quizScreen = document.getElementById("quiz");
 const resultScreen = document.getElementById("result");
 
 const questionElement = document.getElementById("question");
+const aromaElement = document.getElementById("aroma");
 const answersElement = document.getElementById("answers");
 
 const currentQuestionElement =
@@ -83,6 +85,10 @@ async function loadData() {
 
         if (!Array.isArray(data.whiskies)) {
             data.whiskies = [];
+        }
+
+        if (!Array.isArray(data.wyjazd)) {
+            data.wyjazd = [];
         }
 
 
@@ -534,11 +540,62 @@ function startQuiz(type) {
 
                     question: info,
 
+                    answer: whisky.name,
+
+                    category: "whisky",
+
+                    aroma: Array.isArray(whisky.aroma)
+                        ? whisky.aroma.join(" • ")
+                        : ""
+
+                });
+
+            });
+
+        });
+
+    }
+
+
+    // ==================================================
+    // WYJAZD
+    // ==================================================
+
+    if (
+        type === "wyjazd" ||
+        type === "all"
+    ) {
+
+        const wyjazd =
+            filterByGroups(
+                data.wyjazd
+            );
+
+
+        wyjazd.forEach(item => {
+
+            if (
+                !Array.isArray(
+                    item.information
+                )
+            ) {
+
+                return;
+
+            }
+
+
+            item.information.forEach(info => {
+
+                questions.push({
+
+                    question: info,
+
                     answer:
-                        whisky.name,
+                        item.name,
 
                     category:
-                        "whisky"
+                        "wyjazd"
 
                 });
 
@@ -612,6 +669,13 @@ function startQuiz(type) {
 
     }
 
+    else if (type === "wyjazd") {
+
+        quizNameElement.textContent =
+            "Wyjazd";
+
+    }
+
     else {
 
         quizNameElement.textContent =
@@ -668,6 +732,33 @@ function showQuestion() {
         current.question;
 
 
+    // ==================================================
+    // AROMATY WHISKY
+    // ==================================================
+
+    if (
+        current.category === "whisky" &&
+        current.aroma
+    ) {
+
+        aromaElement.textContent =
+            current.aroma;
+
+        aromaElement.classList.remove(
+            "hidden"
+        );
+
+    } else {
+
+        aromaElement.textContent = "";
+
+        aromaElement.classList.add(
+            "hidden"
+        );
+
+    }
+
+
     currentQuestionElement.textContent =
         currentQuestion + 1;
 
@@ -720,6 +811,23 @@ function createAnswers(
         sourceData =
             filterByGroups(
                 data.whiskies
+            );
+
+    }
+
+
+    // ----------------------------------------------
+    // Wyjazd
+    // ----------------------------------------------
+
+    else if (
+        currentQuestionData.category ===
+        "wyjazd"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.wyjazd
             );
 
     }
