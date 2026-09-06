@@ -451,5 +451,129 @@
                 "🔥 Dym z ogniska • 🍊 Kandyzowana pomarańcza • 🍯 Miód kasztanowy • 🌰 Prażone orzechy • 🍇 Suszone figi • 🍷 Słodkie wino"
             ]
         }
+    ],
+    "wyjazd": [
+        {
+            "id": 1,
+            "name": "R de Ruinart",
+            "group": "LVMH",
+            "country": "Francja",
+            "region": null,
+            "type": "Champagne",
+            "information": [
+                "świeży, kremowy, Chardonnay",
+                "To klasyczny Brut domu. Jest bardzo świeży, a jednocześnie kremowy i elegancki. Duży udział Chardonnay daje mu finezję, cytrusowo-owocowy charakter i lekkość."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Cloudy Bay",
+            "group": "LVMH",
+            "country": "Nowa Zelandia",
+            "region": null,
+            "type": "Białe wino",
+            "information": [
+                "cytrusy, marakuja, zioła",
+                "Słynie z intensywnie aromatycznych win o wysokiej kwasowości, świeżych nutach cytrusowych, tropikalnych i zielono-ziołowych.",
+                "Klasyczny przykład Sauvignon Blanc z Marlborough: bardzo aromatyczny, świeży i cytrusowy, z nutami marakui, limonki i świeżych ziół."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Numanthia",
+            "group": "LVMH",
+            "country": "Hiszpania",
+            "region": null,
+            "type": "Czerwone wino",
+            "information": [
+                "Pochodzi z Toro i powstaje z Tinta de Toro, lokalnego typu Tempranillo.",
+                "To bardzo skoncentrowane wino: dużo czarnych owoców, mocna struktura, taniny, przyprawy i długi finisz."
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Hennessy X.O",
+            "group": "LVMH",
+            "country": "Francja",
+            "region": null,
+            "type": "Cognac",
+            "information": [
+                "Ma nuty kandyzowanych owoców, przypraw, wanilii, dębu i ciemnej czekolady",
+                "został stworzony w 1870 roku przez Maurice'a Hennessy'ego. W porównaniu z innymi edycjami jest głębszy, bardziej korzenny i wielowarstwowy."
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Belvedere 10",
+            "group": "LVMH",
+            "country": "Polska",
+            "region": null,
+            "type": "Wódka",
+            "information": [
+                "profil kokosa, kakao, wanilii, miodu i praliny.",
+                "Nazwa nawiązuje do historii destylarni z 1910 roku oraz do procesu dojrzewania produktu. Koncepcja podkreśla kontrolę pochodzenia surowca: jedno żyto, jedna farma, jedno pole i jeden zbiór."
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Hennessy V.S.O.P",
+            "group": "LVMH",
+            "country": "Francja",
+            "region": null,
+            "type": "Cognac",
+            "information": [
+                "wanilia, morela, dąb",
+                "Ma korzenie w zamówieniu z 1817 roku, związanym z przyszłym królem Wielkiej Brytanii Jerzym IV",
+                "bardzo dobry kompromis między świeżością a dojrzałością."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Dom Pérignon",
+            "group": "LVMH",
+            "country": "Francja",
+            "region": null,
+            "type": "Champagne",
+            "information": [
+                "W smaku jest precyzyjny, elegancki, mineralny i kremowy, z wytrawnym charakterem.",
+                "każda edycja ma reprezentować konkretny rok, a nie stały nierocznikowy styl. Jeśli jakość zbioru nie spełnia oczekiwań, producent może nie wypuścić danego rocznika."
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Hennessy V.S",
+            "group": "LVMH",
+            "country": "Francja",
+            "region": null,
+            "type": "Cognac",
+            "information": [
+                "Ma nuty tostów, migdałów, brązowego cukru i owoców, a z całej trójki najlepiej nadaje się do koktajli.",
+                "Jest najbardziej dynamiczny i intensywny z podstawowej gamy Hennessy"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Belvedere Organic",
+            "group": "LVMH",
+            "country": "Polska",
+            "region": null,
+            "type": "Wódka",
+            "information": [
+                "żyto, wanilia, kremowość, biały pieprz, migdały",
+                "powstaje ze 100% organicznego polskiego żyta. Jest bardziej kremowa i pieprzna niż typowo neutralna wódka, dlatego dobrze sprawdza się także do picia solo"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Glenmorangie Triple Cask",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "łączy słodycz wanilii i owoców z wyraźną przyprawowością",
+                "single malt z Highlands dojrzewający z wpływem trzech typów beczek: bourbon, new charred oak i rye whiskey"
+            ]
+        }
     ]
 }
