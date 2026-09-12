@@ -2,7 +2,7 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" author="Wiktor Fedorowicz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Whisky Quiz</title>
@@ -41,7 +41,6 @@
                     </small>
                 </button>
 
-
                 <button class="quiz-option" data-quiz="whiskies" type="button">
                     <span>Whisky</span>
 
@@ -49,15 +48,6 @@
                         Rozpoznaj butelkę na podstawie informacji
                     </small>
                 </button>
-
-                <button class="quiz-option" data-quiz="wyjazd" type="button">
-                    <span>wyjazd</span>
-
-                    <small>
-                        Rozpoznaj butelkę na podstawie informacji
-                    </small>
-                </button>
-
 
                 <button class="quiz-option" data-quiz="all" type="button">
                     <span>Wszystko</span>
@@ -155,6 +145,30 @@
 
             </div>
 
+            <div class="expert-settings">
+
+                <div class="expert-setting-row">
+
+                    <div>
+                        <span class="expert-title">Tryb Expert</span>
+
+                        <small>
+                            Wpisz odpowiedź zamiast wybierać ją z listy
+                        </small>
+                    </div>
+
+                    <label class="switch">
+
+                        <input type="checkbox" id="expert-mode">
+
+                        <span class="slider"></span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
         </section>
 
 
@@ -204,12 +218,54 @@
 
                 <div id="aroma" class="aroma hidden"></div>
 
+                <div id="barrels" class="barrels hidden"></div>
+
             </div>
 
 
-            <div id="answers" class="answers">
-                <!-- Odpowiedzi zostaną wygenerowane przez JavaScript -->
-            </div>
+<div id="answers" class="answers">
+    <!-- Odpowiedzi standardowego trybu -->
+</div>
+
+
+<div id="expert-answer" class="expert-answer hidden">
+
+    <form id="expert-form" autocomplete="off">
+
+        <div class="expert-input-wrapper">
+
+            <input
+                type="text"
+                id="expert-input"
+                list="expert-suggestions"
+                placeholder="Wpisz odpowiedź..."
+                autocomplete="off"
+                spellcheck="false"
+            >
+
+            <datalist id="expert-suggestions">
+                <!-- Podpowiedzi generuje JavaScript -->
+            </datalist>
+
+        </div>
+
+
+        <button
+            type="submit"
+            id="expert-submit"
+        >
+            Sprawdź
+        </button>
+
+    </form>
+
+
+    <div
+        id="expert-feedback"
+        class="expert-feedback"
+    ></div>
+
+</div>
 
         </section>
 
