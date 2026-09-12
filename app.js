@@ -12,8 +12,7 @@ const SETTINGS_KEY = "whiskyQuizSettings";
 
 let data = {
     distilleries: [],
-    whiskies: [],
-    wyjazd: []
+    whiskies: []
 };
 
 let questions = [];
@@ -22,6 +21,7 @@ let score = 0;
 let currentQuiz = null;
 let selectedGroups = [];
 let questionCount = 20;
+let expertMode = false;
 
 
 // ======================================================
@@ -35,6 +35,7 @@ const resultScreen = document.getElementById("result");
 
 const questionElement = document.getElementById("question");
 const aromaElement = document.getElementById("aroma");
+const barrelsElement = document.getElementById("barrels");
 const answersElement = document.getElementById("answers");
 
 const currentQuestionElement =
@@ -54,6 +55,30 @@ const groupOptionsElement =
 
 const noGroupsMessageElement =
     document.getElementById("no-groups-message");
+
+const expertModeElement =
+    document.getElementById("expert-mode");
+
+const answersContainer =
+    document.getElementById("answers");
+
+const expertAnswerContainer =
+    document.getElementById("expert-answer");
+
+const expertForm =
+    document.getElementById("expert-form");
+
+const expertInput =
+    document.getElementById("expert-input");
+
+const expertSuggestions =
+    document.getElementById("expert-suggestions");
+
+const expertSubmit =
+    document.getElementById("expert-submit");
+
+const expertFeedback =
+    document.getElementById("expert-feedback");
 
 
 // ======================================================
@@ -85,10 +110,6 @@ async function loadData() {
 
         if (!Array.isArray(data.whiskies)) {
             data.whiskies = [];
-        }
-
-        if (!Array.isArray(data.wyjazd)) {
-            data.wyjazd = [];
         }
 
 
@@ -123,7 +144,10 @@ function loadSettings() {
     if (!saved) {
 
         selectedGroups = [];
+
         questionCount = 20;
+
+        expertMode = false;
 
         return;
 
@@ -168,6 +192,13 @@ function loadSettings() {
 
         }
 
+
+        // Tryb Expert
+
+        expertMode =
+            parsed.expertMode === true;
+
+
     } catch (error) {
 
         console.error(
@@ -179,7 +210,16 @@ function loadSettings() {
 
         questionCount = 20;
 
+        expertMode = false;
+
     }
+
+}
+
+function renderExpertMode() {
+
+    expertModeElement.checked =
+        expertMode;
 
 }
 
@@ -239,7 +279,9 @@ function saveSettings() {
 
         groups: selectedGroups,
 
-        questionCount: questionCount
+        questionCount: questionCount,
+
+        expertMode: expertMode
 
     };
 
@@ -376,6 +418,19 @@ function renderGroupOptions() {
                         );
 
                 }
+
+
+                saveSettings();
+
+            }
+        );
+
+        expertModeElement.addEventListener(
+            "change",
+            () => {
+
+                expertMode =
+                    expertModeElement.checked;
 
 
                 saveSettings();
@@ -546,56 +601,11 @@ function startQuiz(type) {
 
                     aroma: Array.isArray(whisky.aroma)
                         ? whisky.aroma.join(" • ")
-                        : ""
+                        : "",
 
-                });
-
-            });
-
-        });
-
-    }
-
-
-    // ==================================================
-    // WYJAZD
-    // ==================================================
-
-    if (
-        type === "wyjazd" ||
-        type === "all"
-    ) {
-
-        const wyjazd =
-            filterByGroups(
-                data.wyjazd
-            );
-
-
-        wyjazd.forEach(item => {
-
-            if (
-                !Array.isArray(
-                    item.information
-                )
-            ) {
-
-                return;
-
-            }
-
-
-            item.information.forEach(info => {
-
-                questions.push({
-
-                    question: info,
-
-                    answer:
-                        item.name,
-
-                    category:
-                        "wyjazd"
+                    barrels: Array.isArray(whisky.barrels)
+                        ? whisky.barrels
+                        : []
 
                 });
 
@@ -669,13 +679,6 @@ function startQuiz(type) {
 
     }
 
-    else if (type === "wyjazd") {
-
-        quizNameElement.textContent =
-            "Wyjazd";
-
-    }
-
     else {
 
         quizNameElement.textContent =
@@ -705,10 +708,144 @@ function startQuiz(type) {
 
 }
 
+// ======================================================
+// Tlumaczenie rodzaju procesu beczek
+// ======================================================
+
+function getProcessLabel(process) {
+
+    switch (process) {
+
+        case "maturation":
+            return "dojrzewanie";
+
+        case "part maturation":
+            return "część dojrzewania";
+
+        case "finish":
+            return "finish";
+
+        default:
+            return process || "";
+
+    }
+
+}
 
 // ======================================================
 // WYŚWIETLENIE PYTANIA
 // ======================================================
+
+function showNormalMode(current) {
+
+    answersContainer.classList.remove(
+        "hidden"
+    );
+
+    expertAnswerContainer.classList.add(
+        "hidden"
+    );
+
+
+    expertInput.value = "";
+
+    expertFeedback.textContent = "";
+
+
+    createAnswers(current);
+
+}
+
+function showExpertMode(current) {
+
+    answersContainer.classList.add(
+        "hidden"
+    );
+
+    expertAnswerContainer.classList.remove(
+        "hidden"
+    );
+
+
+    expertInput.value = "";
+
+    expertFeedback.textContent = "";
+
+
+    expertInput.className = "";
+
+
+    createExpertSuggestions(
+        current
+    );
+
+
+    expertInput.focus();
+
+}
+
+function createExpertSuggestions(
+    currentQuestionData
+) {
+
+    expertSuggestions.innerHTML = "";
+
+
+    let sourceData = [];
+
+
+    // Destylarnie
+
+    if (
+        currentQuestionData.category ===
+        "distillery"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.distilleries
+            );
+
+    }
+
+
+    // Whisky
+
+    else if (
+        currentQuestionData.category ===
+        "whisky"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.whiskies
+            );
+
+    }
+
+
+    const names =
+        sourceData.map(
+            item => item.name
+        );
+
+
+    names.forEach(name => {
+
+        const option =
+            document.createElement(
+                "option"
+            );
+
+        option.value = name;
+
+        expertSuggestions.appendChild(
+            option
+        );
+
+    });
+
+}
 
 function showQuestion() {
 
@@ -759,11 +896,119 @@ function showQuestion() {
     }
 
 
+    // ==================================================
+    // BECZKI WHISKY
+    // ==================================================
+
+    if (
+        current.category === "whisky" &&
+        Array.isArray(current.barrels) &&
+        current.barrels.length > 0
+    ) {
+
+        barrelsElement.innerHTML = "";
+
+        const title =
+            document.createElement("div");
+
+        title.classList.add(
+            "barrels-title"
+        );
+
+        title.textContent =
+            "Beczki";
+
+        barrelsElement.appendChild(
+            title
+        );
+
+
+        current.barrels.forEach(barrel => {
+
+            const barrelElement =
+                document.createElement("div");
+
+            barrelElement.classList.add(
+                "barrel"
+            );
+
+
+            const typeElement =
+                document.createElement("span");
+
+            typeElement.classList.add(
+                "barrel-type"
+            );
+
+            typeElement.textContent =
+                barrel.type;
+
+
+            const processElement =
+                document.createElement("span");
+
+            processElement.classList.add(
+                "barrel-process"
+            );
+
+            processElement.textContent =
+                getProcessLabel(
+                    barrel.process
+                );
+
+
+            barrelElement.appendChild(
+                typeElement
+            );
+
+            barrelElement.appendChild(
+                processElement
+            );
+
+
+            barrelsElement.appendChild(
+                barrelElement
+            );
+
+        });
+
+
+        barrelsElement.classList.remove(
+            "hidden"
+        );
+
+    } else {
+
+        barrelsElement.innerHTML = "";
+
+        barrelsElement.classList.add(
+            "hidden"
+        );
+
+    }
+
+
     currentQuestionElement.textContent =
         currentQuestion + 1;
 
 
-    createAnswers(current);
+    // ==================================================
+    // TRYB ODPOWIEDZI
+    // ==================================================
+
+    if (expertMode) {
+
+        showExpertMode(
+            current
+        );
+
+    } else {
+
+        showNormalMode(
+            current
+        );
+
+    }
 
 }
 
@@ -811,23 +1056,6 @@ function createAnswers(
         sourceData =
             filterByGroups(
                 data.whiskies
-            );
-
-    }
-
-
-    // ----------------------------------------------
-    // Wyjazd
-    // ----------------------------------------------
-
-    else if (
-        currentQuestionData.category ===
-        "wyjazd"
-    ) {
-
-        sourceData =
-            filterByGroups(
-                data.wyjazd
             );
 
     }
@@ -921,6 +1149,127 @@ function createAnswers(
 // SPRAWDZENIE ODPOWIEDZI
 // ======================================================
 
+function checkExpertAnswer() {
+
+    const current =
+        questions[currentQuestion];
+
+
+    const userAnswer =
+        normalizeAnswer(
+            expertInput.value
+        );
+
+
+    const correctAnswer =
+        normalizeAnswer(
+            current.answer
+        );
+
+
+    // Blokujemy formularz
+
+    expertInput.disabled = true;
+
+    expertSubmit.disabled = true;
+
+
+    // ==================================================
+    // DOBRA ODPOWIEDŹ
+    // ==================================================
+
+    if (
+        userAnswer ===
+        correctAnswer
+    ) {
+
+        expertInput.classList.add(
+            "expert-correct"
+        );
+
+
+        expertFeedback.textContent =
+            "Poprawna odpowiedź!";
+
+
+        expertFeedback.className =
+            "expert-feedback correct-feedback";
+
+
+        score++;
+
+
+        setTimeout(() => {
+
+            currentQuestion++;
+
+            expertInput.disabled = false;
+
+            expertSubmit.disabled = false;
+
+            showQuestion();
+
+        }, 800);
+
+    }
+
+
+    // ==================================================
+    // ZŁA ODPOWIEDŹ
+    // ==================================================
+
+    else {
+
+        expertInput.classList.add(
+            "expert-wrong"
+        );
+
+
+        expertFeedback.innerHTML =
+            `Prawidłowa odpowiedź: <strong>${escapeHtml(current.answer)}</strong>`;
+
+
+        expertFeedback.className =
+            "expert-feedback wrong-feedback";
+
+
+        setTimeout(() => {
+
+            currentQuestion++;
+
+            expertInput.disabled = false;
+
+            expertSubmit.disabled = false;
+
+            showQuestion();
+
+        }, 1800);
+
+    }
+
+}
+
+function normalizeAnswer(value) {
+
+    return value
+        .trim()
+        .replace(/\s+/g, " ")
+        .toLowerCase();
+
+}
+
+function escapeHtml(value) {
+
+    const div =
+        document.createElement("div");
+
+    div.textContent =
+        value;
+
+    return div.innerHTML;
+
+}
+
 function checkAnswer(
     selectedAnswer,
     correctAnswer,
@@ -988,6 +1337,17 @@ function checkAnswer(
 
 }
 
+expertForm.addEventListener(
+    "submit",
+    event => {
+
+        event.preventDefault();
+
+        checkExpertAnswer();
+
+    }
+);
+
 
 // ======================================================
 // KONIEC QUIZU
@@ -1029,6 +1389,8 @@ document
             renderGroupOptions();
 
             renderQuestionCountOptions();
+
+            renderExpertMode();
 
 
             settingsScreen.classList.remove(
@@ -1248,6 +1610,8 @@ async function initializeApp() {
     renderGroupOptions();
 
     renderQuestionCountOptions();
+
+    renderExpertMode();
 
 }
 
