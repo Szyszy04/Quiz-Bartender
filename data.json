@@ -32,7 +32,8 @@
             "group": "Diageo",
             "information": [
                 "Została założona w 1823 roku i była pierwszą legalną destylarnią w Dufftown.",
-                "Słynie z jednego z najbardziej skomplikowanych systemów destylacji w całej Szkocji. Produkuje destylat określany jako 2,81-krotna destylacja. Efektem jest wyjątkowo ciężka, mięsista whisky o bogatej strukturze."
+                "Słynie z jednego z najbardziej skomplikowanych systemów destylacji w całej Szkocji. Produkuje destylat określany jako 2,81-krotna destylacja. Efektem jest wyjątkowo ciężka, mięsista whisky o bogatej strukturze.",
+                "Nosi przydomek The beast of Dufftown"
             ]
         },
         {
@@ -602,6 +603,326 @@
                 {
                     "type": "Marsala",
                     "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Craigellachie 13",
+            "group": "Bacardi-Martini",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Do dziś wykorzystuje chłodnice typu worm tub, dzięki którym destylat zachowuje ciężki, woskowy charakter niespotykany w większości Speyside."
+            ],
+            "aroma": [
+                "🍍 Grillowany ananas • 🐝 Wosk pszczeli • 🍏 Pieczone jabłko • 🌾 Słód • 🌶 Czarny pieprz • 🪨 Krzemień"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Refill Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "GlenDronach 12",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Cały okres dojrzewania spędza w beczkach po sherry. Najmłodsza z podstawowej oferty."
+            ],
+            "aroma": [
+                "🍇 Rodzynki • 🍒 Wiśnie • 🍊 Skórka pomarańczy • 🍫 Gorzka czekolada • 🌰 Orzech włoski • 🌿 Cynamon"
+            ],
+            "barrels": [
+                {
+                    "type": "Pedro Ximénez Sherry",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "GlenDronach 15 Revival",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Przez wielu fanów uznawana za najlepiej zbalansowaną whisky w podstawowej ofercie GlenDronach."
+            ],
+            "aroma": [
+                " 🍒 Czarna wiśnia • 🍇 Śliwka • 🍫 Ciemne kakao • ☕ Espresso • 🍂 Gałka muszkatołowa • 🍊 Kandyzowana pomarańcza"
+            ],
+            "barrels": [
+                {
+                    "type": "Pedro Ximénez Sherry",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "GlenDronach 18 Allardice",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Dojrzewa wyłącznie w beczkach po Oloroso, dzięki czemu jest bardziej wytrawna i orzechowa. Nazwa nawiązuje do założyciela destyrlani"
+            ],
+            "aroma": [
+                "🍫 Ciemna czekolada • 🌰 Orzech włoski • 🍒 Amarena • 🥥 Palony kokos • 🍂 Goździki • 🍷 Stare sherry"
+            ],
+            "barrels": [
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Glenfiddich 12",
+            "group": "William Grant & Sons",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Po dojrzewaniu whisky przez kilka miesięcy odpoczywa w dużych kadziach Marrying Tuns, co pozwala lepiej połączyć destylaty z różnych beczek i uzyskać bardziej harmonijny profil."
+            ],
+            "aroma": [
+                "🍐 Gruszka • 🍏 Zielone jabłko • 🌼 Kwiaty • 🍋 Cytryna • 🌾 Świeży słód • 🍯 Delikatny miód"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Glenfiddich 15 Solera",
+            "group": "William Grant & Sons",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                " Po dojrzewaniu whisky trafia do ogromnej kadzi Solera Vat, która od 1998 roku nigdy nie została całkowicie opróżniona. Każda nowa partia zawiera więc niewielką ilość poprzednich roczników, podobnie jak w systemie solera stosowanym przy sherry."
+            ],
+            "aroma": [
+                "🍯 Miód • 🍑 Morela • 🍪 Piernik • 🌰 Marcepan • 🍋 Skórka pomarańczy • 🌿 Imbir"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Virgin Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Glenfiddich 18",
+            "group": "William Grant & Sons",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Każda partia jest numerowana i indywidualnie kontrolowana. Po połączeniu whisky z różnych beczek odpoczywa jeszcze w małych partiach, aby uzyskać większą spójność smaku."
+            ],
+            "aroma": [
+                " 🍎 Pieczone jabłka • 🍊 Suszona pomarańcza • 🍯 Miód wrzosowy • 🌰 Orzechy • 🍮 Karmelizowany cukier • 🌿 Przyprawy korzenne"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Glenfiddich 21 Reserva Gran Reserva",
+            "group": "William Grant & Sons",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Po 21 latach dojrzewania whisky trafia na finisz do beczek po karaibskim rumie."
+            ],
+            "aroma": [
+                " 🍌 Dojrzały banan • 🥭 Mango • 🍯 Melasa • 🍬 Toffi • 🌰 Orzechy włoskie • 🌿 Imbir"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "European Oak",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Caribbean Rum",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Glenfiddich Project XX",
+            "group": "William Grant & Sons",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "To whisky stworzona przez 20 ambasadorów marki. Każdy wybrał swoje ulubione beczki, a Master Blender Brian Kinsman połączył je w jedną kompozycję."
+            ],
+            "aroma": [
+                " 🍏 Zielone jabłko • 🍫 Czekolada • 🍒 Czerwone owoce • 🌰 Orzech laskowy • 🍪 Ciasteczka korzenne • 🍯 Karmel"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Port",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Glenglassaugh Revival",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Była pierwszą whisky stworzoną po ponownym uruchomieniu destylarni w 2008 roku po ponad 20 latach zamknięcia."
+            ],
+            "aroma": [
+                "🍑 Brzoskwinia • 🍒 Czerwone owoce • 🍫 Czekolada • 🌰 Migdały • 🍯 Miód • 🌊 Morska bryza"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Red Wine",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Glenglassaugh Evolution",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Dojrzewa wyłącznie w beczkach po bourbonie pierwszego napełnienia, dzięki czemu mocno pokazuje wpływ amerykańskiego dębu. Nazwa oznacza – kolejny etap rozwoju i ewolucję profilu smakowego"
+            ],
+            "aroma": [
+                "🍍 Ananas • 🍌 Banan • 🍦 Wanilia • 🌾 Słód • 🥥 Kokos • 🍏 Jabłko"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Glenglassaugh Torfa",
+            "group": "Brown-Forman",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Jest jedną z niewielu torfowych whisky z północnego Highlandu. Pokazuje, że torf nie jest zarezerwowany wyłącznie dla Islay."
+            ],
+            "aroma": [
+                "🔥 Torfowy dym • 🍋 Cytrusy • 🌊 Sól morska • 🍏 Kwaśne jabłko • 🌿 Zioła • 🪵 Popiół"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Red Wine",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Glenlivet 15 French Oak Reserve",
+            "group": "Pernod Ricard",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Finisz w beczkach z francuskiego dębu Limousin, wcześniej używanych do dojrzewania koniaku, nadaje jej charakterystyczną korzenność i lekko orzechowy profil."
+            ],
+            "aroma": [
+                "🍐 Gruszka • 🍊 Pomarańcza • 🌰 Orzech laskowy • 🍂 Cynamon • 🍯 Miód • 🍪 Biszkopt"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "French Limousin Oak",
+                    "process": "finish"
                 }
             ]
         }
