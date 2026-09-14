@@ -925,6 +925,415 @@
                     "process": "finish"
                 }
             ]
+        },
+        {
+            "id": 29,
+            "name": "Glenmorangie Original 12",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Posiada jedne z najwyższych alembików w Szkocji (około 5,14 m). 12 lat w beczkach po bourbonie nadaje jej delikatny i słodki charakter."
+            ],
+            "aroma": [
+                "🍋 Cytryna • 🍊 Pomarańcza • 🍯 Miód • 🍪 Herbatniki • 🌼 Kwiaty • 🍑 Brzoskwinia"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Glenmorangie Lasanta 12",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Nazwa pochodzi z gaelickiego i oznacza ciepło i pasję. To jedna z najbardziej klasycznych whisky sherry finish w ofercie tej destylarni"
+            ],
+            "aroma": [
+                "🍇 Rodzynki • 🍫 Czekolada • 🍊 Pomarańcza • ☕ Kawa • 🌰 Orzechy • 🍂 Cynamon"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "finish"
+                },
+                {
+                    "type": "Pedro Ximénez Sherry",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Glenmorangie Quinta Ruban 14",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Jedna z najbardziej znanych whisky finiszowanych w beczkach po porto. Połączenie lekkiego destylatu Glenmorangie z cięższym charakterem porto daje bardzo nietypowy kontrast."
+            ],
+            "aroma": [
+                "🍫 Biała czekolada • 🍦 Lody Waniliowe • 🍒 Wiśnia • 🌿 Mięta • 🥜 Orzechy • 🍷 Porto"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Ruby Port",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Glenmorangie The Nectar d'Or",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Finisz w beczkach po słodkim francuskim winie Sauternes nadaje jej charakter przypominający deserowe wina i wypieki."
+            ],
+            "aroma": [
+                "🍯 Miód • 🍋 Cytryna • 🍑 Brzoskwinia • 🥧 Ciasto francuskie • 🌼 Kwiaty • 🌿 Imbir"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sauternes Wine",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Glenmorangie Signet",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Wykorzystuje tzw. Chocolate Malt, czyli mocno prażony słód przypominający prażenie ziaren kawy."
+            ],
+            "aroma": [
+                "☕ Espresso • 🍫 Gorzka czekolada • 🌰 Prażone orzechy laskowe • 🍪 Tiramisu • 🍯 Melasa"
+            ],
+            "barrels": [
+                {
+                    "type": "Virgin Oak",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Glenmorangie X",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Whisky zaprojektowana specjalnie z myślą o koktajlach. Jest nieco słodsza i bardziej bezpośrednia niż klasyczne Glenmorangie."
+            ],
+            "aroma": [
+                "🍦 Waniliowe lody • 🍐 Gruszka • 🍊 Pomarańcza • 🍪 Ciasteczka • 🥥 Kokos • 🍬 Cukier"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Lagavulin 16",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Islay",
+            "type": "Single Malt",
+            "information": [
+                "Słynie z wyjątkowo powolnej destylacji. Długi kontakt destylatu z miedzią oraz bardzo wolny przepływ w alembikach tworzą ciężki, pełny charakter. Jest jednym z najbardziej klasycznych przykładów stylu Islay."
+            ],
+            "aroma": [
+                "🔥 Dym torfowy • 🍯 Karmel • 🍫 Gorzka czekolada • 🌿 Suszone zioła • 🍊 Cytrusy"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Laphroaig 10",
+            "group": "Suntory Global Spirits",
+            "country": "Scotland",
+            "region": "Islay",
+            "type": "Single Malt",
+            "information": [
+                "Wykorzystuje torf z wyspy Islay, który zawiera dużo mchu i roślinności morskiej. To właśnie on odpowiada za charakterystyczne medyczne i jodowe aromaty, które sprawiają, że whisky jest jedną z najbardziej rozpoznawalnych na świecie."
+            ],
+            "aroma": [
+                "🌊 Jod • 🔥 Torfowy dym • 🩹 Bandaże • 🌿 Wodorosty • 🍋 Cytryna • 🪵 Popiół"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Macallan 12 Sherry Oak",
+            "group": "Edrington",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Jest jednym z liderów w produkcji beczek po sherry. Destylarnia bardzo mocno kontroluje cały proces – od wyboru dębu w Hiszpanii, przez sezonowanie drewna, aż po transport beczek do Szkocji.",
+                "Słynie z wyjątkowo małych alembików, które nadają destylatowi bogaty i oleisty charakter."
+            ],
+            "aroma": [
+                "🍇 Rodzynki • 🍊 Pomarańcza • 🌰 Orzechy • 🍫 Czekolada • 🍯 Miód • 🌿 Przyprawy korzenne"
+            ],
+            "barrels": [
+                {
+                    "type": "Sherry Oloroso",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "name": "Macallan Harmony Collection Vibrant Oak",
+            "group": "Edrington",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Edycja powstała jako część ekologicznej serii Harmony Collection. Opakowanie zostało wykonane z odpadów powstałych podczas produkcji opakowań po kawie."
+            ],
+            "aroma": [
+                "🍊 Pomarańcza • 🍦 Krem waniliowy • 🍪 Biszkopt • 🌰 Migdały • 🍯 Miód • 🌳 Dąb"
+            ],
+            "barrels": [
+                {
+                    "type": "Sherry American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Mortlach 12",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "wyjątkowy system 2,81-krotnej destylacji. Dzięki niemu powstaje bardzo skoncentrowany i ciężki destylat, przez co whisky często nazywana jest The Beast of Dufftown."
+            ],
+            "aroma": [
+                "🥩 Mięsny charakter • 🍒 Wiśnie • 🌰 Orzechy • 🌿 Zioła • 🍫 Kakao • 🌶 Pieprz"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Mortlach 16",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Długi okres dojrzewania w połączeniu z ciężkim destylatem daje whisky bardziej przypominającą stare, luksusowe Speyside niż typową lekką whisky z Dufftown."
+            ],
+            "aroma": [
+                "🍒 Ciemne owoce • 🍫 Czekolada • 🥩 Rosół mięsny • 🌰 Orzech włoski • 🌿 Szałwia • 🍂 Przyprawy"
+            ],
+            "barrels": [
+                {
+                    "type": "Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "name": "Royal Brackla 12",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Była pierwszą destylarnią, która otrzymała królewskie pozwolenie na używanie słowa Royal w nazwie. W 1833 roku została oficjalnie zatwierdzona przez króla Williama IV."
+            ],
+            "aroma": [
+                "🍎 Jabłko • 🍯 Miód • 🍊 Pomarańcza • 🍇 Rodzynki • 🌰 Orzechy • 🍪 Ciasto korzenne"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "name": "Singleton 12",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Whisky jest projektowana jako bardzo przystępny single malt dla osób zaczynających przygodę ze szkocką whisky."
+            ],
+            "aroma": [
+                "🍐 Gruszka • 🍏 Jabłko • 🍯 Miód • 🍪 Herbatniki • 🌰 Migdały • 🍂 Cynamon"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Talisker 10",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Wyspa Skye",
+            "type": "Single Malt",
+            "information": [
+                "Wykorzystuje chłodnice typu worm tub, które ograniczają kontakt z miedzią i zachowują cięższe związki aromatyczne. To daje charakterystyczną pieprzność i morski styl."
+            ],
+            "aroma": [
+                "🌊 Sól morska • 🌶 Pieprz • 🍋 Cytryna • 🔥 Dym • 🌿 Wodorosty • 🍯 Słodki słód"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Talisker Storm",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Wyspa Skye",
+            "type": "Single Malt",
+            "information": [
+                "Powstała jako bardziej intensywna interpretacja klasycznego Taliskera. Większy wpływ mocno wypalonych beczek daje więcej dymu i przypraw."
+            ],
+            "aroma": [
+                "🔥 Intensywny dym • 🌊 Sól morska • 🌶 Czarny pieprz • 🍋 Cytrusy • 🪵 Zwęglone drewno • 🌿 Zioła"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "name": "The Balvenie American Oak 12",
+            "group": "William Grant & Sons",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Jako jedna z niewielu dużych szkockich destylarni nadal posiada własnych bednarzy, tradycyjną słodownię podłogową oraz część własnej produkcji jęczmienia."
+            ],
+            "aroma": [
+                "🍦 Waniliowe lody • 🥥 Kokos • 🍯 Miód • 🍐 Gruszka • 🌼 Kwiaty • 🍬 Karmel"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "American Oak",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "name": "The Balvenie PortWood 21",
+            "group": "William Grant & Sons",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Single Malt",
+            "information": [
+                "Jedna z najbardziej znanych whisky z finiszem porto. Najpierw dojrzewa klasycznie w beczkach po bourbonie, a dopiero później trafia do beczek po porto, które nadają jej owocową głębię."
+            ],
+            "aroma": [
+                "🍯 Miód • 🍒 Wiśnie w alkoholu • 🍇 Porto • 🍫 Czekolada • 🌰 Orzechy • 🌿 Przyprawy"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Port Pipes",
+                    "process": "finish"
+                }
+            ]
         }
     ]
 }
