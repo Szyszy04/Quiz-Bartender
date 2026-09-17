@@ -12,7 +12,8 @@ const SETTINGS_KEY = "whiskyQuizSettings";
 
 let data = {
     distilleries: [],
-    whiskies: []
+    whiskies: [],
+    gins: []
 };
 
 let questions = [];
@@ -110,6 +111,10 @@ async function loadData() {
 
         if (!Array.isArray(data.whiskies)) {
             data.whiskies = [];
+        }
+
+        if (!Array.isArray(data.gins)) {
+            data.gins = [];
         }
 
 
@@ -316,7 +321,6 @@ function getAvailableGroups() {
 
     });
 
-
     data.whiskies.forEach(item => {
 
         if (
@@ -330,6 +334,18 @@ function getAvailableGroups() {
 
     });
 
+    data.gins.forEach(item => {
+
+        if (
+            typeof item.group === "string" &&
+            item.group.trim() !== ""
+        ) {
+
+            groups.add(item.group.trim());
+
+        }
+
+    });
 
     return [...groups].sort((a, b) =>
         a.localeCompare(b)
@@ -346,10 +362,17 @@ function renderGroupOptions() {
 
     groupOptionsElement.innerHTML = "";
 
-
-    const groups =
-        getAvailableGroups();
-
+    const groups = [
+        "Bacardi-Martini",
+        "Brown-Forman",
+        "Campari Group",
+        "Diageo",
+        "Edrington",
+        "LVMH",
+        "Pernod Ricard",
+        "Suntory Global Spirits",
+        "William Grant & Sons"
+    ];
 
     // Brak grup
 
@@ -616,6 +639,53 @@ function startQuiz(type) {
     }
 
 
+        // ==================================================
+    // WHISKY
+    // ==================================================
+
+    if (
+        type === "gins" ||
+        type === "all"
+    ) {
+
+        const gins =
+            filterByGroups(
+                data.gins
+            );
+
+
+        gins.forEach(gin => {
+
+            if (
+                !Array.isArray(
+                    gin.information
+                )
+            ) {
+
+                return;
+
+            }
+
+
+            gin.information.forEach(info => {
+
+                questions.push({
+
+                    question: info,
+
+                    answer: gin.name,
+
+                    category: "gin",
+
+                });
+
+            });
+
+        });
+
+    }
+
+
     // ==================================================
     // SPRAWDZENIE PYTAŃ
     // ==================================================
@@ -676,6 +746,13 @@ function startQuiz(type) {
 
         quizNameElement.textContent =
             "Whisky";
+
+    }
+
+    else if (type === "gins") {
+
+        quizNameElement.textContent =
+            "Giny";
 
     }
 
@@ -821,6 +898,19 @@ function createExpertSuggestions(
                 data.whiskies
             );
 
+    }
+
+    // Giny
+
+    else if (
+        currentQuestionData.category ===
+        "gin"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.gins
+            );
     }
 
 
@@ -1056,6 +1146,22 @@ function createAnswers(
         sourceData =
             filterByGroups(
                 data.whiskies
+            );
+
+    }
+
+    // ----------------------------------------------
+    // GINY
+    // ----------------------------------------------
+
+    else if (
+        currentQuestionData.category ===
+        "gin"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.gins
             );
 
     }
