@@ -1334,6 +1334,781 @@
                     "process": "finish"
                 }
             ]
+        },
+        {
+            "id": 47,
+            "name": "Johnnie Walker Black Label",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Blended",
+            "type": "Blended",
+            "information": [
+                "Zawiera wyłącznie whisky dojrzewające minimum 12 lat. Powstaje z około 40 różnych whisky, zarówno słodowych, jak i zbożowych",
+                "Szkocja w jednej butelce, dym z Islay, owocowość ze Speyside oraz słodycz grain whisky"
+            ],
+            "aroma": [
+                "🌊 Morski charakter • 🌿 Delikatny torf • 🍏 Owoce • 🕯 Woskowość • 🌾 Lekkość whisky zbożowej • 🌶 Pieprz"
+            ],
+            "barrels": null
+        },
+        {
+            "id": 48,
+            "name": "Johnnie Walker Black Ruby",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Blended",
+            "type": "Blended",
+            "information": [
+                "Powstała z myślą o osobach lubiących bardziej owocowy i deserowy profil whisky. Master Blender zwiększył udział whisky dojrzewających w beczkach po winach wzmacnianych oraz beczkach mocniej wpływających na nuty czerwonych owoców."
+            ],
+            "aroma": [
+                "🍒 Wiśnia • 🍑 Morela • 🫐 Czarna porzeczka • 🍑 Śliwka • 🍰 Deserowe nuty"
+            ],
+            "barrels": null
+        },
+        {
+            "id": 49,
+            "name": "Johnnie Walker Gold Label Reserve",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Blended",
+            "type": "Blended",
+            "information": [
+                "Jednym z kluczowych składników jest whisky z destylarni Clynelish. Nie posiada deklaracji wieku, ale zawiera wiele znacznie starszych whisky."
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🍯 Miód • 🥛 Kremowe nuty • 🕯 Woskowość • 🍋 Cytrusowa elegancja"
+            ],
+            "barrels": null
+        },
+        {
+            "id": 50,
+            "name": "Johnnie Walker Green Label",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Blended",
+            "type": "Blended malt",
+            "information": [
+                "To blended malt, czyli: 100% whisky słodowych. W 2012 roku został wycofany z wielu rynków, co wywołało ogromne protesty fanów. Ze względu na popularność marka przywróciła go do regularnej sprzedaży."
+            ],
+            "aroma": [
+                "🍏 Owoce • 🔥 Torf • 🌶 Pieprz • 🌳 Dąb • 🌿 Zielona świeżość"
+            ],
+            "barrels": null
+        },
+        {
+            "id": 51,
+            "name": "Johnnie Walker 18 Years Old",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Blended",
+            "type": "Blended",
+            "information": [
+                "Składa się z około 18 wybranych whisky, z których każda dojrzewała minimum 18 lat"
+            ],
+            "aroma": [
+                "🌊 Morski charakter • 🌿 Delikatny torf • 🍏 Owoce • 🕯 Woskowość • 🌾 Lekkość whisky zbożowej • 🥛 Kremowość"
+            ],
+            "barrels": null
+        },
+        {
+            "id": 52,
+            "name": "Johnnie Walker Blue Label",
+            "group": "Diageo",
+            "country": "Scotland",
+            "region": "Blended",
+            "type": "Blended",
+            "information": [
+                "Według marki tylko około 1 na 10 000 beczek spełnia wymagania jakościowe stawiane dla tej edycji Johnnie Walkera."
+            ],
+            "aroma": [
+                "🫐 Dojrzałe jagody • 🔥 Subtelny dym torfowy • 🌲 Cedr • 🌹 Płatki róży • 🌰 Orzech • 🌶 Przyprawy korzenne"
+            ],
+            "barrels": null
+        },
+        {
+            "id": 53,
+            "name": "Angel's Envy",
+            "group": "Bacardi-Martini",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon Finished in Port Barrels",
+            "information": [
+                "Bourbon finiszowany w beczkach po porto"
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🍇 Rodzynki • 🍁 Syrop klonowy • 🌰 Prażone orzechy"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Port",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "name": "Blanton's Original Single Barrel",
+            "group": "Sazerac",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon Single Barrel",
+            "information": [
+                "Uznawany przez producenta za pierwszy bourbon butelkowany jako Single Barrel; pierwsze butelkowanie miało miejsce w 1984 r."
+            ],
+            "aroma": [
+                "🌶 Gałka muszkatołowa • 🧂 Przyprawy • 🍦 Wanilia"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "name": "Bulleit 10 YO",
+            "group": "Diageo",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "Dłuzszy czas w beczce zmiejsza ostrość żyta i dodaje kremowego charakteru, do pikantnego już profilu"
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🍏 Owoce • 🌶 Przyprawy • 🥛 Kremowość"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "name": "Bulleit Bourbon",
+            "group": "Diageo",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "High-rye bourbon — wyraźnie większy udział żyta niż w klasycznych bourbonach."
+            ],
+            "aroma": [
+                "🍯 Karmel • 🍦 Wanilia • 🌶 Przyprawy • 🌾 Lekko pikantne żyto"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "name": "Bulleit 95 Rye",
+            "group": "Diageo",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Rye Whiskey",
+            "information": [
+                "95% żyta i 5% słodowanego jęczmienia"
+            ],
+            "aroma": [
+                "🌾 Żyto • 🌶 Przyprawy • 🧂 Pieprz • 🔥 Ostrość"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "name": "Elijah Craig Small Batch",
+            "group": "Heaven Hill",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "The Father of Bourbon"
+            ],
+            "aroma": [
+                "🍯 Miód • 🍦 Wanilia • 🌼 Kwiaty • 🍬 Marcepan"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "name": "Jim Beam Black",
+            "group": "Suntory Global Spirits",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "Mocno wypalane beczki, bezpośredni rynkowy konkurent dla Jack Daniel’s No. 7."
+            ],
+            "aroma": [
+                "🔥 Węgiel • 🌳 Dąb • 🍯 Karmel • 🍦 Wanilia"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "name": "Jim Beam Rye",
+            "group": "Suntory Global Spirits",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Rye Whiskey",
+            "information": [
+                "Mocno wypalane beczki, klasyczny styl Kentucky rye."
+            ],
+            "aroma": [
+                "🌾 Żyto • 🧂 Pieprz • 🍦 Wanilia • 🌳 Dąb"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "name": "Maker's Mark",
+            "group": "Suntory Global Spirits",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "Wheated bourbon — zamiast typowego dla wielu bourbonów żyta wykorzystuje miękką czerwoną pszenicę ozimą"
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🍯 Karmel • 🌾 Słodkie zboże"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "name": "Maker's Mark 46",
+            "group": "Suntory Global Spirits",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "numer profilu klepki dębowej nr 46 użytej podczas finiszowania"
+            ],
+            "aroma": [
+                "🌳 Prażony francuski dąb • 🍯 Karmel • 🍪 Przyprawy do pieczenia"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "name": "Wild Turkey 101",
+            "group": "Campari Group",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "50,5%, 6–8 lat, alligator char"
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🌿 Cynamon • 🌳 Dąb • 🍊 Skórka pomarańczy"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "name": "Woodford Reserve Bourbon",
+            "group": "Brown-Forman",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "Dobry przykład bourbonu o bardzo szerokim profilu — marka mocno eksponuje różnorodność aromatów wynikającą z receptury, fermentacji, destylacji i dojrzewania."
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🌳 Dąb • 🍏 Owoce • 🍯 Karmel"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "name": "Woodford Reserve Double Oaked",
+            "group": "Brown-Forman",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Kentucky Straight Bourbon",
+            "information": [
+                "Ciekawa metoda użycia drugiej meczki, pierwsza — standardowo wypalana beczka; druga — mocno wygrzewana, a następnie lekko wypalana"
+            ],
+            "aroma": [
+                "🍇 Ciemne owoce • 🍯 Karmel • 🍯 Miód • 🍫 Czekolada • 🍬 Marcepan • 🌳 Tostowany dąb"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "name": "Woodford Reserve Rye",
+            "group": "Brown-Forman",
+            "country": "USA",
+            "region": "Kentucky",
+            "type": "Rye Whiskey",
+            "information": [
+                "Producent określa recepturę jako inspirowaną proporcjami rye whiskey z okresu przed prohibicją."
+            ],
+            "aroma": [
+                "🌾 Żyto • 🧂 Czarny pieprz • 🌲 Cedr • 🌼 Kasja • 🍬 Marcepan"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "name": "Jack Daniel's",
+            "group": "Brown-Forman",
+            "country": "USA",
+            "region": "Tennessee",
+            "type": "Tennessee Whiskey",
+            "information": [
+                "Lincoln County Process — filtracja destylatu przez węgiel z klonu cukrowego przed dojrzewaniem"
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🍯 Karmel • 🌳 Dąb • 🍌 Lekki banan / owoce"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "name": "Gentleman Jack",
+            "group": "Brown-Forman",
+            "country": "USA",
+            "region": "Tennessee",
+            "type": "Tennessee Whiskey",
+            "information": [
+                "Lincoln County Process — filtracja destylatu przez węgiel z klonu cukrowego przed dojrzewaniem, oraz po dojrzewaniu dla bardziej delikatnego profilu"
+            ],
+            "aroma": [
+                "🍯 Delikatny karmel • 🍦 Wanilia • 🫐 Czarna porzeczka • 🍊 Mandarynka"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "name": "Jack Daniel's Single Barrel Select",
+            "group": "Brown-Forman",
+            "country": "USA",
+            "region": "Tennessee",
+            "type": "Tennessee Whiskey Single Barrel",
+            "information": [
+                "Beczki Single Barrel są wybierane z wyższych partii magazynów, gdzie większe wahania temperatury przyspieszają interakcję whiskey z drewnem. Poszczególne beczki mogą więc dawać zauważalnie różniące się profile."
+            ],
+            "aroma": [
+                "🌳 Dąb • 🍯 Karmel • 🍦 Wanilia • 🍏 Owoce"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "name": "Jack Daniel's Rye",
+            "group": "Brown-Forman",
+            "country": "USA",
+            "region": "Tennessee",
+            "type": "Rye Whiskey",
+            "information": [
+                "była to jedna z pierwszych nowych receptur Jack Daniel's od ponad 150 lat."
+            ],
+            "aroma": [
+                "🍏 Słodkie owoce • 🌾 Żyto • 🌳 Dąb"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "name": "Hibiki Japanese Harmony",
+            "group": "Suntory Global Spirits",
+            "country": "Japan",
+            "region": "Blended",
+            "type": "Japanese Blended Whiskey",
+            "information": [
+                "Do jej stworzenia używa się co najmniej 10 różnych rodzajów whisky słodowych i zbożowych, które dojrzewają w pięciu rodzajach beczek (m.in. w beczkach po sherry, po bourbonie oraz w japońskim dębie Mizunara)"
+            ],
+            "aroma": [
+                "🌹 Róża • 🍑 Liczi • 🌿 Rozmaryn • 🌳 Drewno • 🪵 Sandałowiec"
+            ],
+            "barrels": null
+        },
+        {
+            "id": 72,
+            "name": "Nikka From The Barrel",
+            "group": "Asahi Group",
+            "country": "Japan",
+            "region": "Blended",
+            "type": "Japanese Blended Whiskey",
+            "information": [
+                "Japoński blend 51,4%, ponad 100 whisky i charakterystyczna kwadratowa butelka"
+            ],
+            "aroma": [
+                "🌳 Dąb • 🍦 Wanilia • 🍫 Czekolada • 🍊 Pomarańcza • 🌾 Zboże"
+            ],
+            "barrels": null
+        },
+        {
+            "id": 73,
+            "name": "Teeling Single Grain",
+            "group": "Teeling",
+            "country": "Irland",
+            "region": "Dublin",
+            "type": "Single Grain Irish Whiskey",
+            "information": [
+                "Single Grain dojrzewający wyłącznie w beczkach po czerwonym winie"
+            ],
+            "aroma": [
+                "🍇 Czerwone winogrona • 🍓 Czerwone owoce • 🫐 Jagody • 🌶 Przyprawy"
+            ],
+            "barrels": [
+                {
+                    "type": "Red Wine",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "name": "Teeling Small Batch",
+            "group": "Teeling",
+            "country": "Irland",
+            "region": "Dublin",
+            "type": "Blended Irish Whiskey",
+            "information": [
+                "Irlandzki blend finiszowany w beczkach po rumie z Ameryki Centralnej"
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🌼 Kwiaty • 🍇 Rumowe rodzynki • 🌿 Ziele angielskie • 🌶 Przyprawy"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Central American rum casks",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "name": "Teeling Single Malt",
+            "group": "Teeling",
+            "country": "Irland",
+            "region": "Dublin",
+            "type": "Single Malt Irish Whiskey",
+            "information": [
+                "Irlandzki single malt dojrzewający w pięciu rodzajach beczek"
+            ],
+            "aroma": [
+                "🍇 Suszone owoce • 🍇 Winogrona • 🍑 Morele • 🌶 Przyprawy"
+            ],
+            "barrels": [
+                {
+                    "type": "Sherry",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Port",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Madeira",
+                    "process": "maturation"
+                },
+                {
+                    "type": "White Burgundy",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Cabernet Sauvignon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "name": "Tullamore D.E.W. Original",
+            "group": "William Grant & Sons",
+            "country": "Irland",
+            "region": "Tullamore",
+            "type": "Blended Irish Whiskey",
+            "information": [
+                "Jest przykładem blendu wykorzystującego trzy różne style irlandzkiego destylatu."
+            ],
+            "aroma": [
+                "🍯 Miód • 🍦 Wanilia • 🍏 Owoce • 🌶 Delikatne przyprawy"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Oloroso Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "name": "Tullamore D.E.W. XO Caribbean Rum Cask Finish",
+            "group": "William Grant & Sons",
+            "country": "Irland",
+            "region": "Tullamore",
+            "type": "Blended Irish Whiskey",
+            "information": [
+                "Irish whiskey finiszowana w beczkach po Demerara rum"
+            ],
+            "aroma": [
+                "🍯 Karmel • 🍌 Banan • 🍇 Rodzynki • 🌴 Daktyle"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Demerara Rum",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "name": "Monkey Shoulder",
+            "group": "William Grant & Sons",
+            "country": "Scotland",
+            "region": "Speyside",
+            "type": "Blended Malt Scotch Whisky",
+            "information": [
+                "Etykieta nawiązuje do tradycyjnych pracowników obracających słód podczas suszenia. Nazwa pochodzi właśnie od historycznego określenia dolegliwości związanej z ręcznym obracaniem słodu."
+            ],
+            "aroma": [
+                "🍦 Wanilia • 🍯 Karmel • 🌾 Słód • 🍏 Owoce"
+            ],
+            "barrels": null
+        }
+    ],
+    "gins": [
+        {
+            "id": 1,
+            "name": "Aster Gin",
+            "country": "Poland",
+            "group": "Ato Spirits",
+            "information": [
+                "Dominują aromaty wanilii, bergamotki oraz egzotycznego yuzu, uzupełnione subtelnymi nutami kokosa i jałowca."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Caorunn",
+            "country": "Scotland",
+            "group": "ThaiBev",
+            "information": [
+                "Szkocki gin premium typu London Dry produkowany w regionie Speyside. Łączy klasyczne botaniki z lokalnymi składnikami, takimi jak jarzębina, wrzos, mirt bagienny, jabłko Coul Blush i mniszek lekarski."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Fords Gin",
+            "country": "England",
+            "group": "Brown-Forman",
+            "information": [
+                "Klasyczny London Dry Gin opracowany we współpracy z czołowymi barmanami z całego świata. Charakteryzuje się wyraźnym jałowcem, świeżymi cytrusami oraz delikatnymi nutami jaśminu, kolendry i grejpfruta.",
+                "W smaku jest wytrawny, czysty i doskonale zbalansowany, dzięki czemu świetnie sprawdza się praktycznie w każdym klasycznym koktajlu. Botaniki są długo macerowane przed destylacją, co zapewnia pełny i spójny profil."
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Gin Mare",
+            "country": "Spain",
+            "group": "Brown-Forman",
+            "information": [
+                "Śródziemnomorski gin premium inspirowany smakami południowej Europy. Dominują aromaty rozmarynu, bazylii, tymianku i oliwek Arbequina, uzupełnione delikatnym jałowcem oraz cytrusami. "
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Hendrick's Gin",
+            "country": "Scotland",
+            "group": "William Grant & Sons",
+            "information": [
+                "Szkocki gin premium o charakterystycznym, delikatnym profilu. Oprócz klasycznych botaników wyróżnia się dodatkiem esencji z róży damasceńskiej oraz ekstraktu z ogórka. "
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Hendrick's Amazônia",
+            "country": "Scotland",
+            "group": "William Grant & Sons",
+            "information": [
+                "Receptura została stworzona przez Lesley Gracie po wyprawie do Amazonii i wykorzystuje botaniki inspirowane tamtejszą roślinnością. Zachowuje charakterystyczne nuty ogórka i róży, wzbogacając je o egzotyczne owoce, zielone zioła i tropikalne akcenty."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Hendrick's Grand Cabaret",
+            "country": "Scotland",
+            "group": "William Grant & Sons",
+            "information": [
+                "Limitowana edycja inspirowana eleganckimi paryskimi kabaretami z początku XX wieku. W aromacie dominują morele, brzoskwinie, słodkie owoce pestkowe oraz delikatne nuty kwiatowe."
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Hendrick's Neptunia",
+            "country": "Scotland",
+            "group": "William Grant & Sons",
+            "information": [
+                "Wyjątkowa edycja inspirowana szkockim wybrzeżem i morskim klimatem. Łączy klasyczne nuty róży i ogórka z cytrusami, świeżymi ziołami oraz subtelną mineralnością przypominającą morską bryzę."
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Hendrick's Orbium",
+            "country": "Scotland",
+            "group": "William Grant & Sons",
+            "information": [
+                "Nietypowa interpretacja Hendrick's wzbogacona o chininę, piołun oraz kwiat lotosu. Oprócz świeżych nut ogórka i róży pojawia się wyraźna goryczka oraz ziołowy charakter."
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Monkey 47",
+            "country": "Germany",
+            "group": "Pernod Ricard",
+            "information": [
+                "Niemiecki gin typu Dry Gin produkowany w Schwarzwaldzie, znany z niezwykle złożonego charakteru. Dominują aromaty jałowca, borówki brusznicy, cytrusów, lawendy i leśnych ziół, a w smaku wyczuwalne są pieprzne przyprawy, nuty kwiatowe oraz lekka owocowa słodycz. "
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Oxley",
+            "country": "England",
+            "group": "Bacardi-Martini",
+            "information": [
+                "Gin wyróżniający się zastosowaniem innowacyjnej destylacji na zimno w temperaturze około -5°C. Dzięki temu zachowuje wyjątkowo świeże aromaty jałowca, cytrusów, szałwii i delikatnych kwiatów. W smaku jest niezwykle czysty, świeży i aksamitny, z wyraźną cytrusową końcówką. "
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Roku Gin",
+            "country": "Japan",
+            "group": "Suntory Global Spirits",
+            "information": [
+                "Japoński gin produkowany przez Suntory, którego nazwa oznacza sześć. Oprócz klasycznych botaników wykorzystuje sześć tradycyjnych japońskich składników: kwiat sakury, liść sakury, yuzu, herbatę sencha, herbatę gyokuro oraz pieprz sansho."
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Tanqueray No. Ten",
+            "country": "England",
+            "group": "Diageo",
+            "information": [
+                "Ekskluzywny London Dry Gin produkowany w niewielkim miedzianym alembiku o nazwie Tiny Ten. Wyróżnia się wykorzystaniem całych świeżych grejpfrutów, limonek i pomarańczy zamiast samych skórek."
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Tanqueray 0.0%",
+            "country": "England",
+            "group": "Diageo",
+            "information": [
+                "Bezalkoholowa alternatywa klasycznego London Dry, opracowana z myślą o koktajlach bez alkoholu. Zachowuje charakterystyczne aromaty jałowca, kolendry, arcydzięgla i lukrecji, oferując wytrawny oraz świeży profil smakowy. Domunują tutaj nuty grejpfruta"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Tanqueray Flor de Sevilla",
+            "country": "England",
+            "group": "Diageo",
+            "information": [
+                "Edycja inspirowana słynnymi sewilskimi pomarańczami. Łączy charakterystyczny jałowiec z intensywnymi aromatami słodkich pomarańczy oraz delikatnych kwiatów cytrusowych."
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Tessellis London Dry Gin",
+            "country": "Poland",
+            "group": "Tessellis Distillery",
+            "information": [
+                "Polski London Dry Gin stworzony z myślą o klasycznym, wytrawnym profilu. Dominują aromaty jałowca, świeżych cytrusów oraz subtelnych przypraw korzennych i ziół."
+            ]
         }
     ]
 }
