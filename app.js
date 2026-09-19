@@ -13,7 +13,8 @@ const SETTINGS_KEY = "whiskyQuizSettings";
 let data = {
     distilleries: [],
     whiskies: [],
-    gins: []
+    gins: [],
+    liquers: []
 };
 
 let questions = [];
@@ -21,6 +22,7 @@ let currentQuestion = 0;
 let score = 0;
 let currentQuiz = null;
 let selectedGroups = [];
+let allGroups = true;
 let questionCount = 20;
 let expertMode = false;
 
@@ -117,6 +119,10 @@ async function loadData() {
             data.gins = [];
         }
 
+        if (!Array.isArray(data.liquers)) {
+            data.liquers = [];
+        }
+
 
         console.log("Dane załadowane:");
         console.log(data);
@@ -150,6 +156,8 @@ function loadSettings() {
 
         selectedGroups = [];
 
+        allGroups = true;
+
         questionCount = 20;
 
         expertMode = false;
@@ -177,6 +185,9 @@ function loadSettings() {
             selectedGroups = [];
 
         }
+
+        allGroups =
+            parsed.allGroups !== false;
 
 
         // Liczba pytań
@@ -212,6 +223,8 @@ function loadSettings() {
         );
 
         selectedGroups = [];
+
+        allGroups = true;
 
         questionCount = 20;
 
@@ -284,6 +297,8 @@ function saveSettings() {
 
         groups: selectedGroups,
 
+        allGroups: allGroups,
+
         questionCount: questionCount,
 
         expertMode: expertMode
@@ -347,8 +362,54 @@ function getAvailableGroups() {
 
     });
 
+    data.liquers.forEach(item => {
+
+        if (
+            typeof item.group === "string" &&
+            item.group.trim() !== ""
+        ) {
+
+            groups.add(item.group.trim());
+
+        }
+
+    });
+
     return [...groups].sort((a, b) =>
         a.localeCompare(b)
+    );
+
+}
+
+function getDisplayGroups() {
+
+    const counts = new Map();
+
+    [
+        ...data.distilleries,
+        ...data.whiskies,
+        ...data.gins,
+        ...data.liquers
+    ].forEach(item => {
+
+        if (
+            typeof item.group === "string" &&
+            item.group.trim() !== ""
+        ) {
+
+            const group = item.group.trim();
+
+            counts.set(
+                group,
+                (counts.get(group) || 0) + 1
+            );
+
+        }
+
+    });
+
+    return getAvailableGroups().filter(group =>
+        (counts.get(group) || 0) >= 7
     );
 
 }
@@ -362,17 +423,7 @@ function renderGroupOptions() {
 
     groupOptionsElement.innerHTML = "";
 
-    const groups = [
-        "Bacardi-Martini",
-        "Brown-Forman",
-        "Campari Group",
-        "Diageo",
-        "Edrington",
-        "LVMH",
-        "Pernod Ricard",
-        "Suntory Global Spirits",
-        "William Grant & Sons"
-    ];
+    const groups = getDisplayGroups();
 
     // Brak grup
 
@@ -400,6 +451,60 @@ function renderGroupOptions() {
         );
 
 
+    const allGroupLabel =
+        document.createElement("label");
+
+    allGroupLabel.classList.add(
+        "group-option"
+    );
+
+
+    const allGroupsCheckbox =
+        document.createElement("input");
+
+    allGroupsCheckbox.type = "checkbox";
+    allGroupsCheckbox.value = "all";
+    allGroupsCheckbox.checked = allGroups;
+
+    allGroupsCheckbox.addEventListener(
+        "change",
+        () => {
+
+            allGroups = allGroupsCheckbox.checked;
+
+            if (allGroups) {
+
+                selectedGroups = [];
+
+            }
+
+            saveSettings();
+
+            renderGroupOptions();
+
+        }
+    );
+
+
+    const allGroupsText =
+        document.createElement("span");
+
+    allGroupsText.textContent = "Wszystkie";
+
+
+    allGroupLabel.appendChild(
+        allGroupsCheckbox
+    );
+
+    allGroupLabel.appendChild(
+        allGroupsText
+    );
+
+    groupOptionsElement.appendChild(
+        allGroupLabel
+    );
+
+
     groups.forEach(group => {
 
         const label =
@@ -418,6 +523,7 @@ function renderGroupOptions() {
         checkbox.value = group;
 
         checkbox.checked =
+            !allGroups &&
             selectedGroups.includes(group);
 
 
@@ -427,7 +533,12 @@ function renderGroupOptions() {
 
                 if (checkbox.checked) {
 
-                    if (!selectedGroups.includes(group)) {
+                    if (allGroups) {
+
+                        allGroups = false;
+                        selectedGroups = [group];
+
+                    } else if (!selectedGroups.includes(group)) {
 
                         selectedGroups.push(group);
 
@@ -440,23 +551,18 @@ function renderGroupOptions() {
                             item => item !== group
                         );
 
+                    if (selectedGroups.length === 0) {
+
+                        allGroups = true;
+
+                    }
+
                 }
 
 
                 saveSettings();
 
-            }
-        );
-
-        expertModeElement.addEventListener(
-            "change",
-            () => {
-
-                expertMode =
-                    expertModeElement.checked;
-
-
-                saveSettings();
+                renderGroupOptions();
 
             }
         );
@@ -476,6 +582,20 @@ function renderGroupOptions() {
     });
 
 
+    expertModeElement.addEventListener(
+        "change",
+        () => {
+
+            expertMode =
+                expertModeElement.checked;
+
+
+            saveSettings();
+
+        }
+    );
+
+
     saveSettings();
 
 }
@@ -487,10 +607,10 @@ function renderGroupOptions() {
 
 function filterByGroups(items) {
 
-    // Jeżeli nic nie zaznaczono,
-    // używamy wszystkich danych.
+    // Jeżeli opcja "Wszystkie" jest zaznaczona,
+    // ignorujemy filtry grup i zwracamy wszystkie dane.
 
-    if (selectedGroups.length === 0) {
+    if (allGroups || selectedGroups.length === 0) {
 
         return items;
 
@@ -639,8 +759,8 @@ function startQuiz(type) {
     }
 
 
-        // ==================================================
-    // WHISKY
+    // ==================================================
+    // GINS
     // ==================================================
 
     if (
@@ -676,6 +796,52 @@ function startQuiz(type) {
                     answer: gin.name,
 
                     category: "gin",
+
+                });
+
+            });
+
+        });
+
+    }
+
+    // ==================================================
+    // LIQUERS
+    // ==================================================
+
+    if (
+        type === "liquers" ||
+        type === "all"
+    ) {
+
+        const liquers =
+            filterByGroups(
+                data.liquers
+            );
+
+
+        liquers.forEach(liquer => {
+
+            if (
+                !Array.isArray(
+                    liquer.information
+                )
+            ) {
+
+                return;
+
+            }
+
+
+            liquer.information.forEach(info => {
+
+                questions.push({
+
+                    question: info,
+
+                    answer: liquer.name,
+
+                    category: "liquer",
 
                 });
 
@@ -753,6 +919,13 @@ function startQuiz(type) {
 
         quizNameElement.textContent =
             "Giny";
+
+    }
+
+    else if (type === "liquers") {
+
+        quizNameElement.textContent =
+            "Likiery";
 
     }
 
@@ -910,6 +1083,19 @@ function createExpertSuggestions(
         sourceData =
             filterByGroups(
                 data.gins
+            );
+    }
+
+    // Likiery
+
+    else if (
+        currentQuestionData.category ===
+        "liquer"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.liquers
             );
     }
 
@@ -1162,6 +1348,22 @@ function createAnswers(
         sourceData =
             filterByGroups(
                 data.gins
+            );
+
+    }
+
+    // ----------------------------------------------
+    // LIKIERY
+    // ----------------------------------------------
+
+    else if (
+        currentQuestionData.category ===
+        "liquer"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.liquers
             );
 
     }
@@ -1593,12 +1795,10 @@ document
         "click",
         () => {
 
-            selectedGroups =
-                getAvailableGroups();
-
+            allGroups = true;
+            selectedGroups = [];
 
             saveSettings();
-
 
             renderGroupOptions();
 
@@ -1616,9 +1816,7 @@ document
         "click",
         () => {
 
-            // Pusta lista =
-            // wszystkie grupy
-
+            allGroups = true;
             selectedGroups = [];
 
             saveSettings();
