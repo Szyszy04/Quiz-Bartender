@@ -2110,5 +2110,250 @@
                 "Polski London Dry Gin stworzony z myślą o klasycznym, wytrawnym profilu. Dominują aromaty jałowca, świeżych cytrusów oraz subtelnych przypraw korzennych i ziół."
             ]
         }
+    ],
+    "liquers": [
+                {
+            "id": 1,
+            "name": "Ancho Reyes",
+            "country": "Meksyk",
+            "group": "Campari Group",
+            "information": [
+                "Wytwarzany z papryczek poblano, które po zebraniu są suszone na słońcu przez 2-3 tygodnie (stając się papryczkami ancho), a następnie ręcznie krojone i macerowane w alkoholach trzcinowych przez pół roku."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Baileys Original Irish Cream",
+            "country": "Irlandia",
+            "group": "Diageo",
+            "information": [
+                "Został stworzony w 1974 roku jako pierwszy na świecie likier oparty na połączeniu śmietanki i whisky. Do jego produkcji zużywa się rocznie około 4% całej produkcji irlandzkiego mleka."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bénédictine D.O.M.",
+            "country": "Francja",
+            "group": "Bacardi-Martini",
+            "information": [
+                "Na każdej butelce widnieje skrót oznaczający - Deo Optimo Maximo – Bogu Najlepszemu, Największemu. Receptura składa się z 27 ziół i przypraw, a jej autorstwo przypisuje się XVI-wiecznemu mnichowi Bernardo Vincelliemu."
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Briottet Crème de Bergamote",
+            "country": "Francja",
+            "group": "Maison Briottet",
+            "information": [
+                "Powstaje w procesie destylacji skórek bergamotki sprowadzanych z Kalabrii we Włoszech. Nadaje koktajlom ten sam charakterystyczny aromat cytrusowy, który definiuje herbatę Earl Grey."
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Briottet Crème de Cacao Blanc",
+            "country": "Francja",
+            "group": "Maison Briottet",
+            "information": [
+                "Przezroczysty likier kakaowy robiony z prażonych ziaren kakaowca z Wybrzeża Kości Słoniowej. Stosuje się go w koktajlach (np. 20th Century), aby nadać intensywny smak czekolady bez zmiany barwy napoju."
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Briottet Crème de Cassis de Dijon",
+            "country": "Francja",
+            "group": "Maison Briottet",
+            "information": [
+                "Posiada chronione oznaczenie geograficzne (IGP). Robiony wyłącznie z czarnych porzeczek odmiany Noir de Bourgogne. Jest nieodzownym składnikiem klasycznego francuskiego aperitifu Kir oraz Kir Royale."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Briottet Crème de Mûre",
+            "country": "Francja",
+            "group": "Maison Briottet",
+            "information": [
+                "Likier jeżynowy, który jest absolutnie kluczowym i niezastąpionym składnikiem słynnego nowożytnego klasyka z lat 80. – koktajlu Bramble stworzonego przez Dicka Bradsella."
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Briottet Liqueur de Menthe Verte",
+            "country": "Francja",
+            "group": "Maison Briottet",
+            "information": [
+                "Intensywnie zielony likier miętowy bazujący na destylacie z liści mięty pieprzowej (Mentha x piperita), stanowiący fundament klasycznego, kremowo-zielonego koktajlu Grasshopper."
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Briottet Liqueur de Violette",
+            "country": "Francja",
+            "group": "Maison Briottet",
+            "information": [
+                "Fiołkowy likier o głębokiej, niebiesko-fioletowej barwie. To właśnie ten składnik nadaje ikonicznemu koktajlowi Aviation charakterystyczny, błękitny odcień imitujący niebo."
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Chambord",
+            "country": "Francja",
+            "group": "Brown-Forman",
+            "information": [
+                "Zamknięty w charakterystycznej, kulistej butelce zwieńczonej koroną, wzorowanej na jabłku królewskim (insygnium władzy). Powstaje na bazie czarnych i czerwonych malin, koniaku oraz miodu."
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Cherry Heering",
+            "country": "Dania",
+            "group": "De Kuyper Royal Distillers",
+            "information": [
+                "Stworzony w 1818 roku legendarny likier wiśniowy. Jest kluczowym składnikiem dwóch ikonicznych koktajli: Singapore Sling oraz Blood and Sand."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Frangelico",
+            "country": "Włochy",
+            "group": "Campari Group",
+            "information": [
+                "Butelka ma kształt franciszkańskiego mnicha ze złożonymi do modlitwy rękami i jest przewiązana w pasie białym sznurkiem. Bazą likieru są lokalne orzechy laskowe odmiany Tonda Gentile."
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Galliano Amaretto",
+            "country": "Włochy",
+            "group": "Lucas Bols",
+            "information": [
+                "W przeciwieństwie do większości amaretto na rynku, dostarczany jest w ikonicznej, niesamowicie wysokiej i smukłej, wielokątnej butelce charakterystycznej dla marki Galliano."
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Galliano Autentico",
+            "country": "Włochy",
+            "group": "Lucas Bols",
+            "information": [
+                "Złocisto-żółty likier ziołowo-waniliowy o anyżowym profilu, zamknięty w niezwykle wysokiej butelce (często nie mieszczącej się na półkach barowych). Niezbędny składnik klasyka z lat 70. – Harvey Wallbanger."
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Galliano Espresso",
+            "country": "Włochy",
+            "group": "Lucas Bols",
+            "information": [
+                "Ciemny likier kawowy (dawniej znany pod nazwą Galliano Ristretto), wytwarzany z zagęszczonego naparu z dwóch gatunków kawy: Arabiki (z Kolumbii i Brazylii) oraz Robusty (z Indii i Kenii)."
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Hayman's Sloe Gin",
+            "country": "Anglia",
+            "group": "Hayman Distillers",
+            "information": [
+                "Mimo nazwy Gin, technicznie jest to likier powstający w wyniku wielomiesięcznej maceracji owoców tarniny (sloe berries) w ginie typu London Dry z dodatkiem cukru."
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Luxardo Maraschino",
+            "country": "Włochy",
+            "group": "Luxardo S.p.A.",
+            "information": [
+                "Sprzedawany w ręcznie oplecionej słomką zielonej butelce z czerwoną zakrętką. Mimo że ma wyraźny, wręcz wytrawny nut pestkowo-migdałowy smak, powstaje z destylacji wiśni odmiany Maraska wraz z ich pestkami (nie zawiera orzechów)"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Midori",
+            "country": "Japonia",
+            "group": "Suntory Global Spirits",
+            "information": [
+                "Jaskrawozielony likier melonowy (słowo Midori po japońsku oznacza po prostu zieleń). Został oficjalnie zaprezentowany w USA podczas premiery w słynnym nowojorskim klubie Studio 54 w 1978 roku."
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Mozart Chocolate Dark",
+            "country": "Austria",
+            "group": "Mozart Distillerie",
+            "information": [
+                "Produkcja odbywa się w rodzinnym mieście kompozytora. Podczas maceracji składników w destylarni stosuje się mikro-sonifikację, czyli odtwarza się muzykę Mozarta, co ma wspomagać proces mieszania się aromatów. Wersja Dark jest całkowicie bezlaktozowa."
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Italicus Rosolio di Bergamotto",
+            "country": "Włochy",
+            "group": "Pernod Ricard",
+            "information": [
+                "Współczesna reaktywacja zapomnianej kategorii tradycyjnych włoskich likierów Rosolio. Zaprojektowana w odcieniu akwamaryny butelka nawiązuje do architektury rzymskiej i wód wokół Amalfi, a kluczowym botanikiem jest bergamotka z Kalabrii."
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Pampelle Ruby lApéro",
+            "country": "Francja",
+            "group": "Maison Villevert",
+            "information": [
+                "Niskokaloryczny aperitif wytwarzany z czerwonych grejpfrutów odmiany Ruby Red z Korsyki, które są macerowane i destylowane w miedzianych alembikach w regionie Cognac."
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Peachtree",
+            "country": "Holandia",
+            "group": "De Kuyper Royal Distillers",
+            "information": [
+                "Stworzony w 1984 roku jako pierwszy na świecie krystalicznie przezroczysty likier brzoskwiniowy (peach schnapps). To jego debiut wywołał ogólnoświatową falę popularności koktajlu Sex on the Beach."
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Rinquinquin",
+            "country": "Francja",
+            "group": "Distilleries et Domaines de Provence",
+            "information": [
+                "Tradycyjny prowansalski aperitif na bazie białego wina i spirytusu, macerowany na brzoskwiniach oraz liściach brzoskwini zbieranych późną jesienią. Nazwa w lokalnym dialekcie oznacza napój, który stawia na nogi."
+            ]
+        },
+        {
+            "id": 24,
+            "name": "St-Germain",
+            "country": "Francja",
+            "group": "Bacardi-Martini",
+            "information": [
+                "Nazywany przez barmanów ketchupem barmana ze względu na to, że pasuje niemal do każdego alkoholu bazowego. Powstaje ze świeżych, ręcznie zbieranych wiosną kwiatów dzikiego bzu, a każda butelka ma wygrawerowany indywidualny numer partii i rok zbioru."
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Chartreuse Green",
+            "country": "Francja",
+            "group": "Chartreuse Diffusion",
+            "information": [
+                "Jedyny na świecie likier o całkowicie naturalnym, intensywnie zielonym kolorze (pochodzącym wyłącznie z chlorofilu). Powstaje z mieszanki 130 ziół, roślin i kwiatów, a jego pełny przepis zna w danym momencie zaledwie dwóch mnichów z zakonu Kartuzów. Jest też niezwykle mocny jak na likier (55% ABV) i stanowi kluczowy składnik koktajlu Last Word."
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Chartreuse Yellow",
+            "country": "Francja",
+            "group": "Chartreuse Diffusion",
+            "information": [
+                "Wprowadzony w 1838 roku jako słodsza, łagodniejsza i mniej mocna (40% ABV) wersja zielonego brata. Swój złocisty kolor zawdzięcza dodatkowi naturalnego szafranu. Wraz z mezcalem tworzy bazę słynnego nowoczesnego klasyka Naked and Famous."
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Cynar",
+            "country": "Włochy",
+            "group": "Campari Group",
+            "information": [
+                "Gorzko-słodki włoski aperitif (amaro), którego głównym i najbardziej rozpoznawalnym składnikiem są liście karczocha (Cynara scolymus – stąd nazwa, a sam karczoch widnieje w centrum etykiety). Zawiera cynarynę, która stymuluje kubki smakowe, sprawiając, że rzeczy spożywane tuż po nim wydają się słodsze."
+            ]
+        }
     ]
 }
