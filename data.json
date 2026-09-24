@@ -215,8 +215,10 @@
             "region": "Speyside",
             "group": "Edrington",
             "information": [
-                "Słynie z wyjątkowo małych alembików, które nadają destylatowi bogaty i oleisty charakter.",
-                "Produkcja jednej beczki przeznaczonej dla tej destylarni jest szczegółowo kontrolowana – od wyboru dębu, przez sezonowanie, aż po dojrzewanie sherry w Hiszpanii."
+                "Słynie z wyjątkowo małych alembików, które nadają destylatowi gęsty i oleisty charakter.",
+                "Produkcja jednej beczki przeznaczonej dla tej destylarni jest szczegółowo kontrolowana – od wyboru dębu, przez sezonowanie, aż po dojrzewanie sherry w Hiszpanii. Cały proces trwa 5 lat",
+                "Nazwa oznacza Żyzną ziemie",
+                "Marka znana z popkultury, pojawiła się w James Bond i serialu The Gentlemen"
             ]
         },
         {
@@ -1126,7 +1128,7 @@
                 "Słynie z wyjątkowo małych alembików, które nadają destylatowi bogaty i oleisty charakter."
             ],
             "aroma": [
-                "🍇 Rodzynki • 🍊 Pomarańcza • 🌰 Orzechy • 🍫 Czekolada • 🍯 Miód • 🌿 Przyprawy korzenne"
+                "🍇 Rodzynki • 🍊 Suszone owoce • 🌰 Orzechy • 🍫 Czarna czekolada • 🍯 Miód • 🌿 Pikantne przyprawy korzenne"
             ],
             "barrels": [
                 {
@@ -1150,7 +1152,7 @@
             ],
             "barrels": [
                 {
-                    "type": "Sherry American Oak",
+                    "type": "Sherry Oloroso American Oak",
                     "process": "maturation"
                 }
             ]
