@@ -1118,21 +1118,26 @@
         },
         {
             "id": 37,
-            "name": "Macallan 12 Sherry Oak",
+            "name": "Macallan 12 Double Cask",
             "group": "Edrington",
             "country": "Scotland",
             "region": "Speyside",
             "type": "Single Malt",
             "information": [
                 "Jest jednym z liderów w produkcji beczek po sherry. Destylarnia bardzo mocno kontroluje cały proces – od wyboru dębu w Hiszpanii, przez sezonowanie drewna, aż po transport beczek do Szkocji.",
-                "Słynie z wyjątkowo małych alembików, które nadają destylatowi bogaty i oleisty charakter."
+                "Słynie z wyjątkowo małych alembików, które nadają destylatowi bogaty i oleisty charakter.",
+                "Leżakuje w dwóch rodzajach beczek 12 lat, póżniej są łączone w różnych proporcjach, aby uzyskać zawsze ten sam charakter"
             ],
             "aroma": [
-                "🍇 Rodzynki • 🍊 Suszone owoce • 🌰 Orzechy • 🍫 Czarna czekolada • 🍯 Miód • 🌿 Pikantne przyprawy korzenne"
+                "🍋 Cytrusy • 🍊 Suszone owoce • 🌰 Orzechy • 🍫 Mleczna czekolada • 🍯 Miód • 🌿 Delikatne przyprawy korzenne"
             ],
             "barrels": [
                 {
-                    "type": "Sherry Oloroso",
+                    "type": "Sherry Oloroso American Oak",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Oloroso European Oak",
                     "process": "maturation"
                 }
             ]
