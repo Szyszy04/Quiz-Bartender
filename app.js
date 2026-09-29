@@ -14,7 +14,8 @@ let data = {
     distilleries: [],
     whiskies: [],
     gins: [],
-    liquers: []
+    liquers: [],
+    rums: []
 };
 
 let questions = [];
@@ -39,6 +40,7 @@ const resultScreen = document.getElementById("result");
 const questionElement = document.getElementById("question");
 const aromaElement = document.getElementById("aroma");
 const barrelsElement = document.getElementById("barrels");
+const countryElement = document.getElementById("country");
 const answersElement = document.getElementById("answers");
 
 const currentQuestionElement =
@@ -121,6 +123,10 @@ async function loadData() {
 
         if (!Array.isArray(data.liquers)) {
             data.liquers = [];
+        }
+
+        if (!Array.isArray(data.rums)) {
+            data.rums = [];
         }
 
 
@@ -375,6 +381,19 @@ function getAvailableGroups() {
 
     });
 
+    data.rums.forEach(item => {
+
+        if (
+            typeof item.group === "string" &&
+            item.group.trim() !== ""
+        ) {
+
+            groups.add(item.group.trim());
+
+        }
+
+    });
+
     return [...groups].sort((a, b) =>
         a.localeCompare(b)
     );
@@ -389,7 +408,8 @@ function getDisplayGroups() {
         ...data.distilleries,
         ...data.whiskies,
         ...data.gins,
-        ...data.liquers
+        ...data.liquers,
+        ...data.rums
     ].forEach(item => {
 
         if (
@@ -851,6 +871,64 @@ function startQuiz(type) {
 
     }
 
+        // ==================================================
+    // RUMS
+    // ==================================================
+
+    if (
+        type === "rums" ||
+        type === "all"
+    ) {
+
+        const rums =
+            filterByGroups(
+                data.rums
+            );
+
+
+        rums.forEach(rum => {
+
+            if (
+                !Array.isArray(
+                    rum.information
+                )
+            ) {
+
+                return;
+
+            }
+
+
+            rum.information.forEach(info => {
+
+                questions.push({
+
+                    question: info,
+
+                    answer: rum.name,
+
+                    category: "rum",
+
+                    aroma: Array.isArray(rum.aroma)
+                        ? rum.aroma.join(" • ")
+                        : "",
+
+                    barrels: Array.isArray(rum.barrels)
+                        ? rum.barrels
+                        : [],
+
+                    country: typeof rum.country === "string"
+                        ? rum.country
+                        : ""
+
+                });
+
+            });
+
+        });
+
+    }
+
 
     // ==================================================
     // SPRAWDZENIE PYTAŃ
@@ -926,6 +1004,13 @@ function startQuiz(type) {
 
         quizNameElement.textContent =
             "Likiery";
+
+    }
+
+    else if (type === "rums") {
+
+        quizNameElement.textContent =
+            "Rumy";
 
     }
 
@@ -1099,6 +1184,19 @@ function createExpertSuggestions(
             );
     }
 
+    // Rumy
+
+    else if (
+        currentQuestionData.category ===
+        "rum"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.rums
+            );
+    }
+
 
     const names =
         sourceData.map(
@@ -1150,7 +1248,8 @@ function showQuestion() {
     // ==================================================
 
     if (
-        current.category === "whisky" &&
+        (current.category === "whisky" ||
+            current.category === "rum") &&
         current.aroma
     ) {
 
@@ -1177,7 +1276,8 @@ function showQuestion() {
     // ==================================================
 
     if (
-        current.category === "whisky" &&
+        (current.category === "whisky" ||
+            current.category === "rum") &&
         Array.isArray(current.barrels) &&
         current.barrels.length > 0
     ) {
@@ -1258,6 +1358,29 @@ function showQuestion() {
         barrelsElement.innerHTML = "";
 
         barrelsElement.classList.add(
+            "hidden"
+        );
+
+    }
+
+
+    if (
+        current.category === "rum" &&
+        current.country
+    ) {
+
+        countryElement.textContent =
+            `Kraj: ${current.country}`;
+
+        countryElement.classList.remove(
+            "hidden"
+        );
+
+    } else {
+
+        countryElement.textContent = "";
+
+        countryElement.classList.add(
             "hidden"
         );
 
@@ -1364,6 +1487,22 @@ function createAnswers(
         sourceData =
             filterByGroups(
                 data.liquers
+            );
+
+    }
+
+    // ----------------------------------------------
+    // RUMY
+    // ----------------------------------------------
+
+    else if (
+        currentQuestionData.category ===
+        "rum"
+    ) {
+
+        sourceData =
+            filterByGroups(
+                data.rums
             );
 
     }
