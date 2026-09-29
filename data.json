@@ -2362,5 +2362,577 @@
                 "Gorzko-słodki włoski aperitif (amaro), którego głównym i najbardziej rozpoznawalnym składnikiem są liście karczocha (Cynara scolymus – stąd nazwa, a sam karczoch widnieje w centrum etykiety). Zawiera cynarynę, która stymuluje kubki smakowe, sprawiając, że rzeczy spożywane tuż po nim wydają się słodsze."
             ]
         }
+    ],
+    "rums": [
+        {
+            "id": 1,
+            "name": "Abuelo 7",
+            "group": "Varela Hermanos",
+            "country": "Panama",
+            "type": "Rum",
+            "information": [
+                "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Solidny, codzienny rum dojrzewający w beczkach po bourbonie, o niezwykle łagodnym, przystępnym profilu."
+            ],
+            "aroma": [
+                "🍯 Karmel • 🍦 Wanilia • 🌰 Prażone orzechy • 🪵 Delikatny dąb • 🥥 Zapiekany kokos • 🍬 Mleczne krówki"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Abuelo 12",
+            "group": "Varela Hermanos",
+            "country": "Panama",
+            "type": "Rum",
+            "information": [
+                "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Głębszy i bardziej tytoniowy w odbiorze."
+            ],
+            "aroma": [
+                "🌰 Gałka muszkatołowa • 🍎 Pieczone jabłka z cynamonem • 🍇 Suszone owoce"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Abuelo XO Napoleon",
+            "group": "Varela Hermanos",
+            "country": "Panama",
+            "type": "Rum",
+            "information": [
+                "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Seria 15-letnich rumów rozlewanych z różnymi finiszami, są niezwykle bogate, ciężkie i złożone."
+            ],
+            "aroma": [
+                "🌧️ Mokra ziemia • 🍐 Dojrzała gruszka • 🫐 Ciemne owoce • 🌰 Orzechy włoskie • 🪵 Drewno"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Cognac",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Abuelo XO Oloroso",
+            "group": "Varela Hermanos",
+            "country": "Panama",
+            "type": "",
+            "information": [
+                "Należy do kolekcji XV Finish. Starzony 15 lat, z czego finalny okres spędza w beczkach po hiszpańskim sherry, nadając mu wysoce wytrawny, orzechowy charakter."
+            ],
+            "aroma": [
+                "🫘 Wytrawne figi • 🌰 Migdały • 🪵 Drewno"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Oloroso",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Abuelo XO Tawny",
+            "group": "Varela Hermanos",
+            "country": "Panama",
+            "type": "",
+            "information": [
+                "Kolejna odsłona kolekcji XV Finish, leżakowana w beczkach po portugalskim porto, która maksymalizuje poziom słodyczy i owocowości w panamskim destylacie."
+            ],
+            "aroma": [
+                "🍓 Dżem z czerwonych owoców • 🪵 Drewno • 🍒 Dojrzałe owoce"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Port Tawny",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Bacardi Carta Blanca",
+            "group": "Bacardi-Martini",
+            "country": "Portoryko / Bahamy",
+            "type": "Rum",
+            "information": [
+                "Największa prywatna firma alkoholowa na świecie. Przechodzi do 2 lat starzenia, a następnie jest filtrowany przez tropikalny węgiel drzewny, aby usunąć kolor. Absolutny klasyk koktajlowy."
+            ],
+            "aroma": [
+                "☁️ Pianki marshmallow • 🎋 Zielony bambus • 🍋 Jasne cytrusy • 🍦 Wanilia"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Bacardi 8 YO",
+            "group": "Bacardi-Martini",
+            "country": "Portoryko / Bahamy",
+            "type": "Rum",
+            "information": [
+                "Opracowany w 1862 roku jako prywatny rum rodziny Bacardi, udostępniony publicznie wiele dekad później."
+            ],
+            "aroma": [
+                "🍑 Pestka moreli • 🧂 Karmel z solą • 🌿 Ziele angielskie • 🪵 Dąb"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Bacardi 10 YO",
+            "group": "Bacardi-Martini",
+            "country": "Portoryko / Bahamy",
+            "type": "Rum",
+            "information": [
+                "Wersja premium, poddawana lekkiej filtracji węglowej dla wygładzenia struktury. Bardziej owocowy i wyrafinowany niż Ocho."
+            ],
+            "aroma": [
+                "🍌 Karmelizowany banan • 🍈 Melon kantalupa • 🍍 Grillowany ananas"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon Charred",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Banks 5",
+            "group": "Bacardi-Martini",
+            "country": "Blend (Kuba, Jamajka, Trynidad, Barbados, Jawa)",
+            "type": "Rum",
+            "information": [
+                "Blend 21 rumów w wieku od 3 do 12 lat. Obecność araku z wyspy Jawa, fermentowanego z czerwonym ryżem, dodaje mu unikalnego, ziemistego smaku rzadko spotykanego w tradycyjnych rumach."
+            ],
+            "aroma": [
+                "🍚 Fermentowany czerwony ryż • 🍏 Skórka jabłka • 🌿 Zielona trawa • ⚪ Biały pieprz"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Botucal",
+            "group": "Brown-Forman",
+            "country": "Wenezuela",
+            "type": "Rum",
+            "information": [
+                "Znany również pod nazwą Diplomático. Kwintesencja słodkiego, deserowego, bardzo gęstego wenezuelskiego stylu. Nazwa używana jest w Europie z powodu praw autorskich."
+            ],
+            "aroma": [
+                "🥐 Cynamonki • 🍁 Syrop klonowy • 🍫 Skórka pomarańczy w czekoladzie • 🍯 Miód"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Pedro Ximénez",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Dictador Insolent",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
+            "type": "Rum",
+            "information": [
+                "Powstaje z miodu z trzciny cukrowej (nie z melasy) i dojrzewa w ekstremalnie na nowo wypalanych beczkach. Posiada gładki smak z dymnym finiszem i niezwykle lepką strukturą."
+            ],
+            "aroma": [
+                "☕ Ziarna palonej kawy • 🍯 Płynny słodki dym • 🍮 Przypalony karmel • 🍦 Wanilia"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon Re-charred",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Re-charred",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Port Re-charred",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Dictador Perpetual",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
+            "type": "Rum",
+            "information": [
+                "Destylowany tylko w miedzianych alembikach, co sprawia, że jest cięższy, masywniejszy i mniej słodki od wersji Insolent. Zdecydowanie mroczny profil."
+            ],
+            "aroma": [
+                "🍂 Wytrawne liście cygara • ☕ Espresso • 🟤 Gorzkie kakao • 🌧️ Wilgotna ziemia"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Dictador 2 Masters Ximénez-Spínola 1978",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
+            "type": "Rum",
+            "information": [
+                "Kolumbijskie beczki wysłano do hiszpańskiego domu winiarskiego, gdzie rum finiszował w 50-letnich dębowych beczkach po ultragęstym sherry Pedro Ximénez pod okiem drugiego mistrza."
+            ],
+            "aroma": [
+                "🍇 Świąteczne ciasto z przypieczonymi brzegami • 🍫 Prażone płatki migdałów • 🍞 Zapach tropikalnych lilii w upalną noc • 🥜 Akcenty dziczyzny i mięsa • 🍬 Przypalane toffi • 🍖 Akcenty wieprzowiny marynowanej w winie"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Pedro Ximénez",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Dictador Sinfonía Borbon 2002",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
+            "type": "Rum",
+            "information": [
+                "Ultra-limitowany rocznik (Single Vintage) pokazujący ewolucję wybranego roku destylacji pod wpływem klasycznych beczek po bourbonie."
+            ],
+            "aroma": [
+                "🍦 Laska wanilii • 🍭 Wata cukrowa • 🪵 Jasny dąb"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Dictador Sinfonía Libretto Port 2001",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
+            "type": "Rum",
+            "information": [
+                "Część rocznikowej kolekcji Sinfonía, tym razem poddana dominującemu wpływowi beczek po portugalskim winie wzmacnianym."
+            ],
+            "aroma": [
+                "🫐 Dżem jeżynowy • 🍫 Rubinowa czekolada • 🍒 Wiśnie w likierze"
+            ],
+            "barrels": [
+                {
+                    "type": "Port",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Dictador Sinfonía Libretto Sherry 1998",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
+            "type": "Rum",
+            "information": [
+                "Długo dojrzewający rocznik destylowany pod koniec lat 90., charakteryzujący się mocnym, przyprawowo-owocowym uderzeniem z hiszpańskiego dębu."
+            ],
+            "aroma": [
+                "🍇 Suszone daktyle • 🌿 Goździki • 🌰 Włoskie orzechy"
+            ],
+            "barrels": [
+                {
+                    "type": "Sherry",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Dictador Sinfonía Pardo 2004",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
+            "type": "Rum",
+            "information": [
+                "Selekcja Vintage kładąca nacisk na potężną wytrawność i taniny. W tej odsłonie brakuje słodyczy znanej z nowszych wydań marki."
+            ],
+            "aroma": [
+                "🪵 Wytrawne taniny dębowe • 👞 Skóra rymarska • ☕ Czarna herbata"
+            ],
+            "barrels": [
+                {
+                    "type": "Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Flor de Caña",
+            "group": "Grupo Pellas",
+            "country": "Nikaragua",
+            "type": "Rum",
+            "information": [
+                "Rum destylowany u stóp aktywnego wulkanu San Cristóbal. Producent szczyci się zerowym śladem węglowym, brakiem sztucznego cukru oraz beczkami uszczelnianymi naturalnymi liśćmi bananowca."
+            ],
+            "aroma": [
+                "🌋 Wulkaniczna mineralność • 🍦 Wytrawna wanilia • 🥥 Kokos • 🌰 Prażony orzech laskowy"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon White Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Havana Club Selección de Maestros",
+            "group": "Pernod Ricard",
+            "country": "Kuba",
+            "type": "Rum",
+            "information": [
+                "Wykorzystuje proces 'Cuban Barrel Proof'. Blendy wracają do specjalnie wybranych beczek na kolejne starzenie, a alkohol rozlewany jest z podwyższoną mocą 45% bez sztucznego dosładzania."
+            ],
+            "aroma": [
+                "🪵 Drewno cedrowe • 🍂 Wytrawne liście tytoniu • 🌰 Orzechy pekan • 🌿 Pikantne ziele angielskie"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Active Oak",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Leblon",
+            "group": "Bacardi-Martini",
+            "country": "Brazylia",
+            "type": "Cachaça",
+            "information": [
+                "Destylowana w miedzianych alembikach, a następnie krótko starzona we francuskich beczkach po koniaku (Cognac XO), co nadaje jej unikalną, gładką strukturę idealną do Caipirinhi."
+            ],
+            "aroma": [
+                "🌾 Świeży sok z trzciny • 🌼 Kwiat wiciokrzewu • 🍌 Niedojrzałe banany • 🌿 Skoszona łąka"
+            ],
+            "barrels": [
+                {
+                    "type": "Cognac Limousin Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Ron Zacapa Solera 23",
+            "group": "Diageo",
+            "country": "Gwatemala",
+            "type": "Rum",
+            "information": [
+                "Starzony wysoko w górach (2300 m n.p.m.). Blend destylatów w wieku od 6 do 23 lat w systemie solera. Butelka ozdobiona jest tradycyjną plecionką petate."
+            ],
+            "aroma": [
+                "🍫 Mleczna czekolada • 🍯 Ciemna melasa • 🍇 Rumowe rodzynki • 🍦 Wanilia"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Bourbon Charred",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Oloroso",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Pedro Ximénez",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Ron Zacapa XC",
+            "group": "Diageo",
+            "country": "Gwatemala",
+            "type": "Rum",
+            "information": [
+                "Wersja Solera starzona od 10 do 25 lat. Kluczowym dodatkiem w porównaniu do wersji 23 jest finalne starzenie we francuskich beczkach po koniaku."
+            ],
+            "aroma": [
+                "🍒 Ciemna suszona wiśnia • 🥜 Intensywny marcepan • 🫘 Pieczone figi • 🪵 Wytrawny dąb"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Oloroso",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Pedro Ximénez",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Cognac",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Santa Teresa 1796",
+            "group": "Rodzina Vollmer",
+            "country": "Wenezuela",
+            "type": "Rum",
+            "information": [
+                "Zaskakująco wytrawny jak na Wenezuelę. Zasłynął projektem Alcatraz, w ramach którego destylarnia resocjalizuje członków gangów zbrojnych poprzez zatrudnienie i grę w rugby.",
+                "Liczba w nazwie oznacza rok założenia plantacji trzciny cukrowej, a na jej 200-stu lecie powstała ta butelka."
+            ],
+            "aroma": [
+                "👞 Stara skóra • 🚬 Tytoń fajkowy • 🫐 Suszona śliwka • 🍫 Ciemna czekolada"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Cognac Limousin Oak",
+                    "process": "finish"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Smith & Cross",
+            "group": "Haus Alpenz",
+            "country": "Jamajka",
+            "type": "Rum",
+            "information": [
+                "Rozlewany z siłą Marynarki Wojennej (Navy Strength 57% ABV). Kwintesencja jamajskiego profilu 'Hogo' (wysoka zawartość estrów). Niezastąpiony w klasycznych koktajlach Tiki."
+            ],
+            "aroma": [
+                "🍌 Przejrzały czarny banan • 🍍 Fermentujący ananas • 🪵 Lakier do drewna • 🌶️ Ostre przyprawy"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon White Oak",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Spirited Union Spice & Sea Salt",
+            "group": "Spirited Union Distillery",
+            "country": "Holandia",
+            "type": "Botanical Rum",
+            "information": [
+                "Botaniczny rum, który unika sztucznych syropów. Baza melasowa jest macerowana solą morską z Añana i przyprawami podobnie jak przy rzemieślniczej produkcji ginu."
+            ],
+            "aroma": [
+                "🧂 Słony karmel • 🟤 Surowe kakao • 🌿 Strąki kardamonu • 🍦 Wanilia"
+            ],
+            "barrels": []
+        },
+        {
+            "id": 26,
+            "name": "Worthy Park",
+            "group": "Rodzina Clarke",
+            "country": "Jamajka",
+            "type": "Rum",
+            "information": [
+                "Destylarnia typu Single Estate – w pełni niezależny proces od posadzenia trzciny po butelkowanie. Używają wyłącznie miedzianych alembików."
+            ],
+            "aroma": [
+                "🍌 Zielony niedojrzały banan • 🌿 Eukaliptus • ☕ Liście czarnej herbaty • 🌶️ Czarny pieprz"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon First-fill",
+                    "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "World End",
+            "group": "World's End Rum",
+            "country": "Belgia",
+            "type": "Spiced Rum",
+            "information": [
+                "Marka o żeglarskim brandingu z Europy Zachodniej. Destylaty sprowadzane są z krajów karaibskich, po czym poddawane infuzji słodkimi i korzennymi przyprawami w Belgii."
+            ],
+            "aroma": [
+                "🥭 Syrop z mango • 🍊 Kandyzowana skórka pomarańczy • 🍂 Mocny cynamon • 🌶️ Przyprawy korzenne"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                }
+            ]
+        }
     ]
+
 }
