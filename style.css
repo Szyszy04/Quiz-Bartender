@@ -5,13 +5,10 @@
 body {
     margin: 0;
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: Arial, sans-serif;
-
     background: #111;
     color: white;
 }
@@ -23,7 +20,6 @@ body {
 
 .screen {
     padding: 40px;
-
     background: #1c1c1c;
     border-radius: 15px;
 }
@@ -39,6 +35,7 @@ body {
 
 #menu {
     text-align: center;
+    position: relative;
 }
 
 #menu h1 {
@@ -59,17 +56,12 @@ body {
 
 .quiz-option {
     padding: 20px;
-
     border: 1px solid #333;
     border-radius: 10px;
-
     background: #292929;
     color: white;
-
     text-align: left;
-
     cursor: pointer;
-
     transition: 0.2s;
 }
 
@@ -80,17 +72,131 @@ body {
 
 .quiz-option span {
     display: block;
-
     font-size: 18px;
     font-weight: bold;
 }
 
 .quiz-option small {
     display: block;
-
     margin-top: 5px;
-
     color: #999;
+}
+
+
+/* =========================
+   BIBLIOTEKA
+========================= */
+
+.library-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 8px;
+    background: #292929;
+    color: #aaa;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.library-button:hover {
+    background: #333;
+    color: white;
+}
+
+.library-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.library-controls select {
+    flex: 1;
+    padding: 12px;
+    background: #292929;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.library-controls select:hover {
+    background: #333;
+}
+
+.library-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 55vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Własny pasek przewijania dla biblioteki */
+.library-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.library-list::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+}
+
+.library-item {
+    background: #292929;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.library-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.library-item h3 small {
+    color: #999;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.library-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.library-tags span {
+    background: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.library-info {
+    margin: 0;
+    padding-left: 20px;
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.library-info li {
+    margin-bottom: 6px;
+}
+
+.additional-info {
+    color: #88b0ff;
+    list-style-type: none;
+    margin-left: -20px;
 }
 
 
@@ -101,13 +207,11 @@ body {
 .quiz-header {
     display: flex;
     align-items: center;
-
     gap: 15px;
 }
 
 .quiz-title {
     flex: 1;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -124,15 +228,11 @@ body {
 .back-button {
     width: 40px;
     height: 40px;
-
     border: none;
     border-radius: 8px;
-
     background: #292929;
     color: white;
-
     font-size: 20px;
-
     cursor: pointer;
 }
 
@@ -143,18 +243,14 @@ body {
 
 .question-box {
     margin: 30px 0;
-
     padding: 30px;
-
     background: #292929;
     border-radius: 10px;
-
     text-align: center;
 }
 
 .question-box p {
     margin: 0;
-
     font-size: 20px;
     line-height: 1.5;
 }
@@ -166,25 +262,18 @@ body {
 
 .answers {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
-
     gap: 15px;
 }
 
 .answer {
     padding: 20px;
-
     border: none;
     border-radius: 10px;
-
     background: #333;
     color: white;
-
     font-size: 17px;
-
     cursor: pointer;
-
     transition: 0.2s;
 }
 
@@ -215,28 +304,20 @@ body {
 
 #result strong {
     display: block;
-
     margin: 20px 0;
-
     font-size: 50px;
 }
 
 #restart-button,
 #menu-button {
     width: 100%;
-
     padding: 15px;
-
     margin-top: 10px;
-
     border: none;
     border-radius: 8px;
-
     background: #333;
     color: white;
-
     font-size: 16px;
-
     cursor: pointer;
 }
 
@@ -245,29 +326,23 @@ body {
     background: #444;
 }
 
+
 /* =========================
    USTAWIENIA
 ========================= */
 
 .settings-button {
     position: absolute;
-
     top: 20px;
     right: 20px;
-
     width: 38px;
     height: 38px;
-
     border: none;
     border-radius: 8px;
-
     background: #292929;
     color: #aaa;
-
     font-size: 20px;
-
     cursor: pointer;
-
     transition: 0.2s;
 }
 
@@ -276,16 +351,10 @@ body {
     color: white;
 }
 
-#menu {
-    position: relative;
-}
-
 .settings-header {
     display: flex;
     align-items: center;
-
     gap: 15px;
-
     margin-bottom: 25px;
 }
 
@@ -301,24 +370,17 @@ body {
 .group-options {
     display: flex;
     flex-direction: column;
-
     gap: 10px;
-
     margin: 25px 0;
 }
 
 .group-option {
     display: flex;
     align-items: center;
-
     gap: 12px;
-
     padding: 15px;
-
     background: #292929;
-
     border-radius: 8px;
-
     cursor: pointer;
 }
 
@@ -329,7 +391,6 @@ body {
 .group-option input {
     width: 18px;
     height: 18px;
-
     cursor: pointer;
 }
 
@@ -344,15 +405,11 @@ body {
 
 .settings-actions button {
     flex: 1;
-
     padding: 12px;
-
     border: none;
     border-radius: 8px;
-
     background: #333;
     color: white;
-
     cursor: pointer;
 }
 
@@ -362,16 +419,13 @@ body {
 
 .no-groups-message {
     padding: 15px;
-
     margin: 20px 0;
-
     background: #292929;
     border-radius: 8px;
-
     color: #999;
-
     text-align: center;
 }
+
 
 /* =========================
    LICZBA PYTAŃ
@@ -383,18 +437,14 @@ body {
 
 .question-settings h3 {
     margin-bottom: 15px;
-
     font-size: 16px;
     font-weight: normal;
-
     color: #999;
 }
 
 .question-count-options {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-
     gap: 10px;
 }
 
@@ -402,15 +452,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 12px;
-
     background: #292929;
-
     border-radius: 8px;
-
     cursor: pointer;
-
     transition: 0.2s;
 }
 
@@ -434,23 +479,20 @@ body {
     font-size: 15px;
 }
 
+
 /* =========================
    AROMATY
 ========================= */
 
 .aroma {
     margin-top: 20px;
-
     padding-top: 15px;
-
     border-top: 1px solid #3a3a3a;
-
     color: #999;
-
     font-size: 14px;
-
     line-height: 1.5;
 }
+
 
 /* =========================
    BECZKI
@@ -458,32 +500,23 @@ body {
 
 .barrels {
     margin-top: 15px;
-
     padding-top: 15px;
-
     border-top: 1px solid #3a3a3a;
-
     text-align: left;
 }
 
 .barrels-title {
     margin-bottom: 8px;
-
     color: #999;
-
     font-size: 14px;
 }
 
 .barrel {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
-
     gap: 15px;
-
     padding: 7px 0;
-
     font-size: 14px;
 }
 
@@ -493,9 +526,9 @@ body {
 
 .barrel-process {
     color: #888;
-
     white-space: nowrap;
 }
+
 
 /* =========================
    KRAJE
@@ -504,6 +537,7 @@ body {
 .country {
     padding-top: 5px;
 }
+
 
 /* =========================
    EXPERT SWITCH
@@ -515,44 +549,32 @@ body {
 
 .expert-setting-row {
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     gap: 20px;
-
     padding: 15px;
-
     background: #292929;
-
     border-radius: 8px;
 }
 
 .expert-title {
     display: block;
-
     font-size: 16px;
 }
 
 .expert-setting-row small {
     display: block;
-
     margin-top: 4px;
-
     color: #888;
 }
 
 
 /* Switch */
-
 .switch {
     position: relative;
-
     display: inline-block;
-
     width: 46px;
     height: 26px;
-
     flex-shrink: 0;
 }
 
@@ -562,45 +584,34 @@ body {
 
 .slider {
     position: absolute;
-
     inset: 0;
-
     background: #444;
-
     border-radius: 999px;
-
     cursor: pointer;
-
     transition: 0.2s;
 }
 
 .slider::before {
     content: "";
-
     position: absolute;
-
     width: 20px;
     height: 20px;
-
     left: 3px;
     top: 3px;
-
     background: #aaa;
-
     border-radius: 50%;
-
     transition: 0.2s;
 }
 
-.switch input:checked + .slider {
+.switch input:checked+.slider {
     background: #555;
 }
 
-.switch input:checked + .slider::before {
+.switch input:checked+.slider::before {
     transform: translateX(20px);
-
     background: white;
 }
+
 
 /* =========================
    EXPERT MODE
@@ -612,7 +623,6 @@ body {
 
 .expert-form {
     display: flex;
-
     gap: 10px;
 }
 
@@ -622,19 +632,13 @@ body {
 
 #expert-input {
     width: 100%;
-
     padding: 17px;
-
     border: 2px solid #333;
     border-radius: 10px;
-
     outline: none;
-
     background: #292929;
     color: white;
-
     font-size: 16px;
-
     transition: 0.2s;
 }
 
@@ -644,13 +648,11 @@ body {
 
 #expert-input.expert-correct {
     border-color: #267a3c;
-
     background: #1d3524;
 }
 
 #expert-input.expert-wrong {
     border-color: #8a2929;
-
     background: #351d1d;
 }
 
@@ -677,11 +679,8 @@ body {
 
 .expert-feedback {
     min-height: 24px;
-
     margin-top: 12px;
-
     text-align: center;
-
     font-size: 14px;
 }
 
@@ -695,4 +694,11 @@ body {
 
 .wrong-feedback strong {
     color: white;
+}
+.lib-item-subtitle {
+    font-size: 13px;
+    color: #888;
+    text-transform: uppercase;
+    margin: 12px 0 4px 0;
+    font-weight: bold;
 }
