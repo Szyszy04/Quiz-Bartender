@@ -717,6 +717,19 @@ function renderLibrary() {
         if (item.country) html += `<span>🌍 ${item.country}</span>`;
         if (item.region && item.region !== "Blended") html += `<span>📍 ${item.region}</span>`;
         if (item.type) html += `<span>🥃 ${item.type}</span>`;
+        if (item.aroma && item.aroma.length > 0) {
+            html += `<span class="aroma">${item.aroma.join(" ")}</span>`;
+        }
+        
+// Zmiana: dodanie etykiety procesu (np. dojrzewanie / finish) obok nazwy beczki
+        if (item.barrels && Array.isArray(item.barrels) && item.barrels.length > 0) {
+            const barrelsList = item.barrels.map(b => {
+                const process = getProcessLabel(b.process);
+                return process ? `${b.type} (${process})` : b.type;
+            }).join(" + ");
+            html += `<span class="barrels">🛢️ ${barrelsList}</span>`;
+        }
+        
         html += `</div>`;
 
         html += `<ul class="library-info">`;
