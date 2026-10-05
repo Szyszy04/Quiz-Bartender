@@ -26,7 +26,10 @@
                 "Produkcja skupia się na uzyskaniu wyjątkowo łagodnego i owocowego charakteru poprzez stosunkowo długą fermentację oraz spokojną destylację.",
                 "Od wielu lat jest najlepiej sprzedającym się single maltem w Polsce."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                " Singleton powstał jako odpowiedź na rosnące zainteresowanie whisky premium wśród nowych konsumentów.",
+                " Destylarnia Dufftown znajduje się w miejscowości określanej jako „światowa stolica whisky”, gdzie działa kilka znanych destylarni."
+            ]
         },
         {
             "id": 3,
@@ -39,7 +42,9 @@
                 "Słynie z jednego z najbardziej skomplikowanych systemów destylacji w całej Szkocji. Produkuje destylat określany jako 2,81-krotna destylacja. Efektem jest wyjątkowo ciężka, mięsista whisky o bogatej strukturze.",
                 "Nosi przydomek The beast of Dufftown"
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                " Znaczna część produkcji przez dziesięciolecia trafiała do blendów Johnnie Walker, dlatego single malty Mortlach były stosunkowo trudno dostępne."
+            ]
         },
         {
             "id": 4,
@@ -52,7 +57,10 @@
                 "Stosuje nietypowe dla szkockiej whisky skraplacze typu worm tub (spirale chłodzące zanurzone w zimnej wodzie), które pozwalają zachować cięższy i bardziej oleisty charakter destylatu.",
                 "Powstała w 1830 roku i od tego czasu produkuje whisky o niezwykle charakterystycznym morskim charakterze."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Charakterystyczną cechą whisky Talisker jest pieprzna ostrość pojawiająca się na finiszu – rzadko spotykana w innych szkockich single maltach.",
+                "Destylat dojrzewa w magazynach z ciągłą cyrkulacją powietrza, dzięki czemu panuje tam wręcz morski klimat"
+            ]
         },
         {
             "id": 5,
@@ -65,7 +73,10 @@
                 "Wykorzystuje destylaty z ponad 30 destylarni należących do Diageo. Dzięki temu Master Blender ma ogromną swobodę tworzenia poszczególnych edycji.",
                 "Jednym z najważniejszych składników wielu wersji jest whisky z destylarni Cardhu, która odpowiada za owocowy charakter blendów."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Co sekundę sprzedawanych jest kilka butelek Johnnie Walkera, a marka dostępna jest w ponad 180 krajach.",
+                "Historia rozpoczęła się w 1820 roku, kiedy John Walker prowadził niewielki sklep spożywczy. W tamtych czasach większość whisky była niestabilna jakościowo, dlatego zaczął tworzyć własne mieszanki, aby każda partia smakowała identycznie."
+            ]
         },
         {
             "id": 6,
@@ -77,7 +88,9 @@
                 "Nazwa oznacza ujście głośnego strumienia (mouth of the chattering burn)",
                 "Destylarnia słynie z dojrzewania whisky w połączeniu beczek po bourbonie i sherry, dzięki czemu uzyskuje charakterystyczny profil pełen suszonych owoców i czekolady."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Seria A'bunadh butelkowana jest z mocą beczki (Cask Strength) i bez filtracji na zimno, co uczyniło ją jedną z najbardziej kultowych whisky sherry na świecie."
+            ]
         },
         {
             "id": 7,
@@ -89,7 +102,9 @@
                 "Nazwa oznacza ujście (lub złączenie) rzeki Paldy.",
                 "Destylarnia została zbudowana przez rodzinę Dewar specjalnie po to, aby zapewnić wysokiej jakości whisky do ich słynnego blendu Dewars. Do dziś jest jego sercem."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Woda wykorzystywana do produkcji pochodzi ze strumienia Pitilie Burn, znanego z występowania drobinek złota. Dlatego na wielu materiałach promocyjnych pojawia się motyw złota."
+            ]
         },
         {
             "id": 8,
@@ -101,7 +116,9 @@
                 "Nazwa oznacza mały cypel (Small Headland)",
                 "Jest jedną z najbardziej torfowych destylarni na świecie, jednak jej whisky słyną bardziej z owocowości i cytrusów niż medycznych nut."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Uigeadail i Corryvreckan noszą nazwy miejsc znajdujących się na wyspie Islay – odpowiednio jeziora oraz jednego z największych wirów morskich w Europie."
+            ]
         },
         {
             "id": 9,
@@ -150,7 +167,9 @@
                 "Nazwa oznacza skaliste wzgórze",
                 "Destylarnia do dziś korzysta z chłodnic typu worm tub, dzięki czemu whisky ma cięższy, bardziej mięsisty charakter oraz jest znana z nut ananasa"
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Wymowa: Krej-ge-laki"
+            ]
         },
         {
             "id": 13,
@@ -188,7 +207,9 @@
                 "Destylarnia leży tuż przy wybrzeżu Morza Północnego, dlatego często podkreśla wpływ morskiego klimatu na dojrzewanie whisky.",
                 "Nazwa oznacza Dolinę Zieleni (Valley of the Grey-Green)"
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Po ponad 20 latach zamknięcia została ponownie uruchomiona w 2008 roku."
+            ]
         },
         {
             "id": 16,
@@ -200,7 +221,9 @@
                 "Była pierwszą legalną destylarnią w regionie Speyside po zmianie prawa w 1824 roku.",
                 "Przez wiele lat te whisky było tak cenioną nazwą, że inne destylarnie dopisywały ją do swoich etykiet."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                " Słowo 'The' w nazwie nie jest przypadkowe – dodano je, aby odróżnić oryginalnego Glenliveta od licznych naśladowców."
+            ]
         },
         {
             "id": 17,
@@ -240,7 +263,10 @@
                 "Nazwa oznacza Żyzną ziemie",
                 "Marka znana z popkultury, pojawiła się w James Bond i serialu The Gentlemen"
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Destylarnię Macallan założył Alexander Reid, plantator jęczmienia i nauczyciel.",
+                "Pierwotna nazwa regionu brzmiała „Maghellan”, od gaelickiego słowa „magh” oznaczającego żyzną ziemię, oraz „Ellan” od imienia mnicha św. Fillana, który był blisko związany z kościołem stojącym na terenie posiadłości Macallan do 1400 roku. "
+            ]
         },
         {
             "id": 20,
@@ -251,7 +277,9 @@
             "information": [
                 "Była pierwszą szkocką destylarnią, która otrzymała królewski przywilej używania słowa Royal w nazwie. Tytuł nadał w 1833 roku król William IV po wizycie w destylarni."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Do dziś tylko nieliczne destylarnie mogą pochwalić się takim wyróżnieniem."
+            ]
         },
         {
             "id": 21,
@@ -263,7 +291,9 @@
                 "Jest jedną z niewielu destylarni, która nadal uprawia część własnego jęczmienia.",
                 "Destylarnia zachowała również własną słodownię podłogową (traditional floor maltings), mimo że większość szkockich destylarni zrezygnowała z tego procesu wiele lat temu."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Na terenie destylarni pracują własni bednarze, którzy naprawiają i przygotowują beczki."
+            ]
         }
     ],
     "whiskies": [
@@ -402,7 +432,9 @@
             "information": [
                 "Francuski dąb nadaje intensywne przyprawowe nuty, nazwa nawiązuje do jednego z największych wirów morskich w Europie."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Wymowa: kori-wre-kan"
+            ],
             "aroma": [
                 "☕ Espresso • 🌶 Czarny pieprz • 🍫 Gorzka czekolada • 🌑 Lukrecja • 🌲 Żywica • 🔥 Dym torfowy"
             ],
@@ -427,7 +459,9 @@
             "information": [
                 "Łączy intensywny torf z bogactwem beczek po sherry, nazwa nawiązuje do znajdującego się na wyspie Islay jeziora."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Wymowa: Ug-a-dal"
+            ],
             "aroma": [
                 "🍇 Daktyle • 🍒 Czereśnie • 🔥 Palone drewno • 🍬 Melasa • 🥜 Orzech pekan • 🌫 Dym"
             ],
