@@ -9,7 +9,7 @@
             "information": [
                 "Jej nazwa pochodzi od gaelickiego i oznaczającego dolinę młyna.",
                 "Destylarnia słynie z bardzo powolnej destylacji – jednego z najdłuższych procesów w całej Szkocji. Dzięki temu whisky zyskuje wyjątkowo oleistą strukturę i głębię smaku.",
-                "Jest jednym z sześciu klasycznych słodów reprezentujących region Islay w serii Classic Malts of Scotland."
+                "Jest jednym z sześciu klasycznych single maltów reprezentujących region Islay w serii Classic Malts of Scotland."
             ],
             "additionalInfo": [
                 "Lagavulin to kultowa marka, której 16-letnia wersja była ulubioną whisky Rona Swansona z serialu Parks and Recreation."
@@ -127,7 +127,7 @@
             "region": "Lowland",
             "group": "Suntory Global Spirits",
             "information": [
-                "Nazwa oznacza zakątek pola (Corner of the Field).",
+                "Nazwa oznacza polny zakątek (Corner of the Field).",
                 "To jedna z nielicznych szkockich destylarni stosujących potrójną destylację, bardziej charakterystyczną dla Irlandii. Dzięki temu whisky jest wyjątkowo lekka, delikatna i owocowa."
             ],
             "additionalInfo": []
@@ -155,7 +155,9 @@
                 "Destylarnia wykorzystuje bardzo szeroki wachlarz beczek – bourbon, sherry, rum, porto, madeira czy virgin oak.",
                 "Należy do nielicznych destylarni Speyside produkujących zarówno whisky nietorfowe, jak i mocno torfowe."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Założona w 1898 roku przez Johna Duffa (który prowadził też sąsiednią destylarnię Longmorn), Benriach działała zaledwie dwa lata. Zbankrutowała w 1900 roku z powodu słynnego krachu braci Pattison (Pattison Crash). Przez kolejne 65 lat destylarnia była zamknięta"
+            ]
         },
         {
             "id": 12,
@@ -179,7 +181,6 @@
             "group": "Brown-Forman",
             "information": [
                 "Destylarnia słynie z dojrzewania whisky w beczkach po sherry.",
-                "Była jedną z ostatnich szkockich destylarni ogrzewających alembiki bezpośrednio ogniem, zanim przeszła na ogrzewanie parowe.",
                 "Nazwa oznacza Dolinę Jeżyn (Valley of the Brambles)."
             ],
             "additionalInfo": []
@@ -222,7 +223,8 @@
                 "Przez wiele lat te whisky było tak cenioną nazwą, że inne destylarnie dopisywały ją do swoich etykiet."
             ],
             "additionalInfo": [
-                " Słowo 'The' w nazwie nie jest przypadkowe – dodano je, aby odróżnić oryginalnego Glenliveta od licznych naśladowców."
+                "Słowo 'The' w nazwie nie jest przypadkowe – dodano je, aby odróżnić oryginalnego Glenliveta od licznych naśladowców.",
+                "W 2019 roku marka wywołała globalną sensację, wprowadzając Capsule Collection – jadalne i biodegradowalne kapsułki z alg morskich o pojemności 23 ml, w których serwowano koktajle na bazie whisky"
             ]
         },
         {
@@ -236,7 +238,9 @@
                 "Jako jedni z nielicznych stosują beczki z wolno rosnącego dębu z Missouri, które są wykorzystywane do maturacji tylko dwa razy, aby zachować pełnię waniliowych aromatów.",
                 "Nazwa oznacza Dolinę Spokoju (lub Dolinę Dużego Wzgórza)"
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Wzór pojawiąjący się na butelkach nawiązuje historycznie do celtyckiej sztuki, jest bezpośrednią adaptacją kamienia Hilton of Cadboll Stone odnalezionego w pobliżu destylarni w Szkocji." 
+            ]
         },
         {
             "id": 18,
@@ -249,7 +253,9 @@
                 "To jedna z najbardziej charakterystycznych whisky na świecie, znana z nut jodu, bandaży i dymu.",
                 "Nazwa oznacza piękną zatokę przy szerokiej dolinie"
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Friends of Laphroaig to darmowy, globalny program lojalnościowy i społecznościowy dla miłośników szkockiej whisky single malt z wyspy Islay, założony w 1994 roku. Własna działka na Islay: Po zarejestrowaniu kodu z butelki otrzymujesz dzierżawę jednej stopy kwadratowej ziemi na wyspie Islay (blisko destylarni). Dostajesz certyfikat, numer działki oraz współrzędne GPS. Czynsz dzierżawny (darmowy dram): Jeśli odwiedzisz destylarnię Laphroaig osobiście, możesz wypożyczyć kalosze, odnaleźć swoją działkę i odebrać roczny czynsz w postaci darmowej porcji whisky."
+            ]
         },
         {
             "id": 19,
@@ -265,7 +271,7 @@
             ],
             "additionalInfo": [
                 "Destylarnię Macallan założył Alexander Reid, plantator jęczmienia i nauczyciel.",
-                "Pierwotna nazwa regionu brzmiała „Maghellan”, od gaelickiego słowa „magh” oznaczającego żyzną ziemię, oraz „Ellan” od imienia mnicha św. Fillana, który był blisko związany z kościołem stojącym na terenie posiadłości Macallan do 1400 roku. "
+                "Pierwotna nazwa regionu brzmiała Maghellan, od gaelickiego słowa magh oznaczającego żyzną ziemię, oraz Ellan od imienia mnicha św. Fillana, który był blisko związany z kościołem stojącym na terenie posiadłości Macallan do 1400 roku. "
             ]
         },
         {
@@ -278,7 +284,9 @@
                 "Była pierwszą szkocką destylarnią, która otrzymała królewski przywilej używania słowa Royal w nazwie. Tytuł nadał w 1833 roku król William IV po wizycie w destylarni."
             ],
             "additionalInfo": [
-                "Do dziś tylko nieliczne destylarnie mogą pochwalić się takim wyróżnieniem."
+                "Do dziś tylko nieliczne destylarnie mogą pochwalić się takim wyróżnieniem.",
+                "Gorzelnia prowadzi bardzo powolną, trwającą około 70 godzin fermentację.",
+                "Posiada wysokie alembiki z lekko wygiętymi ku górze ramionami (lyne arms), co sprawia, że opary mają długi kontakt z miedzią, dając lekki, kwiatowo-owocowy i bardzo gładki destylat"
             ]
         },
         {
@@ -292,7 +300,9 @@
                 "Destylarnia zachowała również własną słodownię podłogową (traditional floor maltings), mimo że większość szkockich destylarni zrezygnowała z tego procesu wiele lat temu."
             ],
             "additionalInfo": [
-                "Na terenie destylarni pracują własni bednarze, którzy naprawiają i przygotowują beczki."
+                "Na terenie zakładu na stałe zatrudnieni są rzemieślnicy – kowal dbający o alembiki oraz bednarze, którzy własnoręcznie naprawiają i wypalają dębowe beczki.",
+                "Założył ją w 1892 roku William Grant – ten sam człowiek, który sześć lat wcześniej uruchomił tuż obok słynną destylarnię Glenfiddich.",
+                "Swoją nazwę zawdzięcza średniowiecznemu zamkowi Balvenie, który góruje nad okolicą w miasteczku Dufftown."
             ]
         }
     ],
@@ -357,7 +367,9 @@
             "information": [
                 "Destylarnia od lat stosuje Double Cask Maturation – destylaty dojrzewają oddzielnie w beczkach po bourbonie i sherry, a następnie są kupażowane."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Do produkcji używana jest krystalicznie czysta woda ze źródła St. Drostane, która spływa zboczami góry Ben Rinnes przez naturalne złoża granitu i torfowiska w dolinie rzeki Lour. "
+            ],
             "aroma": [
                 "🍒 Wiśnie • 🍫 Mleczna czekolada • 🍇 Rodzynki • 🥜 Orzech laskowy • 🍊 Skórka pomarańczy • 🌿 Cynamon"
             ],
@@ -582,7 +594,10 @@
             "information": [
                 "Nazywana jest często The Foggie Moss Malt, ponieważ źródło wody znajduje się na terenach mglistych torfowisk Foggie Moss, co od lat jest częścią tożsamości destylarni."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Przez ponad sto lat Aultmore była prawie nieznana szerokiej publiczności, ponieważ aż 90–95% jej produkcji trafiało w tajemnicy do słynnych whisky blended – przede wszystkim jako sekretny składnik Dewar’s White Label.",
+                "Gdy w 1998 roku korporacja Bacardi kupowała od Diageo markę Dewar's, transakcja była bliska zerwania – Bacardi postawiło twardy warunek, że odejdzie od stołu negocjacyjnego, jeśli w pakiecie nie znajdzie się właśnie destylarnia Aultmore."
+            ],
             "aroma": [
                 "🌼 Kwiaty polne • 🍏 Zielone jabłko • 🍐 Gruszka • 🌿 Świeże zioła • 🍋 Skórka cytryny • 🌾 Słód jęczmienny"
             ],
@@ -740,7 +755,9 @@
             "information": [
                 "Przez wielu fanów uznawana za najlepiej zbalansowaną whisky w podstawowej ofercie GlenDronach."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Nazwa zawiązuje do tego że destylarnia w 1996 roku została zamknięta, dopiero w 2001 roku zakład przejęli nowi właściciele (grupa BenRiach), wznowiono tradycyjną produkcję, 15-letnia wersja powróciła stąd Revival jako symbol odrodzenia." 
+            ],
             "aroma": [
                 " 🍒 Czarna wiśnia • 🍇 Śliwka • 🍫 Ciemne kakao • ☕ Espresso • 🍂 Gałka muszkatołowa • 🍊 Kandyzowana pomarańcza"
             ],
@@ -765,7 +782,9 @@
             "information": [
                 "Dojrzewa wyłącznie w beczkach po Oloroso, dzięki czemu jest bardziej wytrawna i orzechowa. Nazwa nawiązuje do założyciela destyrlani"
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Allardice w nazwie pochodzi od Jamesa Allardice'a – założyciela i pierwszego właściciela destylarni GlenDronach, którą założył w 1826 roku."
+            ],
             "aroma": [
                 "🍫 Ciemna czekolada • 🌰 Orzech włoski • 🍒 Amarena • 🥥 Palony kokos • 🍂 Goździki • 🍷 Stare sherry"
             ],
@@ -790,7 +809,7 @@
             "aroma": [
                 "🍐 Gruszka • 🍏 Zielone jabłko • 🌼 Kwiaty • 🍋 Cytryna • 🌾 Świeży słód • 🍯 Delikatny miód"
             ],
-            "barrels": [
+            "barrels": [ 
                 {
                     "type": "Bourbon",
                     "process": "maturation"
