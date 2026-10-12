@@ -113,6 +113,12 @@ body {
     margin-bottom: 20px;
 }
 
+@media (max-width: 767px) {
+    .library-controls {
+        flex-direction: column;
+    }
+}
+
 .library-controls select {
     flex: 1;
     padding: 12px;
