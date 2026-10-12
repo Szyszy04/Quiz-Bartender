@@ -224,7 +224,9 @@
             ],
             "additionalInfo": [
                 "Słowo 'The' w nazwie nie jest przypadkowe – dodano je, aby odróżnić oryginalnego Glenliveta od licznych naśladowców.",
-                "W 2019 roku marka wywołała globalną sensację, wprowadzając Capsule Collection – jadalne i biodegradowalne kapsułki z alg morskich o pojemności 23 ml, w których serwowano koktajle na bazie whisky"
+                "W 2019 roku marka wywołała globalną sensację, wprowadzając Capsule Collection – jadalne i biodegradowalne kapsułki z alg morskich o pojemności 23 ml, w których serwowano koktajle na bazie whisky",
+                "Livet w nazwie pochodzi od rzeki Livet, która przepływa przez dolinę Glenlivet. W tłumaczeniu z języka gaelickiego Glenlivet oznacza dolinę łagodnie płynącej rzeki.",
+                "Chociaż The Glenlivet produkuje się ze zbóż, w procesie destylacji gluten jest usuwany z trunku."
             ]
         },
         {
@@ -884,7 +886,9 @@
             "information": [
                 "Po 21 latach dojrzewania whisky trafia na finisz do beczek po karaibskim rumie."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Pierwsza whisky która użyła finiszu w beczkach po rumie."
+            ],
             "aroma": [
                 " 🍌 Dojrzały banan • 🥭 Mango • 🍯 Melasa • 🍬 Toffi • 🌰 Orzechy włoskie • 🌿 Imbir"
             ],
@@ -913,7 +917,9 @@
             "information": [
                 "To whisky stworzona przez 20 ambasadorów marki. Każdy wybrał swoje ulubione beczki, a Master Blender Brian Kinsman połączył je w jedną kompozycję."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "17 beczek po bourbonie, 2 beczki po sherry i 1 beczka po porto."
+            ],
             "aroma": [
                 " 🍏 Zielone jabłko • 🍫 Czekolada • 🍒 Czerwone owoce • 🌰 Orzech laskowy • 🍪 Ciasteczka korzenne • 🍯 Karmel"
             ],
@@ -1017,7 +1023,9 @@
             "information": [
                 "Finisz w beczkach z francuskiego dębu Limousin, wcześniej używanych do dojrzewania koniaku, nadaje jej charakterystyczną korzenność i lekko orzechowy profil."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Top 2 najlepiej sprzedający się Szkocki single malt."
+            ],
             "aroma": [
                 "🍐 Gruszka • 🍊 Pomarańcza • 🌰 Orzech laskowy • 🍂 Cynamon • 🍯 Miód • 🍪 Biszkopt"
             ],
@@ -1142,9 +1150,11 @@
             "information": [
                 "Wykorzystuje tzw. Chocolate Malt, czyli mocno prażony słód przypominający prażenie ziaren kawy."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Whisky które jest jak poranna kawa."
+            ],
             "aroma": [
-                "☕ Espresso • 🍫 Gorzka czekolada • 🌰 Prażone orzechy laskowe • 🍪 Tiramisu • 🍯 Melasa"
+                "☕ Cappuccino • 🍫 Gorzka czekolada • 🌰 Prażone orzechy laskowe • 🍪 Tiramisu • 🍯 Melasa"
             ],
             "barrels": [
                 {
@@ -1179,6 +1189,31 @@
                 {
                     "type": "Bourbon",
                     "process": "maturation"
+                }
+            ]
+        },
+                {
+            "id": 34,
+            "name": "Glenmorangie 18",
+            "group": "LVMH",
+            "country": "Scotland",
+            "region": "Highland",
+            "type": "Single Malt",
+            "information": [
+                "Po 15 latach w beczkach po bourbonie 1/3 whisky trafia na finish do beczek po sherry Oloroso na 3 lata, a reszta zostaje w beczkach po bourbonie."
+            ],
+            "additionalInfo": [],
+            "aroma": [
+                "🫘 Wytrawne figi • 🌿 Jaśmin • 🍋 Akcenty cytrusów • 🌰 Orzechy"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                                {
+                    "type": "Sherry Oloroso",
+                    "process": "finish"
                 }
             ]
         },
@@ -1334,7 +1369,7 @@
             ],
             "additionalInfo": [],
             "aroma": [
-                "🍎 Jabłko • 🍯 Miód • 🍊 Pomarańcza • 🍇 Rodzynki • 🌰 Orzechy • 🍪 Ciasto korzenne"
+                "🍎 Jabłko • 🍫 Mleczna czekolada • 🍒 Wiśnie • 🍇 Rodzynki • 🌰 Orzechy • 🍪 Ciasto korzenne"
             ],
             "barrels": [
                 {
@@ -1357,7 +1392,9 @@
             "information": [
                 "Whisky jest projektowana jako bardzo przystępny single malt dla osób zaczynających przygodę ze szkocką whisky."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Najlepiej sprzedajacy się single malt w Polsce."
+            ],
             "aroma": [
                 "🍐 Gruszka • 🍏 Jabłko • 🍯 Miód • 🍪 Herbatniki • 🌰 Migdały • 🍂 Cynamon"
             ],
@@ -1422,9 +1459,12 @@
             "region": "Speyside",
             "type": "Single Malt",
             "information": [
-                "Jako jedna z niewielu dużych szkockich destylarni nadal posiada własnych bednarzy, tradycyjną słodownię podłogową oraz część własnej produkcji jęczmienia."
+                "Jako jedna z niewielu dużych szkockich destylarni nadal posiada własnych bednarzy, tradycyjną słodownię podłogową oraz część własnej produkcji jęczmienia.",
+                "Celem tej butelki było sptworzenie najsłodszej whisky"
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Jedna z pierwszych whisky z oferty The Balvenie stworzonych przez nową malt master Kelsey McKechnie"
+            ],
             "aroma": [
                 "🍦 Waniliowe lody • 🥥 Kokos • 🍯 Miód • 🍐 Gruszka • 🌼 Kwiaty • 🍬 Karmel"
             ],
