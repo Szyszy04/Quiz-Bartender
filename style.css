@@ -712,3 +712,9 @@ body {
     margin-top: 0px;
     border-top: none;
 }
+.mash {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #3a3a3a;
+    text-align: left;
+}
