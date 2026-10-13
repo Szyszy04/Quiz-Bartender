@@ -48,6 +48,7 @@ const questionElement = document.getElementById("question");
 const aromaElement = document.getElementById("aroma");
 const barrelsElement = document.getElementById("barrels");
 const countryElement = document.getElementById("country");
+const mashElement = document.getElementById("mash");
 const answersElement = document.getElementById("answers");
 
 const currentQuestionElement = document.getElementById("current-question");
@@ -181,7 +182,7 @@ function saveSettings() {
 
 function getAvailableGroups() {
     const groups = new Set();
-    
+
     [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums].forEach(item => {
         if (typeof item.group === "string" && item.group.trim() !== "") {
             groups.add(item.group.trim());
@@ -245,7 +246,7 @@ function renderGroupOptions() {
     groups.forEach(group => {
         const label = document.createElement("label");
         label.classList.add("group-option");
-        
+
         const checkbox = document.createElement("input");
         checkbox.type = "checkbox";
         checkbox.value = group;
@@ -329,7 +330,8 @@ function startQuiz(type) {
                     answer: whisky.name,
                     category: "whisky",
                     aroma: Array.isArray(whisky.aroma) ? whisky.aroma.join(" • ") : "",
-                    barrels: Array.isArray(whisky.barrels) ? whisky.barrels : []
+                    barrels: Array.isArray(whisky.barrels) ? whisky.barrels : [],
+                    mash: Array.isArray(whisky.Mash) ? whisky.Mash : []
                 });
             });
         });
@@ -403,9 +405,21 @@ function getProcessLabel(process) {
     switch (process) {
         case "maturation": return "dojrzewanie";
         case "part maturation": return "część dojrzewania";
-        case "finish": return "finish";
+        case "finish": return "finisz";
+        case "char": return "stopień wypalenia";
         default: return process || "";
     }
+}
+
+function getMashName(type) {
+    const dictionary = {
+        "Corn": "Kukurydza",
+        "Rye": "Żyto",
+        "Malted Barley": "Słodowany jęczmień",
+        "Wheat": "Pszenica",
+        "Red winter wheat": "Czerwona pszenica ozima"
+    };
+    return dictionary[type] || type;
 }
 
 
@@ -494,6 +508,40 @@ function showQuestion() {
     } else {
         barrelsElement.innerHTML = "";
         barrelsElement.classList.add("hidden");
+    }
+
+    // ==================================================
+    // ZACIER (MASH BILL)
+    // ==================================================
+    if (current.category === "whisky" && Array.isArray(current.mash) && current.mash.length > 0) {
+        mashElement.innerHTML = "";
+        
+        const title = document.createElement("div");
+        title.classList.add("barrels-title"); 
+        title.textContent = "Zacier (Mash bill)";
+        mashElement.appendChild(title);
+
+        current.mash.forEach(m => {
+            const mashItem = document.createElement("div");
+            mashItem.classList.add("barrel"); // Używamy tych samych stylów co dla beczek
+            
+            const typeEl = document.createElement("span");
+            typeEl.classList.add("barrel-type");
+            typeEl.textContent = getMashName(m.type);
+
+            const percEl = document.createElement("span");
+            percEl.classList.add("barrel-process");
+            percEl.textContent = `${(m.percentage * 100).toFixed(0)}%`;
+
+            mashItem.appendChild(typeEl);
+            mashItem.appendChild(percEl);
+            mashElement.appendChild(mashItem);
+        });
+        
+        mashElement.classList.remove("hidden");
+    } else {
+        mashElement.innerHTML = "";
+        mashElement.classList.add("hidden");
     }
 
     if (current.category === "rum" && current.country) {
@@ -717,17 +765,25 @@ function renderLibrary() {
         if (item.country) html += `<span>🌍 ${item.country}</span>`;
         if (item.region && item.region !== "Blended") html += `<span>📍 ${item.region}</span>`;
         if (item.type) html += `<span>🥃 ${item.type}</span>`;
-        if (item.aroma && item.aroma.length > 0) {
-            html += `<span class="aroma">${item.aroma.join(" ")}</span>`;
+        
+        // Zabezpieczenie dla aromatu, który teraz jest tablicą
+        if (item.aroma && Array.isArray(item.aroma) && item.aroma.length > 0) {
+            html += `<span class="aroma"> ${item.aroma.join(" ")}</span>`;
         }
         
-// Zmiana: dodanie etykiety procesu (np. dojrzewanie / finish) obok nazwy beczki
+        // Wyświetlenie beczek z ich procesami (np. dojrzewanie, finisz, wypalanie)
         if (item.barrels && Array.isArray(item.barrels) && item.barrels.length > 0) {
             const barrelsList = item.barrels.map(b => {
                 const process = getProcessLabel(b.process);
                 return process ? `${b.type} (${process})` : b.type;
             }).join(" + ");
             html += `<span class="barrels">🛢️ ${barrelsList}</span>`;
+        }
+
+        // Wyświetlanie zacieru
+        if (item.Mash && Array.isArray(item.Mash) && item.Mash.length > 0) {
+            const mashList = item.Mash.map(m => `${getMashName(m.type)}: ${(m.percentage * 100).toFixed(0)}%`).join(" | ");
+            html += `<span class="mash-tag">🌾 ${mashList}</span>`;
         }
         
         html += `</div>`;
