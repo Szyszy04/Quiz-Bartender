@@ -601,7 +601,7 @@
                 "Gdy w 1998 roku korporacja Bacardi kupowała od Diageo markę Dewar's, transakcja była bliska zerwania – Bacardi postawiło twardy warunek, że odejdzie od stołu negocjacyjnego, jeśli w pakiecie nie znajdzie się właśnie destylarnia Aultmore."
             ],
             "aroma": [
-                "🌼 Kwiaty polne • 🍏 Zielone jabłko • 🍐 Gruszka • 🌿 Świeże zioła • 🍋 Skórka cytryny • 🌾 Słód jęczmienny"
+                "🌼 Kwiaty polne • 🍏 Zielone jabłko • 🍐 Gruszka • 🌿 Pędy sosny • 🪨 Mineralna • 🥣 Surowa"
             ],
             "barrels": [
                 {
@@ -755,7 +755,7 @@
             "region": "Highland",
             "type": "Single Malt",
             "information": [
-                "Przez wielu fanów uznawana za najlepiej zbalansowaną whisky w podstawowej ofercie GlenDronach."
+                "Przez wielu fanów uznawana za najlepiej zbalansowaną whisky w podstawowej ofercie GlenDronach. Z większą ilością wytrawnego wina i z pazurem."
             ],
             "additionalInfo": [
                 "Nazwa zawiązuje do tego że destylarnia w 1996 roku została zamknięta, dopiero w 2001 roku zakład przejęli nowi właściciele (grupa BenRiach), wznowiono tradycyjną produkcję, 15-letnia wersja powróciła stąd Revival jako symbol odrodzenia." 
@@ -1623,6 +1623,24 @@
                 {
                     "type": "Port",
                     "process": "finish"
+                },
+                {
+                    "type": "3",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.72
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.18
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.10
                 }
             ]
         },
@@ -1644,6 +1662,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.80
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.15
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.05
                 }
             ]
         },
@@ -1665,6 +1701,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.68
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.28
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.04
                 }
             ]
         },
@@ -1686,6 +1740,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.68
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.28
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.04
                 }
             ]
         },
@@ -1707,6 +1779,20 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Rye",
+                    "percentage": 0.95
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.05
                 }
             ]
         },
@@ -1728,6 +1814,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "3",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.78
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.10
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.12
                 }
             ]
         },
@@ -1749,6 +1853,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.75
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.13
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.12
                 }
             ]
         },
@@ -1770,6 +1892,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.39
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.51
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.10
                 }
             ]
         },
@@ -1791,6 +1931,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "3",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.70
+                },
+                {
+                    "type": "Red winter wheat",
+                    "percentage": 0.16
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.14
                 }
             ]
         },
@@ -1802,9 +1960,11 @@
             "region": "Kentucky",
             "type": "Kentucky Straight Bourbon",
             "information": [
-                "numer profilu klepki dębowej nr 46 użytej podczas finiszowania"
+                "Numer profilu klepki dębowej nr 46 użytej podczas finiszowania"
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Na ostatni etap dojrzewania do wnętrza beczki wkłada się 10 dodatkowych, wypieczonych (seared) klepek z francuskiego dębu."
+            ],
             "aroma": [
                 "🌳 Prażony francuski dąb • 🍯 Karmel • 🍪 Przyprawy do pieczenia"
             ],
@@ -1812,6 +1972,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "3",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.70
+                },
+                {
+                    "type": "Red winter wheat",
+                    "percentage": 0.16
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.14
                 }
             ]
         },
@@ -1833,6 +2011,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.75
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.13
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.12
                 }
             ]
         },
@@ -1846,7 +2042,9 @@
             "information": [
                 "Dobry przykład bourbonu o bardzo szerokim profilu — marka mocno eksponuje różnorodność aromatów wynikającą z receptury, fermentacji, destylacji i dojrzewania."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Własna bednarnia wypala te beczki inaczej niż reszta branży – poddaje je długiemu, 10-minutowemu opiekaniu (tostyfikacji), po czym jedynie lekko wypala przez ok. 25 sekund, co daje wynik bliski Poziomowi 1 lub 2."
+            ],
             "aroma": [
                 "🍦 Wanilia • 🌳 Dąb • 🍏 Owoce • 🍯 Karmel"
             ],
@@ -1854,6 +2052,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "1",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.72
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.18
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.10
                 }
             ]
         },
@@ -1867,7 +2083,9 @@
             "information": [
                 "Ciekawa metoda użycia drugiej meczki, pierwsza — standardowo wypalana beczka; druga — mocno wygrzewana, a następnie lekko wypalana"
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Wypalenie: Po standardowym dojrzewaniu whiskey finiszuje w drugiej beczce, która jest niezwykle mocno tostyfikowana i bardzo krótko wypalana ogniem (tzw. flash charred - 5 sekund)."
+            ],
             "aroma": [
                 "🍇 Ciemne owoce • 🍯 Karmel • 🍯 Miód • 🍫 Czekolada • 🍬 Marcepan • 🌳 Tostowany dąb"
             ],
@@ -1875,6 +2093,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "1",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.72
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.18
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.10
                 }
             ]
         },
@@ -1888,7 +2124,9 @@
             "information": [
                 "Producent określa recepturę jako inspirowaną proporcjami rye whiskey z okresu przed prohibicją."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Specjalnie przygotowane beczki – długa tostyfikacja na parze (jak w standardowym Woodfordzie), a następnie krótkie, 25-sekundowe zwęglenie."
+            ],
             "aroma": [
                 "🌾 Żyto • 🧂 Czarny pieprz • 🌲 Cedr • 🌼 Kasja • 🍬 Marcepan"
             ],
@@ -1896,6 +2134,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "2",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.33
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.53
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.14
                 }
             ]
         },
@@ -1917,6 +2173,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.80
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.08
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.12
                 }
             ]
         },
@@ -1938,6 +2212,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.80
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.08
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.12
                 }
             ]
         },
@@ -1959,6 +2251,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.80
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.08
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.12
                 }
             ]
         },
@@ -1980,6 +2290,24 @@
                 {
                     "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "4",
+                    "process": "char"
+                }
+            ],
+            "Mash": [
+                {
+                    "type": "Corn",
+                    "percentage": 0.18
+                },
+                {
+                    "type": "Rye",
+                    "percentage": 0.70
+                },
+                {
+                    "type": "Malted Barley",
+                    "percentage": 0.12
                 }
             ]
         },
