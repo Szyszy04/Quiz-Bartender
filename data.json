@@ -2502,7 +2502,10 @@
             "information": [
                 "Dominują aromaty wanilii, bergamotki oraz egzotycznego yuzu, uzupełnione subtelnymi nutami kokosa i jałowca."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Polski gin rzemieślniczy należący do nurtu New Western, w którym obniża się intensywność klasycznego jałowca na rzecz wyrazistych, lokalnych nut kwiatowych i ziołowych.",
+                "Contemporary Gin"
+            ]
         },
         {
             "id": 2,
@@ -2512,7 +2515,11 @@
             "information": [
                 "Szkocki gin premium typu London Dry produkowany w regionie Speyside. Łączy klasyczne botaniki z lokalnymi składnikami, takimi jak jarzębina, wrzos, mirt bagienny, jabłko Coul Blush i mniszek lekarski."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Choć technicznie i prawnie spełnia rygorystyczne normy London Dry, wyróżnia się użyciem pięciu unikalnych, celtyckich składników roślinnych (m.in. wrzos, jarzębina, woskownica), co nadaje mu charakterystyczny, szkocki profil.",
+                "Destylowany jest w rzadko spotykanym aparacie Berry Chamber, który pozwala zachować wyjątkową intensywność naturalnych aromatów.",
+                "London Dry Gin"
+            ]
         },
         {
             "id": 3,
@@ -2523,7 +2530,9 @@
                 "Klasyczny London Dry Gin opracowany we współpracy z czołowymi barmanami z całego świata. Charakteryzuje się wyraźnym jałowcem, świeżymi cytrusami oraz delikatnymi nutami jaśminu, kolendry i grejpfruta.",
                 "W smaku jest wytrawny, czysty i doskonale zbalansowany, dzięki czemu świetnie sprawdza się praktycznie w każdym klasycznym koktajlu. Botaniki są długo macerowane przed destylacją, co zapewnia pełny i spójny profil."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "London Dry Gin"
+            ]
         },
         {
             "id": 4,
@@ -2531,9 +2540,12 @@
             "country": "Spain",
             "group": "Brown-Forman",
             "information": [
-                "Śródziemnomorski gin premium inspirowany smakami południowej Europy. Dominują aromaty rozmarynu, bazylii, tymianku i oliwek Arbequina, uzupełnione delikatnym jałowcem oraz cytrusami. "
+                "Śródziemnomorski gin premium inspirowany smakami południowej Europy. Dominują aromaty rozmarynu, bazylii, tymianku i oliwek Arbequina, uzupełnione delikatnym jałowcem oraz cytrusami."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Smak jest ziołowy, wytrawny i bardzo elegancki, z charakterystycznym śródziemnomorskim finiszem. Każdy z głównych botaników jest macerowany i destylowany oddzielnie, co pozwala wydobyć maksimum aromatu każdego składnika.",
+                "Contemporary Gin"
+            ]
         },
         {
             "id": 5,
@@ -2543,7 +2555,11 @@
             "information": [
                 "Szkocki gin premium o charakterystycznym, delikatnym profilu. Oprócz klasycznych botaników wyróżnia się dodatkiem esencji z róży damasceńskiej oraz ekstraktu z ogórka. "
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Hendrick's nie jest London Dry, bo esencję z ogórka i róży dodaje się po destylacji (ogórek by się ugotował w alembiku).",
+                "Zapoczątkował erę ginów nowoczesnych, mocno odchodzących od dominacji jałowca.",
+                "Flavored Gin"
+            ]
         },
         {
             "id": 6,
@@ -2553,7 +2569,9 @@
             "information": [
                 "Receptura została stworzona przez Lesley Gracie po wyprawie do Amazonii i wykorzystuje botaniki inspirowane tamtejszą roślinnością. Zachowuje charakterystyczne nuty ogórka i róży, wzbogacając je o egzotyczne owoce, zielone zioła i tropikalne akcenty."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Flavored Gin"
+            ]
         },
         {
             "id": 7,
@@ -2563,7 +2581,11 @@
             "information": [
                 "Limitowana edycja inspirowana eleganckimi paryskimi kabaretami z początku XX wieku. W aromacie dominują morele, brzoskwinie, słodkie owoce pestkowe oraz delikatne nuty kwiatowe."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Receptura nawiązuje do dawnych francuskich alkoholi owocowych i nietypowych botaników.",
+                "Hendrick's Grand Cabaret nie jest London Dry, bo maja dodany cukier i owoce po destylacji, co zmienia jego kolor i nadaje słodycz.",
+                "Flavored Gin"
+            ]
         },
         {
             "id": 8,
@@ -2573,7 +2595,9 @@
             "information": [
                 "Wyjątkowa edycja inspirowana szkockim wybrzeżem i morskim klimatem. Łączy klasyczne nuty róży i ogórka z cytrusami, świeżymi ziołami oraz subtelną mineralnością przypominającą morską bryzę."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Contemporary Gin"
+            ]
         },
         {
             "id": 9,
@@ -2583,7 +2607,9 @@
             "information": [
                 "Nietypowa interpretacja Hendrick's wzbogacona o chininę, piołun oraz kwiat lotosu. Oprócz świeżych nut ogórka i róży pojawia się wyraźna goryczka oraz ziołowy charakter."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Contemporary Gin"
+            ]
         },
         {
             "id": 10,
@@ -2593,7 +2619,10 @@
             "information": [
                 "Niemiecki gin typu Dry Gin produkowany w Schwarzwaldzie, znany z niezwykle złożonego charakteru. Dominują aromaty jałowca, borówki brusznicy, cytrusów, lawendy i leśnych ziół, a w smaku wyczuwalne są pieprzne przyprawy, nuty kwiatowe oraz lekka owocowa słodycz. "
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Dzięki wykorzystaniu aż 47 botaników i długiej maceracji oferuje wyjątkową głębię, przez co często degustowany jest również solo, a nie tylko w koktajlach.",
+                "Contemporary Gin"
+            ]
         },
         {
             "id": 11,
@@ -2603,7 +2632,9 @@
             "information": [
                 "Gin wyróżniający się zastosowaniem innowacyjnej destylacji na zimno w temperaturze około -5°C. Dzięki temu zachowuje wyjątkowo świeże aromaty jałowca, cytrusów, szałwii i delikatnych kwiatów. W smaku jest niezwykle czysty, świeży i aksamitny, z wyraźną cytrusową końcówką. "
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "London Dry Gin"
+            ]
         },
         {
             "id": 12,
@@ -2613,7 +2644,10 @@
             "information": [
                 "Japoński gin produkowany przez Suntory, którego nazwa oznacza sześć. Oprócz klasycznych botaników wykorzystuje sześć tradycyjnych japońskich składników: kwiat sakury, liść sakury, yuzu, herbatę sencha, herbatę gyokuro oraz pieprz sansho."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "W aromacie dominują cytrusy, kwiaty i zielona herbata, natomiast smak jest niezwykle harmonijny, delikatny i lekko pieprzny. Każda grupa botaników destylowana jest oddzielnie, aby zachować ich indywidualny charakter.",
+                "Contemporary Gin"
+            ]
         },
         {
             "id": 13,
@@ -2621,9 +2655,11 @@
             "country": "England",
             "group": "Diageo",
             "information": [
-                "Ekskluzywny London Dry Gin produkowany w niewielkim miedzianym alembiku o nazwie Tiny Ten. Wyróżnia się wykorzystaniem całych świeżych grejpfrutów, limonek i pomarańczy zamiast samych skórek."
+                "Ekskluzywny London Dry Gin produkowany w niewielkim miedzianym alembiku o nazwie Tiny Ten. Wyróżnia się wykorzystaniem całych świeżych grejpfrutów, limonek i pomarańczy zamiast samych wysuszonych skórek."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "London Dry Gin"
+            ]
         },
         {
             "id": 14,
@@ -2643,7 +2679,10 @@
             "information": [
                 "Edycja inspirowana słynnymi sewilskimi pomarańczami. Łączy charakterystyczny jałowiec z intensywnymi aromatami słodkich pomarańczy oraz delikatnych kwiatów cytrusowych."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "Tanqueray Sevilla nie jest London Dry, bo maja dodany cukier i owoce po destylacji, co zmienia jego kolor i nadaje słodycz.",
+                "Flavored Gin"
+            ]
         },
         {
             "id": 16,
@@ -2653,7 +2692,9 @@
             "information": [
                 "Polski London Dry Gin stworzony z myślą o klasycznym, wytrawnym profilu. Dominują aromaty jałowca, świeżych cytrusów oraz subtelnych przypraw korzennych i ziół."
             ],
-            "additionalInfo": []
+            "additionalInfo": [
+                "London Dry Gin"
+            ]
         }
     ],
     "liquers": [
