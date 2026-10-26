@@ -15,7 +15,8 @@ let data = {
     whiskies: [],
     gins: [],
     liquers: [],
-    rums: []
+    rums: [],
+    tequilas: []
 };
 
 let questions = [];
@@ -85,6 +86,7 @@ async function loadData() {
         if (!Array.isArray(data.gins)) data.gins = [];
         if (!Array.isArray(data.liquers)) data.liquers = [];
         if (!Array.isArray(data.rums)) data.rums = [];
+        if (!Array.isArray(data.tequilas)) data.tequilas = [];
 
         console.log("Dane załadowane:");
         console.log(data);
@@ -183,7 +185,7 @@ function saveSettings() {
 function getAvailableGroups() {
     const groups = new Set();
 
-    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums].forEach(item => {
+    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas].forEach(item => {
         if (typeof item.group === "string" && item.group.trim() !== "") {
             groups.add(item.group.trim());
         }
@@ -195,7 +197,7 @@ function getAvailableGroups() {
 function getDisplayGroups() {
     const counts = new Map();
 
-    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums].forEach(item => {
+    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas].forEach(item => {
         if (typeof item.group === "string" && item.group.trim() !== "") {
             const group = item.group.trim();
             counts.set(group, (counts.get(group) || 0) + 1);
@@ -374,6 +376,23 @@ function startQuiz(type) {
         });
     }
 
+    if (type === "tequilas" || type === "all") {
+        const tequilas = filterByGroups(data.tequilas);
+        tequilas.forEach(tequila => {
+            if (!Array.isArray(tequila.information)) return;
+            tequila.information.forEach(info => {
+                questions.push({
+                    question: info,
+                    answer: tequila.name,
+                    category: "tequila",
+                    aroma: Array.isArray(tequila.aroma) ? tequila.aroma.join(" • ") : "",
+                    barrels: Array.isArray(tequila.barrels) ? tequila.barrels : [],
+                    country: typeof tequila.country === "string" ? tequila.country : ""
+                });
+            });
+        });
+    }
+
     if (questions.length === 0) {
         alert("Nie ma żadnych pytań dla obecnych ustawień.");
         return;
@@ -390,6 +409,7 @@ function startQuiz(type) {
     else if (type === "gins") quizNameElement.textContent = "Giny";
     else if (type === "liquers") quizNameElement.textContent = "Likiery";
     else if (type === "rums") quizNameElement.textContent = "Rumy";
+    else if (type === "tequilas") quizNameElement.textContent = "Tequila";
     else quizNameElement.textContent = "Wszystko";
 
     menuScreen.classList.add("hidden");
@@ -454,6 +474,7 @@ function createExpertSuggestions(currentQuestionData) {
     else if (currentQuestionData.category === "gin") sourceData = filterByGroups(data.gins);
     else if (currentQuestionData.category === "liquer") sourceData = filterByGroups(data.liquers);
     else if (currentQuestionData.category === "rum") sourceData = filterByGroups(data.rums);
+    else if (currentQuestionData.category === "tequila") sourceData = filterByGroups(data.tequilas);
 
     const names = sourceData.map(item => item.name);
     names.forEach(name => {
@@ -472,7 +493,7 @@ function showQuestion() {
     const current = questions[currentQuestion];
     questionElement.textContent = current.question;
 
-    if ((current.category === "whisky" || current.category === "rum") && current.aroma) {
+    if ((current.category === "whisky" || current.category === "rum" || current.category === "tequila") && current.aroma) {
         aromaElement.textContent = current.aroma;
         aromaElement.classList.remove("hidden");
     } else {
@@ -480,7 +501,7 @@ function showQuestion() {
         aromaElement.classList.add("hidden");
     }
 
-    if ((current.category === "whisky" || current.category === "rum") && Array.isArray(current.barrels) && current.barrels.length > 0) {
+    if ((current.category === "whisky" || current.category === "rum" || current.category === "tequila") && Array.isArray(current.barrels) && current.barrels.length > 0) {
         barrelsElement.innerHTML = "";
         const title = document.createElement("div");
         title.classList.add("barrels-title");
@@ -501,6 +522,14 @@ function showQuestion() {
 
             barrelElement.appendChild(typeElement);
             barrelElement.appendChild(processElement);
+
+            if (typeof barrel.time === "string" && barrel.time.trim()) {
+                const timeElement = document.createElement("span");
+                timeElement.classList.add("barrel-process");
+                timeElement.textContent = barrel.time;
+                barrelElement.appendChild(timeElement);
+            }
+
             barrelsElement.appendChild(barrelElement);
         });
 
@@ -544,7 +573,7 @@ function showQuestion() {
         mashElement.classList.add("hidden");
     }
 
-    if (current.category === "rum" && current.country) {
+    if ((current.category === "rum" || current.category === "tequila") && current.country) {
         countryElement.textContent = `Kraj: ${current.country}`;
         countryElement.classList.remove("hidden");
     } else {
@@ -572,6 +601,7 @@ function createAnswers(currentQuestionData) {
     else if (currentQuestionData.category === "gin") sourceData = filterByGroups(data.gins);
     else if (currentQuestionData.category === "liquer") sourceData = filterByGroups(data.liquers);
     else if (currentQuestionData.category === "rum") sourceData = filterByGroups(data.rums);
+    else if (currentQuestionData.category === "tequila") sourceData = filterByGroups(data.tequilas);
 
     let possibleAnswers = sourceData.map(item => item.name);
     possibleAnswers = possibleAnswers.filter(name => name !== currentQuestionData.answer);
@@ -743,6 +773,9 @@ function renderLibrary() {
     if (type === "all" || type === "rums") {
         items = items.concat(data.rums.map(i => ({ ...i, _category: 'Rum' })));
     }
+    if (type === "all" || type === "tequilas") {
+        items = items.concat(data.tequilas.map(i => ({ ...i, _category: 'Tequila' })));
+    }
 
     if (group !== "all") {
         items = items.filter(i => i.group === group);
@@ -775,7 +808,8 @@ function renderLibrary() {
         if (item.barrels && Array.isArray(item.barrels) && item.barrels.length > 0) {
             const barrelsList = item.barrels.map(b => {
                 const process = getProcessLabel(b.process);
-                return process ? `${b.type} (${process})` : b.type;
+                const details = [process, b.time].filter(Boolean).join(", ");
+                return details ? `${b.type} (${details})` : b.type;
             }).join(" + ");
             html += `<span class="barrels">🛢️ ${barrelsList}</span>`;
         }
