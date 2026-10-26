@@ -3588,5 +3588,295 @@
                 }
             ]
         }
+    ],
+    "tequilas": [
+        {
+            "id": 1,
+            "name": "Casamigos Blanco",
+            "group": "Diageo",
+            "country": "Meksyk",
+            "type": "Tequila Blanco",
+            "information": [
+                "Piñas używane do jej produkcji są pieczone w tradycyjnych ceglanych piecach aż przez 72 godziny, podczas gdy standard rynkowy to zaledwie kilkanaście-kilkadziesiąt godzin."
+            ],
+            "additionalInfo": [
+                "Pierwotnie miała to być prywatna tequila na wyłączny użytek aktora George’a Clooneya i przedsiębiorcy Rande Gerbera."
+            ],
+            "aroma": [
+                "🌵 Świeża agawa • 🍋 Cytrusy • 🍦 Wanilia • 🍏 Słodkie owoce"
+            ],
+            "barrels": [
+                {
+                    "type": "Steel vats",
+                    "process": "maturation",
+                    "time": "2 Miesiące"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Casamigos Añejo",
+            "group": "Diageo",
+            "country": "Meksyk",
+            "type": "Tequila Añejo",
+            "information": [
+                "Długi, 80-godzinny proces fermentacji (zamiast standardowych 48) znacząco redukuje palenie w przełyku. Złożona, niezwykle gładka tequila z segmentu super-premium o deserowym profilu."
+            ],
+            "additionalInfo": [],
+            "aroma": [
+                "🍬 Toffi • 🍫 Kakao • 🍮 Karmel • 🪵 Dąb • 🌶️ Korzenne przyprawy"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation",
+                    "time": "14 Miesięcy"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Don Julio Blanco",
+            "group": "Diageo",
+            "country": "Meksyk",
+            "type": "Tequila Blanco",
+            "information": [
+                "Niskie, kwadratowe butelki, aby biesiadnicy przy stole mogli widzieć swoje twarze bez zasłaniania ich wysokimi butelkami."
+            ],
+            "additionalInfo": [
+                ""
+            ],
+            "aroma": [
+                "🌵 Świeża agawa • 🍋 Limonka • 🍊 Grejpfrut • 🌶️ Pieprz"
+            ],
+            "barrels": []
+        },
+        {
+            "id": 4,
+            "name": "Don Julio Reposado",
+            "group": "Diageo",
+            "country": "Meksyk",
+            "type": "Tequila Reposado",
+            "information": [
+                "Jest to historycznie pierwsza tequila z segmentu luksusowego (luxury premium), która w ogóle udowodniła światu, że wariant Reposado może być wyrafinowanym trunkiem do degustacji solo."
+            ],
+            "additionalInfo": [],
+            "aroma": [
+                "🍑 Owoce pestkowe • 🍋 Cytryna • 🍫 Ciemna czekolada • 🍦 Wanilia • 🌿 Cynamon"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation",
+                    "time": "8 Miesięcy"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Patrón Silver",
+            "group": "Bacardi-Martini",
+            "country": "Meksyk",
+            "type": "Tequila Blanco",
+            "information": [
+                "Sok z agawy wytłaczany jest dwoma metodami: za pomocą nowoczesnych młynów (roller mill) oraz bardzo starodawnego, potężnego, dwutonowego kamienia wulkanicznego zwanego Tahona. Dopiero mieszanka destylatów z obu tych metod tworzy finalny produkt."
+            ],
+            "additionalInfo": [
+                ""
+            ],
+            "aroma": [
+                "🌵 Świeża agawa • 🍋 Cytrusy • 🥭 Owoce tropikalne • 🌶️ Czarny pieprz"
+            ],
+            "barrels": []
+        },
+        {
+            "id": 6,
+            "name": "Patrón Reposado",
+            "group": "Bacardi-Martini",
+            "country": "Meksyk",
+            "type": "Tequila Reposado",
+            "information": [
+                "Tak jak każda butelka marki, opakowanie produkowane jest z grubego, pochodzącego z recyklingu szkła, a tradycyjne portugalskie korki są dopasowywane i wbijane ręcznie podczas zamykania każdej sztuki."
+            ],
+            "additionalInfo": [
+                "Pomost pomiędzy rześką wersją Silver a mocno beczkową Añejo z destylarni Hacienda Patrón."
+            ],
+            "aroma": [
+                "🪵 Delikatny dąb • 🌸 Kwiaty • 🍯 Miodowa słodnycz • 🌵 Świeża agawa"
+            ],
+            "barrels": [
+                {
+                    "type": "Oak",
+                    "process": "maturation",
+                    "time": "6 Miesięcy"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Patrón Añejo",
+            "group": "Bacardi-Martini",
+            "country": "Meksyk",
+            "type": "Tequila Añejo",
+            "information": [
+                "Patrón używa do starzenia dębu węgierskiego (bardzo rzadkiego w produkcji tequili), co nadaje trunkowi specyficzne, eleganckie, lekko pikantne nuty przypominające europejskie wina z Bordeaux."
+            ],
+            "additionalInfo": [
+                "Subtelna, mistrzowsko zblendowana tequila starzona, nastawiona na delikatność i słodycz dębu."
+            ],
+            "aroma": [
+                "🍇 Rodzynki • 🍦 Wanillia • 🔥 Prażony dąb • 🌶️ Przyprawy korzenne • 🍈 Melon"
+            ],
+            "barrels": [
+                {
+                    "type": "Oak",
+                    "process": "maturation",
+                    "time": "12 Miesięcy"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Herradura Plata",
+            "group": "Brown-Forman",
+            "country": "Meksyk",
+            "type": "Tequila Blanco",
+            "information": [
+                "W przeciwieństwie do niemal wszystkich innych tequili Blanco (które nie leżakują w drewnie), ta tequila spędza w dębie 45 dni, przez co ma unikalny, lekko słomkowy kolor, którego firma z dumą nie filtruje."
+            ],
+            "additionalInfo": [
+                "Rozbudowana i charakterystyczna srebrna tequila, która łamie standardowe zasady dla swojego gatunku."
+            ],
+            "aroma": [
+                "🔥 Pieczona agawa • 🍋 Cytrusy • 🌿 świeże zioła • 🍦 Wanillia • 🪵 Dąb"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation",
+                    "time": "45 Dni"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Herradura Reposado",
+            "group": "Brown-Forman",
+            "country": "Meksyk",
+            "type": "Tequila Reposado",
+            "information": [
+                "Pierwsza tequila która wprowadziła na rynek kategorię Reposado w 1974 roku, na zawsze zmieniając prawo i klasyfikację tequili w Meksyku."
+            ],
+            "additionalInfo": [
+                "Wzorcowe, bardzo klasyczne Reposado o mocno wytrawnym, surowym rzemieślniczym charakterze."
+            ],
+            "aroma": [
+                "🌿 Anyż • 🌶️ Przyprawy • 🌰 Orzechy włoskie • 🍦 Wanillia • 🧈 Palone masło"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation",
+                    "time": "11 Miesięcy"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Herradura Añejo",
+            "group": "Brown-Forman",
+            "country": "Meksyk",
+            "type": "Tequila Añejo",
+            "information": [
+                "Pierwsza na świecie tequila Añejo w 1962 roku, tworząc tę kategorię w przemyśle alkoholowym."
+            ],
+            "additionalInfo": [
+                "Bogata, ciemna, niezwykle intensywna tequila o profilu przypominającym starzone whisky czy koniaki."
+            ],
+            "aroma": [
+                "🍇 Suszone owoce • 🌶️ Przyprawy • 🔥 mocno prażony dąb • 🍦 Wanillia • 🌵 Gotowana agawa"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation",
+                    "time": "25 Miesięcy"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Ojo de Tigre",
+            "group": "Pernod Ricard",
+            "country": "Meksyk",
+            "type": "Mezcal",
+            "information": [
+                "Rzemieślniczy, bardzo przystępny i mało dymny mezcal, stworzony w celu zaprezentowania lżejszego oblicza tego alkoholu."
+            ],
+            "additionalInfo": [
+                "Nazwa i design płaskiej butelki inspirowane są tradycyjnymi anforitas (piersiówkami / amforami), z których dawniej korzystali meksykańscy robotnicy wierzący, że kamień tygrysie oko (ojo de tigre) przyniesie im szczęście."
+            ],
+            "aroma": [
+                "🍏 Zielone jabłko • 🍋 Cytrusy • 🍫 kakao • 🔥 dym ogniskowy"
+            ],
+            "barrels": []
+        },
+        {
+            "id": 12,
+            "name": "Rooster Rojo Blanco",
+            "group": "Amber Beverage Group",
+            "country": "Meksyk",
+            "type": "Tequila Blanco",
+            "information": [
+                "Jako jedyna tequila na świecie, używa do obniżenia zawartości alkoholu (blendowania) wody filtrowanej bezpośrednio przez prawdziwe meksykańskie srebro, co znacząco zaokrągla i zmiękcza ostateczny smak trunku."
+            ],
+            "additionalInfo": [
+                "Autentyczna, bardzo dobrze wyceniana i zaskakująco łagodna w smaku tequila z mniejszej, cenionej destylarni."
+            ],
+            "aroma": [
+                "🔥 Gotowana agawa • 🍋 Cytrusy • 🍈 Limonka • 🌶️ Pieprz"
+            ],
+            "barrels": []
+        },
+        {
+            "id": 13,
+            "name": "Rooster Rojo Reposado",
+            "group": "Amber Beverage Group",
+            "country": "Meksyk",
+            "type": "Tequila Reposado",
+            "information": [
+                "Czerwony kogut stanowiący logo i nazwę marki to nie tylko nawiązanie do wulkanu Tequila (w kształcie którego rzeźbiony jest korek), ale symbol króla meksykańskich ptaków, utożsamiany z odwagą i pomyślnością."
+            ],
+            "additionalInfo": [
+                "Autentyczna, bardzo dobrze wyceniana i zaskakująco łagodna w smaku tequila z mniejszej, cenionej destylarni."
+            ],
+            "aroma": [
+                "🍮 Karmel • 🪵 Lekka dębina • 🍎 Dojrzałem jabłko • 🔥 Pieczona Agawa • 🌿 Goździki"
+            ],
+            "barrels": [
+                {
+                    "type": "French Oak",
+                    "process": "maturation",
+                    "time": "6 Miesięcy"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Sierra Antiguo Plata",
+            "group": "Stock Spirits Group",
+            "country": "Meksyk",
+            "type": "Tequila Blanco",
+            "information": [
+                "Mocny krok w kierunku tequili premium od producenta znanej, imprezowej Tequili z kapeluszem."
+            ],
+            "additionalInfo": [
+                "W przeciwieństwie do podstawowej, taniej wersji Sierra (z charakterystycznym plastikowym czerwonym sombrero), która jest mixto (min. 51% agawy, reszta to cukry rolnicze), linia Antiguo to w 100% czysta niebieska agawa z gór Los Altos."
+            ],
+            "aroma": [
+                "🌵 Mocna agawa • 🍋 Cytryna • 🫒 Zielone oliwki • 🌿 Trawa cytrynowa"
+            ],
+            "barrels": []
+        }
     ]
 }
