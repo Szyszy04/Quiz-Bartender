@@ -38,7 +38,21 @@ body {
     position: relative;
 }
 
+#close-quiz-menu {
+    top: 40px;
+}
+
+#home {
+    position: relative;
+    text-align: center;
+}
+
 #menu h1 {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+#home h1 {
     margin-top: 0;
     font-size: 36px;
 }
@@ -46,6 +60,40 @@ body {
 .subtitle {
     color: #999;
     margin-bottom: 30px;
+}
+
+.main-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main-option {
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background: #292929;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.main-option:hover {
+    background: #333;
+    transform: translateY(-1px);
+}
+
+.main-option span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-option small {
+    display: block;
+    margin-top: 5px;
+    color: #999;
 }
 
 .quiz-options {
@@ -86,26 +134,6 @@ body {
 /* =========================
    BIBLIOTEKA
 ========================= */
-
-.library-button {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 38px;
-    height: 38px;
-    border: none;
-    border-radius: 8px;
-    background: #292929;
-    color: #aaa;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.library-button:hover {
-    background: #333;
-    color: white;
-}
 
 .library-controls {
     display: flex;
@@ -230,7 +258,62 @@ body {
     color: #888;
 }
 
+.flashcard-box {
+    margin-top: 30px;
+}
+
+.flashcard-name {
+    width: 100%;
+    min-height: 120px;
+    padding: 24px;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    background: #292929;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+
+.flashcard-name:hover {
+    background: #333;
+}
+
+#flashcard-details .library-item {
+    margin-top: 12px;
+}
+
+.flashcard-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.flashcard-actions button {
+    flex: 1;
+    min-height: 46px;
+    padding: 10px 14px;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    background: #333;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.flashcard-actions button:hover:not(:disabled) {
+    background: #444;
+}
+
+.flashcard-actions button:disabled {
+    cursor: default;
+    opacity: 0.55;
+}
+
 .back-button {
+    top: 20px;
+    left: 20px;
     width: 40px;
     height: 40px;
     border: none;
