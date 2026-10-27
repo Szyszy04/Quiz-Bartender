@@ -5,7 +5,7 @@
     <meta charset="UTF-8" author="Wiktor Fedorowicz">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Whisky Quiz</title>
+    <title>Aplikacja Barmańska</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,26 +14,51 @@
 
     <main class="app">
 
-        <!-- =========================
-             MENU
-        ========================== -->
-
-        <section id="menu" class="screen">
-
-            <button id="library-button" class="library-button" type="button" title="Biblioteka" aria-label="Biblioteka">
-                📚
-            </button>
+        <section id="home" class="screen" aria-labelledby="home-title">
 
             <button id="settings-button" class="settings-button" type="button" title="Ustawienia"
                 aria-label="Ustawienia">
                 ⚙
             </button>
 
-            <h1>Whisky Quiz</h1>
+            <h1 id="home-title">Aplikacja Barmańska</h1>
+            <p class="subtitle">Wybierz tryb</p>
 
-            <p class="subtitle">
-                Wybierz rodzaj quizu
-            </p>
+            <div class="main-options">
+                <button id="library-home-button" class="main-option" type="button">
+                    <span>Biblioteka</span>
+                    <small>Przeglądaj informacje o butelkach i destylarniach</small>
+                </button>
+                <button id="quiz-home-button" class="main-option" type="button">
+                    <span>Quiz</span>
+                    <small>Sprawdź swoją wiedzę</small>
+                </button>
+                <button id="flashcards-home-button" class="main-option" type="button">
+                    <span>Fiszki</span>
+                    <small>Ucz się nazw i poznawaj szczegóły</small>
+                </button>
+            </div>
+
+        </section>
+
+        <!-- =========================
+             MENU
+        ========================== -->
+
+        <section id="menu" class="screen hidden">
+
+            <button id="close-quiz-menu" class="back-button" style="position: absolute;" type="button" aria-label="Wróć do menu głównego">
+                ←
+            </button>
+
+            <button id="mode-settings-button" class="settings-button" type="button" title="Ustawienia"
+                aria-label="Ustawienia">
+                ⚙
+            </button>
+
+            <h1>Aplikacja Barmańska</h1>
+
+            <p id="mode-subtitle" class="subtitle">Wybierz kategorię quizu</p>
 
             <div class="quiz-options">
 
@@ -334,6 +359,34 @@
 
                 <div id="expert-feedback" class="expert-feedback"></div>
 
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FISZKI
+        ========================== -->
+
+        <section id="flashcards" class="screen hidden">
+
+            <div class="quiz-header">
+                <button id="flashcards-back-button" class="back-button" type="button" style="position: unset;" aria-label="Wróć do menu">
+                    ←
+                </button>
+                <div class="quiz-title">
+                    <h2>Fiszki</h2>
+                    <div class="progress"><span id="flashcard-current">0</span> / <span id="flashcard-total">0</span></div>
+                </div>
+            </div>
+
+            <div class="flashcard-box">
+                <button id="flashcard-name" class="flashcard-name" type="button" aria-expanded="false"></button>
+                <div id="flashcard-details" class="hidden"></div>
+                <div class="flashcard-actions">
+                    <button id="flashcard-toggle" type="button" disabled>Pokaż informacje</button>
+                    <button id="flashcard-next" type="button" disabled>Następna</button>
+                </div>
             </div>
 
         </section>
