@@ -27,6 +27,10 @@ let selectedGroups = [];
 let allGroups = true;
 let questionCount = 20;
 let expertMode = false;
+let currentMode = "quiz";
+let settingsReturnScreen = null;
+let flashcards = [];
+let currentFlashcard = 0;
 
 
 // ======================================================
@@ -34,16 +38,24 @@ let expertMode = false;
 // ======================================================
 
 const menuScreen = document.getElementById("menu");
+const homeScreen = document.getElementById("home");
 const settingsScreen = document.getElementById("settings");
 const quizScreen = document.getElementById("quiz");
 const resultScreen = document.getElementById("result");
 const libraryScreen = document.getElementById("library");
+const flashcardsScreen = document.getElementById("flashcards");
 
-const libraryButton = document.getElementById("library-button");
+const libraryButton = document.getElementById("library-home-button");
 const closeLibraryButton = document.getElementById("close-library");
 const libTypeFilter = document.getElementById("lib-type-filter");
 const libGroupFilter = document.getElementById("lib-group-filter");
 const libraryList = document.getElementById("library-list");
+const flashcardName = document.getElementById("flashcard-name");
+const flashcardDetails = document.getElementById("flashcard-details");
+const flashcardToggle = document.getElementById("flashcard-toggle");
+const flashcardNext = document.getElementById("flashcard-next");
+const flashcardCurrentElement = document.getElementById("flashcard-current");
+const flashcardTotalElement = document.getElementById("flashcard-total");
 
 const questionElement = document.getElementById("question");
 const aromaElement = document.getElementById("aroma");
@@ -413,12 +425,55 @@ function startQuiz(type) {
     else quizNameElement.textContent = "Wszystko";
 
     menuScreen.classList.add("hidden");
+    homeScreen.classList.add("hidden");
     settingsScreen.classList.add("hidden");
     resultScreen.classList.add("hidden");
     quizScreen.classList.remove("hidden");
 
     totalQuestionsElement.textContent = questions.length;
     showQuestion();
+}
+
+function startFlashcards(type) {
+    flashcards = filterByGroups(getLibraryItems(type));
+
+    if (flashcards.length === 0) {
+        alert("Nie ma żadnych fiszek dla obecnych ustawień.");
+        return;
+    }
+
+    shuffle(flashcards);
+    if (questionCount !== "all") {
+        flashcards = flashcards.slice(0, Math.min(Number(questionCount), flashcards.length));
+    }
+
+    currentFlashcard = 0;
+    homeScreen.classList.add("hidden");
+    menuScreen.classList.add("hidden");
+    settingsScreen.classList.add("hidden");
+    flashcardsScreen.classList.remove("hidden");
+    flashcardTotalElement.textContent = flashcards.length;
+    renderFlashcard();
+}
+
+function renderFlashcard() {
+    const item = flashcards[currentFlashcard];
+    flashcardName.textContent = item.name;
+    flashcardName.setAttribute("aria-expanded", "false");
+    flashcardDetails.innerHTML = "";
+    flashcardDetails.appendChild(createLibraryItemElement(item));
+    flashcardDetails.classList.add("hidden");
+    flashcardToggle.textContent = "Pokaż informacje";
+    flashcardToggle.disabled = false;
+    flashcardNext.disabled = false;
+    flashcardCurrentElement.textContent = currentFlashcard + 1;
+}
+
+function toggleFlashcardDetails() {
+    const isVisible = !flashcardDetails.classList.contains("hidden");
+    flashcardDetails.classList.toggle("hidden", isVisible);
+    flashcardName.setAttribute("aria-expanded", String(!isVisible));
+    flashcardToggle.textContent = isVisible ? "Pokaż informacje" : "Ukryj informacje";
 }
 
 function getProcessLabel(process) {
@@ -716,7 +771,7 @@ function finishQuiz() {
 
 if (libraryButton) {
     libraryButton.addEventListener("click", () => {
-        menuScreen.classList.add("hidden");
+        homeScreen.classList.add("hidden");
         libraryScreen.classList.remove("hidden");
         populateLibraryGroups();
         renderLibrary();
@@ -726,7 +781,7 @@ if (libraryButton) {
 if (closeLibraryButton) {
     closeLibraryButton.addEventListener("click", () => {
         libraryScreen.classList.add("hidden");
-        menuScreen.classList.remove("hidden");
+        homeScreen.classList.remove("hidden");
     });
 }
 
@@ -749,38 +804,72 @@ function populateLibraryGroups() {
     });
 }
 
+function getLibraryItems(type = "all") {
+    const categories = [
+        ["distilleries", "Destylarnia", data.distilleries],
+        ["whiskies", "Whisky", data.whiskies],
+        ["gins", "Gin", data.gins],
+        ["liquers", "Likier", data.liquers],
+        ["rums", "Rum", data.rums],
+        ["tequilas", "Tequila", data.tequilas]
+    ];
+
+    return categories
+        .filter(([category]) => type === "all" || type === category)
+        .flatMap(([category, label, items]) => items.map(item => ({
+            ...item,
+            _category: label,
+            _type: category
+        })));
+}
+
+function createLibraryItemElement(item) {
+    const element = document.createElement("div");
+    element.className = "library-item";
+
+    let html = `<h3>${item.name} <small>(${item._category})</small></h3>`;
+    html += `<div class="library-tags">`;
+    if (item.group) html += `<span>🏢 ${item.group}</span>`;
+    if (item.country) html += `<span>🌍 ${item.country}</span>`;
+    if (item.region && item.region !== "Blended") html += `<span>📍 ${item.region}</span>`;
+    if (item.type) html += `<span>🥃 ${item.type}</span>`;
+    if (Array.isArray(item.aroma) && item.aroma.length > 0) {
+        html += `<span class="aroma"> ${item.aroma.join(" ")}</span>`;
+    }
+    if (Array.isArray(item.barrels) && item.barrels.length > 0) {
+        const barrelsList = item.barrels.map(barrel => {
+            const process = getProcessLabel(barrel.process);
+            const details = [process, barrel.time].filter(Boolean).join(", ");
+            return details ? `${barrel.type} (${details})` : barrel.type;
+        }).join(" + ");
+        html += `<span class="barrels">🛢️ ${barrelsList}</span>`;
+    }
+    if (Array.isArray(item.Mash) && item.Mash.length > 0) {
+        const mashList = item.Mash.map(mash => `${getMashName(mash.type)}: ${(mash.percentage * 100).toFixed(0)}%`).join(" | ");
+        html += `<span class="mash-tag">🌾 ${mashList}</span>`;
+    }
+    html += `</div><ul class="library-info">`;
+
+    if (Array.isArray(item.information)) {
+        item.information.forEach(info => { html += `<li>${info}</li>`; });
+    }
+    if (Array.isArray(item.additionalInfo)) {
+        item.additionalInfo.forEach(info => { html += `<li class="additional-info">💡 ${info}</li>`; });
+    }
+
+    html += `</ul>`;
+    element.innerHTML = html;
+    return element;
+}
+
 function renderLibrary() {
     if (!libraryList) return;
-    
+
     libraryList.innerHTML = "";
-    
-    const type = libTypeFilter.value;
     const group = libGroupFilter.value;
-    let items = [];
+    let items = getLibraryItems(libTypeFilter.value);
 
-    if (type === "all" || type === "distilleries") {
-        items = items.concat(data.distilleries.map(i => ({ ...i, _category: 'Destylarnia' })));
-    }
-    if (type === "all" || type === "whiskies") {
-        items = items.concat(data.whiskies.map(i => ({ ...i, _category: 'Whisky' })));
-    }
-    if (type === "all" || type === "gins") {
-        items = items.concat(data.gins.map(i => ({ ...i, _category: 'Gin' })));
-    }
-    if (type === "all" || type === "liquers") {
-        items = items.concat(data.liquers.map(i => ({ ...i, _category: 'Likier' })));
-    }
-    if (type === "all" || type === "rums") {
-        items = items.concat(data.rums.map(i => ({ ...i, _category: 'Rum' })));
-    }
-    if (type === "all" || type === "tequilas") {
-        items = items.concat(data.tequilas.map(i => ({ ...i, _category: 'Tequila' })));
-    }
-
-    if (group !== "all") {
-        items = items.filter(i => i.group === group);
-    }
-
+    if (group !== "all") items = items.filter(item => item.group === group);
     items.sort((a, b) => a.name.localeCompare(b.name));
 
     if (items.length === 0) {
@@ -788,59 +877,7 @@ function renderLibrary() {
         return;
     }
 
-    items.forEach(item => {
-        const div = document.createElement("div");
-        div.className = "library-item";
-
-        let html = `<h3>${item.name} <small>(${item._category})</small></h3>`;
-        html += `<div class="library-tags">`;
-        if (item.group) html += `<span>🏢 ${item.group}</span>`;
-        if (item.country) html += `<span>🌍 ${item.country}</span>`;
-        if (item.region && item.region !== "Blended") html += `<span>📍 ${item.region}</span>`;
-        if (item.type) html += `<span>🥃 ${item.type}</span>`;
-        
-        // Zabezpieczenie dla aromatu, który teraz jest tablicą
-        if (item.aroma && Array.isArray(item.aroma) && item.aroma.length > 0) {
-            html += `<span class="aroma"> ${item.aroma.join(" ")}</span>`;
-        }
-        
-        // Wyświetlenie beczek z ich procesami (np. dojrzewanie, finisz, wypalanie)
-        if (item.barrels && Array.isArray(item.barrels) && item.barrels.length > 0) {
-            const barrelsList = item.barrels.map(b => {
-                const process = getProcessLabel(b.process);
-                const details = [process, b.time].filter(Boolean).join(", ");
-                return details ? `${b.type} (${details})` : b.type;
-            }).join(" + ");
-            html += `<span class="barrels">🛢️ ${barrelsList}</span>`;
-        }
-
-        // Wyświetlanie zacieru
-        if (item.Mash && Array.isArray(item.Mash) && item.Mash.length > 0) {
-            const mashList = item.Mash.map(m => `${getMashName(m.type)}: ${(m.percentage * 100).toFixed(0)}%`).join(" | ");
-            html += `<span class="mash-tag">🌾 ${mashList}</span>`;
-        }
-        
-        html += `</div>`;
-
-        html += `<ul class="library-info">`;
-        
-        if (item.information) {
-            item.information.forEach(info => {
-                html += `<li>${info}</li>`;
-            });
-        }
-        
-        if (item.additionalInfo && item.additionalInfo.length > 0) {
-            item.additionalInfo.forEach(info => {
-                html += `<li class="additional-info">💡 ${info}</li>`;
-            });
-        }
-        
-        html += `</ul>`;
-        
-        div.innerHTML = html;
-        libraryList.appendChild(div);
-    });
+    items.forEach(item => libraryList.appendChild(createLibraryItemElement(item)));
 }
 
 
@@ -848,24 +885,90 @@ function renderLibrary() {
 // OBSŁUGA PRZYCISKÓW MENU I USTAWIENI
 // ======================================================
 
-document.getElementById("settings-button").addEventListener("click", () => {
-    menuScreen.classList.add("hidden");
+function openSettings(returnScreen) {
+    settingsReturnScreen = returnScreen;
+    returnScreen.classList.add("hidden");
+    document.querySelector("#settings .settings-description").textContent = currentMode === "flashcards"
+        ? "Wybierz koncerny, z których mają pochodzić fiszki."
+        : "Wybierz koncerny, z których mają pochodzić pytania.";
+    document.querySelector(".question-settings h3").textContent = currentMode === "flashcards"
+        ? "Liczba fiszek"
+        : "Liczba pytań";
     renderGroupOptions();
     renderQuestionCountOptions();
     renderExpertMode();
+    document.querySelector(".expert-settings").classList.toggle("hidden", currentMode === "flashcards");
     settingsScreen.classList.remove("hidden");
+}
+
+document.getElementById("settings-button").addEventListener("click", () => {
+    currentMode = "quiz";
+    openSettings(homeScreen);
+});
+
+document.getElementById("mode-settings-button").addEventListener("click", () => {
+    openSettings(menuScreen);
 });
 
 document.getElementById("close-settings").addEventListener("click", () => {
     settingsScreen.classList.add("hidden");
+    settingsReturnScreen.classList.remove("hidden");
+});
+
+function openCategoryMenu(mode) {
+    currentMode = mode;
+    homeScreen.classList.add("hidden");
     menuScreen.classList.remove("hidden");
+    document.getElementById("mode-subtitle").textContent = mode === "flashcards"
+        ? "Wybierz kategorię fiszek"
+        : "Wybierz kategorię quizu";
+    document.querySelectorAll(".quiz-option").forEach(button => {
+        const category = button.dataset.quiz;
+        let description;
+
+        if (mode === "flashcards") {
+            description = category === "distilleries"
+                ? "Odkrywaj informacje o destylarni"
+                : category === "all"
+                    ? "Wszystkie dostępne fiszki"
+                    : "Odkrywaj informacje o butelce";
+        } else if (category === "distilleries") {
+            description = "Rozpoznaj destylarnię na podstawie informacji";
+        } else if (category === "all") {
+            description = "Wszystkie dostępne kategorie";
+        } else {
+            description = "Rozpoznaj butelkę na podstawie informacji";
+        }
+
+        button.querySelector("small").textContent = description;
+    });
+}
+
+document.getElementById("quiz-home-button").addEventListener("click", () => openCategoryMenu("quiz"));
+document.getElementById("flashcards-home-button").addEventListener("click", () => openCategoryMenu("flashcards"));
+
+document.getElementById("close-quiz-menu").addEventListener("click", () => {
+    menuScreen.classList.add("hidden");
+    homeScreen.classList.remove("hidden");
 });
 
 document.querySelectorAll(".quiz-option").forEach(button => {
     button.addEventListener("click", () => {
-        const quizType = button.dataset.quiz;
-        startQuiz(quizType);
+        if (currentMode === "flashcards") startFlashcards(button.dataset.quiz);
+        else startQuiz(button.dataset.quiz);
     });
+});
+
+document.getElementById("flashcards-back-button").addEventListener("click", () => {
+    flashcardsScreen.classList.add("hidden");
+    menuScreen.classList.remove("hidden");
+});
+
+flashcardName.addEventListener("click", toggleFlashcardDetails);
+flashcardToggle.addEventListener("click", toggleFlashcardDetails);
+flashcardNext.addEventListener("click", () => {
+    currentFlashcard = (currentFlashcard + 1) % flashcards.length;
+    renderFlashcard();
 });
 
 document.getElementById("back-button").addEventListener("click", () => {
@@ -893,9 +996,8 @@ document.getElementById("restart-button").addEventListener("click", () => {
 
 document.getElementById("menu-button").addEventListener("click", () => {
     resultScreen.classList.add("hidden");
-    menuScreen.classList.remove("hidden");
+    homeScreen.classList.remove("hidden");
 });
-
 
 // ======================================================
 // SHUFFLE
