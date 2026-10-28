@@ -3002,6 +3002,12 @@
                 "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Solidny, codzienny rum dojrzewający w beczkach po bourbonie, o niezwykle łagodnym, przystępnym profilu."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
+            ],
             "aroma": [
                 "🍯 Karmel • 🍦 Wanilia • 🌰 Prażone orzechy • 🪵 Delikatny dąb • 🥥 Zapiekany kokos • 🍬 Mleczne krówki"
             ],
@@ -3022,6 +3028,12 @@
                 "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Głębszy i bardziej tytoniowy w odbiorze."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
+            ],
             "aroma": [
                 "🌰 Gałka muszkatołowa • 🍎 Pieczone jabłka z cynamonem • 🍇 Suszone owoce"
             ],
@@ -3042,6 +3054,12 @@
                 "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Seria 15-letnich rumów rozlewanych z różnymi finiszami, są niezwykle bogate, ciężkie i złożone."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
+            ],
             "aroma": [
                 "🌧️ Mokra ziemia • 🍐 Dojrzała gruszka • 🫐 Ciemne owoce • 🌰 Orzechy włoskie • 🪵 Drewno"
             ],
@@ -3064,6 +3082,12 @@
             "type": "",
             "information": [
                 "Należy do kolekcji XV Finish. Starzony 15 lat, z czego finalny okres spędza w beczkach po hiszpańskim sherry, nadając mu wysoce wytrawny, orzechowy charakter."
+            ],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
             ],
             "additionalInfo": [],
             "aroma": [
@@ -3088,6 +3112,12 @@
             "type": "",
             "information": [
                 "Kolejna odsłona kolekcji XV Finish, leżakowana w beczkach po portugalskim porto, która maksymalizuje poziom słodyczy i owocowości w panamskim destylacie."
+            ],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
             ],
             "additionalInfo": [],
             "aroma": [
@@ -3114,6 +3144,12 @@
                 "Największa prywatna firma alkoholowa na świecie. Przechodzi do 2 lat starzenia, a następnie jest filtrowany przez tropikalny węgiel drzewny, aby usunąć kolor. Absolutny klasyk koktajlowy."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (Continuous)"
+            ],
             "aroma": [
                 "☁️ Pianki marshmallow • 🎋 Zielony bambus • 🍋 Jasne cytrusy • 🍦 Wanilia"
             ],
@@ -3134,6 +3170,12 @@
                 "Opracowany w 1862 roku jako prywatny rum rodziny Bacardi, udostępniony publicznie wiele dekad później."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (Continuous)"
+            ],
             "aroma": [
                 "🍑 Pestka moreli • 🧂 Karmel z solą • 🌿 Ziele angielskie • 🪵 Dąb"
             ],
@@ -3154,6 +3196,12 @@
                 "Wersja premium, poddawana lekkiej filtracji węglowej dla wygładzenia struktury. Bardziej owocowy i wyrafinowany niż Ocho."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (Continuous)"
+            ],
             "aroma": [
                 "🍌 Karmelizowany banan • 🍈 Melon kantalupa • 🍍 Grillowany ananas"
             ],
@@ -3174,6 +3222,12 @@
                 "Blend 21 rumów w wieku od 3 do 12 lat. Obecność araku z wyspy Jawa, fermentowanego z czerwonym ryżem, dodaje mu unikalnego, ziemistego smaku rzadko spotykanego w tradycyjnych rumach."
             ],
             "additionalInfo": [],
+                        "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Mieszana (Blend destylatów z alembików i kolumn)"
+            ],
             "aroma": [
                 "🍚 Fermentowany czerwony ryż • 🍏 Skórka jabłka • 🌿 Zielona trawa • ⚪ Biały pieprz"
             ],
@@ -3194,6 +3248,12 @@
                 "Znany również pod nazwą Diplomático. Kwintesencja słodkiego, deserowego, bardzo gęstego wenezuelskiego stylu. Nazwa używana jest w Europie z powodu praw autorskich."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa oraz Miód z trzciny cukrowej"
+            ],
+            "distillation": [
+                "Mieszana (Alembik, Kolumna, Batch Kettle)"
+            ],
             "aroma": [
                 "🥐 Cynamonki • 🍁 Syrop klonowy • 🍫 Skórka pomarańczy w czekoladzie • 🍯 Miód"
             ],
@@ -3218,6 +3278,12 @@
                 "Powstaje z miodu z trzciny cukrowej (nie z melasy) i dojrzewa w ekstremalnie na nowo wypalanych beczkach. Posiada gładki smak z dymnym finiszem i niezwykle lepką strukturą."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa z elementami alembikowej"
+            ],
             "aroma": [
                 "☕ Ziarna palonej kawy • 🍯 Płynny słodki dym • 🍮 Przypalony karmel • 🍦 Wanilia"
             ],
@@ -3246,6 +3312,12 @@
                 "Destylowany tylko w miedzianych alembikach, co sprawia, że jest cięższy, masywniejszy i mniej słodki od wersji Insolent. Zdecydowanie mroczny profil."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa z elementami alembikowej"
+            ],
             "aroma": [
                 "🍂 Wytrawne liście cygara • ☕ Espresso • 🟤 Gorzkie kakao • 🌧️ Wilgotna ziemia"
             ],
@@ -3266,6 +3338,12 @@
                 "Kolumbijskie beczki wysłano do hiszpańskiego domu winiarskiego, gdzie rum finiszował w 50-letnich dębowych beczkach po ultragęstym sherry Pedro Ximénez pod okiem drugiego mistrza."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa z elementami alembikowej"
+            ],
             "aroma": [
                 "🍇 Świąteczne ciasto z przypieczonymi brzegami • 🍫 Prażone płatki migdałów • 🍞 Zapach tropikalnych lilii w upalną noc • 🥜 Akcenty dziczyzny i mięsa • 🍬 Przypalane toffi • 🍖 Akcenty wieprzowiny marynowanej w winie"
             ],
@@ -3290,6 +3368,12 @@
                 "Ultra-limitowany rocznik (Single Vintage) pokazujący ewolucję wybranego roku destylacji pod wpływem klasycznych beczek po bourbonie."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa z elementami alembikowej"
+            ],
             "aroma": [
                 "🍦 Laska wanilii • 🍭 Wata cukrowa • 🪵 Jasny dąb"
             ],
@@ -3310,6 +3394,12 @@
                 "Część rocznikowej kolekcji Sinfonía, tym razem poddana dominującemu wpływowi beczek po portugalskim winie wzmacnianym."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa z elementami alembikowej"
+            ],
             "aroma": [
                 "🫐 Dżem jeżynowy • 🍫 Rubinowa czekolada • 🍒 Wiśnie w likierze"
             ],
@@ -3330,6 +3420,12 @@
                 "Długo dojrzewający rocznik destylowany pod koniec lat 90., charakteryzujący się mocnym, przyprawowo-owocowym uderzeniem z hiszpańskiego dębu."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa z elementami alembikowej"
+            ],
             "aroma": [
                 "🍇 Suszone daktyle • 🌿 Goździki • 🌰 Włoskie orzechy"
             ],
@@ -3350,6 +3446,12 @@
                 "Selekcja Vintage kładąca nacisk na potężną wytrawność i taniny. W tej odsłonie brakuje słodyczy znanej z nowszych wydań marki."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa z elementami alembikowej"
+            ],
             "aroma": [
                 "🪵 Wytrawne taniny dębowe • 👞 Skóra rymarska • ☕ Czarna herbata"
             ],
@@ -3370,6 +3472,12 @@
                 "Rum destylowany u stóp aktywnego wulkanu San Cristóbal. Producent szczyci się zerowym śladem węglowym, brakiem sztucznego cukru oraz beczkami uszczelnianymi naturalnymi liśćmi bananowca."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa"
+            ],
             "aroma": [
                 "🌋 Wulkaniczna mineralność • 🍦 Wytrawna wanilia • 🥥 Kokos • 🌰 Prażony orzech laskowy"
             ],
@@ -3390,6 +3498,12 @@
                 "Wykorzystuje proces 'Cuban Barrel Proof'. Blendy wracają do specjalnie wybranych beczek na kolejne starzenie, a alkohol rozlewany jest z podwyższoną mocą 45% bez sztucznego dosładzania."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Kolumnowa (łączenie cięższego Aguardiente i lekkiego destylatu)"
+            ],
             "aroma": [
                 "🪵 Drewno cedrowe • 🍂 Wytrawne liście tytoniu • 🌰 Orzechy pekan • 🌿 Pikantne ziele angielskie"
             ],
@@ -3406,7 +3520,7 @@
         },
         {
             "id": 20,
-            "name": "Leblon",
+            "name": "Leblon Cachaça",
             "group": "Bacardi-Martini",
             "country": "Brazylia",
             "type": "Cachaça",
@@ -3414,6 +3528,12 @@
                 "Destylowana w miedzianych alembikach, a następnie krótko starzona we francuskich beczkach po koniaku (Cognac XO), co nadaje jej unikalną, gładką strukturę idealną do Caipirinhi."
             ],
             "additionalInfo": [],
+            "material": [
+                "Świeży sok z trzciny cukrowej"
+            ],
+            "distillation": [
+                "Pojedyncza destylacja (Single Distillation) w alembiku"
+            ],
             "aroma": [
                 "🌾 Świeży sok z trzciny • 🌼 Kwiat wiciokrzewu • 🍌 Niedojrzałe banany • 🌿 Skoszona łąka"
             ],
@@ -3434,6 +3554,12 @@
                 "Starzony wysoko w górach (2300 m n.p.m.). Blend destylatów w wieku od 6 do 23 lat w systemie solera. Butelka ozdobiona jest tradycyjną plecionką petate."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa"
+            ],
             "aroma": [
                 "🍫 Mleczna czekolada • 🍯 Ciemna melasa • 🍇 Rumowe rodzynki • 🍦 Wanilia"
             ],
@@ -3466,6 +3592,12 @@
                 "Wersja Solera starzona od 10 do 25 lat. Kluczowym dodatkiem w porównaniu do wersji 23 jest finalne starzenie we francuskich beczkach po koniaku."
             ],
             "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa"
+            ],
             "aroma": [
                 "🍒 Ciemna suszona wiśnia • 🥜 Intensywny marcepan • 🫘 Pieczone figi • 🪵 Wytrawny dąb"
             ],
@@ -3499,6 +3631,12 @@
                 "Liczba w nazwie oznacza rok założenia plantacji trzciny cukrowej, a na jej 200-stu lecie powstała ta butelka."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "Mieszana (Pot Still oraz Column Still)"
+            ],
             "aroma": [
                 "👞 Stara skóra • 🚬 Tytoń fajkowy • 🫐 Suszona śliwka • 🍫 Ciemna czekolada"
             ],
@@ -3523,6 +3661,12 @@
                 "Rozlewany z siłą Marynarki Wojennej (Navy Strength 57% ABV). Kwintesencja jamajskiego profilu 'Hogo' (wysoka zawartość estrów). Niezastąpiony w klasycznych koktajlach Tiki."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa (często z dodatkiem dunder/muck)"
+            ],
+            "distillation": [
+                "Alembikowa (Miedziane Alembiki / Pot Stills)"
+            ],
             "aroma": [
                 "🍌 Przejrzały czarny banan • 🍍 Fermentujący ananas • 🪵 Lakier do drewna • 🌶️ Ostre przyprawy"
             ],
@@ -3543,6 +3687,12 @@
                 "Botaniczny rum, który unika sztucznych syropów. Baza melasowa jest macerowana solą morską z Añana i przyprawami podobnie jak przy rzemieślniczej produkcji ginu."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa (rum bazowy)"
+            ],
+            "distillation": [
+                "Mieszana"
+            ],
             "aroma": [
                 "🧂 Słony karmel • 🟤 Surowe kakao • 🌿 Strąki kardamonu • 🍦 Wanilia"
             ],
@@ -3558,6 +3708,12 @@
                 "Destylarnia typu Single Estate – w pełni niezależny proces od posadzenia trzciny po butelkowanie. Używają wyłącznie miedzianych alembików."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa"
+            ],
+            "distillation": [
+                "W 100% Alembikowa (Pure Single Rum / Pot Still)"
+            ],
             "aroma": [
                 "🍌 Zielony niedojrzały banan • 🌿 Eukaliptus • ☕ Liście czarnej herbaty • 🌶️ Czarny pieprz"
             ],
@@ -3578,6 +3734,12 @@
                 "Marka o żeglarskim brandingu z Europy Zachodniej. Destylaty sprowadzane są z krajów karaibskich, po czym poddawane infuzji słodkimi i korzennymi przyprawami w Belgii."
             ],
             "additionalInfo": [],
+            "material": [
+                "Melasa (rum bazowy)"
+            ],
+            "distillation": [
+                "Mieszana"
+            ],
             "aroma": [
                 "🥭 Syrop z mango • 🍊 Kandyzowana skórka pomarańczy • 🍂 Mocny cynamon • 🌶️ Przyprawy korzenne"
             ],
@@ -3877,6 +4039,323 @@
                 "🌵 Mocna agawa • 🍋 Cytryna • 🫒 Zielone oliwki • 🌿 Trawa cytrynowa"
             ],
             "barrels": []
+        }
+    ],
+    "vodka": [
+        {
+            "id": 1,
+            "name": "Belvedere",
+            "country": "Poland",
+            "group": "LVMH",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Produkowana w Żyrardowie od 1910 roku. Przechodzi proces czterokrotnej destylacji. Zgodnie z polską apelacją wódki, nie zawiera żadnych dodatków, w tym cukru czy gliceryny. Nazwa nawiązuje do pałacu Belweder w Warszawie, który widnieje na butelce."
+            ],
+            "material": [
+                "Polskie żyto Dańkowskie, woda artezyjska z własnego ujęcia."
+            ],
+            "texture": [
+                "Bardzo gładka, kremowa, zaokrąglona na języku."
+            ],
+            "aroma": [
+                "biały pieprz • 🍦 Delikatna wanilia •  nuty chleba żytniego • śmietanka • midgały • 🍬 Mleczne krówki"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Belvedere Blackberry & Lemongrass",
+            "country": "Poland",
+            "group": "LVMH",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Seria Organic Infusions składa się w 100% z certyfikowanych składników ekologicznych. Nie zawiera dodatku cukru, a smak pochodzi wyłącznie z naturalnych infuzji botanicznych, co czyni ją świetną bazą pod lekkie Spritze."
+            ],
+            "material": [
+                "Organiczne żyto polskie, macerowane z organicznymi jeżynami, trawą cytrynową i szałwią."
+            ],
+            "texture": [
+                "Lekka, orzeźwiająca, rześka."
+            ],
+            "aroma": [
+                "dojrzała jeżyna • rześka trawa cytrynowa •  nuty chleba żytniego • ziemista szałwia • owocowy • ziołowe tło"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Belvedere Smogóry Forest",
+            "country": "Poland",
+            "group": "LVMH",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Smogóry są otoczone rozległymi lasami, a tamtejsze surowe warunki i terroir nadają żytu (i wódce) bardzo wyrazisty, pikantny i ziemisty charakter. Wódka ta celowo nie jest filtrowana, aby zachować maksimum smaku surowca."
+            ],
+            "material": [
+                "Żyto Dańkowskie Diamentowe pochodzące wyłącznie z jednej posiadłości w Smogórach (woj. lubuskie)."
+            ],
+            "texture": [
+                "Mocna, pełna, mięsista (full-bodied), lekko chwytająca za język."
+            ],
+            "aroma": [
+                "słona bryza morska • opiekany chleb • karmel • biały pieprz • miód • prażone orzechy"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Belvedere Heritage 176",
+            "country": "Poland",
+            "group": "LVMH",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Ze względu na proces słodowania i wypalania, według prawa Unii Europejskiej produkt ten nie może być formalnie nazywany wódką, lecz napojem spirytusowym (spirit drink). Odtwarza tradycyjne, wielowiekowe polskie metody gorzelnicze, zanim zaczęto stosować destylację kolumnową."
+            ],
+            "material": [
+                "Żyto (klasyczny spirytus żytni) zblendowane ze spirytusem ze słodu żytniego wypalanego w temperaturze 176°F (80°C)."
+            ],
+            "texture": [
+                "Niezwykle bogata, oleista i lepka."
+            ],
+            "aroma": [
+                "Świeżo wypiekany chleb na zakwasie • włoskie orzechy • ziele angielskie • miód • słodkie przyprawy korzenne"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Belvedere Lake Bartężek",
+            "country": "Poland",
+            "group": "LVMH",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Jezioro Bartężek często zamarza, a zimy są długie i mroźne. To mazurskie terroir sprawia, że żyto wytwarza spirytus o zupełnie innym, znacznie lżejszym i bardziej kwiatowo-owocowym profilu w porównaniu do leśnych, ciężkich Smogór."
+            ],
+            "material": [
+                "Żyto Dańkowskie Diamentowe z jednej posiadłości na Mazurach, nad jeziorem Bartężek."
+            ],
+            "texture": [
+                "Bardzo lekka, rześka, elegancka i chłodna w odbiorze."
+            ],
+            "aroma": [
+                "Świeżo skoszona trawa • zielone jabłko • migdały • mięta pieprzowa"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Belvedere Lemon & Basil",
+            "country": "Poland",
+            "group": "LVMH",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Podobnie jak w innych edycjach Organic, botaniki macerowane są bezpośrednio w spirytusie, tworząc autentyczny, niechemiczny profil. Jest to doskonała odpowiedź na trend sugar-free."
+            ],
+            "material": [
+                "Organiczne żyto, cytryny, świeża bazylia, kwiat bzu."
+            ],
+            "texture": [
+                "Czysta, wibrująca, wytrawna."
+            ],
+            "aroma": [
+                "Rześka • skórka z cytryny • zielona bazylia • kwiat bzu"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Belvedere Pear & Ginger",
+            "country": "Poland",
+            "group": "LVMH",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Dodatek miodu lipowego to hołd dla polskich tradycji pszczelarskich, idealnie wpisujący się w DNA marki."
+            ],
+            "material": [
+                "Organiczne żyto, gruszka, korzeń imbiru, polski miód lipowy."
+            ],
+            "texture": [
+                "Gładka, rozgrzewająca, nieco gęstsza od wersji cytrynowej."
+            ],
+            "aroma": [
+                "Dojrzała • pieczona gruszka • pikantny imbir • kwiatowy aromat miodu lipowego"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Chopin",
+            "country": "Poland",
+            "group": "Polmos",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Do wyprodukowania jednej 700 ml butelki Chopin Potato potrzeba około 40 ziemniaków (ok. 3 kg). Była to pierwsza na świecie luksusowa wódka ziemniaczana, przecierająca szlaki dla alkoholi segmentu super-premium w latach 90. Destylowana w tradycyjnych miedzianych kolumnach w gorzelni w Krzesku."
+            ],
+            "material": [
+                "Ziemniaki odmiany Stobrawa uprawiane na Podlasiu, woda artezyjska."
+            ],
+            "texture": [
+                "Wyjątkowo kremowa, lepka, ciężka na języku."
+            ],
+            "aroma": [
+                "ziemiste nuty • wanilia • zielone jabłko"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Grey Goose",
+            "country": "Francja",
+            "group": "Bacardi-Martini",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Wódka została stworzona przez François Thibault, który wcześniej był Maître de Chai (mistrzem piwnic) zajmującym się produkcją koniaku. Woda używana do jej produkcji jest naturalnie filtrowana przez wapienne skały regionu Szampanii."
+            ],
+            "material": [
+                "Miękka pszenica ozima z regionu Pikardii we Francji, krystaliczna woda ze źródła w Gensac-la-Pallue."
+            ],
+            "texture": [
+                "Miękka, zaokrąglona, delikatna (typowy profil pszeniczny)."
+            ],
+            "aroma": [
+                "nuty kwiatowe • cytrusy • migdały • słodkie ciasto • pieczywo"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Młody Ziemniak",
+            "country": "Poland",
+            "group": "Polmos",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "To nie jest standardowa wódka, ale okowita ziemniaczana. Destyluje się ją tylko raz (aby nie wyczyścić alkoholu z aromatów surowca) do mocy zaledwie 40-42%. Jest produktem rocznikowym – każda edycja (rok zbiorów i warunki pogodowe) ma nieco inny profil smakowy."
+            ],
+            "material": [
+                "Wczesne, letnie odmiany ziemniaków (tzw. młode ziemniaki), zbierane latem (jeden rocznik – vintage)."
+            ],
+            "texture": [
+                "Skrajnie oleista, oblepiająca usta."
+            ],
+            "aroma": [
+                "Ziemia po deszczu • surowe warzywa okopowe • dym • maślany"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Okowita Pszenica",
+            "country": "Poland",
+            "group": "Podole Wielkie",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Okowity z pszenicy są zazwyczaj najbardziej przyjazne dla osób, które nie przepadają za mocnymi alkoholami. Ze względu na jednokrotną/dwukrotną destylację alembikową (zamiast wielokrotnej w kolumnie) zachowują naturalną, chlebowo-ciastkową słodycz ziarna."
+            ],
+            "material": [
+                "Zacier z ziaren pszenicy."
+            ],
+            "texture": [
+                "Aksmitnie gładka, lekka, bardzo łagodna dla gardła."
+            ],
+            "aroma": [
+                "Słodkie wypieki • płatki śniadaniowe • bardzo delikatna owocowość • ciasto waniliowe"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Okowita Żyto",
+            "country": "Poland",
+            "group": "Podole Wielkie",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Prawdziwe, nieoczyszczone żyto pokazuje tu swój pazur. Taka okowita pozwala zrozumieć, skąd biorą się pieprzne i pikantne nuty w tradycyjnych polskich wódkach żytnich. Jest to spirytus dla poszukiwaczy intensywnych doznań."
+            ],
+            "material": [
+                "Zacier z ziaren żyta."
+            ],
+            "texture": [
+                "Wyrazista, uderzająca, rozgrzewająca i mocno zbudowana."
+            ],
+            "aroma": [
+                "wieża skórka razowego chleba • pumpernikiel • zioła • czarny pieprz • orzechy"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Okowita Ziemniak",
+            "country": "Poland",
+            "group": "Podole Wielkie",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Ze względu na ogromne koszty i nakład pracy (obieranie, parowanie, niska wydajność ziemniaka w porównaniu do zboża), rzemieślnicze okowity ziemniaczane są rarytasem. Ukazują pełen profil smaku skrobi, całkowicie inny od sterylnie czystych wódek rynkowych."
+            ],
+            "material": [
+                "Zacier z konkretnych, rzemieślniczo dobieranych odmian ziemniaka (np. Miranda, Gala)."
+            ],
+            "texture": [
+                "Ciężka, bardzo gęsta i tłusta."
+            ],
+            "aroma": [
+                "Ciężkie • pumpernikiel • pieczonego ziemniaka z masłem • ziemisty • bardzo sycący i słodkawy"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Ostoya",
+            "country": "Poland",
+            "group": "Pernod Ricard",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Marka mocno podkreśla swoje bieszczadzkie pochodzenie i mikroklimat. Jest to jedna z najłagodniejszych polskich wódek w segmencie premium (często wygrywająca medale na międzynarodowych konkursach za gładkość). Doskonała pozycja w dark menu dla osób pijących wódkę sauté (na czysto), które obawiają się alkoholowego pieczenia."
+            ],
+            "material": [
+                "Pszenica ozima z rejonu Bieszczad, krystaliczna woda."
+            ],
+            "texture": [
+                "Aksamitna, gładka, przyjazna."
+            ],
+            "aroma": [
+                "wanilia • mleko • kremowy • słodycz pszenicy • ciepły finisz"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Tessellis White Chocolate & Pineapple",
+            "country": "Poland",
+            "group": "Tessellis Distillery",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "To produkt z polskiej destylarni rzemieślniczej Wolf & Oak (marka Tessellis). Całkowicie zrywa z tradycyjnym postrzeganiem wódki jako przezroczystego, neutralnego alkoholu. Produkt ten świetnie sprawdza się serwowany na dużej kostce lodu jako zwieńczenie posiłku lub jako składnik kreatywnych, nowoczesnych koktajli o profilu słodko-kwaśnym."
+            ],
+            "material": [
+                "Rzemieślniczy spirytus (zazwyczaj zbożowy) macerowany/infuzowany białą czekoladą i ananasem."
+            ],
+            "texture": [
+                "Gęsta, likierowa, bardzo bogata."
+            ],
+            "aroma": [
+                "deserowa słodycz • Kremowa biała czekolada • kakao • soczysty ananas • Płynny deser"
+            ]
         }
     ]
 }
