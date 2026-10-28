@@ -16,7 +16,8 @@ let data = {
     gins: [],
     liquers: [],
     rums: [],
-    tequilas: []
+    tequilas: [],
+    vodka: []
 };
 
 let questions = [];
@@ -99,6 +100,7 @@ async function loadData() {
         if (!Array.isArray(data.liquers)) data.liquers = [];
         if (!Array.isArray(data.rums)) data.rums = [];
         if (!Array.isArray(data.tequilas)) data.tequilas = [];
+        if (!Array.isArray(data.vodka)) data.vodka = [];
 
         console.log("Dane załadowane:");
         console.log(data);
@@ -197,7 +199,7 @@ function saveSettings() {
 function getAvailableGroups() {
     const groups = new Set();
 
-    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas].forEach(item => {
+    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas, ...data.vodka].forEach(item => {
         if (typeof item.group === "string" && item.group.trim() !== "") {
             groups.add(item.group.trim());
         }
@@ -209,7 +211,7 @@ function getAvailableGroups() {
 function getDisplayGroups() {
     const counts = new Map();
 
-    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas].forEach(item => {
+    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas, ...data.vodka].forEach(item => {
         if (typeof item.group === "string" && item.group.trim() !== "") {
             const group = item.group.trim();
             counts.set(group, (counts.get(group) || 0) + 1);
@@ -811,7 +813,8 @@ function getLibraryItems(type = "all") {
         ["gins", "Gin", data.gins],
         ["liquers", "Likier", data.liquers],
         ["rums", "Rum", data.rums],
-        ["tequilas", "Tequila", data.tequilas]
+        ["tequilas", "Tequila", data.tequilas],
+        ["vodka", "Wódka", data.vodka]
     ];
 
     return categories
@@ -851,10 +854,19 @@ function createLibraryItemElement(item) {
     html += `</div><ul class="library-info">`;
 
     if (Array.isArray(item.information)) {
-        item.information.forEach(info => { html += `<li>${info}</li>`; });
+        item.information.filter(info => info.trim() !== "").forEach(info => { html += `<li>${info}</li>`; });
     }
     if (Array.isArray(item.additionalInfo)) {
-        item.additionalInfo.forEach(info => { html += `<li class="additional-info">💡 ${info}</li>`; });
+        item.additionalInfo.filter(info => info.trim() !== "").forEach(info => { html += `<li class="additional-info">💡 ${info}</li>`; });
+    }
+    if (Array.isArray(item.material)) {
+        item.material.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Surowiec:</strong> ${info}</li>`; });
+    }
+    if (Array.isArray(item.distillation)) {
+        item.distillation.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Destylacja:</strong> ${info}</li>`; });
+    }
+    if (Array.isArray(item.texture)) {
+        item.texture.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Tekstura:</strong> ${info}</li>`; });
     }
 
     html += `</ul>`;
@@ -924,6 +936,7 @@ function openCategoryMenu(mode) {
         : "Wybierz kategorię quizu";
     document.querySelectorAll(".quiz-option").forEach(button => {
         const category = button.dataset.quiz;
+        button.classList.toggle("hidden", button.dataset.flashcardsOnly === "true" && mode !== "flashcards");
         let description;
 
         if (mode === "flashcards") {
