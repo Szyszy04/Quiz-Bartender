@@ -2728,7 +2728,10 @@
             "information": [
                 "Wytwarzany z papryczek poblano, które po zebraniu są suszone na słońcu przez 2-3 tygodnie (stając się papryczkami ancho), a następnie ręcznie krojone i macerowane w alkoholach trzcinowych przez pół roku."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🌶 wędzone chili • 🍫 kakao • 🌿 cynamonu • 🍯 rozgrzewających przypraw"
+            ]
         },
         {
             "id": 2,
@@ -2738,7 +2741,10 @@
             "information": [
                 "Został stworzony w 1974 roku jako pierwszy na świecie likier oparty na połączeniu śmietanki i whisky. Do jego produkcji zużywa się rocznie około 4% całej produkcji irlandzkiego mleka."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍫 Mleczna czekolada • 🥛 Śmietanka • 🍦 Wanilia"
+            ]
         },
         {
             "id": 3,
@@ -2748,7 +2754,10 @@
             "information": [
                 "Na każdej butelce widnieje skrót oznaczający - Deo Optimo Maximo – Bogu Najlepszemu, Największemu. Receptura składa się z 27 ziół i przypraw, a jej autorstwo przypisuje się XVI-wiecznemu mnichowi Bernardo Vincelliemu."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍯 Miód • 🍊 Skórka pomarańczy • 🌿 Dzięgiel • 🌸 Goździki • 🌰 Gałka muszkatołowa"
+            ]
         },
         {
             "id": 4,
@@ -2758,7 +2767,10 @@
             "information": [
                 "Powstaje w procesie destylacji skórek bergamotki sprowadzanych z Kalabrii we Włoszech. Nadaje koktajlom ten sam charakterystyczny aromat cytrusowy, który definiuje herbatę Earl Grey."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍋 Bergamotka • 🍊 Cytrusy • 🌼 Kwiaty"
+            ]
         },
         {
             "id": 5,
@@ -2768,7 +2780,10 @@
             "information": [
                 "Przezroczysty likier kakaowy robiony z prażonych ziaren kakaowca z Wybrzeża Kości Słoniowej. Stosuje się go w koktajlach (np. 20th Century), aby nadać intensywny smak czekolady bez zmiany barwy napoju."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍫 Kakao • 🍫 Biała czekolada • 🍦 Wanilia"
+            ]
         },
         {
             "id": 6,
@@ -2778,7 +2793,10 @@
             "information": [
                 "Posiada chronione oznaczenie geograficzne (IGP). Robiony wyłącznie z czarnych porzeczek odmiany Noir de Bourgogne. Jest nieodzownym składnikiem klasycznego francuskiego aperitifu Kir oraz Kir Royale."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🫐 Czarna porzeczka • 🍇 Owoce"
+            ]
         },
         {
             "id": 7,
@@ -2788,7 +2806,10 @@
             "information": [
                 "Likier jeżynowy, który jest absolutnie kluczowym i niezastąpionym składnikiem słynnego nowożytnego klasyka z lat 80. – koktajlu Bramble stworzonego przez Dicka Bradsella."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🫐 Jeżyna • 🍓 Owoce leśne"
+            ]
         },
         {
             "id": 8,
@@ -2798,7 +2819,10 @@
             "information": [
                 "Intensywnie zielony likier miętowy bazujący na destylacie z liści mięty pieprzowej (Mentha x piperita), stanowiący fundament klasycznego, kremowo-zielonego koktajlu Grasshopper."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🌿 Mięta pieprzowa"
+            ]
         },
         {
             "id": 9,
@@ -2808,7 +2832,10 @@
             "information": [
                 "Fiołkowy likier o głębokiej, niebiesko-fioletowej barwie. To właśnie ten składnik nadaje ikonicznemu koktajlowi Aviation charakterystyczny, błękitny odcień imitujący niebo."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🪻 Fiołki • 🌼 Kwiaty"
+            ]
         },
         {
             "id": 10,
@@ -2818,7 +2845,10 @@
             "information": [
                 "Zamknięty w charakterystycznej, kulistej butelce zwieńczonej koroną, wzorowanej na jabłku królewskim (insygnium władzy). Powstaje na bazie czarnych i czerwonych malin, koniaku oraz miodu."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍓 Maliny • 🫐 Jeżyny • 🥃 Koniak • 🍦 Wanilia • 🍯 Miód"
+            ]  
         },
         {
             "id": 11,
@@ -2828,7 +2858,10 @@
             "information": [
                 "Stworzony w 1818 roku legendarny likier wiśniowy. Jest kluczowym składnikiem dwóch ikonicznych koktajli: Singapore Sling oraz Blood and Sand."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍒 Dojrzałe ciemne wiśnie • 🌰 Migdały • 🍂 Przyprawy korzenne"
+            ]
         },
         {
             "id": 12,
@@ -2838,7 +2871,10 @@
             "information": [
                 "Butelka ma kształt franciszkańskiego mnicha ze złożonymi do modlitwy rękami i jest przewiązana w pasie białym sznurkiem. Bazą likieru są lokalne orzechy laskowe odmiany Tonda Gentile."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🌰 Prażone orzechy laskowe • 🍦 Wanilia • ☕ Kawa • 🍫 Gorzka czekolada"
+            ]
         },
         {
             "id": 13,
@@ -2848,7 +2884,10 @@
             "information": [
                 "W przeciwieństwie do większości amaretto na rynku, dostarczany jest w ikonicznej, niesamowicie wysokiej i smukłej, wielokątnej butelce charakterystycznej dla marki Galliano."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🌰 Migdały • 🍬 Marcepan • 🍒 Pestki wiśni"
+            ]
         },
         {
             "id": 14,
@@ -2858,7 +2897,10 @@
             "information": [
                 "Złocisto-żółty likier ziołowo-waniliowy o anyżowym profilu, zamknięty w niezwykle wysokiej butelce (często nie mieszczącej się na półkach barowych). Niezbędny składnik klasyka z lat 70. – Harvey Wallbanger."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍦 Wanilia • ⭐ Anyż gwieździsty • 🌿 Mięta • 💜 Lawenda"
+            ]
         },
         {
             "id": 15,
@@ -2868,7 +2910,10 @@
             "information": [
                 "Ciemny likier kawowy (dawniej znany pod nazwą Galliano Ristretto), wytwarzany z zagęszczonego naparu z dwóch gatunków kawy: Arabiki (z Kolumbii i Brazylii) oraz Robusty (z Indii i Kenii)."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "☕ Kawa • 🍫 Gorzka czekolada"
+            ]
         },
         {
             "id": 16,
@@ -2878,7 +2923,10 @@
             "information": [
                 "Mimo nazwy Gin, technicznie jest to likier powstający w wyniku wielomiesięcznej maceracji owoców tarniny (sloe berries) w ginie typu London Dry z dodatkiem cukru."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🫐 Owoce tarniny • 🍑 Śliwka • 🍓 Czerwone jagody • 🌰 Delikatny migdał"
+            ]
         },
         {
             "id": 17,
@@ -2888,7 +2936,10 @@
             "information": [
                 "Sprzedawany w ręcznie oplecionej słomką zielonej butelce z czerwoną zakrętką. Mimo że ma wyraźny, wręcz wytrawny nut pestkowo-migdałowy smak, powstaje z destylacji wiśni odmiany Maraska wraz z ich pestkami (nie zawiera orzechów)"
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍒 Wiśnie • 🌰 Pestki wiśni • 🌿 Zioła • 🌼 Kwiaty"
+            ]
         },
         {
             "id": 18,
@@ -2898,7 +2949,10 @@
             "information": [
                 "Jaskrawozielony likier melonowy (słowo Midori po japońsku oznacza po prostu zieleń). Został oficjalnie zaprezentowany w USA podczas premiery w słynnym nowojorskim klubie Studio 54 w 1978 roku."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍈 Melony"
+            ]
         },
         {
             "id": 19,
@@ -2908,7 +2962,10 @@
             "information": [
                 "Produkcja odbywa się w rodzinnym mieście kompozytora. Podczas maceracji składników w destylarni stosuje się mikro-sonifikację, czyli odtwarza się muzykę Mozarta, co ma wspomagać proces mieszania się aromatów. Wersja Dark jest całkowicie bezlaktozowa."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "☕ Kawa • 🍫 Gorzka czekolada • 🔥 Dymna wanilia"
+            ]
         },
         {
             "id": 20,
@@ -2918,7 +2975,10 @@
             "information": [
                 "Współczesna reaktywacja zapomnianej kategorii tradycyjnych włoskich likierów Rosolio. Zaprojektowana w odcieniu akwamaryny butelka nawiązuje do architektury rzymskiej i wód wokół Amalfi, a kluczowym botanikiem jest bergamotka z Kalabrii."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍋 Bergamotka • 🍋 Cytryna • 🌼 Rumianek • 💜 Lawenda"
+            ]
         },
         {
             "id": 21,
@@ -2928,7 +2988,10 @@
             "information": [
                 "Niskokaloryczny aperitif wytwarzany z czerwonych grejpfrutów odmiany Ruby Red z Korsyki, które są macerowane i destylowane w miedzianych alembikach w regionie Cognac."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍊 Grejpfrut"
+            ]
         },
         {
             "id": 22,
@@ -2938,7 +3001,10 @@
             "information": [
                 "Stworzony w 1984 roku jako pierwszy na świecie krystalicznie przezroczysty likier brzoskwiniowy (peach schnapps). To jego debiut wywołał ogólnoświatową falę popularności koktajlu Sex on the Beach."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍑 Dojrzałe białe brzoskwinie"
+            ]
         },
         {
             "id": 23,
@@ -2948,7 +3014,10 @@
             "information": [
                 "Tradycyjny prowansalski aperitif na bazie białego wina i spirytusu, macerowany na brzoskwiniach oraz liściach brzoskwini zbieranych późną jesienią. Nazwa w lokalnym dialekcie oznacza napój, który stawia na nogi."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍑 Brzoskwinia • 🍎 Owoce sadu • 🌿 Delikatne zioła"
+            ]
         },
         {
             "id": 24,
@@ -2958,7 +3027,10 @@
             "information": [
                 "Nazywany przez barmanów ketchupem barmana ze względu na to, że pasuje niemal do każdego alkoholu bazowego. Powstaje ze świeżych, ręcznie zbieranych wiosną kwiatów dzikiego bzu, a każda butelka ma wygrawerowany indywidualny numer partii i rok zbioru."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🌼 Kwiaty bzu • 🍐 Gruszka • 🍈 Liczi • 🍋 Cytrusy"
+            ]
         },
         {
             "id": 25,
@@ -2968,7 +3040,10 @@
             "information": [
                 "Jedyny na świecie likier o całkowicie naturalnym, intensywnie zielonym kolorze (pochodzącym wyłącznie z chlorofilu). Powstaje z mieszanki 130 ziół, roślin i kwiatów, a jego pełny przepis zna w danym momencie zaledwie dwóch mnichów z zakonu Kartuzów. Jest też niezwykle mocny jak na likier (55% ABV) i stanowi kluczowy składnik koktajlu Last Word."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "⭐ Anyż • 🌿 Mięta • 🌲 Sosna • 🍂 Przyprawy korzenne"
+            ]
         },
         {
             "id": 26,
@@ -2978,7 +3053,10 @@
             "information": [
                 "Wprowadzony w 1838 roku jako słodsza, łagodniejsza i mniej mocna (40% ABV) wersja zielonego brata. Swój złocisty kolor zawdzięcza dodatkowi naturalnego szafranu. Wraz z mezcalem tworzy bazę słynnego nowoczesnego klasyka Naked and Famous."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🍯 Miód • 🌼 Szafran • 🌸 Kwiaty • ⭐ Słodki anyż"
+            ]
         },
         {
             "id": 27,
@@ -2988,7 +3066,10 @@
             "information": [
                 "Gorzko-słodki włoski aperitif (amaro), którego głównym i najbardziej rozpoznawalnym składnikiem są liście karczocha (Cynara scolymus – stąd nazwa, a sam karczoch widnieje w centrum etykiety). Zawiera cynarynę, która stymuluje kubki smakowe, sprawiając, że rzeczy spożywane tuż po nim wydają się słodsze."
             ],
-            "additionalInfo": []
+            "additionalInfo": [],
+            "aroma": [
+                "🌿 Karczoch • 🍮 Karmel"
+            ]
         }
     ],
     "rums": [
@@ -3762,7 +3843,8 @@
                 "Piñas używane do jej produkcji są pieczone w tradycyjnych ceglanych piecach aż przez 72 godziny, podczas gdy standard rynkowy to zaledwie kilkanaście-kilkadziesiąt godzin."
             ],
             "additionalInfo": [
-                "Pierwotnie miała to być prywatna tequila na wyłączny użytek aktora George’a Clooneya i przedsiębiorcy Rande Gerbera."
+                "Marka ultra-premium tequili oraz mezcalu, którą założyli w 2013 roku aktor George Clooney, przedsiębiorca Rande Gerber oraz potentat nieruchomości Mike Meldman",
+                "Słowo Casamigos oznacza po włosku/hiszpańsku w wolnym tłumaczeniu dom przyjaciół (od casa – dom i amigos – przyjaciele), co nawiązuje do wakacyjnych domów Clooneya i Gerbera w Meksyku."
             ],
             "aroma": [
                 "🌵 Świeża agawa • 🍋 Cytrusy • 🍦 Wanilia • 🍏 Słodkie owoce"
@@ -3792,7 +3874,7 @@
                 {
                     "type": "Bourbon",
                     "process": "maturation",
-                    "time": "14 Miesięcy"
+                    "time": "12 Miesięcy"
                 }
             ]
         },
@@ -3806,7 +3888,8 @@
                 "Niskie, kwadratowe butelki, aby biesiadnicy przy stole mogli widzieć swoje twarze bez zasłaniania ich wysokimi butelkami."
             ],
             "additionalInfo": [
-                ""
+                "Druga najlepiej sprzedająca się marka tequili na świecie oraz lider segmentu premium",
+                "Marka została założona w 1942 roku przez Don Julio Gonzáleza Estradę, który miał wtedy zaledwie 17 lat"
             ],
             "aroma": [
                 "🌵 Świeża agawa • 🍋 Limonka • 🍊 Grejpfrut • 🌶️ Pieprz"
@@ -3841,7 +3924,7 @@
             "country": "Meksyk",
             "type": "Tequila Blanco",
             "information": [
-                "Sok z agawy wytłaczany jest dwoma metodami: za pomocą nowoczesnych młynów (roller mill) oraz bardzo starodawnego, potężnego, dwutonowego kamienia wulkanicznego zwanego Tahona. Dopiero mieszanka destylatów z obu tych metod tworzy finalny produkt."
+                "Do ekstrakcji soku z agawy używa się zarówno tradycyjnego kamiennego koła (tahona), jak i nowoczesnych młynów"
             ],
             "additionalInfo": [
                 ""
@@ -3904,10 +3987,11 @@
             "country": "Meksyk",
             "type": "Tequila Blanco",
             "information": [
-                "W przeciwieństwie do niemal wszystkich innych tequili Blanco (które nie leżakują w drewnie), ta tequila spędza w dębie 45 dni, przez co ma unikalny, lekko słomkowy kolor, którego firma z dumą nie filtruje."
+                "W przeciwieństwie do niemal wszystkich innych tequili Blanco, ta tequila spędza w dębie 45 dni, przez co ma unikalny, lekko słomkowy kolor, którego firma z dumą nie filtruje."
             ],
             "additionalInfo": [
-                "Rozbudowana i charakterystyczna srebrna tequila, która łamie standardowe zasady dla swojego gatunku."
+                "Rozbudowana i charakterystyczna srebrna tequila, która łamie standardowe zasady dla swojego gatunku.",
+                "Słowo herradura oznacza po hiszpańsku „podkowę”. Nazwę przyjęto w 1928 roku, kiedy założyciel Aurelio López Rosales znalazł na polu szczęśliwą podkowę, która do dziś jest symbolem marki i widnieje na każdej etykiecie"
             ],
             "aroma": [
                 "🔥 Pieczona agawa • 🍋 Cytrusy • 🌿 świeże zioła • 🍦 Wanillia • 🪵 Dąb"
@@ -3993,7 +4077,9 @@
                 "Jako jedyna tequila na świecie, używa do obniżenia zawartości alkoholu (blendowania) wody filtrowanej bezpośrednio przez prawdziwe meksykańskie srebro, co znacząco zaokrągla i zmiękcza ostateczny smak trunku."
             ],
             "additionalInfo": [
-                "Autentyczna, bardzo dobrze wyceniana i zaskakująco łagodna w smaku tequila z mniejszej, cenionej destylarni."
+                "Autentyczna, bardzo dobrze wyceniana i zaskakująco łagodna w smaku tequila z mniejszej, cenionej destylarni.",
+                "Stosunkowo młoda, ale bardzo popularna marka 100% tequili z agawy, wprowadzona na rynek w 2017 roku",
+                "Procesem produkcji kieruje Arturo Fuentes Cortes, który ma ponad 45 lat doświadczenia w branży."
             ],
             "aroma": [
                 "🔥 Gotowana agawa • 🍋 Cytrusy • 🍈 Limonka • 🌶️ Pieprz"
@@ -4007,7 +4093,7 @@
             "country": "Meksyk",
             "type": "Tequila Reposado",
             "information": [
-                "Czerwony kogut stanowiący logo i nazwę marki to nie tylko nawiązanie do wulkanu Tequila (w kształcie którego rzeźbiony jest korek), ale symbol króla meksykańskich ptaków, utożsamiany z odwagą i pomyślnością."
+                "Kogut (po angielsku rooster) to jeden z narodowych symboli Meksyku utożsamiany ze słońcem i nowym początkiem, a czerwony kogut (Rooster Rojo) uznawany jest za „króla” w swojej grupie."
             ],
             "additionalInfo": [
                 "Autentyczna, bardzo dobrze wyceniana i zaskakująco łagodna w smaku tequila z mniejszej, cenionej destylarni."
@@ -4033,7 +4119,9 @@
                 "Mocny krok w kierunku tequili premium od producenta znanej, imprezowej Tequili z kapeluszem."
             ],
             "additionalInfo": [
-                "W przeciwieństwie do podstawowej, taniej wersji Sierra (z charakterystycznym plastikowym czerwonym sombrero), która jest mixto (min. 51% agawy, reszta to cukry rolnicze), linia Antiguo to w 100% czysta niebieska agawa z gór Los Altos."
+                "W przeciwieństwie do podstawowej, taniej wersji Sierra (z charakterystycznym plastikowym czerwonym sombrero), która jest mixto (min. 51% agawy, reszta to cukry rolnicze), linia Antiguo to w 100% czysta niebieska agawa z gór Los Altos.",
+                "Słowo Antiguo: W języku hiszpańskim oznacza stary, dawny lub antyczny – nawiązuje to do tradycyjnych, rzemieślniczych metod produkcji stosowanych przy tym trunku",
+                "Na etykiecie wersji Plata można dostrzec motywy nawiązujące do historii i kultur prekolumbijskich, w tym twarz boga Słońca (Tonatiuha) znanego z azteckiego kalendarza"
             ],
             "aroma": [
                 "🌵 Mocna agawa • 🍋 Cytryna • 🫒 Zielone oliwki • 🌿 Trawa cytrynowa"
@@ -4081,7 +4169,7 @@
                 "Lekka, orzeźwiająca, rześka."
             ],
             "aroma": [
-                "dojrzała jeżyna • rześka trawa cytrynowa •  nuty chleba żytniego • ziemista szałwia • owocowy • ziołowe tło"
+                "🫐 Dojrzała jeżyna • 🌿 Rześka trawa cytrynowa • 🍞 Nuty chleba żytniego • 🌿 Ziemista szałwia • 🍇 Owocowy • 🌱 Ziołowe tło"
             ]
         },
         {
@@ -4102,7 +4190,7 @@
                 "Mocna, pełna, mięsista (full-bodied), lekko chwytająca za język."
             ],
             "aroma": [
-                "słona bryza morska • opiekany chleb • karmel • biały pieprz • miód • prażone orzechy"
+                "🌊 Słona bryza morska • 🍞 Opiekany chleb • 🍮 Karmel • 🌶️ Biały pieprz • 🍯 Miód • 🌰 Prażone orzechy"
             ]
         },
         {
@@ -4123,7 +4211,7 @@
                 "Niezwykle bogata, oleista i lepka."
             ],
             "aroma": [
-                "Świeżo wypiekany chleb na zakwasie • włoskie orzechy • ziele angielskie • miód • słodkie przyprawy korzenne"
+                "🍞 Świeżo wypiekany chleb na zakwasie • 🌰 Włoskie orzechy • 🌿 Ziele angielskie • 🍯 Miód • 🍂 Słodkie przyprawy korzenne"
             ]
         },
         {
@@ -4144,7 +4232,7 @@
                 "Bardzo lekka, rześka, elegancka i chłodna w odbiorze."
             ],
             "aroma": [
-                "Świeżo skoszona trawa • zielone jabłko • migdały • mięta pieprzowa"
+                "🌱 Świeżo skoszona trawa • 🍏 Zielone jabłko • 🌰 Migdały • 🌿 Mięta pieprzowa"
             ]
         },
         {
@@ -4165,7 +4253,7 @@
                 "Czysta, wibrująca, wytrawna."
             ],
             "aroma": [
-                "Rześka • skórka z cytryny • zielona bazylia • kwiat bzu"
+                "🍋 Rześka • 🍋 Skórka z cytryny • 🌿 Zielona bazylia • 🌼 Kwiat bzu"
             ]
         },
         {
@@ -4186,7 +4274,7 @@
                 "Gładka, rozgrzewająca, nieco gęstsza od wersji cytrynowej."
             ],
             "aroma": [
-                "Dojrzała • pieczona gruszka • pikantny imbir • kwiatowy aromat miodu lipowego"
+                "🍐 Dojrzała, pieczona gruszka • 🫚 Pikantny imbir • 🌼 Kwiatowy aromat miodu lipowego"
             ]
         },
         {
@@ -4207,7 +4295,7 @@
                 "Wyjątkowo kremowa, lepka, ciężka na języku."
             ],
             "aroma": [
-                "ziemiste nuty • wanilia • zielone jabłko"
+                "🌱 Ziemiste nuty • 🍦 Wanilia • 🍏 Zielone jabłko"
             ]
         },
         {
@@ -4228,7 +4316,7 @@
                 "Miękka, zaokrąglona, delikatna (typowy profil pszeniczny)."
             ],
             "aroma": [
-                "nuty kwiatowe • cytrusy • migdały • słodkie ciasto • pieczywo"
+                "🌼 Nuty kwiatowe • 🍋 Cytrusy • 🌰 Migdały • 🥐 Słodkie ciasto • 🍞 Pieczywo"
             ]
         },
         {
@@ -4249,7 +4337,7 @@
                 "Skrajnie oleista, oblepiająca usta."
             ],
             "aroma": [
-                "Ziemia po deszczu • surowe warzywa okopowe • dym • maślany"
+                "🌧️ Ziemia po deszczu • 🥔 Surowe warzywa okopowe • 🔥 Dym • 🧈 Maślany"
             ]
         },
         {
@@ -4270,7 +4358,7 @@
                 "Aksmitnie gładka, lekka, bardzo łagodna dla gardła."
             ],
             "aroma": [
-                "Słodkie wypieki • płatki śniadaniowe • bardzo delikatna owocowość • ciasto waniliowe"
+                "🥐 Słodkie wypieki • 🥣 Płatki śniadaniowe • 🍏 Bardzo delikatna owocowość • 🍰 Ciasto waniliowe"
             ]
         },
         {
@@ -4291,7 +4379,7 @@
                 "Wyrazista, uderzająca, rozgrzewająca i mocno zbudowana."
             ],
             "aroma": [
-                "wieża skórka razowego chleba • pumpernikiel • zioła • czarny pieprz • orzechy"
+                "🍞 Świeża skórka razowego chleba • 🍞 Pumpernikiel • 🌿 Zioła • 🌶️ Czarny pieprz • 🌰 Orzechy"
             ]
         },
         {
@@ -4312,7 +4400,7 @@
                 "Ciężka, bardzo gęsta i tłusta."
             ],
             "aroma": [
-                "Ciężkie • pumpernikiel • pieczonego ziemniaka z masłem • ziemisty • bardzo sycący i słodkawy"
+                "🥖 Ciężkie • 🍞 Pumpernikiel • 🥔 Pieczony ziemniak z masłem • 🌱 Ziemisty • 🍯 Bardzo sycący i słodkawy"
             ]
         },
         {
@@ -4333,7 +4421,7 @@
                 "Aksamitna, gładka, przyjazna."
             ],
             "aroma": [
-                "wanilia • mleko • kremowy • słodycz pszenicy • ciepły finisz"
+                "🍦 Wanilia • 🥛 Mleko • 🍶 Kremowy • 🌾 Słodycz pszenicy • 🔥 Ciepły finisz"
             ]
         },
         {
@@ -4354,7 +4442,159 @@
                 "Gęsta, likierowa, bardzo bogata."
             ],
             "aroma": [
-                "deserowa słodycz • Kremowa biała czekolada • kakao • soczysty ananas • Płynny deser"
+                "🍰 Deserowa słodycz • 🍫 Kremowa biała czekolada • 🍫 Kakao • 🍍 Soczysty ananas • 🍮 Płynny deser"
+            ]
+        }
+    ],
+    "wine": [
+        {
+            "id": 1,
+            "name": "Babich Sauvignon Blanc",
+            "country": "Nowa Zelandia",
+            "region": "Marlborough",
+            "aroma": ["🍈 Marakuja • 🟢 Agrest • 🍋 Limonka • 🌿 Skoszona trawa"],
+            "additionalInfo": [
+                "Wytrawne, niezwykle aromatyczne i uderzająco świeże wino z ekspresyjnymi nutami marakui, agrestu, limonki i skoszonej trawy."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Chardonnay Puglia",
+            "country": "Włochy",
+            "region": "Apulia",
+            "aroma": ["🍌 Banan • 🍈 Melon • 🍍 Dojrzałe owoce tropikalne"],
+            "additionalInfo": [
+                "Południowowłoskie Chardonnay o ocieplonym, łagodnym i krąglejszym profilu. Cechuje się aromatami dojrzałych owoców tropikalnych (banan, melon) i umiarkowaną kwasowością."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Heiderer Riesling Wagram",
+            "country": "Austria",
+            "region": "Wagram",
+            "aroma": ["🍏 Zielone jabłko • 🍑 Brzoskwinia • 🪨 Mineralność"],
+            "additionalInfo": [
+                "Wytrawny austriacki Riesling. Wino o mocnym, rześkim szkielecie, wysokiej kwasowości, wyczuwalnej mineralności i nutach zielonego jabłka oraz brzoskwini."
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Miss Schmitt Gewürztraminer",
+            "country": "Niemcy",
+            "region": "Mozela",
+            "aroma": ["🌹 Płatki róż • 🥭 Liczi • 🍍 Owoce egzotyczne"],
+            "additionalInfo": [
+                "Ekstremalnie aromatyczne, półwytrawne wino, które w kieliszku pachnie płatkami róż, dojrzałym liczi i owocami egzotycznymi. Gładkie i przyjazne w odbiorze."
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Navajas Tinto",
+            "country": "Hiszpania",
+            "region": "Rioja",
+            "aroma": ["🍒 Wiśnia • 🍓 Malina • 🌶️ Delikatne przyprawy • 🍦 Wanilia • 🪵 Dąb"],
+            "additionalInfo": [
+                "Młoda, przystępna, wytrawna Rioja. Bardzo owocowa, z dominacją czerwonych owoców (wiśnia, malina) przełamana delikatną pikanterią i wanilią od kontaktu z dębową beczką."
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Masserie Civitella Primitivo Del Salento",
+            "country": "Włochy",
+            "region": "Apulia",
+            "aroma": ["🍒 Ciemna wiśnia • 🍑 Dojrzała śliwka • 🍂 Słodkie przyprawy"],
+            "additionalInfo": [
+                "Cięższe, wyraziste i pełne wino z południa Włoch. Rozgrzewające, z potężną dawką dżemowych aromatów: ciemnej wiśni, dojrzałej śliwki i słodkich przypraw, oprawione w miękkie, pluszowe taniny."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Alita",
+            "country": "Litwa",
+            "region": "",
+            "aroma": ["🍎 Owoce sadu • 🫧 Musujące • 🍋 Świeży profil"],
+            "additionalInfo": [
+                "Popularne litewskie wino musujące o przystępnym, owocowym i lekkim profilu"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Dom Pérignon 2013",
+            "country": "Francja",
+            "region": "Szampania",
+            "aroma": ["🍋 Cytrusy • 🌼 Białe kwiaty • 🌿 Mięta • 🍞 Nuty tostowe"],
+            "additionalInfo": [
+                "Prestiżowy szampan rocznikowy klasy premium. Złożony, elegancki, z nutami cytrusów, białych kwiatów, mięty i subtelnych, szlachetnych akcentów tostowych."
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Moët & Chandon Imperial Brut",
+            "country": "Francja",
+            "region": "Szampania",
+            "aroma": ["🍏 Zielone jabłko • 🍋 Cytrusy • 🥐 Brioszka"],
+            "additionalInfo": [
+                "Klasyczny, nierocznikowy szampan i zarazem najbardziej rozpoznawalny na świecie. Zbalansowany i rześki, z aromatami zielonego jabłka, cytrusów i delikatnej brioszki."
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Mumm Grand Cordon",
+            "country": "Francja",
+            "region": "Szampania",
+            "aroma": ["🍑 Dojrzała brzoskwinia • 🍑 Morela • 🍦 Wanilia"],
+            "additionalInfo": [
+                "Flagowy szampan domu Mumm z wyraźną dominacją szczepu Pinot Noir. Wyróżnia się krzepkością oraz aromatami dojrzałych brzoskwiń, moreli i wanilii."
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Mumm Ice",
+            "country": "Francja",
+            "region": "Szampania",
+            "aroma": ["🍑 Owoce • 🫧 Orzeźwiające musowanie • 🍯 Delikatna słodycz"],
+            "additionalInfo": [
+                "Szampan stworzony specjalnie do serwowania na kostkach lodu. Półsłodki (demi-sec), mocno owocowy, orzeźwiający i krągły."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Mumm Rosé",
+            "country": "Francja",
+            "region": "Szampania",
+            "aroma": ["🫐 Leśne jagody • 🍓 Truskawka • 🍊 Różowy grejpfrut"],
+            "additionalInfo": [
+                "Różowa odsłona szampana Mumm o świeżym, letnim charakterze. Dominują w nim aromaty leśnych jagód, truskawek i różowego grejpfruta."
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Perrier-Jouët",
+            "country": "Francja",
+            "region": "Szampania",
+            "aroma": ["🌼 Białe kwiaty • 🍋 Cytrusy • 🍐 Owoce sadu"],
+            "additionalInfo": [
+                "Dom szampański słynący z ogromnej elegancji, lekkości i mocno kwiatowych aromatów, co jest zasługą silnej reprezentacji szczepu Chardonnay w cuvée."
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Prosecco Botter",
+            "country": "Włochy",
+            "region": "",
+            "aroma": ["🍏 Jabłko • 🍐 Gruszka • 🌼 Białe kwiaty"],
+            "additionalInfo": [
+                "Włoskie, bardzo rześkie wino musujące ze szczepu Glera. Niezobowiązujące, z dominującymi nutami jabłek, gruszek i białych kwiatów."
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Al Mercado 0%",
+            "country": "Hiszpania",
+            "region": "",
+            "aroma": ["🍏 Owoce sadu • 🫧 Musujące • 🍋 Orzeźwiająca kwasowość"],
+            "additionalInfo": [
+                "Białe, musujące i półwytrawne wino bezalkoholowe. Zapewnia orzeźwienie, zbalansowaną kwasowość i owocowy profil (owoce sadu) bez zawartości procentów."
             ]
         }
     ]
