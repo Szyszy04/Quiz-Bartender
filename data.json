@@ -3070,6 +3070,19 @@
             "aroma": [
                 "🌿 Karczoch • 🍮 Karmel"
             ]
+        },
+        {
+            "id": 28,
+            "name": "Disaronno Originale",
+            "country": "Włochy",
+            "group": "Illva Saronno",
+            "information": [
+                "Słynny włoski likier typu amaretto, produkowany w Saronno we Włoszech od 1525 roku. Powstaje według oryginalnej receptury na bazie migdałów oraz pestek moreli, barwiony karmelem"
+            ],
+            "additionalInfo": [],
+            "aroma": [
+                "🌰 Migdały • 🍦 Wanillia"
+            ]
         }
     ],
     "rums": [
@@ -3358,7 +3371,9 @@
             "information": [
                 "Powstaje z miodu z trzciny cukrowej (nie z melasy) i dojrzewa w ekstremalnie na nowo wypalanych beczkach. Posiada gładki smak z dymnym finiszem i niezwykle lepką strukturą."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Charakterystyczna srebrna butelka"
+            ],
             "material": [
                 "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
             ],
@@ -3366,7 +3381,7 @@
                 "Kolumnowa z elementami alembikowej"
             ],
             "aroma": [
-                "☕ Ziarna palonej kawy • 🍯 Płynny słodki dym • 🍮 Przypalony karmel • 🍦 Wanilia"
+                "☕ Ziarna palonej kawy • 🍯 Płynny słodki dym • 🍮 Przypalony karmel • 🍦 Wanilia • 🍒 Suszone owoce"
             ],
             "barrels": [
                 {
@@ -3374,7 +3389,7 @@
                     "process": "maturation"
                 },
                 {
-                    "type": "Sherry Re-charred",
+                    "type": "Sherry Jerez Re-charred",
                     "process": "maturation"
                 },
                 {
@@ -3392,7 +3407,10 @@
             "information": [
                 "Destylowany tylko w miedzianych alembikach, co sprawia, że jest cięższy, masywniejszy i mniej słodki od wersji Insolent. Zdecydowanie mroczny profil."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Dojrzewa w starannie wyselekcjonowanych dębowych beczkach po bourbonie, przy zastosowaniu tradycyjnej metody starzenia Solera.",
+                "Charakterystyczna złota butelka"
+            ],
             "material": [
                 "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
             ],
@@ -4597,5 +4615,262 @@
                 "Białe, musujące i półwytrawne wino bezalkoholowe. Zapewnia orzeźwienie, zbalansowaną kwasowość i owocowy profil (owoce sadu) bez zawartości procentów."
             ]
         }
+    ],
+    "bitters": [
+{
+        "id": 1,
+        "name": "Carpano Antica Formula",
+        "country": "Włochy",
+        "group": "Fratelli Branca Distillerie",
+        "type": "Vermouth Rosso",
+        "information": [
+            "Uznawany za pierwszy nowożytny wermut na świecie – jego recepturę opracował w 1786 roku Antonio Benedetto Carpano. Butelka posiada unikalny, tradycyjny kształt, a każda sztuka ma swój indywidualny numer."
+        ],
+        "additionalInfo": [
+            "Historyczny, super-premium wermut o ciemnej barwie. Stanowi absolutny standard dla klasycznych koktajli wymagających cięższego, bogatego profilu.",
+            "Smak: Niezwykle gęsty, aksamitny i bogaty. Dominuje słodka wanilia i kakao, przełamane goryczką szafranu, piołunu i gorzkich pomarańczy."
+        ],
+        "aroma": [
+            "wanilia • suszone figi • rodzynki • gałka muszkatołowa • skórka pomarańczy • migdały"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Cocchi Americano",
+        "country": "Włochy",
+        "group": "Giulio Cocchi",
+        "type": "Aperitif",
+        "information": [
+            "Barmani na całym świecie używają go jako najlepszego współczesnego zamiennika legendarnego Kina Lillet w klasycznym przepisie na koktajl Vesper Martini z przygód Jamesa Bonda."
+        ],
+        "additionalInfo": [
+            "Klasyczny, jasny aperitif bazujący na winie Moscato di Asti, wzmacniany i aromatyzowany, w którym głównym czynnikiem goryczkowym nie jest piołun (jak w wermutach), lecz kora chinowca.",
+            "Smak: Miodowo-owocowa słodycz białego wina, która płynnie przechodzi w wyraźną, lekko ściągającą, chininową goryczkę z posmakiem cytrusów."
+        ],
+        "aroma": [
+            "kwiat pomarańczy • czarny bez • skórka cytrusowa • nuty zielonych ziół"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Lillet Blanc",
+        "country": "Francja",
+        "group": "Pernod Ricard",
+        "type": "Wine Aperitif",
+        "information": [
+            "W 1986 roku zrezygnowano z nazwy \"Kina Lillet\" i zmniejszono ilość chininy w recepturze, aby dostosować trunek do współczesnych, preferujących słodsze smaki gustów."
+        ],
+        "additionalInfo": [
+            "Delikatny, słomkowo-złoty aperitif będący kupażem francuskich win z regionu Bordeaux (głównie Semillon) i rzemieślniczych likierów owocowych.",
+            "Smak: Lekki, rześki i owocowy. Zdecydowanie słodszy i łagodniejszy niż wermuty, z minimalną goryczką i posmakiem owoców tropikalnych oraz cytrusów."
+        ],
+        "aroma": [
+            "jasne kwiaty • kandyzowane pomarańcze • sosnowa żywica • brzoskwinie • miód"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Lillet Rosé",
+        "country": "Francja",
+        "group": "Pernod Ricard",
+        "type": "Wine Aperitif (Rosé)",
+        "information": [
+            "Jest to najmłodszy produkt z rodziny Lillet – został wprowadzony na rynek dopiero w 2011 roku, jako odpowiedź na rosnącą globalną popularność win różowych."
+        ],
+        "additionalInfo": [
+            "Różowa, bardziej owocowa wariacja na temat klasycznego Lillet, powstała z połączenia białych i czerwonych win z Bordeaux z likierami cytrusowymi.",
+            "Smak: Świeży, lekko kwasowy z wyraźnymi nutami dojrzałych jagód i czerwonych owoców. Goryczka jest niemal niedostrzegalna, finisz lekki i rześki."
+        ],
+        "aroma": [
+            "czerwone owoce • kwiat pomarańczy • różowy grejpfrut"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Martini Riserva Speciale Ambrato",
+        "country": "Włochy",
+        "group": "Bacardi",
+        "type": "Vermouth di Torino",
+        "information": [
+            "W przeciwieństwie do podstawowych wersji Martini, seria \"Riserva Speciale\" po procesie maceracji leżakuje w tradycyjnych dębowych kadziach \"tino\" z drewna pochodzącego z Piemontu."
+        ],
+        "additionalInfo": [
+            "Wermut z segmentu premium marki Martini. Do jego produkcji wykorzystuje się wyłącznie lokalne wina, w tym prestiżowe Moscato d'Asti, co nadaje mu głęboki, bursztynowy kolor.",
+            "Smak: Półsłodki z wyczuwalnym miodowym finiszem, nutami czarnego pieprzu i charakterystyczną, ziołową goryczką trzech odmian piołunu z Piemontu."
+        ],
+        "aroma": [
+            "kwiatowo-ziołowe • rumianek • miód • żółte owoce"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Martini Riserva Speciale Rubino",
+        "country": "Włochy",
+        "group": "Bacardi",
+        "type": "Vermouth di Torino",
+        "information": [
+            "Nazwa \"Rubino\" nawiązuje do głębokiej, rubinowej barwy wermutu, która pochodzi w pełni z czerwonego wina Nebbiolo, a nie z dodatku karmelu."
+        ],
+        "additionalInfo": [
+            "Czerwony odpowiednik Ambrato z serii premium. Jego bazą jest wytrzymalsze wino – Langhe DOC Nebbiolo, z którego powstają również słynne wina Barolo.",
+            "Smak: Wyjątkowo taninowy jak na wermut. Bogaty, wytrawniejszy niż standardowe Martini Rosso, z nutami owoców leśnych i silnym ziołowo-korzennym uderzeniem."
+        ],
+        "aroma": [
+            "jeżyny • maliny • czarny pieprz • goździki • delikatne nuty drzewne"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Noilly Prat (Original Dry)",
+        "country": "Francja",
+        "group": "Bacardi",
+        "type": "Dry Vermouth",
+        "information": [
+            "Beczki z winem, zanim staną się wermutem, leżakują przez rok na zewnątrz (tzw. metoda L'Enclos). Wystawienie na słońce, wiatr i morską bryzę sprawia, że wino ulega naturalnej oksydacji, co tworzy jego unikalny, lekko słonawy profil."
+        ],
+        "additionalInfo": [
+            "Klasyczny, bardzo wytrawny francuski wermut, będący absolutnym filarem dobrego koktajlu Dry Martini.",
+            "Smak: Bardzo wytrawny, niemal całkowicie pozbawiony cukru. Posiada lekkie nuty oksydacyjne (zbliżone do wytrawnego sherry Fino), z wyraźnym, ziołowym finiszem."
+        ],
+        "aroma": [
+            "rumianek • kolendra • gałka muszkatołowa • skórka cytrynowa • lekkie nuty morskie/solone"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Absent 55",
+        "country": "Francja",
+        "group": "Distilleries et Domaines de Provence",
+        "type": "Absynt",
+        "information": [
+            "Był to jeden z pierwszych \"absyntów\" wprowadzonych legalnie do USA (w 1999 roku) po niemal stuletnim zakazie. Początkowo musiał być reklamowany jako \"likier z dodatkiem bylicy\", aby obejść rygorystyczne przepisy."
+        ],
+        "additionalInfo": [
+            "Jasnozielony likier wysokoprocentowy z wyraźną dominacją anyżu i piołunu, butelkowany z mocą 55% ABV.",
+            "Smak: Uderzająco lukrecjowy (anyżowy) z chłodzącym, miętowym tłem i trawiasto-ziołową goryczką na finiszu. Słodszy niż klasyczne, historyczne absynty."
+        ],
+        "aroma": [
+            "bardzo silny anyż • koper włoski • mięta pieprzowa • piołun"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Amaro Averna",
+        "country": "Włochy",
+        "group": "Campari Group",
+        "type": "Amaro",
+        "information": [
+            "Według legendy, w 1868 roku sycylijski kupiec Salvatore Averna otrzymał tajny przepis od mnicha Frà Girolamo z pobliskiego zakonu benedyktynów z opactwa Santo Spirito."
+        ],
+        "additionalInfo": [
+            "Ciemny, gęsty, rdzennie sycylijski likier digestif. Jest to tzw. \"dolce amaro\" (słodkie amaro), czyli trunek bardziej przystępny, o niższym poziomie goryczy.",
+            "Smak: Bardzo lepki i słodki na początku. Smak karmelu, czerwonych sycylijskich pomarańczy i ziół powoli przechodzi w bardzo delikatną, przyjemną goryczkę."
+        ],
+        "aroma": [
+            "skórka gorzkiej pomarańczy • lukrecja • rozmaryn • szałwia • ciemna czekolada"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Amaro Montenegro",
+        "country": "Włochy",
+        "group": "Gruppo Montenegro",
+        "type": "Amaro",
+        "information": [
+            "Receptura z 1885 roku jest tak tajna, że poszczególne z 40 składników przygotowują inne osoby. Nazwa honoruje księżniczkę Helenę z Czarnogóry, późniejszą królową Włoch."
+        ],
+        "additionalInfo": [
+            "Jedno z najbardziej aromatycznych i najlżejszych amaro na rynku. Często wybierane jako \"brama wejściowa\" do świata gorzkich włoskich likierów ze względu na kwiatowy profil.",
+            "Smak: Słodki, przypominający mandarynki, płatki róż i wiśnie z niemal znikomą, bardzo elegancką goryczką na samym finiszu."
+        ],
+        "aroma": [
+            "kandyzowana skórka pomarańczy • nasiona kolendry • marcepan • ogórek • kwiaty"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Aperol",
+        "country": "Włochy",
+        "group": "Campari Group",
+        "type": "Aperitivo",
+        "information": [
+            "Choć stworzono go w 1919 roku, stał się globalnym fenomenem dopiero po przejęciu marki przez Campari Group w 2003 roku. Zainwestowano ogromne środki w promocję Aperol Spritz."
+        ],
+        "additionalInfo": [
+            "Słynny, jaskrawopomarańczowy likier o stosunkowo niskiej zawartości alkoholu (najczęściej 11%). Stanowi serce najpopularniejszego koktajlu lata – Aperol Spritz.",
+            "Smak: Dominująca, rześka pomarańcza z silną słodyczą, która w ostatnich sekundach zostawia na podniebieniu zaledwie powiew cytrusowej goryczy."
+        ],
+        "aroma": [
+            "słodka pomarańcza • rabarbar • zarys wanilii • lekkie nuty drewniane"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Campari",
+        "country": "Włochy",
+        "group": "Campari Group",
+        "type": "Aperitivo / Bitter",
+        "information": [
+            "Aż do 2006 roku (a w niektórych krajach dłużej) Campari zawdzięczało swój krwistoczerwony kolor koszenili – naturalnemu barwnikowi pozyskiwanemu ze zmiażdżonych owadów (czerwców kaktusowych)."
+        ],
+        "additionalInfo": [
+            "Głęboko czerwony, bezkompromisowo gorzki trunek, który dzieli ludzi na tych, którzy go kochają lub nienawidzą. Fundamentalny składnik koktajli Negroni i Boulevardier.",
+            "Smak: Początkowe uderzenie słodkiego syropu wiśniowego natychmiast ustępuje bardzo ostrej, ściągającej goryczy ziół, chininy i piołunu, która długo utrzymuje się w ustach."
+        ],
+        "aroma": [
+            "silna gorzka pomarańcza • kora • grejpfrut • wiśnie • dzikie zioła"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Suze",
+        "country": "Francja",
+        "group": "Pernod Ricard",
+        "type": "Gentian Liqueur",
+        "information": [
+            "Butelka Suze posiada bardzo charakterystyczny kształt, który zainspirował Pabla Picassa w 1912 roku. Dzieło artysty nosiło tytuł \"Verre et bouteille de Suze\"."
+        ],
+        "additionalInfo": [
+            "Charakterystyczny, jaskrawożółty francuski aperitif o bardzo oryginalnym, ziemisto-roślinnym profilu. Jego głównym składnikiem jest dzika goryczka zbierana w górach.",
+            "Smak: Ekstremalnie specyficzny – słodki na początku, po czym ujawnia mocną, \"zieloną\", ziemistą i wręcz korzenną gorycz z posmakiem kandyzowanej pomarańczy."
+        ],
+        "aroma": [
+            "wilgotna ziemia • korzenie • mniszek lekarski • miód • cytrusy"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Fernet-Branca",
+        "country": "Włochy",
+        "group": "Fratelli Branca Distillerie",
+        "type": "Fernet",
+        "information": [
+            "Trunek ten to prawdziwy fenomen w Argentynie. Kraj ten odpowiada za ogromną część światowego spożycia Fernetu. W branży barmańskiej shot nazywany jest \"uściskiem dłoni barmana\"."
+        ],
+        "additionalInfo": [
+            "Jeden z najbardziej agresywnych, ziołowych i bezkompromisowych likierów na świecie. Posiada gęstą, czarną barwę i właściwości silnie trawienne.",
+            "Smak: Bezlitośnie gorzki, wytrawny, mentolowy i korzenny. Słodycz jest niemal całkowicie zgaszona przez leczniczy, ziemisty i ziołowy finisz."
+        ],
+        "aroma": [
+            "eukaliptus • mięta pieprzowa • mirra • szafran • gęsty syrop apteczny"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Branca Menta",
+        "country": "Włochy",
+        "group": "Fratelli Branca Distillerie",
+        "type": "Mentholated Amaro",
+        "information": [
+            "Trunek powstał w połowie lat 60. XX wieku z inspiracji słynną śpiewaczką operową, Marią Callas, która pijała klasyczny Fernet-Branca z dodatkiem syropu miętowego."
+        ],
+        "additionalInfo": [
+            "Słodsza, chłodząca i ekstremalnie miętowa wariacja na temat klasycznego Fernet-Branca.",
+            "Smak: Gęsty, słodszy niż klasyczny Fernet. Bardzo silne, chłodzące uczucie mentolu łagodzi tradycyjną goryczkę piołunowo-ziołową, czyniąc go łatwiejszym w odbiorze."
+        ],
+        "aroma": [
+            "eksplozja świeżej mięty pieprzowej i zielonej • ciężka, ziołowo-przyprawowa baza"
+        ]
+    }
     ]
 }
