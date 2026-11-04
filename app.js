@@ -18,7 +18,8 @@ let data = {
     rums: [],
     tequilas: [],
     vodka: [],
-    wine: []
+    wine: [],
+    bitters: []
 };
 
 let questions = [];
@@ -103,6 +104,7 @@ async function loadData() {
         if (!Array.isArray(data.tequilas)) data.tequilas = [];
         if (!Array.isArray(data.vodka)) data.vodka = [];
         if (!Array.isArray(data.wine)) data.wine = [];
+        if (!Array.isArray(data.bitters)) data.bitters = [];
 
         console.log("Dane załadowane:");
         console.log(data);
@@ -201,7 +203,7 @@ function saveSettings() {
 function getAvailableGroups() {
     const groups = new Set();
 
-    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas, ...data.vodka, ...data.wine].forEach(item => {
+    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas, ...data.vodka, ...data.wine, ...data.bitters].forEach(item => {
         if (typeof item.group === "string" && item.group.trim() !== "") {
             groups.add(item.group.trim());
         }
@@ -213,7 +215,7 @@ function getAvailableGroups() {
 function getDisplayGroups() {
     const counts = new Map();
 
-    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas, ...data.vodka, ...data.wine].forEach(item => {
+    [...data.distilleries, ...data.whiskies, ...data.gins, ...data.liquers, ...data.rums, ...data.tequilas, ...data.vodka, ...data.wine, ...data.bitters].forEach(item => {
         if (typeof item.group === "string" && item.group.trim() !== "") {
             const group = item.group.trim();
             counts.set(group, (counts.get(group) || 0) + 1);
@@ -817,7 +819,8 @@ function getLibraryItems(type = "all") {
         ["rums", "Rum", data.rums],
         ["tequilas", "Tequila", data.tequilas],
         ["vodka", "Wódka", data.vodka],
-        ["wine", "Wino", data.wine]
+        ["wine", "Wino", data.wine],
+        ["bitters", "Bitter", data.bitters]
     ];
 
     return categories
