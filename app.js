@@ -19,7 +19,8 @@ let data = {
     tequilas: [],
     vodka: [],
     wine: [],
-    bitters: []
+    bitters: [],
+    alcoholBasics: []
 };
 
 let questions = [];
@@ -105,6 +106,7 @@ async function loadData() {
         if (!Array.isArray(data.vodka)) data.vodka = [];
         if (!Array.isArray(data.wine)) data.wine = [];
         if (!Array.isArray(data.bitters)) data.bitters = [];
+        if (!Array.isArray(data.alcoholBasics)) data.alcoholBasics = [];
 
         console.log("Dane załadowane:");
         console.log(data);
@@ -441,7 +443,9 @@ function startQuiz(type) {
 }
 
 function startFlashcards(type) {
-    flashcards = filterByGroups(getLibraryItems(type));
+    flashcards = type === "alcoholBasics"
+        ? getLibraryItems(type)
+        : filterByGroups(getLibraryItems(type));
 
     if (flashcards.length === 0) {
         alert("Nie ma żadnych fiszek dla obecnych ustawień.");
@@ -536,7 +540,6 @@ function createExpertSuggestions(currentQuestionData) {
     else if (currentQuestionData.category === "liquer") sourceData = filterByGroups(data.liquers);
     else if (currentQuestionData.category === "rum") sourceData = filterByGroups(data.rums);
     else if (currentQuestionData.category === "tequila") sourceData = filterByGroups(data.tequilas);
-
     const names = sourceData.map(item => item.name);
     names.forEach(name => {
         const option = document.createElement("option");
@@ -663,7 +666,6 @@ function createAnswers(currentQuestionData) {
     else if (currentQuestionData.category === "liquer") sourceData = filterByGroups(data.liquers);
     else if (currentQuestionData.category === "rum") sourceData = filterByGroups(data.rums);
     else if (currentQuestionData.category === "tequila") sourceData = filterByGroups(data.tequilas);
-
     let possibleAnswers = sourceData.map(item => item.name);
     possibleAnswers = possibleAnswers.filter(name => name !== currentQuestionData.answer);
     shuffle(possibleAnswers);
@@ -820,7 +822,8 @@ function getLibraryItems(type = "all") {
         ["tequilas", "Tequila", data.tequilas],
         ["vodka", "Wódka", data.vodka],
         ["wine", "Wino", data.wine],
-        ["bitters", "Bitter", data.bitters]
+        ["bitters", "Bitter", data.bitters],
+        ["alcoholBasics", "Podstawy alkoholi", data.alcoholBasics]
     ];
 
     return categories
@@ -857,25 +860,38 @@ function createLibraryItemElement(item) {
         const mashList = item.Mash.map(mash => `${getMashName(mash.type)}: ${(mash.percentage * 100).toFixed(0)}%`).join(" | ");
         html += `<span class="mash-tag">🌾 ${mashList}</span>`;
     }
-    html += `</div><ul class="library-info">`;
+    html += `</div>`;
 
-    if (Array.isArray(item.information)) {
-        item.information.filter(info => info.trim() !== "").forEach(info => { html += `<li>${info}</li>`; });
-    }
-    if (Array.isArray(item.additionalInfo)) {
-        item.additionalInfo.filter(info => info.trim() !== "").forEach(info => { html += `<li class="additional-info">💡 ${info}</li>`; });
-    }
-    if (Array.isArray(item.material)) {
-        item.material.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Surowiec:</strong> ${info}</li>`; });
-    }
-    if (Array.isArray(item.distillation)) {
-        item.distillation.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Destylacja:</strong> ${info}</li>`; });
-    }
-    if (Array.isArray(item.texture)) {
-        item.texture.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Tekstura:</strong> ${info}</li>`; });
-    }
+    if (item._type === "alcoholBasics" && item.sections && typeof item.sections === "object") {
+        Object.entries(item.sections).forEach(([title, facts]) => {
+            if (!Array.isArray(facts) || facts.length === 0) return;
+            html += `<details class="library-info-section" open><summary>${title}<small>${facts.length}</small></summary><ul class="library-info">`;
+            facts.filter(fact => typeof fact === "string" && fact.trim() !== "").forEach(fact => {
+                html += `<li>${fact}</li>`;
+            });
+            html += `</ul></details>`;
+        });
+    } else {
+        html += `<ul class="library-info">`;
 
-    html += `</ul>`;
+        if (Array.isArray(item.information)) {
+            item.information.filter(info => info.trim() !== "").forEach(info => { html += `<li>${info}</li>`; });
+        }
+        if (Array.isArray(item.additionalInfo)) {
+            item.additionalInfo.filter(info => info.trim() !== "").forEach(info => { html += `<li class="additional-info">💡 ${info}</li>`; });
+        }
+        if (Array.isArray(item.material)) {
+            item.material.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Surowiec:</strong> ${info}</li>`; });
+        }
+        if (Array.isArray(item.distillation)) {
+            item.distillation.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Destylacja:</strong> ${info}</li>`; });
+        }
+        if (Array.isArray(item.texture)) {
+            item.texture.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Tekstura:</strong> ${info}</li>`; });
+        }
+
+        html += `</ul>`;
+    }
     element.innerHTML = html;
     return element;
 }
@@ -888,7 +904,7 @@ function renderLibrary() {
     let items = getLibraryItems(libTypeFilter.value);
 
     if (group !== "all") items = items.filter(item => item.group === group);
-    items.sort((a, b) => a.name.localeCompare(b.name));
+    items.sort((a, b) => Number(a.id) - Number(b.id));
 
     if (items.length === 0) {
         libraryList.innerHTML = "<p style='text-align:center; color:#999; margin-top:20px;'>Brak wyników dla wybranych filtrów.</p>";
