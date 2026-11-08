@@ -227,6 +227,31 @@ body {
     margin-bottom: 6px;
 }
 
+.library-info-section {
+    border-top: 1px solid #3b3b3b;
+    padding: 10px 0;
+}
+
+.library-info-section summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #eee;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.library-info-section summary small {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.library-info-section .library-info {
+    margin-top: 10px;
+}
+
 .additional-info {
     list-style-type: none;
     margin-left: -20px;
