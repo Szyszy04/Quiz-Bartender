@@ -241,7 +241,7 @@
                 "Nazwa oznacza Dolinę Spokoju (lub Dolinę Dużego Wzgórza)"
             ],
             "additionalInfo": [
-                "Wzór pojawiąjący się na butelkach nawiązuje historycznie do celtyckiej sztuki, jest bezpośrednią adaptacją kamienia Hilton of Cadboll Stone odnalezionego w pobliżu destylarni w Szkocji." 
+                "Wzór pojawiąjący się na butelkach nawiązuje historycznie do celtyckiej sztuki, jest bezpośrednią adaptacją kamienia Hilton of Cadboll Stone odnalezionego w pobliżu destylarni w Szkocji."
             ]
         },
         {
@@ -758,7 +758,7 @@
                 "Przez wielu fanów uznawana za najlepiej zbalansowaną whisky w podstawowej ofercie GlenDronach. Z większą ilością wytrawnego wina i z pazurem."
             ],
             "additionalInfo": [
-                "Nazwa zawiązuje do tego że destylarnia w 1996 roku została zamknięta, dopiero w 2001 roku zakład przejęli nowi właściciele (grupa BenRiach), wznowiono tradycyjną produkcję, 15-letnia wersja powróciła stąd Revival jako symbol odrodzenia." 
+                "Nazwa zawiązuje do tego że destylarnia w 1996 roku została zamknięta, dopiero w 2001 roku zakład przejęli nowi właściciele (grupa BenRiach), wznowiono tradycyjną produkcję, 15-letnia wersja powróciła stąd Revival jako symbol odrodzenia."
             ],
             "aroma": [
                 " 🍒 Czarna wiśnia • 🍇 Śliwka • 🍫 Ciemne kakao • ☕ Espresso • 🍂 Gałka muszkatołowa • 🍊 Kandyzowana pomarańcza"
@@ -811,7 +811,7 @@
             "aroma": [
                 "🍐 Gruszka • 🍏 Zielone jabłko • 🌼 Kwiaty • 🍋 Cytryna • 🌾 Świeży słód • 🍯 Delikatny miód"
             ],
-            "barrels": [ 
+            "barrels": [
                 {
                     "type": "Bourbon",
                     "process": "maturation"
@@ -1192,7 +1192,7 @@
                 }
             ]
         },
-                {
+        {
             "id": 34,
             "name": "Glenmorangie 18",
             "group": "LVMH",
@@ -1211,7 +1211,7 @@
                     "type": "Bourbon",
                     "process": "maturation"
                 },
-                                {
+                {
                     "type": "Sherry Oloroso",
                     "process": "finish"
                 }
@@ -2848,7 +2848,7 @@
             "additionalInfo": [],
             "aroma": [
                 "🍓 Maliny • 🫐 Jeżyny • 🥃 Koniak • 🍦 Wanilia • 🍯 Miód"
-            ]  
+            ]
         },
         {
             "id": 11,
@@ -3092,6 +3092,7 @@
             "group": "Varela Hermanos",
             "country": "Panama",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Solidny, codzienny rum dojrzewający w beczkach po bourbonie, o niezwykle łagodnym, przystępnym profilu."
             ],
@@ -3118,6 +3119,7 @@
             "group": "Varela Hermanos",
             "country": "Panama",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Głębszy i bardziej tytoniowy w odbiorze."
             ],
@@ -3144,6 +3146,7 @@
             "group": "Varela Hermanos",
             "country": "Panama",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Seria 15-letnich rumów rozlewanych z różnymi finiszami, są niezwykle bogate, ciężkie i złożone."
             ],
@@ -3174,6 +3177,7 @@
             "group": "Varela Hermanos",
             "country": "Panama",
             "type": "",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Należy do kolekcji XV Finish. Starzony 15 lat, z czego finalny okres spędza w beczkach po hiszpańskim sherry, nadając mu wysoce wytrawny, orzechowy charakter."
             ],
@@ -3204,6 +3208,7 @@
             "group": "Varela Hermanos",
             "country": "Panama",
             "type": "",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Kolejna odsłona kolekcji XV Finish, leżakowana w beczkach po portugalskim porto, która maksymalizuje poziom słodyczy i owocowości w panamskim destylacie."
             ],
@@ -3234,6 +3239,7 @@
             "group": "Bacardi-Martini",
             "country": "Portoryko / Bahamy",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Największa prywatna firma alkoholowa na świecie. Przechodzi do 2 lat starzenia, a następnie jest filtrowany przez tropikalny węgiel drzewny, aby usunąć kolor. Absolutny klasyk koktajlowy."
             ],
@@ -3260,6 +3266,7 @@
             "group": "Bacardi-Martini",
             "country": "Portoryko / Bahamy",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Opracowany w 1862 roku jako prywatny rum rodziny Bacardi, udostępniony publicznie wiele dekad później."
             ],
@@ -3286,6 +3293,7 @@
             "group": "Bacardi-Martini",
             "country": "Portoryko / Bahamy",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Wersja premium, poddawana lekkiej filtracji węglowej dla wygładzenia struktury. Bardziej owocowy i wyrafinowany niż Ocho."
             ],
@@ -3312,11 +3320,12 @@
             "group": "Bacardi-Martini",
             "country": "Blend (Kuba, Jamajka, Trynidad, Barbados, Jawa)",
             "type": "Rum",
+            "style": "Blendy Wielowyspowe (International Blends)",
             "information": [
                 "Blend 21 rumów w wieku od 3 do 12 lat. Obecność araku z wyspy Jawa, fermentowanego z czerwonym ryżem, dodaje mu unikalnego, ziemistego smaku rzadko spotykanego w tradycyjnych rumach."
             ],
             "additionalInfo": [],
-                        "material": [
+            "material": [
                 "Melasa"
             ],
             "distillation": [
@@ -3338,6 +3347,7 @@
             "group": "Brown-Forman",
             "country": "Wenezuela",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Znany również pod nazwą Diplomático. Kwintesencja słodkiego, deserowego, bardzo gęstego wenezuelskiego stylu. Nazwa używana jest w Europie z powodu praw autorskich."
             ],
@@ -3368,6 +3378,7 @@
             "group": "Dictador Europe",
             "country": "Kolumbia",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Powstaje z miodu z trzciny cukrowej (nie z melasy) i dojrzewa w ekstremalnie na nowo wypalanych beczkach. Posiada gładki smak z dymnym finiszem i niezwykle lepką strukturą."
             ],
@@ -3404,6 +3415,7 @@
             "group": "Dictador Europe",
             "country": "Kolumbia",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Destylowany tylko w miedzianych alembikach, co sprawia, że jest cięższy, masywniejszy i mniej słodki od wersji Insolent. Zdecydowanie mroczny profil."
             ],
@@ -3433,6 +3445,7 @@
             "group": "Dictador Europe",
             "country": "Kolumbia",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Kolumbijskie beczki wysłano do hiszpańskiego domu winiarskiego, gdzie rum finiszował w 50-letnich dębowych beczkach po ultragęstym sherry Pedro Ximénez pod okiem drugiego mistrza."
             ],
@@ -3463,6 +3476,7 @@
             "group": "Dictador Europe",
             "country": "Kolumbia",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Ultra-limitowany rocznik (Single Vintage) pokazujący ewolucję wybranego roku destylacji pod wpływem klasycznych beczek po bourbonie."
             ],
@@ -3489,6 +3503,7 @@
             "group": "Dictador Europe",
             "country": "Kolumbia",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Część rocznikowej kolekcji Sinfonía, tym razem poddana dominującemu wpływowi beczek po portugalskim winie wzmacnianym."
             ],
@@ -3515,6 +3530,7 @@
             "group": "Dictador Europe",
             "country": "Kolumbia",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Długo dojrzewający rocznik destylowany pod koniec lat 90., charakteryzujący się mocnym, przyprawowo-owocowym uderzeniem z hiszpańskiego dębu."
             ],
@@ -3541,6 +3557,7 @@
             "group": "Dictador Europe",
             "country": "Kolumbia",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Selekcja Vintage kładąca nacisk na potężną wytrawność i taniny. W tej odsłonie brakuje słodyczy znanej z nowszych wydań marki."
             ],
@@ -3567,6 +3584,7 @@
             "group": "Grupo Pellas",
             "country": "Nikaragua",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Rum destylowany u stóp aktywnego wulkanu San Cristóbal. Producent szczyci się zerowym śladem węglowym, brakiem sztucznego cukru oraz beczkami uszczelnianymi naturalnymi liśćmi bananowca."
             ],
@@ -3593,6 +3611,7 @@
             "group": "Pernod Ricard",
             "country": "Kuba",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Wykorzystuje proces 'Cuban Barrel Proof'. Blendy wracają do specjalnie wybranych beczek na kolejne starzenie, a alkohol rozlewany jest z podwyższoną mocą 45% bez sztucznego dosładzania."
             ],
@@ -3623,6 +3642,7 @@
             "group": "Bacardi-Martini",
             "country": "Brazylia",
             "type": "Cachaça",
+            "style": "Cachaça (Styl Brazylijski)",
             "information": [
                 "Destylowana w miedzianych alembikach, a następnie krótko starzona we francuskich beczkach po koniaku (Cognac XO), co nadaje jej unikalną, gładką strukturę idealną do Caipirinhi."
             ],
@@ -3649,6 +3669,7 @@
             "group": "Diageo",
             "country": "Gwatemala",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Starzony wysoko w górach (2300 m n.p.m.). Blend destylatów w wieku od 6 do 23 lat w systemie solera. Butelka ozdobiona jest tradycyjną plecionką petate."
             ],
@@ -3687,6 +3708,7 @@
             "group": "Diageo",
             "country": "Gwatemala",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Wersja Solera starzona od 10 do 25 lat. Kluczowym dodatkiem w porównaniu do wersji 23 jest finalne starzenie we francuskich beczkach po koniaku."
             ],
@@ -3725,6 +3747,7 @@
             "group": "Rodzina Vollmer",
             "country": "Wenezuela",
             "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
             "information": [
                 "Zaskakująco wytrawny jak na Wenezuelę. Zasłynął projektem Alcatraz, w ramach którego destylarnia resocjalizuje członków gangów zbrojnych poprzez zatrudnienie i grę w rugby.",
                 "Liczba w nazwie oznacza rok założenia plantacji trzciny cukrowej, a na jej 200-stu lecie powstała ta butelka."
@@ -3756,6 +3779,7 @@
             "group": "Haus Alpenz",
             "country": "Jamajka",
             "type": "Rum",
+            "style": "Styl Angielski (Rum)",
             "information": [
                 "Rozlewany z siłą Marynarki Wojennej (Navy Strength 57% ABV). Kwintesencja jamajskiego profilu 'Hogo' (wysoka zawartość estrów). Niezastąpiony w klasycznych koktajlach Tiki."
             ],
@@ -3782,6 +3806,7 @@
             "group": "Spirited Union Distillery",
             "country": "Holandia",
             "type": "Botanical Rum",
+            "style": "Kategoria Spiced Rum / Flavored Rum (Rumy Przyprawiane)",
             "information": [
                 "Botaniczny rum, który unika sztucznych syropów. Baza melasowa jest macerowana solą morską z Añana i przyprawami podobnie jak przy rzemieślniczej produkcji ginu."
             ],
@@ -3803,6 +3828,7 @@
             "group": "Rodzina Clarke",
             "country": "Jamajka",
             "type": "Rum",
+            "style": "Styl Angielski (Rum)",
             "information": [
                 "Destylarnia typu Single Estate – w pełni niezależny proces od posadzenia trzciny po butelkowanie. Używają wyłącznie miedzianych alembików."
             ],
@@ -3829,6 +3855,7 @@
             "group": "World's End Rum",
             "country": "Belgia",
             "type": "Spiced Rum",
+            "style": "Kategoria Spiced Rum / Flavored Rum (Rumy Przyprawiane)",
             "information": [
                 "Marka o żeglarskim brandingu z Europy Zachodniej. Destylaty sprowadzane są z krajów karaibskich, po czym poddawane infuzji słodkimi i korzennymi przyprawami w Belgii."
             ],
@@ -4470,7 +4497,9 @@
             "name": "Babich Sauvignon Blanc",
             "country": "Nowa Zelandia",
             "region": "Marlborough",
-            "aroma": ["🍈 Marakuja • 🟢 Agrest • 🍋 Limonka • 🌿 Skoszona trawa"],
+            "aroma": [
+                "🍈 Marakuja • 🟢 Agrest • 🍋 Limonka • 🌿 Skoszona trawa"
+            ],
             "additionalInfo": [
                 "Wytrawne, niezwykle aromatyczne i uderzająco świeże wino z ekspresyjnymi nutami marakui, agrestu, limonki i skoszonej trawy."
             ]
@@ -4480,7 +4509,9 @@
             "name": "Chardonnay Puglia",
             "country": "Włochy",
             "region": "Apulia",
-            "aroma": ["🍌 Banan • 🍈 Melon • 🍍 Dojrzałe owoce tropikalne"],
+            "aroma": [
+                "🍌 Banan • 🍈 Melon • 🍍 Dojrzałe owoce tropikalne"
+            ],
             "additionalInfo": [
                 "Południowowłoskie Chardonnay o ocieplonym, łagodnym i krąglejszym profilu. Cechuje się aromatami dojrzałych owoców tropikalnych (banan, melon) i umiarkowaną kwasowością."
             ]
@@ -4490,7 +4521,9 @@
             "name": "Heiderer Riesling Wagram",
             "country": "Austria",
             "region": "Wagram",
-            "aroma": ["🍏 Zielone jabłko • 🍑 Brzoskwinia • 🪨 Mineralność"],
+            "aroma": [
+                "🍏 Zielone jabłko • 🍑 Brzoskwinia • 🪨 Mineralność"
+            ],
             "additionalInfo": [
                 "Wytrawny austriacki Riesling. Wino o mocnym, rześkim szkielecie, wysokiej kwasowości, wyczuwalnej mineralności i nutach zielonego jabłka oraz brzoskwini."
             ]
@@ -4500,7 +4533,9 @@
             "name": "Miss Schmitt Gewürztraminer",
             "country": "Niemcy",
             "region": "Mozela",
-            "aroma": ["🌹 Płatki róż • 🥭 Liczi • 🍍 Owoce egzotyczne"],
+            "aroma": [
+                "🌹 Płatki róż • 🥭 Liczi • 🍍 Owoce egzotyczne"
+            ],
             "additionalInfo": [
                 "Ekstremalnie aromatyczne, półwytrawne wino, które w kieliszku pachnie płatkami róż, dojrzałym liczi i owocami egzotycznymi. Gładkie i przyjazne w odbiorze."
             ]
@@ -4510,7 +4545,9 @@
             "name": "Navajas Tinto",
             "country": "Hiszpania",
             "region": "Rioja",
-            "aroma": ["🍒 Wiśnia • 🍓 Malina • 🌶️ Delikatne przyprawy • 🍦 Wanilia • 🪵 Dąb"],
+            "aroma": [
+                "🍒 Wiśnia • 🍓 Malina • 🌶️ Delikatne przyprawy • 🍦 Wanilia • 🪵 Dąb"
+            ],
             "additionalInfo": [
                 "Młoda, przystępna, wytrawna Rioja. Bardzo owocowa, z dominacją czerwonych owoców (wiśnia, malina) przełamana delikatną pikanterią i wanilią od kontaktu z dębową beczką."
             ]
@@ -4520,7 +4557,9 @@
             "name": "Masserie Civitella Primitivo Del Salento",
             "country": "Włochy",
             "region": "Apulia",
-            "aroma": ["🍒 Ciemna wiśnia • 🍑 Dojrzała śliwka • 🍂 Słodkie przyprawy"],
+            "aroma": [
+                "🍒 Ciemna wiśnia • 🍑 Dojrzała śliwka • 🍂 Słodkie przyprawy"
+            ],
             "additionalInfo": [
                 "Cięższe, wyraziste i pełne wino z południa Włoch. Rozgrzewające, z potężną dawką dżemowych aromatów: ciemnej wiśni, dojrzałej śliwki i słodkich przypraw, oprawione w miękkie, pluszowe taniny."
             ]
@@ -4530,7 +4569,9 @@
             "name": "Alita",
             "country": "Litwa",
             "region": "",
-            "aroma": ["🍎 Owoce sadu • 🫧 Musujące • 🍋 Świeży profil"],
+            "aroma": [
+                "🍎 Owoce sadu • 🫧 Musujące • 🍋 Świeży profil"
+            ],
             "additionalInfo": [
                 "Popularne litewskie wino musujące o przystępnym, owocowym i lekkim profilu"
             ]
@@ -4540,7 +4581,9 @@
             "name": "Dom Pérignon 2013",
             "country": "Francja",
             "region": "Szampania",
-            "aroma": ["🍋 Cytrusy • 🌼 Białe kwiaty • 🌿 Mięta • 🍞 Nuty tostowe"],
+            "aroma": [
+                "🍋 Cytrusy • 🌼 Białe kwiaty • 🌿 Mięta • 🍞 Nuty tostowe"
+            ],
             "additionalInfo": [
                 "Prestiżowy szampan rocznikowy klasy premium. Złożony, elegancki, z nutami cytrusów, białych kwiatów, mięty i subtelnych, szlachetnych akcentów tostowych."
             ]
@@ -4550,7 +4593,9 @@
             "name": "Moët & Chandon Imperial Brut",
             "country": "Francja",
             "region": "Szampania",
-            "aroma": ["🍏 Zielone jabłko • 🍋 Cytrusy • 🥐 Brioszka"],
+            "aroma": [
+                "🍏 Zielone jabłko • 🍋 Cytrusy • 🥐 Brioszka"
+            ],
             "additionalInfo": [
                 "Klasyczny, nierocznikowy szampan i zarazem najbardziej rozpoznawalny na świecie. Zbalansowany i rześki, z aromatami zielonego jabłka, cytrusów i delikatnej brioszki."
             ]
@@ -4560,7 +4605,9 @@
             "name": "Mumm Grand Cordon",
             "country": "Francja",
             "region": "Szampania",
-            "aroma": ["🍑 Dojrzała brzoskwinia • 🍑 Morela • 🍦 Wanilia"],
+            "aroma": [
+                "🍑 Dojrzała brzoskwinia • 🍑 Morela • 🍦 Wanilia"
+            ],
             "additionalInfo": [
                 "Flagowy szampan domu Mumm z wyraźną dominacją szczepu Pinot Noir. Wyróżnia się krzepkością oraz aromatami dojrzałych brzoskwiń, moreli i wanilii."
             ]
@@ -4570,7 +4617,9 @@
             "name": "Mumm Ice",
             "country": "Francja",
             "region": "Szampania",
-            "aroma": ["🍑 Owoce • 🫧 Orzeźwiające musowanie • 🍯 Delikatna słodycz"],
+            "aroma": [
+                "🍑 Owoce • 🫧 Orzeźwiające musowanie • 🍯 Delikatna słodycz"
+            ],
             "additionalInfo": [
                 "Szampan stworzony specjalnie do serwowania na kostkach lodu. Półsłodki (demi-sec), mocno owocowy, orzeźwiający i krągły."
             ]
@@ -4580,7 +4629,9 @@
             "name": "Mumm Rosé",
             "country": "Francja",
             "region": "Szampania",
-            "aroma": ["🫐 Leśne jagody • 🍓 Truskawka • 🍊 Różowy grejpfrut"],
+            "aroma": [
+                "🫐 Leśne jagody • 🍓 Truskawka • 🍊 Różowy grejpfrut"
+            ],
             "additionalInfo": [
                 "Różowa odsłona szampana Mumm o świeżym, letnim charakterze. Dominują w nim aromaty leśnych jagód, truskawek i różowego grejpfruta."
             ]
@@ -4590,7 +4641,9 @@
             "name": "Perrier-Jouët",
             "country": "Francja",
             "region": "Szampania",
-            "aroma": ["🌼 Białe kwiaty • 🍋 Cytrusy • 🍐 Owoce sadu"],
+            "aroma": [
+                "🌼 Białe kwiaty • 🍋 Cytrusy • 🍐 Owoce sadu"
+            ],
             "additionalInfo": [
                 "Dom szampański słynący z ogromnej elegancji, lekkości i mocno kwiatowych aromatów, co jest zasługą silnej reprezentacji szczepu Chardonnay w cuvée."
             ]
@@ -4600,7 +4653,9 @@
             "name": "Prosecco Botter",
             "country": "Włochy",
             "region": "",
-            "aroma": ["🍏 Jabłko • 🍐 Gruszka • 🌼 Białe kwiaty"],
+            "aroma": [
+                "🍏 Jabłko • 🍐 Gruszka • 🌼 Białe kwiaty"
+            ],
             "additionalInfo": [
                 "Włoskie, bardzo rześkie wino musujące ze szczepu Glera. Niezobowiązujące, z dominującymi nutami jabłek, gruszek i białych kwiatów."
             ]
@@ -4610,267 +4665,648 @@
             "name": "Al Mercado 0%",
             "country": "Hiszpania",
             "region": "",
-            "aroma": ["🍏 Owoce sadu • 🫧 Musujące • 🍋 Orzeźwiająca kwasowość"],
+            "aroma": [
+                "🍏 Owoce sadu • 🫧 Musujące • 🍋 Orzeźwiająca kwasowość"
+            ],
             "additionalInfo": [
                 "Białe, musujące i półwytrawne wino bezalkoholowe. Zapewnia orzeźwienie, zbalansowaną kwasowość i owocowy profil (owoce sadu) bez zawartości procentów."
             ]
         }
     ],
     "bitters": [
-{
-        "id": 1,
-        "name": "Carpano Antica Formula",
-        "country": "Włochy",
-        "group": "Fratelli Branca Distillerie",
-        "type": "Vermouth Rosso",
-        "information": [
-            "Uznawany za pierwszy nowożytny wermut na świecie – jego recepturę opracował w 1786 roku Antonio Benedetto Carpano. Butelka posiada unikalny, tradycyjny kształt, a każda sztuka ma swój indywidualny numer."
-        ],
-        "additionalInfo": [
-            "Historyczny, super-premium wermut o ciemnej barwie. Stanowi absolutny standard dla klasycznych koktajli wymagających cięższego, bogatego profilu.",
-            "Smak: Niezwykle gęsty, aksamitny i bogaty. Dominuje słodka wanilia i kakao, przełamane goryczką szafranu, piołunu i gorzkich pomarańczy."
-        ],
-        "aroma": [
-            "wanilia • suszone figi • rodzynki • gałka muszkatołowa • skórka pomarańczy • migdały"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Cocchi Americano",
-        "country": "Włochy",
-        "group": "Giulio Cocchi",
-        "type": "Aperitif",
-        "information": [
-            "Barmani na całym świecie używają go jako najlepszego współczesnego zamiennika legendarnego Kina Lillet w klasycznym przepisie na koktajl Vesper Martini z przygód Jamesa Bonda."
-        ],
-        "additionalInfo": [
-            "Klasyczny, jasny aperitif bazujący na winie Moscato di Asti, wzmacniany i aromatyzowany, w którym głównym czynnikiem goryczkowym nie jest piołun (jak w wermutach), lecz kora chinowca.",
-            "Smak: Miodowo-owocowa słodycz białego wina, która płynnie przechodzi w wyraźną, lekko ściągającą, chininową goryczkę z posmakiem cytrusów."
-        ],
-        "aroma": [
-            "kwiat pomarańczy • czarny bez • skórka cytrusowa • nuty zielonych ziół"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Lillet Blanc",
-        "country": "Francja",
-        "group": "Pernod Ricard",
-        "type": "Wine Aperitif",
-        "information": [
-            "W 1986 roku zrezygnowano z nazwy \"Kina Lillet\" i zmniejszono ilość chininy w recepturze, aby dostosować trunek do współczesnych, preferujących słodsze smaki gustów."
-        ],
-        "additionalInfo": [
-            "Delikatny, słomkowo-złoty aperitif będący kupażem francuskich win z regionu Bordeaux (głównie Semillon) i rzemieślniczych likierów owocowych.",
-            "Smak: Lekki, rześki i owocowy. Zdecydowanie słodszy i łagodniejszy niż wermuty, z minimalną goryczką i posmakiem owoców tropikalnych oraz cytrusów."
-        ],
-        "aroma": [
-            "jasne kwiaty • kandyzowane pomarańcze • sosnowa żywica • brzoskwinie • miód"
-        ]
-    },
-    {
-        "id": 4,
-        "name": "Lillet Rosé",
-        "country": "Francja",
-        "group": "Pernod Ricard",
-        "type": "Wine Aperitif (Rosé)",
-        "information": [
-            "Jest to najmłodszy produkt z rodziny Lillet – został wprowadzony na rynek dopiero w 2011 roku, jako odpowiedź na rosnącą globalną popularność win różowych."
-        ],
-        "additionalInfo": [
-            "Różowa, bardziej owocowa wariacja na temat klasycznego Lillet, powstała z połączenia białych i czerwonych win z Bordeaux z likierami cytrusowymi.",
-            "Smak: Świeży, lekko kwasowy z wyraźnymi nutami dojrzałych jagód i czerwonych owoców. Goryczka jest niemal niedostrzegalna, finisz lekki i rześki."
-        ],
-        "aroma": [
-            "czerwone owoce • kwiat pomarańczy • różowy grejpfrut"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Martini Riserva Speciale Ambrato",
-        "country": "Włochy",
-        "group": "Bacardi",
-        "type": "Vermouth di Torino",
-        "information": [
-            "W przeciwieństwie do podstawowych wersji Martini, seria \"Riserva Speciale\" po procesie maceracji leżakuje w tradycyjnych dębowych kadziach \"tino\" z drewna pochodzącego z Piemontu."
-        ],
-        "additionalInfo": [
-            "Wermut z segmentu premium marki Martini. Do jego produkcji wykorzystuje się wyłącznie lokalne wina, w tym prestiżowe Moscato d'Asti, co nadaje mu głęboki, bursztynowy kolor.",
-            "Smak: Półsłodki z wyczuwalnym miodowym finiszem, nutami czarnego pieprzu i charakterystyczną, ziołową goryczką trzech odmian piołunu z Piemontu."
-        ],
-        "aroma": [
-            "kwiatowo-ziołowe • rumianek • miód • żółte owoce"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Martini Riserva Speciale Rubino",
-        "country": "Włochy",
-        "group": "Bacardi",
-        "type": "Vermouth di Torino",
-        "information": [
-            "Nazwa \"Rubino\" nawiązuje do głębokiej, rubinowej barwy wermutu, która pochodzi w pełni z czerwonego wina Nebbiolo, a nie z dodatku karmelu."
-        ],
-        "additionalInfo": [
-            "Czerwony odpowiednik Ambrato z serii premium. Jego bazą jest wytrzymalsze wino – Langhe DOC Nebbiolo, z którego powstają również słynne wina Barolo.",
-            "Smak: Wyjątkowo taninowy jak na wermut. Bogaty, wytrawniejszy niż standardowe Martini Rosso, z nutami owoców leśnych i silnym ziołowo-korzennym uderzeniem."
-        ],
-        "aroma": [
-            "jeżyny • maliny • czarny pieprz • goździki • delikatne nuty drzewne"
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Noilly Prat (Original Dry)",
-        "country": "Francja",
-        "group": "Bacardi",
-        "type": "Dry Vermouth",
-        "information": [
-            "Beczki z winem, zanim staną się wermutem, leżakują przez rok na zewnątrz (tzw. metoda L'Enclos). Wystawienie na słońce, wiatr i morską bryzę sprawia, że wino ulega naturalnej oksydacji, co tworzy jego unikalny, lekko słonawy profil."
-        ],
-        "additionalInfo": [
-            "Klasyczny, bardzo wytrawny francuski wermut, będący absolutnym filarem dobrego koktajlu Dry Martini.",
-            "Smak: Bardzo wytrawny, niemal całkowicie pozbawiony cukru. Posiada lekkie nuty oksydacyjne (zbliżone do wytrawnego sherry Fino), z wyraźnym, ziołowym finiszem."
-        ],
-        "aroma": [
-            "rumianek • kolendra • gałka muszkatołowa • skórka cytrynowa • lekkie nuty morskie/solone"
-        ]
-    },
-    {
-        "id": 8,
-        "name": "Absent 55",
-        "country": "Francja",
-        "group": "Distilleries et Domaines de Provence",
-        "type": "Absynt",
-        "information": [
-            "Był to jeden z pierwszych \"absyntów\" wprowadzonych legalnie do USA (w 1999 roku) po niemal stuletnim zakazie. Początkowo musiał być reklamowany jako \"likier z dodatkiem bylicy\", aby obejść rygorystyczne przepisy."
-        ],
-        "additionalInfo": [
-            "Jasnozielony likier wysokoprocentowy z wyraźną dominacją anyżu i piołunu, butelkowany z mocą 55% ABV.",
-            "Smak: Uderzająco lukrecjowy (anyżowy) z chłodzącym, miętowym tłem i trawiasto-ziołową goryczką na finiszu. Słodszy niż klasyczne, historyczne absynty."
-        ],
-        "aroma": [
-            "bardzo silny anyż • koper włoski • mięta pieprzowa • piołun"
-        ]
-    },
-    {
-        "id": 9,
-        "name": "Amaro Averna",
-        "country": "Włochy",
-        "group": "Campari Group",
-        "type": "Amaro",
-        "information": [
-            "Według legendy, w 1868 roku sycylijski kupiec Salvatore Averna otrzymał tajny przepis od mnicha Frà Girolamo z pobliskiego zakonu benedyktynów z opactwa Santo Spirito."
-        ],
-        "additionalInfo": [
-            "Ciemny, gęsty, rdzennie sycylijski likier digestif. Jest to tzw. \"dolce amaro\" (słodkie amaro), czyli trunek bardziej przystępny, o niższym poziomie goryczy.",
-            "Smak: Bardzo lepki i słodki na początku. Smak karmelu, czerwonych sycylijskich pomarańczy i ziół powoli przechodzi w bardzo delikatną, przyjemną goryczkę."
-        ],
-        "aroma": [
-            "skórka gorzkiej pomarańczy • lukrecja • rozmaryn • szałwia • ciemna czekolada"
-        ]
-    },
-    {
-        "id": 10,
-        "name": "Amaro Montenegro",
-        "country": "Włochy",
-        "group": "Gruppo Montenegro",
-        "type": "Amaro",
-        "information": [
-            "Receptura z 1885 roku jest tak tajna, że poszczególne z 40 składników przygotowują inne osoby. Nazwa honoruje księżniczkę Helenę z Czarnogóry, późniejszą królową Włoch."
-        ],
-        "additionalInfo": [
-            "Jedno z najbardziej aromatycznych i najlżejszych amaro na rynku. Często wybierane jako \"brama wejściowa\" do świata gorzkich włoskich likierów ze względu na kwiatowy profil.",
-            "Smak: Słodki, przypominający mandarynki, płatki róż i wiśnie z niemal znikomą, bardzo elegancką goryczką na samym finiszu."
-        ],
-        "aroma": [
-            "kandyzowana skórka pomarańczy • nasiona kolendry • marcepan • ogórek • kwiaty"
-        ]
-    },
-    {
-        "id": 11,
-        "name": "Aperol",
-        "country": "Włochy",
-        "group": "Campari Group",
-        "type": "Aperitivo",
-        "information": [
-            "Choć stworzono go w 1919 roku, stał się globalnym fenomenem dopiero po przejęciu marki przez Campari Group w 2003 roku. Zainwestowano ogromne środki w promocję Aperol Spritz."
-        ],
-        "additionalInfo": [
-            "Słynny, jaskrawopomarańczowy likier o stosunkowo niskiej zawartości alkoholu (najczęściej 11%). Stanowi serce najpopularniejszego koktajlu lata – Aperol Spritz.",
-            "Smak: Dominująca, rześka pomarańcza z silną słodyczą, która w ostatnich sekundach zostawia na podniebieniu zaledwie powiew cytrusowej goryczy."
-        ],
-        "aroma": [
-            "słodka pomarańcza • rabarbar • zarys wanilii • lekkie nuty drewniane"
-        ]
-    },
-    {
-        "id": 12,
-        "name": "Campari",
-        "country": "Włochy",
-        "group": "Campari Group",
-        "type": "Aperitivo / Bitter",
-        "information": [
-            "Aż do 2006 roku (a w niektórych krajach dłużej) Campari zawdzięczało swój krwistoczerwony kolor koszenili – naturalnemu barwnikowi pozyskiwanemu ze zmiażdżonych owadów (czerwców kaktusowych)."
-        ],
-        "additionalInfo": [
-            "Głęboko czerwony, bezkompromisowo gorzki trunek, który dzieli ludzi na tych, którzy go kochają lub nienawidzą. Fundamentalny składnik koktajli Negroni i Boulevardier.",
-            "Smak: Początkowe uderzenie słodkiego syropu wiśniowego natychmiast ustępuje bardzo ostrej, ściągającej goryczy ziół, chininy i piołunu, która długo utrzymuje się w ustach."
-        ],
-        "aroma": [
-            "silna gorzka pomarańcza • kora • grejpfrut • wiśnie • dzikie zioła"
-        ]
-    },
-    {
-        "id": 13,
-        "name": "Suze",
-        "country": "Francja",
-        "group": "Pernod Ricard",
-        "type": "Gentian Liqueur",
-        "information": [
-            "Butelka Suze posiada bardzo charakterystyczny kształt, który zainspirował Pabla Picassa w 1912 roku. Dzieło artysty nosiło tytuł \"Verre et bouteille de Suze\"."
-        ],
-        "additionalInfo": [
-            "Charakterystyczny, jaskrawożółty francuski aperitif o bardzo oryginalnym, ziemisto-roślinnym profilu. Jego głównym składnikiem jest dzika goryczka zbierana w górach.",
-            "Smak: Ekstremalnie specyficzny – słodki na początku, po czym ujawnia mocną, \"zieloną\", ziemistą i wręcz korzenną gorycz z posmakiem kandyzowanej pomarańczy."
-        ],
-        "aroma": [
-            "wilgotna ziemia • korzenie • mniszek lekarski • miód • cytrusy"
-        ]
-    },
-    {
-        "id": 14,
-        "name": "Fernet-Branca",
-        "country": "Włochy",
-        "group": "Fratelli Branca Distillerie",
-        "type": "Fernet",
-        "information": [
-            "Trunek ten to prawdziwy fenomen w Argentynie. Kraj ten odpowiada za ogromną część światowego spożycia Fernetu. W branży barmańskiej shot nazywany jest \"uściskiem dłoni barmana\"."
-        ],
-        "additionalInfo": [
-            "Jeden z najbardziej agresywnych, ziołowych i bezkompromisowych likierów na świecie. Posiada gęstą, czarną barwę i właściwości silnie trawienne.",
-            "Smak: Bezlitośnie gorzki, wytrawny, mentolowy i korzenny. Słodycz jest niemal całkowicie zgaszona przez leczniczy, ziemisty i ziołowy finisz."
-        ],
-        "aroma": [
-            "eukaliptus • mięta pieprzowa • mirra • szafran • gęsty syrop apteczny"
-        ]
-    },
-    {
-        "id": 15,
-        "name": "Branca Menta",
-        "country": "Włochy",
-        "group": "Fratelli Branca Distillerie",
-        "type": "Mentholated Amaro",
-        "information": [
-            "Trunek powstał w połowie lat 60. XX wieku z inspiracji słynną śpiewaczką operową, Marią Callas, która pijała klasyczny Fernet-Branca z dodatkiem syropu miętowego."
-        ],
-        "additionalInfo": [
-            "Słodsza, chłodząca i ekstremalnie miętowa wariacja na temat klasycznego Fernet-Branca.",
-            "Smak: Gęsty, słodszy niż klasyczny Fernet. Bardzo silne, chłodzące uczucie mentolu łagodzi tradycyjną goryczkę piołunowo-ziołową, czyniąc go łatwiejszym w odbiorze."
-        ],
-        "aroma": [
-            "eksplozja świeżej mięty pieprzowej i zielonej • ciężka, ziołowo-przyprawowa baza"
-        ]
-    }
+        {
+            "id": 1,
+            "name": "Carpano Antica Formula",
+            "country": "Włochy",
+            "group": "Fratelli Branca Distillerie",
+            "type": "Vermouth Rosso",
+            "information": [
+                "Uznawany za pierwszy nowożytny wermut na świecie – jego recepturę opracował w 1786 roku Antonio Benedetto Carpano. Butelka posiada unikalny, tradycyjny kształt, a każda sztuka ma swój indywidualny numer."
+            ],
+            "additionalInfo": [
+                "Historyczny, super-premium wermut o ciemnej barwie. Stanowi absolutny standard dla klasycznych koktajli wymagających cięższego, bogatego profilu.",
+                "Smak: Niezwykle gęsty, aksamitny i bogaty. Dominuje słodka wanilia i kakao, przełamane goryczką szafranu, piołunu i gorzkich pomarańczy."
+            ],
+            "aroma": [
+                "wanilia • suszone figi • rodzynki • gałka muszkatołowa • skórka pomarańczy • migdały"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Cocchi Americano",
+            "country": "Włochy",
+            "group": "Giulio Cocchi",
+            "type": "Aperitif",
+            "information": [
+                "Barmani na całym świecie używają go jako najlepszego współczesnego zamiennika legendarnego Kina Lillet w klasycznym przepisie na koktajl Vesper Martini z przygód Jamesa Bonda."
+            ],
+            "additionalInfo": [
+                "Klasyczny, jasny aperitif bazujący na winie Moscato di Asti, wzmacniany i aromatyzowany, w którym głównym czynnikiem goryczkowym nie jest piołun (jak w wermutach), lecz kora chinowca.",
+                "Smak: Miodowo-owocowa słodycz białego wina, która płynnie przechodzi w wyraźną, lekko ściągającą, chininową goryczkę z posmakiem cytrusów."
+            ],
+            "aroma": [
+                "kwiat pomarańczy • czarny bez • skórka cytrusowa • nuty zielonych ziół"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Lillet Blanc",
+            "country": "Francja",
+            "group": "Pernod Ricard",
+            "type": "Wine Aperitif",
+            "information": [
+                "W 1986 roku zrezygnowano z nazwy \"Kina Lillet\" i zmniejszono ilość chininy w recepturze, aby dostosować trunek do współczesnych, preferujących słodsze smaki gustów."
+            ],
+            "additionalInfo": [
+                "Delikatny, słomkowo-złoty aperitif będący kupażem francuskich win z regionu Bordeaux (głównie Semillon) i rzemieślniczych likierów owocowych.",
+                "Smak: Lekki, rześki i owocowy. Zdecydowanie słodszy i łagodniejszy niż wermuty, z minimalną goryczką i posmakiem owoców tropikalnych oraz cytrusów."
+            ],
+            "aroma": [
+                "jasne kwiaty • kandyzowane pomarańcze • sosnowa żywica • brzoskwinie • miód"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Lillet Rosé",
+            "country": "Francja",
+            "group": "Pernod Ricard",
+            "type": "Wine Aperitif (Rosé)",
+            "information": [
+                "Jest to najmłodszy produkt z rodziny Lillet – został wprowadzony na rynek dopiero w 2011 roku, jako odpowiedź na rosnącą globalną popularność win różowych."
+            ],
+            "additionalInfo": [
+                "Różowa, bardziej owocowa wariacja na temat klasycznego Lillet, powstała z połączenia białych i czerwonych win z Bordeaux z likierami cytrusowymi.",
+                "Smak: Świeży, lekko kwasowy z wyraźnymi nutami dojrzałych jagód i czerwonych owoców. Goryczka jest niemal niedostrzegalna, finisz lekki i rześki."
+            ],
+            "aroma": [
+                "czerwone owoce • kwiat pomarańczy • różowy grejpfrut"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Martini Riserva Speciale Ambrato",
+            "country": "Włochy",
+            "group": "Bacardi",
+            "type": "Vermouth di Torino",
+            "information": [
+                "W przeciwieństwie do podstawowych wersji Martini, seria \"Riserva Speciale\" po procesie maceracji leżakuje w tradycyjnych dębowych kadziach \"tino\" z drewna pochodzącego z Piemontu."
+            ],
+            "additionalInfo": [
+                "Wermut z segmentu premium marki Martini. Do jego produkcji wykorzystuje się wyłącznie lokalne wina, w tym prestiżowe Moscato d'Asti, co nadaje mu głęboki, bursztynowy kolor.",
+                "Smak: Półsłodki z wyczuwalnym miodowym finiszem, nutami czarnego pieprzu i charakterystyczną, ziołową goryczką trzech odmian piołunu z Piemontu."
+            ],
+            "aroma": [
+                "kwiatowo-ziołowe • rumianek • miód • żółte owoce"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Martini Riserva Speciale Rubino",
+            "country": "Włochy",
+            "group": "Bacardi",
+            "type": "Vermouth di Torino",
+            "information": [
+                "Nazwa \"Rubino\" nawiązuje do głębokiej, rubinowej barwy wermutu, która pochodzi w pełni z czerwonego wina Nebbiolo, a nie z dodatku karmelu."
+            ],
+            "additionalInfo": [
+                "Czerwony odpowiednik Ambrato z serii premium. Jego bazą jest wytrzymalsze wino – Langhe DOC Nebbiolo, z którego powstają również słynne wina Barolo.",
+                "Smak: Wyjątkowo taninowy jak na wermut. Bogaty, wytrawniejszy niż standardowe Martini Rosso, z nutami owoców leśnych i silnym ziołowo-korzennym uderzeniem."
+            ],
+            "aroma": [
+                "jeżyny • maliny • czarny pieprz • goździki • delikatne nuty drzewne"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Noilly Prat (Original Dry)",
+            "country": "Francja",
+            "group": "Bacardi",
+            "type": "Dry Vermouth",
+            "information": [
+                "Beczki z winem, zanim staną się wermutem, leżakują przez rok na zewnątrz (tzw. metoda L'Enclos). Wystawienie na słońce, wiatr i morską bryzę sprawia, że wino ulega naturalnej oksydacji, co tworzy jego unikalny, lekko słonawy profil."
+            ],
+            "additionalInfo": [
+                "Klasyczny, bardzo wytrawny francuski wermut, będący absolutnym filarem dobrego koktajlu Dry Martini.",
+                "Smak: Bardzo wytrawny, niemal całkowicie pozbawiony cukru. Posiada lekkie nuty oksydacyjne (zbliżone do wytrawnego sherry Fino), z wyraźnym, ziołowym finiszem."
+            ],
+            "aroma": [
+                "rumianek • kolendra • gałka muszkatołowa • skórka cytrynowa • lekkie nuty morskie/solone"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Absent 55",
+            "country": "Francja",
+            "group": "Distilleries et Domaines de Provence",
+            "type": "Absynt",
+            "information": [
+                "Był to jeden z pierwszych \"absyntów\" wprowadzonych legalnie do USA (w 1999 roku) po niemal stuletnim zakazie. Początkowo musiał być reklamowany jako \"likier z dodatkiem bylicy\", aby obejść rygorystyczne przepisy."
+            ],
+            "additionalInfo": [
+                "Jasnozielony likier wysokoprocentowy z wyraźną dominacją anyżu i piołunu, butelkowany z mocą 55% ABV.",
+                "Smak: Uderzająco lukrecjowy (anyżowy) z chłodzącym, miętowym tłem i trawiasto-ziołową goryczką na finiszu. Słodszy niż klasyczne, historyczne absynty."
+            ],
+            "aroma": [
+                "bardzo silny anyż • koper włoski • mięta pieprzowa • piołun"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Amaro Averna",
+            "country": "Włochy",
+            "group": "Campari Group",
+            "type": "Amaro",
+            "information": [
+                "Według legendy, w 1868 roku sycylijski kupiec Salvatore Averna otrzymał tajny przepis od mnicha Frà Girolamo z pobliskiego zakonu benedyktynów z opactwa Santo Spirito."
+            ],
+            "additionalInfo": [
+                "Ciemny, gęsty, rdzennie sycylijski likier digestif. Jest to tzw. \"dolce amaro\" (słodkie amaro), czyli trunek bardziej przystępny, o niższym poziomie goryczy.",
+                "Smak: Bardzo lepki i słodki na początku. Smak karmelu, czerwonych sycylijskich pomarańczy i ziół powoli przechodzi w bardzo delikatną, przyjemną goryczkę."
+            ],
+            "aroma": [
+                "skórka gorzkiej pomarańczy • lukrecja • rozmaryn • szałwia • ciemna czekolada"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Amaro Montenegro",
+            "country": "Włochy",
+            "group": "Gruppo Montenegro",
+            "type": "Amaro",
+            "information": [
+                "Receptura z 1885 roku jest tak tajna, że poszczególne z 40 składników przygotowują inne osoby. Nazwa honoruje księżniczkę Helenę z Czarnogóry, późniejszą królową Włoch."
+            ],
+            "additionalInfo": [
+                "Jedno z najbardziej aromatycznych i najlżejszych amaro na rynku. Często wybierane jako \"brama wejściowa\" do świata gorzkich włoskich likierów ze względu na kwiatowy profil.",
+                "Smak: Słodki, przypominający mandarynki, płatki róż i wiśnie z niemal znikomą, bardzo elegancką goryczką na samym finiszu."
+            ],
+            "aroma": [
+                "kandyzowana skórka pomarańczy • nasiona kolendry • marcepan • ogórek • kwiaty"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Aperol",
+            "country": "Włochy",
+            "group": "Campari Group",
+            "type": "Aperitivo",
+            "information": [
+                "Choć stworzono go w 1919 roku, stał się globalnym fenomenem dopiero po przejęciu marki przez Campari Group w 2003 roku. Zainwestowano ogromne środki w promocję Aperol Spritz."
+            ],
+            "additionalInfo": [
+                "Słynny, jaskrawopomarańczowy likier o stosunkowo niskiej zawartości alkoholu (najczęściej 11%). Stanowi serce najpopularniejszego koktajlu lata – Aperol Spritz.",
+                "Smak: Dominująca, rześka pomarańcza z silną słodyczą, która w ostatnich sekundach zostawia na podniebieniu zaledwie powiew cytrusowej goryczy."
+            ],
+            "aroma": [
+                "słodka pomarańcza • rabarbar • zarys wanilii • lekkie nuty drewniane"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Campari",
+            "country": "Włochy",
+            "group": "Campari Group",
+            "type": "Aperitivo / Bitter",
+            "information": [
+                "Aż do 2006 roku (a w niektórych krajach dłużej) Campari zawdzięczało swój krwistoczerwony kolor koszenili – naturalnemu barwnikowi pozyskiwanemu ze zmiażdżonych owadów (czerwców kaktusowych)."
+            ],
+            "additionalInfo": [
+                "Głęboko czerwony, bezkompromisowo gorzki trunek, który dzieli ludzi na tych, którzy go kochają lub nienawidzą. Fundamentalny składnik koktajli Negroni i Boulevardier.",
+                "Smak: Początkowe uderzenie słodkiego syropu wiśniowego natychmiast ustępuje bardzo ostrej, ściągającej goryczy ziół, chininy i piołunu, która długo utrzymuje się w ustach."
+            ],
+            "aroma": [
+                "silna gorzka pomarańcza • kora • grejpfrut • wiśnie • dzikie zioła"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Suze",
+            "country": "Francja",
+            "group": "Pernod Ricard",
+            "type": "Gentian Liqueur",
+            "information": [
+                "Butelka Suze posiada bardzo charakterystyczny kształt, który zainspirował Pabla Picassa w 1912 roku. Dzieło artysty nosiło tytuł \"Verre et bouteille de Suze\"."
+            ],
+            "additionalInfo": [
+                "Charakterystyczny, jaskrawożółty francuski aperitif o bardzo oryginalnym, ziemisto-roślinnym profilu. Jego głównym składnikiem jest dzika goryczka zbierana w górach.",
+                "Smak: Ekstremalnie specyficzny – słodki na początku, po czym ujawnia mocną, \"zieloną\", ziemistą i wręcz korzenną gorycz z posmakiem kandyzowanej pomarańczy."
+            ],
+            "aroma": [
+                "wilgotna ziemia • korzenie • mniszek lekarski • miód • cytrusy"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Fernet-Branca",
+            "country": "Włochy",
+            "group": "Fratelli Branca Distillerie",
+            "type": "Fernet",
+            "information": [
+                "Trunek ten to prawdziwy fenomen w Argentynie. Kraj ten odpowiada za ogromną część światowego spożycia Fernetu. W branży barmańskiej shot nazywany jest \"uściskiem dłoni barmana\"."
+            ],
+            "additionalInfo": [
+                "Jeden z najbardziej agresywnych, ziołowych i bezkompromisowych likierów na świecie. Posiada gęstą, czarną barwę i właściwości silnie trawienne.",
+                "Smak: Bezlitośnie gorzki, wytrawny, mentolowy i korzenny. Słodycz jest niemal całkowicie zgaszona przez leczniczy, ziemisty i ziołowy finisz."
+            ],
+            "aroma": [
+                "eukaliptus • mięta pieprzowa • mirra • szafran • gęsty syrop apteczny"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Branca Menta",
+            "country": "Włochy",
+            "group": "Fratelli Branca Distillerie",
+            "type": "Mentholated Amaro",
+            "information": [
+                "Trunek powstał w połowie lat 60. XX wieku z inspiracji słynną śpiewaczką operową, Marią Callas, która pijała klasyczny Fernet-Branca z dodatkiem syropu miętowego."
+            ],
+            "additionalInfo": [
+                "Słodsza, chłodząca i ekstremalnie miętowa wariacja na temat klasycznego Fernet-Branca.",
+                "Smak: Gęsty, słodszy niż klasyczny Fernet. Bardzo silne, chłodzące uczucie mentolu łagodzi tradycyjną goryczkę piołunowo-ziołową, czyniąc go łatwiejszym w odbiorze."
+            ],
+            "aroma": [
+                "eksplozja świeżej mięty pieprzowej i zielonej • ciężka, ziołowo-przyprawowa baza"
+            ]
+        }
+    ],
+    "alcoholBasics": [
+        {
+            "id": 1,
+            "name": "Gin",
+            "type": "Gin",
+            "sections": {
+                "Surowce": [
+                    "Surowce: neutralny alkohol etylowy pochodzenia rolniczego, jagody jałowca oraz botanicals, np. kolendra, korzeń dzięgla, cytrusy i kardamon."
+                ],
+                "Zasady": [
+                    "Gin musi mieć dominujący aromat i smak jałowca. Minimalna zawartość alkoholu wynosi 37,5% ABV w Unii Europejskiej i 40% w USA."
+                ],
+                "Metody produkcji i rodzaje": [
+                    "London Dry Gin to najbardziej rygorystyczna kategoria: wszystkie botanicals muszą być redestylowane z alkoholem bazowym, a po destylacji można dodać tylko wodę i śladowe ilości alkoholu neutralnego. Zabronione są sztuczne aromaty, barwniki i dodatek cukru powyżej 0,1 g/l. Określenie London dotyczy metody, a nie miejsca produkcji.",
+                    "W przypadku Distilled Gin po destylacji można dodawać aromaty, ekstrakty i barwniki.",
+                    "Bathtub Gin, czyli Compounded Gin, powstaje przez macerowanie ziół w alkoholu bez ponownej destylacji i jest najtańszą z opisanych metod."
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "Wódka",
+            "type": "Wódka",
+            "sections": {
+                "Surowce": [
+                    "Surowcem są produkty rolne bogate w skrobię lub cukier: najczęściej żyto, pszenica i ziemniaki, rzadziej kukurydza, jabłka lub winogrona."
+                ],
+                "Produkcja": [
+                    "Zacier fermentuje, a następnie jest wielokrotnie destylowany w kolumnach (rektyfikowany) do uzyskania spirytusu o mocy około 96–96,4% ABV. Wódkę filtruje się, np. przez węgiel aktywny lub piasek kwarcowy, i rozcieńcza wodą do mocy butelkowania."
+                ],
+                "Moc i charakter": [
+                    "Minimalna moc butelkowania wynosi 37,5% ABV w UE i 40% w USA. Zgodnie z definicją wódka dąży do maksymalnej neutralności aromatu, smaku i koloru, chyba że jest smakowa."
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "Okowita",
+            "type": "Okowita / Aqua Vitae",
+            "sections": {
+                "Surowce": [
+                    "Okowita (Aqua Vitae, czyli Woda Życia) może powstawać ze zbóż, owoców, takich jak jabłka, śliwki i gruszki, oraz z ziemniaków."
+                ],
+                "Destylacja": [
+                    "W przeciwieństwie do wódki jest destylowana do niższej mocy, zwykle około 70–80% ABV, często w alembikach. Pozwala to zachować kongenery, czyli lotne związki odpowiadające za smak i zapach surowca."
+                ],
+                "Charakter i dojrzewanie": [
+                    "Okowity nie poddaje się pełnej rektyfikacji ani silnej filtracji. Ma oddawać charakter surowca i często dojrzewa w beczkach."
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "name": "Rum",
+            "type": "Rum",
+            "sections": {
+                "Surowiec i produkcja": [
+                    "Rum powstaje z produktów przetwórstwa trzciny cukrowej: najczęściej melasy albo świeżego soku z trzciny (Rhum Agricole). Melasa jest produktem ubocznym produkcji cukru.",
+                    "Po fermentacji rum destyluje się w kolumnach (lżejszy styl hiszpański) lub alembikach pot still (cięższy styl brytyjski i jamajski). Destylacja poniżej 96% ABV pomaga zachować profil smakowy.",
+                    "Ciemne rumy często dojrzewają w dębowych beczkach, zwykle po bourbonie. W tropikalnym klimacie dojrzewanie i parowanie alkoholu (Angel's Share) przebiegają szybciej niż w Europie. Zasady produkcji zależą od kraju pochodzenia; przykładem jest apelacja AOC dla Rhum Agricole na Martynice."
+                ],
+                "Klasyfikacja": [
+                    "Kolor rumu sam w sobie nie określa jego profilu ani wieku. Klasyfikacja Luki Gargano stawia metody produkcji i typ aparatu destylacyjnego ponad barwę. Przykładami są starzony, ale przefiltrowany na biało Banks oraz ciemny Kraken, starzony od 2 do 5 lat.",
+                    "Systemy klasyfikacji rumu obejmują m.in. podział Martina Cate'a oraz klasyfikację Gargano: Pure Single Rum (100% z alembika), Single Blended Rum, Traditional Rum i Rum Industrialny (nowoczesne multikolumny). Rum może zawierać do 20 g dodanego cukru."
+                ],
+                "Style kolonialne": [
+                    "Styl hiszpański (Ron) bazuje na melasie i krótkiej, około 24-godzinnej fermentacji z komercyjnymi drożdżami. Destylat powstaje w nowoczesnych kolumnach wielopółkowych, dając lekki, czysty, wytrawny i rafinowany profil. Na Kubie Maestros Roneros łączą ciężkie Aguardiente (około 75% ABV) z neutralnym Destilado de Caña (95–96% ABV), a destylat filtruje się przez węgiel aktywny.",
+                    "Styl francuski (Rhum Agricole), typowy m.in. dla Martyniki, powstaje ze świeżego soku z trzciny. Martynika stosuje rygorystyczne przepisy AOC, które nie dopuszczają dodatków. Krótka, botaniczna fermentacja i destylacja w pojedynczej kolumnie kreolskiej dają trawiasty, roślinny, ziemisty i elegancki profil; spotyka się też wersje starzone.",
+                    "Styl angielski bazuje na melasie, czasem wzbogacanej kwaśnymi dodatkami (dunder, muck), i bardzo długiej, często dzikiej fermentacji trwającej dni lub tygodnie. Produkcja w miedzianych alembikach pot still i drewnianych kadziach daje potężny, owocowy, oleisty i estrowy profil zwany funkiem."
+                ],
+                "Regiony i terroir": [
+                    "Jamajka słynie z estrowego funku, długiej fermentacji, dzikich drożdży, kwasu trzcinowego, dunderu i mucku. System dwóch retort (Low Wines i High Wines) pozwala uzyskać 80–85% ABV bez utraty estrowego charakteru. Estry odpowiadają za intensywne aromaty, np. ananasa lub lakieru, a ich ilość rośnie wraz z długością fermentacji. Jamajskie rumy podają często stężenie estrów; klasa DOK sięga 1500–1600 g na hektolitr alkoholu absolutnego.",
+                    "Z Gujany wywodzi się kategoria Navy Rum. Destylarnie nad rzeką Demerara wykorzystują historyczne aparaty z drewna Greenheart, m.in. Port Mourant, Versailles i Enmore, których destylaty budują profile blendów marynarki wojennej i rumów El Dorado.",
+                    "Barbados jest kolebką zbalansowanego rumu Single Blended i miejscem działania destylarni uznawanej za najstarszą na świecie, istniejącej od 1703 roku. Woda filtrowana przez wapień koralowy jest zasadowa i bogata w minerały, co pomaga stabilizować fermentację.",
+                    "Haitański Clairin, nazywany dziadkiem rumów, zachowuje przedindustrialne metody. Powstaje z dzikich odmian trzciny, spontanicznie fermentowanych ponad 120 godzin, i jest destylowany w małych miedzianych alembikach nad żywym ogniem do mocy 50–55% ABV."
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "name": "Cachaça",
+            "type": "Cachaça",
+            "sections": {
+                "Pochodzenie i surowiec": [
+                    "Cachaça powstaje wyłącznie w Brazylii ze świeżego soku z trzciny cukrowej. Fermentacja i destylacja odbywają się w jednym ciągu."
+                ],
+                "Produkcja": [
+                    "Moc butelkowania musi wynosić od 38% do 48% ABV, a destylacja jest zazwyczaj jednokrotna."
+                ],
+                "Dojrzewanie i regulacje": [
+                    "Do starzenia używa się dębu oraz ponad 30 rodzajów lokalnego drewna, m.in. amburany, jequitiby i balsamu. Drewno to może znacząco zmieniać profil aromatyczny. Cachaça może zawierać do 6 g cukru na litr.",
+                    "Przykładem dojrzewania jest Leblon Cachaça, która spędza 6 miesięcy w beczkach po koniaku. Po roku leżakowania cachaça uzyskuje status premium, a po 3 latach ultra premium."
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "name": "Tequila",
+            "type": "Tequila",
+            "sections": {
+                "Surowiec i pochodzenie": [
+                    "Tequila powstaje wyłącznie z niebieskiej agawy Agave Tequilana Weber. Chroniona nazwa pochodzenia (DO) ogranicza produkcję do Meksyku: stanu Jalisco i częściowo czterech innych stanów."
+                ],
+                "Produkcja": [
+                    "Rdzenie agawy (piñas) gotuje się na parze w ceglanych piecach hornos lub stalowych autoklawach, miele, fermentuje i dwukrotnie destyluje. Gotowanie w autoklawie nie daje dymnego smaku."
+                ],
+                "Kategorie": [
+                    "Tequila 100% Agave powstaje w całości z cukrów agawy. W kategorii Mixto co najmniej 51% cukrów pochodzi z agawy, a pozostałe mogą pochodzić np. z trzciny cukrowej."
+                ],
+                "Dojrzewanie": [
+                    "Klasyfikacja starzenia: Blanco jest niestarzona lub dojrzewa do 2 miesięcy; Reposado od 2 do 12 miesięcy w dębie; Añejo co najmniej rok; Extra Añejo co najmniej 3 lata."
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "name": "Mezcal",
+            "type": "Mezcal",
+            "sections": {
+                "Odmiany agawy": [
+                    "Mezcal może powstawać z ponad 30 gatunków agawy. Najpopularniejszy jest Espadín, a do rzadszych należą Tobalá i Tepeztate."
+                ],
+                "Pochodzenie i wypalanie": [
+                    "Produkuje się go w 10 wyznaczonych stanach Meksyku, głównie w Oaxaca. Piñas piecze się w podziemnych jamach opalanych drewnem i przykrytych ziemią, co nadaje trunkowi charakterystyczny dymny profil."
+                ],
+                "Przygotowanie i destylacja": [
+                    "Agawę często kruszy się tradycyjnym kołem tahona, niekiedy napędzanym przez zwierzęta. Destylacja odbywa się w miedzianych lub glinianych alembikach; mezcal bywa butelkowany nierozcieńczony i z wysoką zawartością alkoholu."
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "name": "Whisky Szkocka",
+            "type": "Scotch Whisky",
+            "sections": {
+                "Surowce i pochodzenie": [
+                    "Scotch Whisky musi być produkowana i starzona w Szkocji. Surowce to woda, słodowany jęczmień dla Single Malt oraz, w whisky zbożowej i blended, także inne niesłodowane zboża; używa się również drożdży."
+                ],
+                "Destylacja": [
+                    "Whisky słodową destyluje się w miedzianych alembikach, a zbożową w kolumnach destylacyjnych."
+                ],
+                "Dojrzewanie i moc": [
+                    "Musi dojrzewać w dębowych beczkach o pojemności nie większej niż 700 litrów przez co najmniej 3 lata. Minimalna moc butelkowania to 40% ABV."
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "name": "Whiskey Irlandzka",
+            "type": "Irish Whiskey",
+            "sections": {
+                "Surowce i pochodzenie": [
+                    "Irish Whiskey musi pochodzić z Irlandii, czyli Republiki Irlandii lub Irlandii Północnej. Powstaje z wody, słodowanego jęczmienia i/lub innych zbóż."
+                ],
+                "Styl i destylacja": [
+                    "Klasyczny Single Pot Still Whiskey wykorzystuje mieszankę słodowanego i niesłodowanego jęczmienia. Tradycyjna potrójna destylacja daje lżejszy profil niż typowa podwójna destylacja szkocka, ale nie jest ścisłym wymogiem prawnym."
+                ],
+                "Dojrzewanie": [
+                    "Whiskey musi dojrzewać w drewnie co najmniej 3 lata. Słód jest zazwyczaj suszony bez torfu, dlatego trunek nie ma dymnego smaku."
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "name": "Whiskey amerykańska",
+            "type": "Bourbon / Rye / Tennessee",
+            "sections": {
+                "Skład zacieru": [
+                    "Bourbon musi zawierać co najmniej 51% kukurydzy, Rye Whiskey co najmniej 51% żyta, a Corn Whiskey co najmniej 80% kukurydzy. W pozostałej części zacieru często występują słodowany jęczmień, żyto lub pszenica."
+                ],
+                "Produkcja": [
+                    "Corn Whiskey nie może dojrzewać w nowych, wypalanych beczkach. Whiskey amerykańska musi być produkowana w USA, a destylacja nie może przekraczać 160 proof (80% ABV)."
+                ],
+                "Dojrzewanie i style": [
+                    "Dojrzewanie odbywa się w nowych, wypalanych od wewnątrz beczkach dębowych. Straight Bourbon i Straight Rye wymagają co najmniej 2 lat leżakowania i nie mogą zawierać dodanych barwników ani aromatów.",
+                    "Tennessee Whiskey, np. Jack Daniel's, jest technicznie bourbonem, ale przed beczkowaniem przechodzi filtrację przez warstwę węgla drzewnego z klonu cukrowego (Lincoln County Process)."
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "name": "Koniak",
+            "type": "Cognac / Brandy",
+            "sections": {
+                "Surowce i apelacja": [
+                    "Cognac powstaje wyłącznie z określonych odmian białych winogron, w około 98% z Ugni Blanc, i może być produkowany tylko w regionie Cognac we Francji, zgodnie z regulacjami AOC."
+                ],
+                "Destylacja i dojrzewanie": [
+                    "Wino destyluje się dwukrotnie w tradycyjnych miedzianych alembikach charentais, a następnie dojrzewa w beczkach z francuskiego dębu, m.in. z lasów Limousin lub Tronçais."
+                ],
+                "Kategorie wiekowe": [
+                    "Kategorie wiekowe: VS wymaga minimum 2 lat dojrzewania, VSOP minimum 4 lat, a XO minimum 10 lat."
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "name": "Pisco",
+            "type": "Pisco / Brandy",
+            "sections": {
+                "Surowce i pochodzenie": [
+                    "Pisco powstaje z określonych odmian winogron uprawianych w Peru i Chile, np. Quebranta i Italia. Peru i Chile spierają się o prawo do nazwy, a ich przepisy istotnie się różnią."
+                ],
+                "Produkcja w Peru": [
+                    "W Peru pisco destyluje się tylko raz, do mocy butelkowania nieprzekraczającej 48% ABV. Nie wolno go rozcieńczać wodą ani starzyć w drewnie; odpoczywa w szkle, miedzi lub stali nierdzewnej, aby zachować czysty smak winogron."
+                ],
+                "Produkcja w Chile": [
+                    "W Chile przepisy pozwalają na wielokrotną destylację, rozcieńczanie wodą, dodawanie cukru i starzenie w dębowych beczkach."
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "name": "Metaxa",
+            "type": "Grecki trunek na bazie brandy",
+            "sections": {
+                "Surowce": [
+                    "Metaxa łączy destylat z winogron (Savatiano, Sultanina i Black Corinth), wzmacniane słodkie wino z wysp Samos i Limnos oraz ekstrakt z ziół, w tym płatków róż."
+                ],
+                "Charakter i dojrzewanie": [
+                    "Jest greckim trunkiem, który ze względu na dodatek wina i ziół nie klasyfikuje się jako czyste brandy. Po kupażowaniu dojrzewa w beczkach z francuskiego dębu przez co najmniej 6 miesięcy."
+                ],
+                "Oznaczenia wieku": [
+                    "Gwiazdki na butelce, np. 5*, 7* i 12*, odnoszą się do blendu trunków w różnym wieku i mają luźne przełożenie na czas spędzony w drewnie."
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "name": "Wermut",
+            "type": "Wino aromatyzowane i wzmacniane",
+            "sections": {
+                "Skład i definicja": [
+                    "Wermut to wino wzmacniane alkoholem rolniczym i aromatyzowane ziołami oraz przyprawami. Musi zawierać zioła z gatunku bylicy piołunu (Artemisia), a baza winiarska stanowi co najmniej 75% objętości."
+                ],
+                "Moc i style": [
+                    "Zawartość alkoholu wynosi zwykle 14,5–22% ABV. Główne style to Sweet (słodki czerwony), Dry (wytrawny biały) i Bianco."
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "name": "Aperitif winny",
+            "type": "Wino aromatyzowane i wzmacniane",
+            "sections": {
+                "Charakter": [
+                    "Aperitify winne, takie jak Lillet i Dubonnet, są zbliżone do wermutów: bazują na winie aromatyzowanym i wzmacnianym alkoholem."
+                ],
+                "Składniki goryczkowe": [
+                    "W ich profilu nie dominuje piołun. Jako roślinę nadającą goryczkę wykorzystuje się często korę chinowca (chininę) lub korzeń goryczki."
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "name": "Aperitify i amaro",
+            "type": "Likiery i alkohole ziołowe",
+            "sections": {
+                "Produkcja": [
+                    "Włoskie aperitify i amaro powstają przez macerowanie ziół, korzeni i skórek cytrusów w spirytusie, z dodatkiem cukru."
+                ],
+                "Aperitify": [
+                    "Aperitify, takie jak Aperol i Campari, są zwykle jaśniejsze, lżejsze (11–25% ABV) i bardziej cytrusowe; podaje się je przed posiłkiem, aby pobudzić apetyt."
+                ],
+                "Amaro": [
+                    "Amaro to zwykle ciemniejsze, cięższe digestify o bardziej ziołowym, gorzkim i słodkim profilu. Przykłady to Averna, Montenegro i Cynar."
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "name": "Fernet",
+            "type": "Amaro",
+            "sections": {
+                "Charakter i składniki": [
+                    "Fernet jest podkategorią amaro. To bardzo wytrawne trunki o wyjątkowo wysokiej goryczy i złożonym ziołowym profilu; często zawierają mirrę, szafran, aloes, rabarbar i kardamon."
+                ],
+                "Moc i przykłady": [
+                    "Fernet ma zwykle wyższą moc, często około 39–40% ABV. Najbardziej znanym przedstawicielem jest Fernet-Branca."
+                ]
+            }
+        },
+        {
+            "id": 18,
+            "name": "Bittery koktajlowe",
+            "type": "Skoncentrowane ekstrakty ziołowo-korzenne",
+            "sections": {
+                "Skład i moc": [
+                    "Bittery, takie jak Angostura i Peychaud's, to wysoce skoncentrowane ekstrakty ziołowo-korzenne na bazie mocnego alkoholu, często powyżej 40% ABV."
+                ],
+                "Zastosowanie": [
+                    "Traktuje się je nie jako alkohol do picia, lecz jako przyprawę w płynie. Do koktajli dodaje się je w małych ilościach, odmierzanych w dashach."
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "name": "Absynt",
+            "type": "Destylat ziołowy",
+            "sections": {
+                "Surowce": [
+                    "Absynt powstaje ze spirytusu, najlepiej winogronowego lub z buraków cukrowych, oraz tak zwanej Świętej Trójcy ziół: piołunu (Artemisia absinthium), anyżu zielonego i kopru włoskiego."
+                ],
+                "Produkcja": [
+                    "Zioła maceruje się, a następnie destyluje. Do klasycznego absyntu nie dodaje się cukru podczas butelkowania."
+                ],
+                "Kolor": [
+                    "Absynt jest początkowo bezbarwny (Blanche). Zielony kolor uzyskuje naturalnie podczas drugiej maceracji ziół bogatych w chlorofil, np. melisy i hyzopu."
+                ],
+                "Moc i historia": [
+                    "Często jest butelkowany z mocą 60–74% ABV. Ze względu na zawartość tujonu w przeszłości bezpodstawnie zakazywano jego sprzedaży."
+                ]
+            }
+        },
+        {
+            "id": 20,
+            "name": "Likier",
+            "type": "Słodki napój alkoholowy",
+            "sections": {
+                "Składniki": [
+                    "Likier może powstawać na bazie alkoholu neutralnego, rumu, whisky lub brandy; aromaty zapewniają m.in. zioła, owoce, śmietanka i nasiona. Dodaje się do niego dużą ilość cukru lub syropu."
+                ],
+                "Definicja i moc": [
+                    "Zgodnie z definicją unijną likier musi zawierać co najmniej 15% ABV i 100 g cukru inwertowanego na litr."
+                ],
+                "Kategorie o wyższej zawartości cukru": [
+                    "Likiery Crème de..., np. Crème de Menthe i Crème de Cacao, zawierają co najmniej 250 g cukru na litr. Wyjątkiem jest Crème de Cassis, likier z czarnej porzeczki, który musi zawierać 400 g cukru na litr."
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "name": "Wino",
+            "type": "Wino gronowe",
+            "sections": {
+                "Definicja": [
+                    "Wino to napój alkoholowy otrzymywany wyłącznie przez całkowitą lub częściową fermentację alkoholową świeżych winogron (zmiażdżonych lub nie) albo moszczu winogronowego."
+                ]
+            }
+        },
+        {
+            "id": 22,
+            "name": "Wina musujące",
+            "type": "Wino z dwutlenkiem węgla",
+            "sections": {
+                "Metoda tradycyjna": [
+                    "Wina musujące zawierają dwutlenek węgla (CO2). W metodzie tradycyjnej wtórna fermentacja zachodzi w zakorkowanej butelce, tworząc drobną i trwałą perlistość; przykłady to Cava i Franciacorta."
+                ],
+                "Metoda Charmata": [
+                    "W metodzie Charmata (zbiornikowej) wtórna fermentacja odbywa się w zamkniętych, ciśnieniowych kadziach stalowych. Jest szybsza i tańsza oraz pomaga zachować owocowość szczepu; tak powstaje Prosecco."
+                ],
+                "Metoda Asti": [
+                    "Metoda Asti wykorzystuje jedną, przerwaną fermentację w stalowej kadzi ciśnieniowej, dzięki czemu zachowuje naturalny cukier i CO2."
+                ],
+                "Nasycanie gazem": [
+                    "W metodzie nasycania gazem CO2 dodaje się sztucznie; jest to najniżej oceniana z opisanych metod produkcji."
+                ]
+            }
+        },
+        {
+            "id": 23,
+            "name": "Szampan",
+            "type": "Champagne / Wino musujące",
+            "sections": {
+                "Szczepy": [
+                    "Do produkcji Szampana dopuszczone są trzy główne szczepy winogron: białe Chardonnay oraz czerwone Pinot Noir i Pinot Meunier."
+                ],
+                "Pochodzenie i zbiór": [
+                    "Champagne korzysta z rygorystycznej apelacji AOC i może powstawać wyłącznie w regionie Szampanii we Francji. Winogrona muszą być zbierane ręcznie, a prasowanie soku podlega restrykcyjnym normom."
+                ],
+                "Produkcja i dojrzewanie": [
+                    "Szampan produkuje się metodą tradycyjną i dojrzewa na osadzie drożdżowym (sur lie): minimum 15 miesięcy dla wersji nierocznikowych (NV) oraz minimum 3 lata dla rocznikowych (Vintage)."
+                ],
+                "Cechy stylu": [
+                    "Drobne pęcherzyki, wyważona kwasowość oraz aromat tostów i brioszki wynikają z rygorów apelacji i dojrzewania na osadzie."
+                ]
+            }
+        }
     ]
 }
