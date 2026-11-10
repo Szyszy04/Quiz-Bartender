@@ -3875,6 +3875,30 @@
                     "process": "maturation"
                 }
             ]
+        },
+        {
+            "id": 28,
+            "name": "Clairin Communal",
+            "group": "Clairin",
+            "country": "Haiti",
+            "type": "Rhum agricole",
+            "style": "Unikalne połączenie czterech różnych stylów clairin z czterech haitańskich gmin",
+            "information": [
+                ""
+            ],
+            "additionalInfo": [
+                "Clairin to tradycyjny haitański rum rolniczy, który powstaje z soku świeżo wyciśniętej trzciny cukrowej. Wersja Communal jest blendem czterech różnych clairinów z czterech gmin: Casimir, Vaval, Le Rocher i Casimir."
+            ],
+            "material": [
+                "Sok z trzciny cukrowej"
+            ],
+            "distillation": [
+                "Alembikowa"
+            ],
+            "aroma": [
+                "Zioła • Świeżo ścięta trawa • Kwiaty • Przyprawy korzenne"
+            ],
+            "barrels": []
         }
     ],
     "tequilas": [
@@ -4928,6 +4952,106 @@
             "aroma": [
                 "eksplozja świeżej mięty pieprzowej i zielonej • ciężka, ziołowo-przyprawowa baza"
             ]
+        },
+        {
+            "id": 16,
+            "name": "Hennessy X.O",
+            "country": "Francja",
+            "group": "LVMH",
+            "type": "Cognac X.O - Extra Old",
+            "information": [
+                "Został stworzony w 1870 roku przez Maurice'a Hennessy początkowo wyłącznie na własny użytek i dla jego najbliższych przyjaciół."
+            ],
+            "additionalInfo": [
+                "To właśnie ta butelka dała początek oficjalnej klasyfikacji X.O na całym świecie.",
+                "Potężny, dojrzalszy brat wersji VS i VSOP. Koniak, który zdefiniował kategorię Extra Old. Składa się z destylatów (eaux-de-vie) starzonych nawet do 30 lat.",
+                "Charakterystyczny, przypominający karafkę kształt butelki Hennessy X.O ma symbolizować odwróconą kiść dojrzałych winogron",
+                "W centralnym punkcie, nad główną etykietą, na szkle zawsze widnieje wytłoczony symbol ramienia trzymającego halabardę. To oficjalny herb rodziny Hennessy, który nawiązuje do wojskowej przeszłości założyciela marki, kapitana Richarda Hennessy'ego"
+            ],
+            "aroma": [
+                "Kandyzowane owoce • dąb • kakao • czarny pieprz • suszone figi"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Hennessy V.S.O.P",
+            "country": "Francja",
+            "group": "LVMH",
+            "type": "Cognac V.S.O.P - Very Superior Old Pale",
+            "information": [
+                "Złoty środek w ofercie Hennessy, łączący młodość i rześkość z dojrzałością drewna dębowego."
+            ],
+            "additionalInfo": [
+                "Kompozycja ponad 60 eaux-de-vie leżakujących minimum 4 lata.",
+                "Skrót V.S.O.P wywodzi się z zamówienia złożonego w 1817 roku przez przyszłego króla Wielkiej Brytanii, Jerzego IV, który zażyczył sobie u producenta trunku określonego jako excellent, pale, old cognac."
+            ],
+            "aroma": [
+                "Wanilia • cynamon • goździki • prażone migdały • winogrona • jasny tytoń"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Raymond Ragnaud V.S.",
+            "country": "Francja",
+            "group": "Raymond Ragnaud",
+            "type": "Cognac V.S. - Grande Champagne",
+            "information": [
+                "Młody, rześki koniak od rzemieślniczego producenta, który opiera całą swoją produkcję wyłącznie na winogronach z najbardziej prestiżowego podregionu apelacji Cognac."
+            ],
+            "additionalInfo": [
+                "Etykieta Grande Champagne 1er Cru de Cognac gwarantuje, że 100% winogron pochodzi z najbardziej pożądanego, kredowego terroir w regionie, co jest rzadkością w podstawowych (V.S.) koniakach wielkich marek masowych."
+            ],
+            "aroma": [
+                "Jasne kwiaty, • świeże pędy winorośli • gruszka • delikatne muśnięcie wanilii"
+            ]
+        }, 
+        {
+            "id": 19,
+            "name": "Raymond Ragnaud V.S.O.P.",
+            "country": "Francja",
+            "group": "Raymond Ragnaud",
+            "type": "Cognac V.S.O.P. - Grande Champagne",
+            "information": [
+                "Bardziej dojrzały brat wersji V.S., rozwijający pełny potencjał starzenia destylatów z Grande Champagne, które z natury (ze względu na specyfikę gleby) wymagają więcej czasu w beczce, by w pełni się otworzyć."
+            ],
+            "additionalInfo": [
+                "Domy rzemieślnicze często starzeją swoje V.S.O.P znacznie dłużej, niż wymaga tego nałożone prawem minimum (4 lata). Sprawia to, że jakościowo potrafią one konkurować z dużo droższymi, starszymi koniakami komercyjnych gigantów."
+            ],
+            "aroma": [
+                "Suszone morele • dojrzałe brzoskwinie • migdały • karmel • wyrazisty dąb"
+            ]
+        },    
+        {
+            "id": 20,
+            "name": "Metaxa",
+            "country": "Grecja",
+            "group": "Rémy Cointreau",
+            "type": "Grecki napój spirytusowy",
+            "information": [
+                "Unikalny w skali świata trunek, który wyłamuje się z klasycznych kategorii, często mylnie nazywany brandy. Bazuje na destylatach winnych, ale jego ostateczny profil to wynik skomplikowanego kupażowania."
+            ],
+            "additionalInfo": [
+                "Receptura Spyrosa Metaxasa z 1888 roku zakłada dodawanie do starzonych destylatów słodkiego wina Muscat z wysp Samos i Lemnos oraz ściśle tajnego ekstraktu z lokalnych ziół i płatków róż."
+            ],
+            "aroma": [
+                "Suszone owoce • intensywny miód • płatki róż • gałka muszkatołowa • wanilia"
+            ]
+        },    
+        {
+            "id": 21,
+            "name": "Pisco Hermano",
+            "country": "Peru",
+            "group": "Bodega San Nicolás",
+            "type": "Pisco (Peruwiański winiak)",
+            "information": [
+                "Rzemieślnicze pisco produkowane w zgodzie z surowymi zasadami lokalnej apelacji. Stanowi wzorową bazę pod autentyczne Pisco Sour."
+            ],
+            "additionalInfo": [
+                "W przeciwieństwie do pisco z Chile (i niemal każdego innego mocnego alkoholu), peruwiańskie pisco według prawa destyluje się tylko raz, bezpośrednio do mocy butelkowania (bez dolewania wody) i nie poddaje się go żadnemu starzeniu w drewnie."
+            ],
+            "aroma": [
+                "Bardzo czyste • Kwiaty pomarańczy • cytrusy • zielone jabłka • białe winogrona"
+            ]
         }
     ],
     "alcoholBasics": [
@@ -5073,6 +5197,9 @@
                 ],
                 "Dojrzewanie i moc": [
                     "Musi dojrzewać w dębowych beczkach o pojemności nie większej niż 700 litrów przez co najmniej 3 lata. Minimalna moc butelkowania to 40% ABV."
+                ],
+                "Cask strength": [
+                    "Przez mikropory dębowej beczki alkohol paruje szybciej niż woda. Oznacza to, że z każdym rokiem leżakowania moc szkockiej whisky spada. Bardzo stare whisky single malt w wersji cask strength mogą mieć moc zaledwie 45-50% ABV."
                 ]
             }
         },
@@ -5085,7 +5212,7 @@
                     "Irish Whiskey musi pochodzić z Irlandii, czyli Republiki Irlandii lub Irlandii Północnej. Powstaje z wody, słodowanego jęczmienia i/lub innych zbóż."
                 ],
                 "Styl i destylacja": [
-                    "Klasyczny Single Pot Still Whiskey wykorzystuje mieszankę słodowanego i niesłodowanego jęczmienia. Tradycyjna potrójna destylacja daje lżejszy profil niż typowa podwójna destylacja szkocka, ale nie jest ścisłym wymogiem prawnym."
+                    "Klasyczny Single Pot Still Whiskey wykorzystuje mieszankę słodowanego i niesłodowanego jęczmienia, co miało swoje początki w czasach podatku za słodowany jęczmień. Tradycyjna potrójna destylacja daje lżejszy profil niż typowa podwójna destylacja szkocka, ale nie jest ścisłym wymogiem prawnym."
                 ],
                 "Dojrzewanie": [
                     "Whiskey musi dojrzewać w drewnie co najmniej 3 lata. Słód jest zazwyczaj suszony bez torfu, dlatego trunek nie ma dymnego smaku."
@@ -5106,6 +5233,9 @@
                 "Dojrzewanie i style": [
                     "Dojrzewanie odbywa się w nowych, wypalanych od wewnątrz beczkach dębowych. Straight Bourbon i Straight Rye wymagają co najmniej 2 lat leżakowania i nie mogą zawierać dodanych barwników ani aromatów.",
                     "Tennessee Whiskey, np. Jack Daniel's, jest technicznie bourbonem, ale przed beczkowaniem przechodzi filtrację przez warstwę węgla drzewnego z klonu cukrowego (Lincoln County Process)."
+                ],
+                "Cask strength": [
+                    "W amerykańskich magazynach (rickhouses) woda z beczek paruje szybciej niż alkohol. W efekcie moc bourbona z czasem rośnie. Dlatego edycje barrel proof (np. Elijah Craig Barrel Proof czy Stagg Jr.) to często alkoholowe potwory przekraczające 60-65% ABV."
                 ]
             }
         },
@@ -5118,7 +5248,7 @@
                     "Cognac powstaje wyłącznie z określonych odmian białych winogron, w około 98% z Ugni Blanc, i może być produkowany tylko w regionie Cognac we Francji, zgodnie z regulacjami AOC."
                 ],
                 "Destylacja i dojrzewanie": [
-                    "Wino destyluje się dwukrotnie w tradycyjnych miedzianych alembikach charentais, a następnie dojrzewa w beczkach z francuskiego dębu, m.in. z lasów Limousin lub Tronçais."
+                    "Wino destyluje się dwukrotnie w tradycyjnych miedzianych alembikach charentais, a następnie otrzymany destylat (eau-de-vie wymawiać: o dę wi) dojrzewa w beczkach z francuskiego dębu, m.in. z lasów Limousin lub Tronçais."
                 ],
                 "Kategorie wiekowe": [
                     "Kategorie wiekowe: VS wymaga minimum 2 lat dojrzewania, VSOP minimum 4 lat, a XO minimum 10 lat."
