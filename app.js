@@ -443,9 +443,10 @@ function startQuiz(type) {
 }
 
 function startFlashcards(type) {
-    flashcards = type === "alcoholBasics"
-        ? getLibraryItems(type)
-        : filterByGroups(getLibraryItems(type));
+    const items = getLibraryItems(type);
+    flashcards = allGroups || selectedGroups.length === 0
+        ? items
+        : items.filter(item => !item.group || selectedGroups.includes(item.group));
 
     if (flashcards.length === 0) {
         alert("Nie ma żadnych fiszek dla obecnych ustawień.");
@@ -839,61 +840,172 @@ function createLibraryItemElement(item) {
     const element = document.createElement("div");
     element.className = "library-item";
 
-    let html = `<h3>${item.name} <small>(${item._category})</small></h3>`;
-    html += `<div class="library-tags">`;
-    if (item.group) html += `<span>🏢 ${item.group}</span>`;
-    if (item.country) html += `<span>🌍 ${item.country}</span>`;
-    if (item.region && item.region !== "Blended") html += `<span>📍 ${item.region}</span>`;
-    if (item.type) html += `<span>🥃 ${item.type}</span>`;
-    if (Array.isArray(item.aroma) && item.aroma.length > 0) {
-        html += `<span class="aroma"> ${item.aroma.join(" ")}</span>`;
-    }
-    if (Array.isArray(item.barrels) && item.barrels.length > 0) {
-        const barrelsList = item.barrels.map(barrel => {
-            const process = getProcessLabel(barrel.process);
-            const details = [process, barrel.time].filter(Boolean).join(", ");
-            return details ? `${barrel.type} (${details})` : barrel.type;
-        }).join(" + ");
-        html += `<span class="barrels">🛢️ ${barrelsList}</span>`;
-    }
-    if (Array.isArray(item.Mash) && item.Mash.length > 0) {
-        const mashList = item.Mash.map(mash => `${getMashName(mash.type)}: ${(mash.percentage * 100).toFixed(0)}%`).join(" | ");
-        html += `<span class="mash-tag">🌾 ${mashList}</span>`;
-    }
-    html += `</div>`;
+    const heading = document.createElement("h3");
+    heading.append(document.createTextNode(item.name));
+    const category = document.createElement("small");
+    category.textContent = ` (${item._category})`;
+    heading.appendChild(category);
+    element.appendChild(heading);
 
-    if (item._type === "alcoholBasics" && item.sections && typeof item.sections === "object") {
-        Object.entries(item.sections).forEach(([title, facts]) => {
-            if (!Array.isArray(facts) || facts.length === 0) return;
-            html += `<details class="library-info-section" open><summary>${title}<small>${facts.length}</small></summary><ul class="library-info">`;
-            facts.filter(fact => typeof fact === "string" && fact.trim() !== "").forEach(fact => {
-                html += `<li>${fact}</li>`;
-            });
-            html += `</ul></details>`;
+    const tags = document.createElement("div");
+    tags.className = "library-tags";
+    [["🏢", item.group], ["🌍", item.country], ["📍", item.region && item.region !== "Blended" ? item.region : ""]]
+        .filter(([, value]) => value)
+        .forEach(([icon, value]) => {
+            const tag = document.createElement("span");
+            tag.textContent = `${icon} ${value}`;
+            tags.appendChild(tag);
         });
-    } else {
-        html += `<ul class="library-info">`;
+    if (tags.childElementCount > 0) element.appendChild(tags);
 
-        if (Array.isArray(item.information)) {
-            item.information.filter(info => info.trim() !== "").forEach(info => { html += `<li>${info}</li>`; });
-        }
-        if (Array.isArray(item.additionalInfo)) {
-            item.additionalInfo.filter(info => info.trim() !== "").forEach(info => { html += `<li class="additional-info">💡 ${info}</li>`; });
-        }
-        if (Array.isArray(item.material)) {
-            item.material.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Surowiec:</strong> ${info}</li>`; });
-        }
-        if (Array.isArray(item.distillation)) {
-            item.distillation.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Destylacja:</strong> ${info}</li>`; });
-        }
-        if (Array.isArray(item.texture)) {
-            item.texture.filter(info => info.trim() !== "").forEach(info => { html += `<li><strong>Tekstura:</strong> ${info}</li>`; });
-        }
+    const excludedFields = new Set(["id", "name", "_category", "_type", "group", "country", "region"]);
+    Object.entries(item).forEach(([key, value]) => {
+        if (excludedFields.has(key) || !hasLibraryValue(value)) return;
 
-        html += `</ul>`;
-    }
-    element.innerHTML = html;
+        if (key === "information" || key === "additionalInfo") {
+            appendLibraryInfoSection(element, getLibraryFieldLabel(key), value, key === "additionalInfo");
+        } else if (key === "sections" && value && typeof value === "object") {
+            Object.entries(value).forEach(([title, facts]) => appendLibraryInfoSection(element, title, facts));
+        } else if (["aroma", "barrels", "Mash", "material", "distillation", "texture", "type", "style"].includes(key)) {
+            const row = document.createElement("div");
+            row.className = "library-compact-field";
+            const label = document.createElement("span");
+            label.className = "library-compact-label";
+            label.textContent = getLibraryFieldLabel(key);
+            const content = document.createElement("span");
+            content.className = "library-compact-value";
+            content.textContent = formatLibraryValue(value, key);
+            row.append(label, content);
+            element.appendChild(row);
+        } else {
+            const section = document.createElement("section");
+            section.className = "library-info-section";
+            const heading = document.createElement("h4");
+            heading.textContent = getLibraryFieldLabel(key);
+            section.appendChild(heading);
+            appendLibraryValue(section, value);
+            element.appendChild(section);
+        }
+    });
+
     return element;
+}
+
+function hasLibraryValue(value) {
+    if (Array.isArray(value)) return value.some(hasLibraryValue);
+    if (value && typeof value === "object") return Object.values(value).some(hasLibraryValue);
+    return value !== null && value !== undefined && String(value).trim() !== "";
+}
+
+function appendLibraryInfoSection(parent, title, value, isAdditional = false) {
+    const section = document.createElement("section");
+    section.className = isAdditional ? "library-info-section additional-info-section" : "library-info-section";
+    const heading = document.createElement("h4");
+    heading.textContent = title;
+    section.appendChild(heading);
+
+    const list = document.createElement("ul");
+    list.className = isAdditional ? "library-info additional-info" : "library-info";
+    const facts = Array.isArray(value) ? value : [value];
+    facts.filter(hasLibraryValue).forEach(fact => {
+        const entry = document.createElement("li");
+        appendLibraryValue(entry, fact);
+        list.appendChild(entry);
+    });
+    section.appendChild(list);
+    parent.appendChild(section);
+}
+
+function formatLibraryValue(value, key = "") {
+    if (key === "barrels" && Array.isArray(value)) {
+        return value.filter(hasLibraryValue).map(barrel => {
+            if (!barrel || typeof barrel !== "object") return formatLibraryValue(barrel);
+            return [barrel.type, barrel.process && getProcessLabel(barrel.process), barrel.time]
+                .filter(part => part !== null && part !== undefined && String(part).trim() !== "")
+                .join(" - ");
+        }).join(" · ");
+    }
+    if (key === "Mash" && Array.isArray(value)) {
+        return value.filter(hasLibraryValue).map(mash => {
+            if (!mash || typeof mash !== "object") return formatLibraryValue(mash);
+            const type = getMashName(mash.type);
+            const percentage = typeof mash.percentage === "number" ? `${(mash.percentage * 100).toFixed(0)}%` : "";
+            return [type, percentage].filter(Boolean).join(" - ");
+        }).join(" · ");
+    }
+    if (Array.isArray(value)) {
+        return value.filter(hasLibraryValue).map(item => formatLibraryValue(item, key)).join(" · ");
+    }
+    if (value && typeof value === "object") {
+        return Object.entries(value)
+            .filter(([, fieldValue]) => hasLibraryValue(fieldValue))
+            .map(([field, fieldValue]) => `${getLibraryFieldLabel(field)}: ${formatLibraryValue(fieldValue, field)}`)
+            .join(" · ");
+    }
+    if (key === "process") return getProcessLabel(value);
+    if (key === "type" && ["Corn", "Rye", "Malted Barley", "Wheat", "Red winter wheat"].includes(value)) {
+        return getMashName(value);
+    }
+    if (key === "percentage" && typeof value === "number") return `${(value * 100).toFixed(0)}%`;
+    return String(value);
+}
+
+function getLibraryFieldLabel(key) {
+    const labels = {
+        information: "Informacje",
+        additionalInfo: "Ciekawostki",
+        aroma: "Aromat",
+        barrels: "Beczki",
+        Mash: "Skład zacieru",
+        material: "Surowiec",
+        distillation: "Destylacja",
+        texture: "Tekstura",
+        type: "Typ",
+        style: "Styl",
+        sections: "Informacje"
+    };
+    return labels[key] || key.replace(/([a-z])([A-Z])/g, "$1 $2").replace(/^./, character => character.toUpperCase());
+}
+
+function appendLibraryValue(parent, value, key = "") {
+    if (Array.isArray(value)) {
+        const list = document.createElement("ul");
+        list.className = "library-info";
+        value.filter(hasLibraryValue).forEach(item => {
+            const entry = document.createElement("li");
+            appendLibraryValue(entry, item);
+            list.appendChild(entry);
+        });
+        parent.appendChild(list);
+        return;
+    }
+
+    if (value && typeof value === "object") {
+        const fields = document.createElement("dl");
+        fields.className = "library-fields";
+        Object.entries(value).filter(([, fieldValue]) => hasLibraryValue(fieldValue)).forEach(([field, fieldValue]) => {
+            const row = document.createElement("div");
+            row.className = "library-field";
+            const label = document.createElement("dt");
+            label.textContent = getLibraryFieldLabel(field);
+            const detail = document.createElement("dd");
+            appendLibraryValue(detail, fieldValue, field);
+            row.append(label, detail);
+            fields.appendChild(row);
+        });
+        parent.appendChild(fields);
+        return;
+    }
+
+    if (key === "process") {
+        parent.textContent = getProcessLabel(value);
+    } else if (key === "type" && ["Corn", "Rye", "Malted Barley", "Wheat", "Red winter wheat"].includes(value)) {
+        parent.textContent = getMashName(value);
+    } else if (key === "percentage" && typeof value === "number") {
+        parent.textContent = `${(value * 100).toFixed(0)}%`;
+    } else {
+        parent.textContent = String(value);
+    }
 }
 
 function renderLibrary() {
@@ -953,6 +1065,7 @@ function openCategoryMenu(mode) {
     currentMode = mode;
     homeScreen.classList.add("hidden");
     menuScreen.classList.remove("hidden");
+    menuScreen.classList.toggle("flashcards-menu", mode === "flashcards");
     document.getElementById("mode-subtitle").textContent = mode === "flashcards"
         ? "Wybierz kategorię fiszek"
         : "Wybierz kategorię quizu";
