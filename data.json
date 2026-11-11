@@ -5159,7 +5159,7 @@
             "type": "Tequila",
             "sections": {
                 "Surowiec i pochodzenie": [
-                    "Tequila powstaje wyłącznie z niebieskiej agawy Agave Tequilana Weber. Chroniona nazwa pochodzenia (DO) ogranicza produkcję do Meksyku: stanu Jalisco i częściowo czterech innych stanów."
+                    "Tequila powstaje wyłącznie z niebieskiej agawy Agave Tequilana Weber. Chroniona nazwa pochodzenia (DO) ogranicza produkcję do Meksyku: stanu Jalisco (wym.: cha-LIS-ko, 99% produkcji) i częściowo czterech innych stanów (Guanajuato, Michoacán, Nayarit i Tamaulipas)."
                 ],
                 "Produkcja": [
                     "Rdzenie agawy (piñas) gotuje się na parze w ceglanych piecach hornos lub stalowych autoklawach, miele, fermentuje i dwukrotnie destyluje. Gotowanie w autoklawie nie daje dymnego smaku."
@@ -5246,10 +5246,10 @@
         {
             "id": 11,
             "name": "Koniak",
-            "type": "Cognac / Brandy",
+            "type": "Cognac",
             "sections": {
                 "Surowce i apelacja": [
-                    "Cognac powstaje wyłącznie z określonych odmian białych winogron, w około 98% z Ugni Blanc, i może być produkowany tylko w regionie Cognac we Francji, zgodnie z regulacjami AOC."
+                    "Cognac powstaje wyłącznie z określonych odmian białych winogron, w około 98% z Ugni Blanc, i może być produkowany tylko w regionie Cognac we Francji, zgodnie z regulacjami AOC. Każdy koniak jest brandy, ale nie każda brandy jest koniakiem."
                 ],
                 "Destylacja i dojrzewanie": [
                     "Wino destyluje się dwukrotnie w tradycyjnych miedzianych alembikach charentais, a następnie otrzymany destylat (eau-de-vie wymawiać: o dę wi) dojrzewa w beczkach z francuskiego dębu, m.in. z lasów Limousin lub Tronçais."
@@ -5258,11 +5258,23 @@
                     "Kategorie wiekowe: VS wymaga minimum 2 lat dojrzewania, VSOP minimum 4 lat, a XO minimum 10 lat."
                 ]
             }
+        },        {
+            "id": 12,
+            "name": "Brandy",
+            "type": "Brandy",
+            "sections": {
+                "Surowce i apelacja": [
+                    "Dowolne miejsce na świecie. Dowolne szczepy winogron lub inne owoce. Każdy koniak jest brandy, ale nie każda brandy jest koniakiem."
+                ],
+                "Destylacja i dojrzewanie": [
+                    "Kolumny destylacyjne lub alembiki o różnym kształcie. Leżakowanie zależne od lokalnego prawa (czasem dowolne gatunki drewna, z różnym czasem starzenia)."
+                ]
+            }
         },
         {
-            "id": 12,
+            "id": 13,
             "name": "Pisco",
-            "type": "Pisco / Brandy",
+            "type": "Pisco",
             "sections": {
                 "Surowce i pochodzenie": [
                     "Pisco powstaje z określonych odmian winogron uprawianych w Peru i Chile, np. Quebranta i Italia. Peru i Chile spierają się o prawo do nazwy, a ich przepisy istotnie się różnią."
@@ -5276,7 +5288,7 @@
             }
         },
         {
-            "id": 13,
+            "id": 14,
             "name": "Metaxa",
             "type": "Grecki trunek na bazie brandy",
             "sections": {
@@ -5292,7 +5304,7 @@
             }
         },
         {
-            "id": 14,
+            "id": 15,
             "name": "Wermut",
             "type": "Wino aromatyzowane i wzmacniane",
             "sections": {
@@ -5305,7 +5317,7 @@
             }
         },
         {
-            "id": 15,
+            "id": 16,
             "name": "Aperitif winny",
             "type": "Wino aromatyzowane i wzmacniane",
             "sections": {
@@ -5318,7 +5330,7 @@
             }
         },
         {
-            "id": 16,
+            "id": 17,
             "name": "Aperitify i amaro",
             "type": "Likiery i alkohole ziołowe",
             "sections": {
@@ -5334,7 +5346,7 @@
             }
         },
         {
-            "id": 17,
+            "id": 18,
             "name": "Fernet",
             "type": "Amaro",
             "sections": {
@@ -5347,7 +5359,7 @@
             }
         },
         {
-            "id": 18,
+            "id": 19,
             "name": "Bittery koktajlowe",
             "type": "Skoncentrowane ekstrakty ziołowo-korzenne",
             "sections": {
@@ -5360,7 +5372,7 @@
             }
         },
         {
-            "id": 19,
+            "id": 20,
             "name": "Absynt",
             "type": "Destylat ziołowy",
             "sections": {
@@ -5379,7 +5391,7 @@
             }
         },
         {
-            "id": 20,
+            "id": 21,
             "name": "Likier",
             "type": "Słodki napój alkoholowy",
             "sections": {
@@ -5395,7 +5407,7 @@
             }
         },
         {
-            "id": 21,
+            "id": 22,
             "name": "Wino",
             "type": "Wino gronowe",
             "sections": {
@@ -5405,7 +5417,7 @@
             }
         },
         {
-            "id": 22,
+            "id": 23,
             "name": "Wina musujące",
             "type": "Wino z dwutlenkiem węgla",
             "sections": {
@@ -5424,7 +5436,7 @@
             }
         },
         {
-            "id": 23,
+            "id": 24,
             "name": "Szampan",
             "type": "Champagne / Wino musujące",
             "sections": {
