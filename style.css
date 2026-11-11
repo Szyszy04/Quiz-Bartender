@@ -102,6 +102,32 @@ body {
     gap: 12px;
 }
 
+#menu.flashcards-menu .quiz-options {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+#menu.flashcards-menu .quiz-option {
+    padding: 14px;
+    border-radius: 8px;
+}
+
+#menu.flashcards-menu .quiz-option span {
+    font-size: 16px;
+}
+
+#menu.flashcards-menu .quiz-option small {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+    #menu.flashcards-menu.screen {
+        padding: 24px 18px;
+    }
+}
+
 .quiz-option {
     padding: 20px;
     border: 1px solid #333;
@@ -184,13 +210,13 @@ body {
 
 .library-item {
     background: #292929;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 12px;
+    border-radius: 8px;
     text-align: left;
 }
 
 .library-item h3 {
-    margin: 0 0 10px 0;
+    margin: 0 0 8px;
     font-size: 18px;
 }
 
@@ -203,13 +229,13 @@ body {
 .library-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 10px;
+    gap: 6px;
+    margin-bottom: 8px;
 }
 
 .library-tags span {
     background: #333;
-    padding: 4px 8px;
+    padding: 3px 7px;
     border-radius: 4px;
     font-size: 12px;
     color: #ccc;
@@ -217,44 +243,57 @@ body {
 
 .library-info {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 18px;
     color: #bbb;
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 13px;
+    line-height: 1.45;
 }
 
 .library-info li {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .library-info-section {
     border-top: 1px solid #3b3b3b;
-    padding: 10px 0;
+    margin-top: 7px;
+    padding-top: 7px;
 }
 
-.library-info-section summary {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+.library-info-section h4 {
+    margin: 0 0 5px;
     color: #eee;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
 }
 
-.library-info-section summary small {
-    color: #999;
+.library-compact-field {
+    display: flex;
+    gap: 8px;
+    padding: 3px 0;
+    color: #bbb;
     font-size: 12px;
-    font-weight: normal;
+    line-height: 1.4;
 }
 
-.library-info-section .library-info {
-    margin-top: 10px;
+.library-compact-label {
+    flex: 0 0 104px;
+    color: #999;
+}
+
+.library-compact-value {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.additional-info-section {
+    padding-left: 10px;
+    border-left: 2px solid #626849;
 }
 
 .additional-info {
-    list-style-type: none;
-    margin-left: -20px;
+    list-style: none;
+    padding-left: 0;
+    color: #c5c6b8;
 }
 
 
