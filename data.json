@@ -3100,9 +3100,12 @@
             "information": [
                 "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Solidny, codzienny rum dojrzewający w beczkach po bourbonie, o niezwykle łagodnym, przystępnym profilu."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Po hiszpańsku słowo abuelo oznacza „dziadka”. Nazwa ta jest hołdem dla założyciela marki i patriarchy rodu – José Valery Blanco",
+                "Dziś firmą (Varela Hermanos) zarządzają kolejne pokolenia rodziny Varela, które przeprowadziły markę przez drogę od małego zakładu cukrowniczego do największego producenta alkoholi w Panamie."
+            ],
             "material": [
-                "Melasa"
+                "Sok z trzciny cukrowej i Melasa"
             ],
             "distillation": [
                 "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
@@ -3129,7 +3132,7 @@
             ],
             "additionalInfo": [],
             "material": [
-                "Melasa"
+                "Sok z trzciny cukrowej i Melasa"
             ],
             "distillation": [
                 "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
@@ -3154,9 +3157,11 @@
             "information": [
                 "Niezależna, rodzinna firma. Kontroluje 100% procesu produkcji – od uprawy własnej trzciny cukrowej po butelkowanie. Seria 15-letnich rumów rozlewanych z różnymi finiszami, są niezwykle bogate, ciężkie i złożone."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Marka słynie z eksperymentów – rumy są finiszowane m.in. w beczkach po porto Tawny, sherry Oloroso czy koniaku (wersja Napoléon)"
+            ],
             "material": [
-                "Melasa"
+                "Sok z trzciny cukrowej i Melasa"
             ],
             "distillation": [
                 "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
@@ -3186,7 +3191,7 @@
                 "Należy do kolekcji XV Finish. Starzony 15 lat, z czego finalny okres spędza w beczkach po hiszpańskim sherry, nadając mu wysoce wytrawny, orzechowy charakter."
             ],
             "material": [
-                "Melasa"
+                "Sok z trzciny cukrowej i Melasa"
             ],
             "distillation": [
                 "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
@@ -3217,7 +3222,7 @@
                 "Kolejna odsłona kolekcji XV Finish, leżakowana w beczkach po portugalskim porto, która maksymalizuje poziom słodyczy i owocowości w panamskim destylacie."
             ],
             "material": [
-                "Melasa"
+                "Sok z trzciny cukrowej i Melasa"
             ],
             "distillation": [
                 "Kolumnowa (Nowoczesne kolumny wielopółkowe)"
@@ -3247,7 +3252,12 @@
             "information": [
                 "Największa prywatna firma alkoholowa na świecie. Przechodzi do 2 lat starzenia, a następnie jest filtrowany przez tropikalny węgiel drzewny, aby usunąć kolor. Absolutny klasyk koktajlowy."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Gdy Don Facundo Bacardí założył destylarnię w Santiago de Cuba w 1862 roku, jej dach zamieszkiwały kolonie owocożernych nietoperzy. Żona Don Facundo, Doña Amalia, uznała to za dobry omen i zaproponowała, aby nietoperz stał się logo marki. W tamtych czasach wielu robotników nie potrafiło czytać, więc logo z nietoperzem pomagało im łatwo rozpoznać oryginalny rum",
+                " W przeciwieństwie do ciężkich, syropowatych rumów z tamtej epoki, Don Facundo chciał stworzyć delikatny, elegancki trunek. Wyizolował własny szczep dzikich drożdży (La Lavendura) oraz zastosował filtrację przez węgiel drzewny z wypalanych beczek",
+                "Po rewolucji kubańskiej w 1959 i 1960 roku władze skonfiskowały cały majątek firmy na wyspie bez odszkodowania. Rodzina Bacardí na szczęście wcześniej wywiozła tajne szczepy drożdży oraz zabezpieczyła znaki towarowe i receptury, dzięki czemu mogła kontynuować produkcję w innych krajach (m.in. w Puerto Rico i Meksyku)",
+                "Wybudowany w 1930 roku w stolicy Kuby Edificio Bacardí to jedno z najpiękniejszych dzieł architektury art déco na wyspie, zwieńczone zresztą rzeźbą miedzianego nietoperza."
+            ],
             "material": [
                 "Melasa"
             ],
@@ -3322,13 +3332,16 @@
             "id": 9,
             "name": "Banks 5",
             "group": "Bacardi-Martini",
-            "country": "Blend (Kuba, Jamajka, Trynidad, Barbados, Jawa)",
+            "country": "Blend (Trinidad, Jamajka, Gujana, Barbados i Jawa)",
             "type": "Rum",
             "style": "Blendy Wielowyspowe (International Blends)",
             "information": [
                 "Blend 21 rumów w wieku od 3 do 12 lat. Obecność araku z wyspy Jawa, fermentowanego z czerwonym ryżem, dodaje mu unikalnego, ziemistego smaku rzadko spotykanego w tradycyjnych rumach."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Marka została nazwana na cześć Sir Josepha Banksa – słynnego XVIII-wiecznego botanika i podróżnika, który towarzyszył kapitanowi Jamesowi Cookowi w jego wyprawach dookoła świata",
+                " Cechą charakterystyczną blendów Banks jest obecność indonezyjskiego arak (arrack) z wyspy Jawy, produkowanego z melasy trzcinowej oraz czerwonego ryżu. Nadaje on trunkowi unikalny, wytrawny i lekko korzenny charakter."
+            ],
             "material": [
                 "Melasa"
             ],
@@ -3347,32 +3360,31 @@
         },
         {
             "id": 10,
-            "name": "Botucal",
-            "group": "Brown-Forman",
-            "country": "Wenezuela",
+            "name": "Dictador 20YO",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
             "type": "Rum",
             "style": "Styl Hiszpański (Ron)",
             "information": [
-                "Znany również pod nazwą Diplomático. Kwintesencja słodkiego, deserowego, bardzo gęstego wenezuelskiego stylu. Nazwa używana jest w Europie z powodu praw autorskich."
+                "Flagowy rum w ofercie destylarni z Cartagena de Indias, uważany za najbardziej zrównoważony w całym portfolio. Posiada głęboką, deserową strukturę i nie jest sztucznie dosładzany po destylacji."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Dojrzewa w dębowych beczkach po bourbonie (oraz wybranych partiach po porto lub sherry)",
+                "Charakterystyczna matowa, czarna butelka inspirowana japońskim wzornictwem."
+            ],
             "material": [
-                "Melasa oraz Miód z trzciny cukrowej"
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
             ],
             "distillation": [
-                "Mieszana (Alembik, Kolumna, Batch Kettle)"
+                "Kolumnowa z elementami alembikowej (70% kolumna, 30% alembik)"
             ],
             "aroma": [
-                "🥐 Cynamonki • 🍁 Syrop klonowy • 🍫 Skórka pomarańczy w czekoladzie • 🍯 Miód"
+                "☕ Palona kawa • 🍁 Syrop klonowy • 🍦 Wanilia • 🍯 Dymny miód • 🍫 Gorzka czekolada i kakao"
             ],
             "barrels": [
                 {
                     "type": "Bourbon",
                     "process": "maturation"
-                },
-                {
-                    "type": "Sherry Pedro Ximénez",
-                    "process": "finish"
                 }
             ]
         },
@@ -3387,7 +3399,10 @@
                 "Powstaje z miodu z trzciny cukrowej (nie z melasy) i dojrzewa w ekstremalnie na nowo wypalanych beczkach. Posiada gładki smak z dymnym finiszem i niezwykle lepką strukturą."
             ],
             "additionalInfo": [
-                "Charakterystyczna srebrna butelka"
+                "Charakterystyczna srebrna butelka",
+                " Nazwa marki nawiązuje do Severo Arango y Ferro, hiszpańskiego wysłannika z XVIII wieku, którego charakteryzowała tak silna osobowość i bezwzględność w celach podatkowych, że nadano mu przydomek Dictador. Oficjalną firmę założył jednak jego potomek (Don Julio Arango y Parra) w 1913 roku w Cartagena de Indias w Kolumbii.",
+                "Firma słynie z nietypowych i futurystycznych decyzji wizerunkowych – jej prezesem zarządu (CEO) została Mika, czyli zaawansowany robot społeczny oparty na sztucznej inteligencji.",
+                "W ramach jednej z nietuzinkowych kampanii promocyjnych twarzą ekskluzywnych edycji rumu Dictador w Polsce stał się Lech Wałęsa. Zestaw składający się z 12 butelek, gdzie każda butelka reprezentuje inny miesiąc, oscyluje cenowo między 100 a 200 tys. złotych."
             ],
             "material": [
                 "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
@@ -3903,6 +3918,41 @@
                 "Zioła • Świeżo ścięta trawa • Kwiaty • Przyprawy korzenne"
             ],
             "barrels": []
+        },
+        {
+            "id": 29,
+            "name": "Botucal",
+            "group": "Brown-Forman",
+            "country": "Wenezuela",
+            "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
+            "information": [
+                "Znany również pod nazwą Diplomático. Kwintesencja słodkiego, deserowego, bardzo gęstego wenezuelskiego stylu. Nazwa używana jest w Europie z powodu praw autorskich."
+            ],
+            "additionalInfo": [
+                "Na klasycznej etykiecie rumu widnieje postać eleganckiego dżentelmena w kapeluszu – to Don Juancho. Była to autentyczna, lokalna postać z XIX wieku, miłośnik podróży i kolekcjoner rzadkich alkoholi, który inspirował twórców receptury.",
+                "Rum posiada oficjalny wenezuelski certyfikat pochodzenia DOC Ron de Venezuela, który gwarantuje m.in. minimalny czas starzenia i brak sztucznych dodatków chemicznych",
+                "Batch Kettle: Urządzenie działa w sposób półciągły/porcjowy (ang. batch), pozwalając na precyzyjną kontrolę procesu, a jednocześnie generuje większą złożoność aromatyczną i lżejszy, a zarazem bogaty profil destylatu – pośrodku między ciężkimi rumami z alembika a lżejszymi z kolumny"
+            ],
+            "material": [
+                "Melasa oraz Miód z trzciny cukrowej"
+            ],
+            "distillation": [
+                "Mieszana (Alembik, Kolumna, Batch Kettle)"
+            ],
+            "aroma": [
+                "🥐 Cynamonki • 🍁 Syrop klonowy • 🍫 Skórka pomarańczy w czekoladzie • 🍯 Miód"
+            ],
+            "barrels": [
+                {
+                    "type": "Bourbon",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry Pedro Ximénez",
+                    "process": "finish"
+                }
+            ]
         }
     ],
     "tequilas": [
@@ -5008,7 +5058,7 @@
             "aroma": [
                 "Jasne kwiaty, • świeże pędy winorośli • gruszka • delikatne muśnięcie wanilii"
             ]
-        }, 
+        },
         {
             "id": 19,
             "name": "Raymond Ragnaud V.S.O.P.",
@@ -5024,7 +5074,7 @@
             "aroma": [
                 "Suszone morele • dojrzałe brzoskwinie • migdały • karmel • wyrazisty dąb"
             ]
-        },    
+        },
         {
             "id": 20,
             "name": "Metaxa",
@@ -5040,7 +5090,7 @@
             "aroma": [
                 "Suszone owoce • intensywny miód • płatki róż • gałka muszkatołowa • wanilia"
             ]
-        },    
+        },
         {
             "id": 21,
             "name": "Pisco Hermano",
@@ -5258,7 +5308,8 @@
                     "Kategorie wiekowe: VS wymaga minimum 2 lat dojrzewania, VSOP minimum 4 lat, a XO minimum 10 lat."
                 ]
             }
-        },        {
+        },
+        {
             "id": 12,
             "name": "Brandy",
             "type": "Brandy",
