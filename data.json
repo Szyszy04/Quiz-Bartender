@@ -3400,7 +3400,7 @@
             ],
             "additionalInfo": [
                 "Charakterystyczna srebrna butelka",
-                " Nazwa marki nawiązuje do Severo Arango y Ferro, hiszpańskiego wysłannika z XVIII wieku, którego charakteryzowała tak silna osobowość i bezwzględność w celach podatkowych, że nadano mu przydomek Dictador. Oficjalną firmę założył jednak jego potomek (Don Julio Arango y Parra) w 1913 roku w Cartagena de Indias w Kolumbii.",
+                "Nazwa marki nawiązuje do Severo Arango y Ferro, hiszpańskiego wysłannika z XVIII wieku, którego charakteryzowała tak silna osobowość i bezwzględność w celach podatkowych, że nadano mu przydomek Dictador. Oficjalną firmę założył jednak jego potomek (Don Julio Arango y Parra) w 1913 roku w Cartagena de Indias w Kolumbii.",
                 "Firma słynie z nietypowych i futurystycznych decyzji wizerunkowych – jej prezesem zarządu (CEO) została Mika, czyli zaawansowany robot społeczny oparty na sztucznej inteligencji.",
                 "W ramach jednej z nietuzinkowych kampanii promocyjnych twarzą ekskluzywnych edycji rumu Dictador w Polsce stał się Lech Wałęsa. Zestaw składający się z 12 butelek, gdzie każda butelka reprezentuje inny miesiąc, oscyluje cenowo między 100 a 200 tys. złotych."
             ],
@@ -3605,9 +3605,13 @@
             "type": "Rum",
             "style": "Styl Hiszpański (Ron)",
             "information": [
-                "Rum destylowany u stóp aktywnego wulkanu San Cristóbal. Producent szczyci się zerowym śladem węglowym, brakiem sztucznego cukru oraz beczkami uszczelnianymi naturalnymi liśćmi bananowca."
+                "Destylarnia działa w 100% na energii odnawialnej (pozyskiwanej z biomasy). Posiada oficjalny certyfikat Carbon Neutral (neutralność węglowa) oraz Fair Trade (Sprawiedliwy Handel), co czyni ją jedną z najbardziej ekologicznych marek alkoholi na świecie."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Nazwa po hiszpańsku oznacza Kwiat Trzcinowy",
+                "Przez ponad 130 lat marka pozostaje w rękach tej samej rodziny (obecnie zarządza nią piąta generacja założycieli).",
+                "Gorzelnia została założona w 1890 roku u podnóża San Cristóbal – najwyższego i najbardziej aktywnego wulkanu w Nikaragui. Lokalne gleby, mikroklimat oraz wulkaniczna woda mają ogromny wpływ na proces starzenia i smak alkoholu."
+            ],
             "material": [
                 "Melasa"
             ],
@@ -3634,7 +3638,12 @@
             "information": [
                 "Wykorzystuje proces 'Cuban Barrel Proof'. Blendy wracają do specjalnie wybranych beczek na kolejne starzenie, a alkohol rozlewany jest z podwyższoną mocą 45% bez sztucznego dosładzania."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Selección de Maestros powstaje z beczek wybieranych przez mistrzów rumu i ma bardziej intensywny, dojrzały profil",
+                "Havana Club jest bohaterem jednego z najdłuższych sporów handlowych na świecie. Ponieważ rodzina Arechabala w latach 90. sprzedała prawa do nazwy i receptury firmie Bacardi, na rynku w USA sprzedawany jest zupełnie inny rum pod marką Havana Club (produkowany w Portoryko przez Bacardi), podczas gdy globalnie oryginał z Kuby jest sprzedawany we współpracy z francuskim koncernem Pernod Ricard. Z tego powodu kubański rum Havana Club nie może być oficjalnie sprzedawany w Stanach Zjednoczonych",
+                "Proces produkcji nadzorują mistrzowie rumu (Maestros del Ron Cubano), którzy przekazują swoją wiedzę z pokolenia na pokolenie.",
+                "Zanim Havana Club stała się globalnym gigantem dzięki partnerstwu z Pernod Ricard (podpisanemu w 1994 roku), od lat 70. jej głównym rynkiem eksportowym poza Kubą był Związek Radziecki oraz kraje Europy Wschodniej (w tym PRL)."
+            ],
             "material": [
                 "Melasa"
             ],
@@ -3665,7 +3674,11 @@
             "information": [
                 "Destylowana w miedzianych alembikach, a następnie krótko starzona we francuskich beczkach po koniaku (Cognac XO), co nadaje jej unikalną, gładką strukturę idealną do Caipirinhi."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Choć trunek powstaje w sercu Brazylii (w regionie Minas Gerais), za jego proces destylacji odpowiada słynny francuski master distiller Gilles Merlet, specjalizujący się na co dzień w produkcji koniaku. Traktuje on trzcinę cukrową tak, jak winiarze traktują winogrona.",
+                "Marka została założona we wrześniu 2005 roku przez Steve'a Luttmanna (byłego menedżera LVMH) wraz z partnerami i zawdzięcza swoją nazwę słynnej, ekskluzywnej plaży Leblon w Rio de Janeiro.",
+                "Trzcina cukrowa używana do produkcji Leblon jest zbierana ręcznie i wyciskana w ciągu zaledwie 3 godzin od ścięcia, aby sok nie zdążył się utlenić i zachował maksymalną świeżość."
+            ],
             "material": [
                 "Świeży sok z trzciny cukrowej"
             ],
@@ -3677,8 +3690,9 @@
             ],
             "barrels": [
                 {
-                    "type": "Cognac Limousin Oak",
-                    "process": "maturation"
+                    "type": "Cognac XO Limousin Oak",
+                    "process": "maturation",
+                    "time": "6 miesięcy"
                 }
             ]
         },
@@ -3690,9 +3704,13 @@
             "type": "Rum",
             "style": "Styl Hiszpański (Ron)",
             "information": [
-                "Starzony wysoko w górach (2300 m n.p.m.). Blend destylatów w wieku od 6 do 23 lat w systemie solera. Butelka ozdobiona jest tradycyjną plecionką petate."
+                "Starzony wysoko w górach (2300 m n.p.m.), chłodniejszy klimat i mniejsza zawartość tlenu sprawiają, że proces starzenia przebiega znacznie wolniej. Blend destylatów w wieku od 6 do 23 lat w systemie solera. Butelka ozdobiona jest tradycyjną plecionką petate."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Marka została stworzona w 1976 roku dla uczczenia 100. rocznicy założenia miasta Zacapa we wschodniej Gwatemali",
+                "Charakterystyczna plecionka opasana wokół butelki to tradycyjna, majańska sztuka petate (wykonywana z liści palmowych), którą do dziś ręcznie plecie lokalna społeczność kobiet z Gwatemali",
+                "Za smak rumu od lat odpowiada Lorena Vásquez (pochodząca z Nikaragui), która ma wykształcenie w dziedzinie chemii farmaceutycznej."
+            ],
             "material": [
                 "Miód z trzciny cukrowej (Virgin Sugar Cane Honey)"
             ],
@@ -3771,7 +3789,9 @@
                 "Zaskakująco wytrawny jak na Wenezuelę. Zasłynął projektem Alcatraz, w ramach którego destylarnia resocjalizuje członków gangów zbrojnych poprzez zatrudnienie i grę w rugby.",
                 "Liczba w nazwie oznacza rok założenia plantacji trzciny cukrowej, a na jej 200-stu lecie powstała ta butelka."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Jest to jedyny rum w portfolio marki w całości starzony metodą Solera (tradycyjnie stosowaną w Hiszpanii do sherry). Cztery rzędy beczek ułożone są kaskadowo: młodszy rum z najwyższych beczek powoli zlewa się i miesza ze starszymi partiami aż po sam dół. Wiek destylatów w mieszance szacuje się od 4 do nawet 35 lat"
+            ],
             "material": [
                 "Melasa"
             ],
@@ -3800,9 +3820,12 @@
             "type": "Rum",
             "style": "Styl Angielski (Rum)",
             "information": [
-                "Rozlewany z siłą Marynarki Wojennej (Navy Strength 57% ABV). Kwintesencja jamajskiego profilu 'Hogo' (wysoka zawartość estrów). Niezastąpiony w klasycznych koktajlach Tiki."
+                "Rozlewany z siłą Marynarki Wojennej (Navy Strength 57% ABV). Kwintesencja jamajskiego profilu 'Hogo'. Niezastąpiony w klasycznych koktajlach Tiki."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Rum charakteryzuje się ogromną zawartością estrów i związków lotnych (m.in. styl Wedderburn i Plummer), co daje mu potężny, unikalny profil zapachowy pełen przejrzałych bananów, ananasów, skóry, tytoniu i przypraw korzennych.",
+                "Podczas produkcji wykorzystuje się naturalne dzikie drożdże oraz tradycyjną fermentację trwającą nawet 2–3 tygodnie z dodatkiem tzw. muck (osadów bogatych w kwasy i bakterie), co potęguje jego dziki, owocowy charakter."
+            ],
             "material": [
                 "Melasa (często z dodatkiem dunder/muck)"
             ],
@@ -3829,7 +3852,11 @@
             "information": [
                 "Botaniczny rum, który unika sztucznych syropów. Baza melasowa jest macerowana solą morską z Añana i przyprawami podobnie jak przy rzemieślniczej produkcji ginu."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Twórcy marki wzorowali się na szefach kuchni odznaczonych gwiazdkami Michelin oraz mistrzach cukiernictwa, którzy świadomie łączą nuty słodkie ze słonymi.",
+                "Cały proces ekstrakcji naturalnych składników botanicznych trwa dokładnie 55 dni.",
+                "Sól z Añana ma wysoki poziom minerałów i czystość – w tym trunku nie jest tylko ciekawostką, lecz działa jak naturalny wzmacniacz smaku: wyciąga nuty cytrusowe i niweluje goryczkę."
+            ],
             "material": [
                 "Melasa (rum bazowy)"
             ],
@@ -3851,7 +3878,11 @@
             "information": [
                 "Destylarnia typu Single Estate – w pełni niezależny proces od posadzenia trzciny po butelkowanie. Używają wyłącznie miedzianych alembików."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Posiadłość założono w 1670 roku, uprawę trzciny cukrowej rozpoczęto ok. 1720 roku, a pierwszą destylację rumu przepust przeprowadzono w 1741 roku. Destylarnię zamknięto w 1962 roku, a wznowiła działalność w pełni nowoczesnym kształcie dopiero w 2004/2005 roku dzięki rodzinie Clarke (Gordon Clarke).",
+                "W procesie wykorzystuje się zarówno 4 otwarte, drewniane kadzie (do długich, ciężkich fermentacji z dzikimi drożdżami i kwasem z trzciny), jak i 6 kontrolowanych temperaturowo zbiorników ze stali nierdzewnej do lżejszych destylatów",
+                "Rumy z Worthy Park są znane z wysokiej zawartości estrów i charakterystycznych nut zapachowo-smakowych, wśród których fani wymieniają m.in. akcenty dojrzałych bananów, ananasa, nuty naftowe, a także nietypową nutę... mlecznej herbaty"
+            ],
             "material": [
                 "Melasa"
             ],
@@ -3878,7 +3909,10 @@
             "information": [
                 "Marka o żeglarskim brandingu z Europy Zachodniej. Destylaty sprowadzane są z krajów karaibskich, po czym poddawane infuzji słodkimi i korzennymi przyprawami w Belgii."
             ],
-            "additionalInfo": [],
+            "additionalInfo": [
+                "Marka opiera swoją opowieść na historii XVI-wiecznego podróżnika Nathaniela Wintera. Jego wyprawa zaczyna się w Sagres w Portugalii – miejscu zwanym dawniej końcem znanego świata (World's End).",
+                "To nie tyle klasyczny rum, co karaibski likier/syrop typu falernum (o mocy ok. 35%), łączący w sobie nuty migdałów, chili, imbiru, cytrusów i przypraw korzennych"
+            ],
             "material": [
                 "Melasa (rum bazowy)"
             ],
