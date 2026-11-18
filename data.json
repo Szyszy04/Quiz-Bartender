@@ -3525,7 +3525,7 @@
             ],
             "barrels": [
                 {
-                    "type": "Bourbon",
+                    "type": "American Oak",
                     "process": "maturation"
                 }
             ]
@@ -3552,40 +3552,17 @@
             ],
             "barrels": [
                 {
-                    "type": "Port",
+                    "type": "American Oak",
                     "process": "maturation"
+                },
+                {
+                    "type": "Sherry",
+                    "process": "finish"
                 }
             ]
         },
         {
             "id": 16,
-            "name": "Dictador Sinfonía Libretto Sherry 1998",
-            "group": "Dictador Europe",
-            "country": "Kolumbia",
-            "type": "Rum",
-            "style": "Styl Hiszpański (Ron)",
-            "information": [
-                "Długo dojrzewający rocznik destylowany pod koniec lat 90., charakteryzujący się mocnym, przyprawowo-owocowym uderzeniem z hiszpańskiego dębu."
-            ],
-            "additionalInfo": [],
-            "material": [
-                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
-            ],
-            "distillation": [
-                "Kolumnowa z elementami alembikowej"
-            ],
-            "aroma": [
-                "🍇 Suszone daktyle • 🌿 Goździki • 🌰 Włoskie orzechy"
-            ],
-            "barrels": [
-                {
-                    "type": "Sherry",
-                    "process": "maturation"
-                }
-            ]
-        },
-        {
-            "id": 17,
             "name": "Dictador Sinfonía Pardo 2004",
             "group": "Dictador Europe",
             "country": "Kolumbia",
@@ -3606,8 +3583,39 @@
             ],
             "barrels": [
                 {
-                    "type": "Oak",
+                    "type": "Port",
                     "process": "maturation"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Dictador Sinfonía Libretto Sherry 1998",
+            "group": "Dictador Europe",
+            "country": "Kolumbia",
+            "type": "Rum",
+            "style": "Styl Hiszpański (Ron)",
+            "information": [
+                "Długo dojrzewający rocznik destylowany pod koniec lat 90., charakteryzujący się mocnym, przyprawowo-owocowym uderzeniem z hiszpańskiego dębu."
+            ],
+            "additionalInfo": [],
+            "material": [
+                "Miód z trzciny cukrowej (tzw. Virgin Sugar Cane Honey)"
+            ],
+            "distillation": [
+                "Kolumnowa z elementami alembikowej"
+            ],
+            "aroma": [
+                "🍇 Suszone daktyle • 🌿 Goździki • 🌰 Włoskie orzechy"
+            ],
+            "barrels": [
+                {
+                    "type": "American Oak",
+                    "process": "maturation"
+                },
+                {
+                    "type": "Sherry",
+                    "process": "finish"
                 }
             ]
         },
