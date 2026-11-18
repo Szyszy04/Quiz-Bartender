@@ -2717,6 +2717,20 @@
             "additionalInfo": [
                 "London Dry Gin"
             ]
+        },
+        {
+            "id": 17,
+            "name": "Malfy con arancia",
+            "country": "Włochy",
+            "group": "Pernod Ricard",
+            "information": [
+                "Cała butelka jest pokryta subtelną powłoką imitującą szron, co ma przywoływać skojarzenie z idealnie schłodzonym alkoholem wyciągniętym prosto z zamrażarki w słoneczny, włoski dzień.",
+                "Etykieta oraz detale graficzne nawiązują do błękitu morza i jasnego słońca wybrzeża Amalfi, a żywa, pomarańczowa barwa płynu i akcentów butelki od razu zdradzają profil smakowy zawartości.",
+                "Charakteryzuje się wyraźnie cytrusowym, słodkawo-gorzkim profilem z mocno wyczuwalną, soczystą nutą pomarańczy"
+            ],
+            "additionalInfo": [
+                "Flavored Gin"
+            ]
         }
     ],
     "liquers": [
@@ -3937,10 +3951,14 @@
             "type": "Rhum agricole",
             "style": "Unikalne połączenie czterech różnych stylów clairin z czterech haitańskich gmin",
             "information": [
-                ""
+                "Pierwszy w historii kupaż (blend) haitańskich destylatów z trzciny cukrowej pochodzących od czterech różnych producentów z czterech gmin na Haiti"
             ],
             "additionalInfo": [
-                "Clairin to tradycyjny haitański rum rolniczy, który powstaje z soku świeżo wyciśniętej trzciny cukrowej. Wersja Communal jest blendem czterech różnych clairinów z czterech gmin: Casimir, Vaval, Le Rocher i Casimir."
+                "Wymowa: kleren komunal",
+                "Clairin to tradycyjny haitański rum rolniczy, który powstaje z soku świeżo wyciśniętej trzciny cukrowej. Wersja Communal jest blendem czterech różnych clairinów z czterech gmin: Casimir, Vaval, Le Rocher i Casimir.",
+                "The Spirit of Haïti, cztery słońca na etykiecie symbolizują hasło przewodnie Haiti: L'union fait la force (w jedności siła)",
+                "Trzcina cukrowa uprawiana jest w sposób ekologiczny, bez pestycydów i herbicydów, a fermentacja zachodzi spontanicznie z udziałem dzikich drożdży. Destylacja odbywa się w małych alembikach, a trunek jest nieleżakowany i niefiltrowany",
+                "W języku kreolskim słowo clairin (lub kleren) oznacza „przezroczysty”. W kulturze haitańskiej to trunek o głębokich korzeniach historycznych i rytualnych, powiązany m.in. z tradycją voodoo."
             ],
             "material": [
                 "Sok z trzciny cukrowej"
@@ -3949,7 +3967,7 @@
                 "Alembikowa"
             ],
             "aroma": [
-                "Zioła • Świeżo ścięta trawa • Kwiaty • Przyprawy korzenne"
+                "Zioła • Świeżo ścięta trawa • Kwiaty • Przyprawy korzenne • banan • ananas"
             ],
             "barrels": []
         },
@@ -4359,7 +4377,8 @@
                 ""
             ],
             "additionalInfo": [
-                "Ze względu na proces słodowania i wypalania, według prawa Unii Europejskiej produkt ten nie może być formalnie nazywany wódką, lecz napojem spirytusowym (spirit drink). Odtwarza tradycyjne, wielowiekowe polskie metody gorzelnicze, zanim zaczęto stosować destylację kolumnową."
+                "Ze względu na proces słodowania i wypalania, według prawa Unii Europejskiej produkt ten nie może być formalnie nazywany wódką, lecz napojem spirytusowym (spirit drink). Odtwarza tradycyjne, wielowiekowe polskie metody gorzelnicze, zanim zaczęto stosować destylację kolumnową.",
+                "Temperatura w stopniach Fahrenheita 176 (80°C), w jakiej wyprażany/osuszany jest słód żytni, co nadaje trunkowi głębszy, wypiekowy charakter"
             ],
             "material": [
                 "Żyto (klasyczny spirytus żytni) zblendowane ze spirytusem ze słodu żytniego wypalanego w temperaturze 176°F (80°C)."
@@ -5313,14 +5332,15 @@
             "type": "Bourbon / Rye / Tennessee",
             "sections": {
                 "Skład zacieru": [
-                    "Bourbon musi zawierać co najmniej 51% kukurydzy, Rye Whiskey co najmniej 51% żyta, a Corn Whiskey co najmniej 80% kukurydzy. W pozostałej części zacieru często występują słodowany jęczmień, żyto lub pszenica."
+                    "Bourbon musi zawierać co najmniej 51% kukurydzy, Rye Whiskey co najmniej 51% żyta. W pozostałej części zacieru często występują słodowany jęczmień, żyto lub pszenica."
                 ],
                 "Produkcja": [
-                    "Corn Whiskey nie może dojrzewać w nowych, wypalanych beczkach. Whiskey amerykańska musi być produkowana w USA, a destylacja nie może przekraczać 160 proof (80% ABV)."
+                    "Whiskey amerykańska musi być produkowana w USA, a destylacja nie może przekraczać 160 proof (80% ABV)."
                 ],
                 "Dojrzewanie i style": [
                     "Dojrzewanie odbywa się w nowych, wypalanych od wewnątrz beczkach dębowych. Straight Bourbon i Straight Rye wymagają co najmniej 2 lat leżakowania i nie mogą zawierać dodanych barwników ani aromatów.",
-                    "Tennessee Whiskey, np. Jack Daniel's, jest technicznie bourbonem, ale przed beczkowaniem przechodzi filtrację przez warstwę węgla drzewnego z klonu cukrowego (Lincoln County Process)."
+                    "Tennessee Whiskey, np. Jack Daniel's, jest technicznie bourbonem, ale przed beczkowaniem przechodzi filtrację przez warstwę węgla drzewnego z klonu cukrowego (Lincoln County Process).",
+                    "Corn Whiskey nie może dojrzewać w nowych, wypalanych beczkach i musi mieć co najmniej 80% kukurydzy w zacierze."
                 ],
                 "Cask strength": [
                     "W amerykańskich magazynach (rickhouses) woda z beczek paruje szybciej niż alkohol. W efekcie moc bourbona z czasem rośnie. Dlatego edycje barrel proof (np. Elijah Craig Barrel Proof czy Stagg Jr.) to często alkoholowe potwory przekraczające 60-65% ABV."
