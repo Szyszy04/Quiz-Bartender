@@ -20,7 +20,8 @@ let data = {
     vodka: [],
     wine: [],
     bitters: [],
-    alcoholBasics: []
+    alcoholBasics: [],
+    cocktails: []
 };
 
 let questions = [];
@@ -107,6 +108,7 @@ async function loadData() {
         if (!Array.isArray(data.wine)) data.wine = [];
         if (!Array.isArray(data.bitters)) data.bitters = [];
         if (!Array.isArray(data.alcoholBasics)) data.alcoholBasics = [];
+        if (!Array.isArray(data.cocktails)) data.cocktails = [];
 
         console.log("Dane załadowane:");
         console.log(data);
@@ -824,7 +826,8 @@ function getLibraryItems(type = "all") {
         ["vodka", "Wódka", data.vodka],
         ["wine", "Wino", data.wine],
         ["bitters", "Bitter", data.bitters],
-        ["alcoholBasics", "Podstawy alkoholi", data.alcoholBasics]
+        ["alcoholBasics", "Podstawy alkoholi", data.alcoholBasics],
+        ["cocktails", "Koktajl", data.cocktails]
     ];
 
     return categories
@@ -962,7 +965,11 @@ function getLibraryFieldLabel(key) {
         texture: "Tekstura",
         type: "Typ",
         style: "Styl",
-        sections: "Informacje"
+        sections: "Informacje",
+        ingredients: "Składniki",
+        glass: "Szkło",
+        garnish: "Dekoracja",
+        method: "Metoda"
     };
     return labels[key] || key.replace(/([a-z])([A-Z])/g, "$1 $2").replace(/^./, character => character.toUpperCase());
 }
@@ -1077,6 +1084,8 @@ function openCategoryMenu(mode) {
         if (mode === "flashcards") {
             description = category === "distilleries"
                 ? "Odkrywaj informacje o destylarni"
+                : category === "cocktails"
+                    ? "Odkrywaj skład i sposób przygotowania koktajlu"
                 : category === "all"
                     ? "Wszystkie dostępne fiszki"
                     : "Odkrywaj informacje o butelce";
