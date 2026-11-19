@@ -5361,7 +5361,7 @@
             "type": "Cognac",
             "sections": {
                 "Surowce i apelacja": [
-                    "Cognac powstaje wyłącznie z określonych odmian białych winogron, w około 98% z Ugni Blanc, i może być produkowany tylko w regionie Cognac we Francji, zgodnie z regulacjami AOC. Każdy koniak jest brandy, ale nie każda brandy jest koniakiem."
+                    "Cognac powstaje wyłącznie z określonych odmian białych winogron, w około 98% z Ugni Blanc (unji blan), i może być produkowany tylko w regionie Cognac we Francji, zgodnie z regulacjami AOC. Każdy koniak jest brandy, ale nie każda brandy jest koniakiem."
                 ],
                 "Destylacja i dojrzewanie": [
                     "Wino destyluje się dwukrotnie w tradycyjnych miedzianych alembikach charentais, a następnie otrzymany destylat (eau-de-vie wymawiać: o dę wi) dojrzewa w beczkach z francuskiego dębu, m.in. z lasów Limousin lub Tronçais."
@@ -5566,6 +5566,1578 @@
                     "Drobne pęcherzyki, wyważona kwasowość oraz aromat tostów i brioszki wynikają z rygorów apelacji i dojrzewania na osadzie."
                 ]
             }
+        }
+    ],
+    "cocktails":     [
+        {
+            "id": 1,
+            "name": "BLOODY MARY",
+            "ingredients": [
+                "50 ml Ostoya",
+                "100 ml Big Tom Tomato Juice",
+                "10 ml Sok z cytryny",
+                "10 ml Bloody Mary Mix",
+                "3 krople oliwy truflowej"
+            ],
+            "glass": "Collins",
+            "garnish": "Oliwka na szpadce - plus wierzch koktajlu skropiony oliwą truflową - picanto mix na szkle, slice ogórka",
+            "method": [
+                "1.Do shakera wlewamy wszystkie składniki (z wyjątkiem oliwy truflowej)",
+                "2.Mieszamy łyżeczką barmańską",
+                "3.Szkło opruszamy picanto mix",
+                "4.Przelewamy do szkła w pełni wypełnionego lodem",
+                "5.Skrapiamy wierzch oliwą truflową"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "COSMOPOLITAN",
+            "ingredients": [
+                "30 ml Ostoya",
+                "10 ml Aperol",
+                "30 ml Kordiał z Żurawiny i Róży",
+                "10 ml Esencji z trawy cytrynowej",
+                "różowy glitter"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "suszony, czerwony kwiatostan róży",
+            "method": [
+                "1.Do szklanicy wlewamy premix",
+                "2.Mieszamy koktajl około 15 sekund",
+                "3.Cedzimy do uprzednio zmrożonego szkła"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "ESPRESSO MARTINI",
+            "ingredients": [
+                "40 ml Ostoya",
+                "20 ml Galliano Espresso",
+                "10 ml Syrop Waniliowy",
+                "1 espresso",
+                "1 x dash Angostura Cocoa Bitters"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "tarta fasola tonka + bezik",
+            "method": [
+                "1.Wszystkie składniki intensywnie wstrząsamy z dużą ilością lodu",
+                "2.Cedzimy podwójnie do uprzednio zmrożonego szkła"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "GOLDEN CADILLAC",
+            "ingredients": [
+                "30 ml Creme De Cacao",
+                "30 ml Galliano Autentico",
+                "30 ml Half Half"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Bezik plus gorzka tarta czekolada + złoty pył",
+            "method": [
+                "1.Wlewamy wszystkie składniki do shakera",
+                "2.Wstrząsamy intensywnie",
+                "3.Cedzimy podwójnie do uprzednio zmrożonego szkła"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "GRASSHOOPER",
+            "ingredients": [
+                "20 ml Creme De Cacao",
+                "20 ml Creme De Menthe",
+                "20 ml Ostoya",
+                "30 ml Half Half"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Bezik plus gorzka tarta czekolada",
+            "method": [
+                "1.Wlewamy wszystkie składniki do shakera",
+                "2.Wstrząsamy intensywnie",
+                "3.Cedzimy podwójnie do uprzednio zmrożonego szkła"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "LONG ISLAND ICED TEA",
+            "ingredients": [
+                "20 ml Bombay Sapphire",
+                "20 ml Ostoya",
+                "20 ml Bacardi Carta Blanca",
+                "20 ml Cointreau",
+                "20 ml Sierra Antiguo Plata",
+                "10 ml syropu cukrowego",
+                "20 ml soku z cytryny",
+                "40 ml Coca Coli"
+            ],
+            "glass": "Swizzle Glass",
+            "garnish": "Plasterek cytryny",
+            "method": [
+                "1.Wlewamy wszystkie składniki do shakera (poza Colą)",
+                "2.Wstrząsamy intensywnie",
+                "3.Szkło uzupełniamy lodem i wlewamy 40 ml Coca Coli",
+                "4.Na lód przelewamy powoli koktajl, cedząc pojedyńczo"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "PORNSTAR MARTINI",
+            "ingredients": [
+                "40 ml Ostoya",
+                "20 ml syropu waniliowego",
+                "20 ml soku z limonki",
+                "20 ml przecieru z marakui",
+                "1 shot prosecco"
+            ],
+            "glass": "Coupe + kieliszek do wódki",
+            "garnish": "posypka z pudru buraczanego + kwiatostan róży",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy z dużą ilością lodu",
+                "2.Cedzimy podwójnie do uprzednio zmrożonego szkła"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "VODKA SOUR",
+            "ingredients": [
+                "40 ml Ostoya",
+                "25 ml soku z cytryny",
+                "15 ml syropu cukrowego",
+                "20 ml Albumina",
+                "1 x dash Angostura Bitters"
+            ],
+            "glass": "Double Old Fashioned Glass",
+            "garnish": "coin z pomarańczy",
+            "method": [
+                "1.Wstrząsamy wszystko bez lodu (szybki dry shake)",
+                "2.Kolejno dynamiczny shake z lodem",
+                "3.Cedzimy całość na lód (kości) do szkła"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "KYIV MULE",
+            "ingredients": [
+                "40 ml Ostoya",
+                "15 ml soku z limonki",
+                "10 ml syropu cukrowego",
+                "100 ml Thomas Henry Spicy Ginger",
+                "1 x dash Angostura Bitters"
+            ],
+            "glass": "Collins",
+            "garnish": "2 szczypy mięty + ćwiartka limonki",
+            "method": [
+                "1.Do copper muga wlewamy wszystkie składniki",
+                "2.Mieszamy łyżeczką w celu połączenia wszystkich składników",
+                "3.Zasypujemy w pełni lodem"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "ARM & NAVY",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "20 ml Orgeat",
+                "20 ml soku z cytryny",
+                "1 x dash Angostura Bitters"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "olejki z cytryny + coin z cytryny",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy z dużą ilością lodu.",
+                "2.Cedzimy koktajl podwójnie.",
+                "3.Spryskujemy całość olejkami cytrynowymi."
+            ]
+        },
+        {
+            "id": 11,
+            "name": "AVIATION",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "10 ml Luxardo Maraschino",
+                "5 ml Briottet - Violet",
+                "15 ml soku z cytryny",
+                "2,5 ml syrop cukrowy"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Wiśnia Koktajlowa + olejki cytrynowe",
+            "method": [
+                "1.Wstrząsamy wszystkie składniki z dużą ilością lodu.",
+                "2.Cedzimy do uprzednio zmrożonego szkła.",
+                "3.Okraszamy olejkami cytrynowymi."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "BEE’S KNEES",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "20 ml Syrop miodowo-imbirowy",
+                "20 ml soku z cytryny",
+                "20 ml soku z pomarańczy"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "zest z pomarańczy przypięty do stópki",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy z dużą ilością lodu.",
+                "2.Cedzimy koktajl podwójnie.",
+                "3.Spryskujemy całość olejkami pomarańczowymi"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "BIJOU",
+            "ingredients": [
+                "20 ml Aster Gin",
+                "20 ml Martini Rubino",
+                "20 ml Green Chartreuse",
+                "1 x dash Orange Bitters"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Olejki z cytryny i wiśnia",
+            "method": [
+                "1.Wszystkie składniki mieszamy w szklanicy przez około 15 - 20",
+                "2.Cedzimy do uprzednio zmrożonego szkła.",
+                "3.Spryskujemy olejkami cytrynowymi."
+            ]
+        },
+        {
+            "id": 14,
+            "name": "BOMBAY & TONIC",
+            "ingredients": [
+                "40 ml Bombay Sapphire",
+                "Top Up Thomas Henry Tonic"
+            ],
+            "glass": "Copa Bombay",
+            "garnish": "1/4 limonki ułożona po środku koktajlu",
+            "method": [
+                "1.Do kieliszka wlewamy Gin",
+                "2.zasypujemy w pełni lodem",
+                "3.Dopełniamy cocktail tonikiem."
+            ]
+        },
+        {
+            "id": 15,
+            "name": "BRAMBLE",
+            "ingredients": [
+                "40 ml Bombay Sapphire",
+                "20 ml soku z cytryny",
+                "10 ml syropu cukrowego",
+                "15 ml Chambord"
+            ],
+            "glass": "Collins",
+            "garnish": "kwiat gipsówki",
+            "method": [
+                "1.Do szkła wlewamy gin, sok z cytryny i cukier.",
+                "2.Uzupełniamy szkło w 3/4 kruszonym lodem i intensywnie",
+                "3.Dopełniamy kruszonym lodem, tak aby ponad rant wystawał lekki",
+                "4.Nalewamy na wierzch likier Chambord.",
+                "5.Dekorujemy i serwujemy z rurką."
+            ]
+        },
+        {
+            "id": 16,
+            "name": "BREAKFAST MARTINI",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "15 ml Cointreau",
+                "20 ml sok z cytryny",
+                "łyżeczka barmańska marmolady z pomarańczy"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "olejki pomarańczowe i żółta różyczka położona na wierzchu.",
+            "method": [
+                "1.Wszystkie składniki mocno wstrząsamy z dużą ilością lodu.",
+                "2.Cedzimy podwójnie do uprzednio zmrożonego szkła.",
+                "3.Okraszamy koktajl olejkami pomarańczowymi i dekorujemy żółtą różyczką"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "CHARLIE CHAPLIN",
+            "ingredients": [
+                "30 ml Haymans Sloe Gin",
+                "30 ml Peachtree",
+                "30 ml sok z limonki"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "suszony kwiatostan róży",
+            "method": [
+                "1.Wszystkie składniki wlewamy do shakera.",
+                "2.Wstrząsamy całość niezwykle mocno.",
+                "3.Cedzimy podwójnie do uprzednio zmrożonego szkła.",
+                "4.Dekorujemy suszonym pączkiem róży."
+            ]
+        },
+        {
+            "id": 18,
+            "name": "CHRYSANTHEMUM",
+            "ingredients": [
+                "60 ml Noilly Prat",
+                "10 ml D.O.M. Benedictine",
+                "1 x dash Absynth"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "zest z cytryny wycięty nożyczkami krawieckimi i karbowanymi",
+            "method": [
+                "1.Wszystkie składniki wlewamy do szklanicy.",
+                "2.Mieszamy około 15 sekund.",
+                "3.Cedzimy całość do uprzednio zmrożonego szkła."
+            ]
+        },
+        {
+            "id": 19,
+            "name": "CLOVER CLUB",
+            "ingredients": [
+                "40 ml Bombay Sapphire",
+                "10 ml Martini Extra Dry",
+                "20 ml soku z cytryny",
+                "15 ml syropu malinowego",
+                "2,5 ml cukru",
+                "15 ml Albumina"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "na środku koktajlu odrobinę maliny iofilizowanej + kwiat",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy energicznie bez lodu.",
+                "2.Kolejno mocny shake z dużą ilością lodu.",
+                "3.Cedzimy podwójnie koktajl do uprzednio zmrożonego szkła.",
+                "4.Na środku układamy odrobinę maliny iofilizowanej oraz"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "CORPSE REVIVER #2",
+            "ingredients": [
+                "20 ml Bombay Sapphire",
+                "20 ml Cocchi Americano",
+                "20 ml Cointreau",
+                "20 ml soku z cytryny",
+                "Absynth Spray"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "zest z cytryny wycięty nożyczkami krawieckimi",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy z dużą ilością lodu.",
+                "2.Zmrożone szkło spryskujemy absynthem.",
+                "3.Cedzimy koktajl podwójnie.",
+                "4.Spryskujemy całość olejkami cytrynowymi.",
+                "5.Zest z cytryny karbowany przypinamy do stópki za pomocą"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "DRY MARTINI",
+            "ingredients": [
+                "50 ml Fords",
+                "10 ml Noilly Prat",
+                "1 x dash Orange Bitters"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "oliwka + olejki cytrynowe",
+            "method": [
+                "1.Wszystkie składniki wlewamy do szklanicy.",
+                "2.Mieszamy z lodem dłużej - rozcieńczamy bardziej koktajl.",
+                "3.Cedzimy na oliwkę do uprzednio zmrożonego szkła.",
+                "4.Spryskujemy całość olejkami cytrynowymi."
+            ]
+        },
+        {
+            "id": 22,
+            "name": "GIMLET",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "20 ml Lime Cordial"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "olejki ze skórki grejpfrutowej + 3 krople oliwy mandarynkowej",
+            "method": [
+                "1.Wszystkie składniki wlewamy do szklanicy.",
+                "2.Mieszamy intensywnie przez około 20 sekund.",
+                "3.Cedzimy do uprzednio zmrożonego szkła.",
+                "4.Okraszamy olejkami grejpfrutowym + 3 krople oliwy mandarynkowej"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "GIN BASIL SMASH",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "20 ml syrop cukrowy",
+                "1/2 cytryny",
+                "8 liści bazylii"
+            ],
+            "glass": "Old Fashioned",
+            "garnish": "3 liście bazylii",
+            "method": [
+                "1.Bazylię układamy na dnie shakera.",
+                "2.Przykrywamy ją połówką cytryny i dodajemy cukier.",
+                "3.Ucieramy przyciskając na cytrynę.",
+                "4.Dodajemy gin i wstrząsamy potężnie z dużą ilością lodu.",
+                "5.Cedzimy podwójnie do szkła w pełni wypełnionego lodem."
+            ]
+        },
+        {
+            "id": 24,
+            "name": "GIN MULE",
+            "ingredients": [
+                "40 ml Bombay Sapphire",
+                "20 ml Syrop miodowo-imbirowy",
+                "20 ml soku z limonki",
+                "8 liści mięty",
+                "2 plasterki ogórka",
+                "Piwo Imbirowe - Top Up."
+            ],
+            "glass": "Collins",
+            "garnish": "Bukiet mięty + plasterek ogórka",
+            "method": [
+                "1.Wszystkie składniki (z wyjątkiem piwa imbirowego)",
+                "2.Cedzimy na lód do wysokiego szkła.",
+                "3.Dopełniamy piwem imbirowym.",
+                "4.Mieszamy łyżeczką i dekorujemy miętą oraz ogórkiem."
+            ]
+        },
+        {
+            "id": 25,
+            "name": "HANKY PANKY",
+            "ingredients": [
+                "40 ml Bombay Sapphire",
+                "40 ml Carpano Antica Formula",
+                "2,5 ml Fernet Branca"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "coin z pomarańczy",
+            "method": [
+                "1.Wszystkie składniki mieszamy około 20 sekund w szklanicy.",
+                "2.Cedzimy całość do uprzednio zmrożonego szkła.",
+                "3.Okraszamy całość olejkami pomarańczowymi.",
+                "4.Wrzucamy do środka kółko z pomarańczy."
+            ]
+        },
+        {
+            "id": 26,
+            "name": "LAST WORD",
+            "ingredients": [
+                "20 ml Bombay Sapphire",
+                "20 ml Chartreuse Green",
+                "20 ml Luxardo Maraschino",
+                "20 ml Sok z limonki"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "olejki z limonki + wiśnia koktajlowa",
+            "method": [
+                "1.Wszystkie składniki wlewamy do shakera.",
+                "2.Wstrząsamy niezwykle intensywnie.",
+                "3.Cedzimy podwójnie do uprzednio zmrożonego szkła.",
+                "4.Okraszamy całość olejkami limonki i do środka wisienka."
+            ]
+        },
+        {
+            "id": 27,
+            "name": "MARTINEZ",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "20 ml Carpano Antica",
+                "10 ml Noilly Prat",
+                "5 ml Cointreau/Luxardo Maraschino",
+                "1 x dash Orange Bitters",
+                "1 x dash Angostura Bitters"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Wiśnia + olejki pomarańczowe",
+            "method": [
+                "1.Wszystkie składniki mieszamy przez około 15 sekund.",
+                "2.kolejno cedzimy do uprzednio zmrożonego szkła.",
+                "3.Okraszamy olejkami pomarańczowymi i do środka wrzucamy wiśnie"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "NEGRONI",
+            "ingredients": [
+                "20 ml Bombay Sapphire",
+                "20 ml Martini Rubino",
+                "20 ml Martini Bitter"
+            ],
+            "glass": "Whisky Glass",
+            "garnish": "olejki pomarańczowe + kółko ,,coin” z pomarańczy.",
+            "method": [
+                "1.Wlewamy wszystkie składniki do szklanicy.",
+                "2.Mieszamy przez około 10 - 15 sekund.",
+                "3.Cedzimy do szkła po ściance",
+                "4.Okraszamy całość olejkami pomarańczowymi i dekorujemy żółtkiem z pomarańczy"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "RAMOS GIN FIZZ",
+            "ingredients": [
+                "50 ml Fords",
+                "20 ml syrop cukrowy",
+                "15 ml soku z cytryny",
+                "15 ml soku z limonki",
+                "30 ml half half",
+                "20 ml Albumina",
+                "5 kropli wody z kwiatu pomarańczy",
+                "40 ml wody gazowanej"
+            ],
+            "glass": "Collins",
+            "garnish": "1 żółta różyczka + olejki z cytryny",
+            "method": [
+                "1.Wstrząsamy wszystkie składniki intensywnie bez lodu.",
+                "2.Wstrząsamy potężnie, doprawdy intensywnie koktajl przez około 20s.",
+                "3.Cedzimy do szkła, doskonale kiedy jest zmrożone.",
+                "4.Wypłukujemy shaker odrobiną wody gazowanej.",
+                "5.Wlewamy powoli wodę gazowaną na środek koktajlu chcąc",
+                "6.Z wierzchu kładziemy żółtą różyczkę."
+            ]
+        },
+        {
+            "id": 30,
+            "name": "SINGAPORE SLING",
+            "ingredients": [
+                "40 ml Bombay Sapphire",
+                "15 ml Cherry Heering",
+                "5 ml D.O.M. Benedictine",
+                "5 ml Cointreau",
+                "50 ml przecier ananasowy",
+                "20 ml sok z limonki",
+                "2,5 ml syrop z maliny"
+            ],
+            "glass": "Collins",
+            "garnish": "suszka z limonki + wiśnia na szpadce",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy intensywnie z lodem",
+                "2.Cedzimy do szkła na lód."
+            ]
+        },
+        {
+            "id": 31,
+            "name": "SOUTHSIDE",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "15 ml syrop miętowy",
+                "20 ml sok z limonki",
+                "6 liści mięty"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "mięta w czipsie limonkowym",
+            "method": [
+                "1.Wstrząsamy wszystkie składniki z dużą ilością lodu.",
+                "2.Cedzimy podwójnie do uprzednio zmrożonego szkła.",
+                "3.Dekorujemy miętą wsadzoną w czips z limonki."
+            ]
+        },
+        {
+            "id": 32,
+            "name": "TUXEDO COCKTAIL",
+            "ingredients": [
+                "30 ml Haymans Old Tom Gin",
+                "30 ml Noilly Prat",
+                "5 ml Luxardo Maraschino",
+                "2 x dash Orange Bitters",
+                "1 x dash Angostura Bitters",
+                "1 x spray Absynth"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "olejki cytrynowe + wiśnia",
+            "method": [
+                "1.Wszystkie składniki mieszamy około 20 sekund w szklanicy.",
+                "2.Cedzimy całość do uprzednio zmrożonego szkła.",
+                "3.Okraszamy całość olejkami cytrynowymi.",
+                "4.Wrzucamy do środka wiśnie."
+            ]
+        },
+        {
+            "id": 33,
+            "name": "VESPER MARTINI",
+            "ingredients": [
+                "30 ml Bombay Sapphire",
+                "10 ml Belvedere",
+                "5 ml Cocchi Americano"
+            ],
+            "glass": "Mini Coupette",
+            "garnish": "Zest z cytryny włożony do środka",
+            "method": [
+                "1.Wszystkie składniki wlewamy do shakera.",
+                "2.Wstrząsamy całość niezwykle mocno.",
+                "3.Cedzimy podwójnie do uprzednio zmrożonego szkła.",
+                "4.Spryskujemy całość dużym zestem i wkładamy go do środka."
+            ]
+        },
+        {
+            "id": 34,
+            "name": "WHITE LADY",
+            "ingredients": [
+                "50 ml Bombay Sapphire",
+                "20 ml Cointreau",
+                "20 ml soku z cytryny",
+                "5 ml cukru",
+                "15 ml Albuminy"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "2 żółte różyczki + olejki cytrynowe",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy bez lodu.",
+                "2.Kolejno wstrząsamy z dużą ilością lodu.",
+                "3.Cedzimy do uprzednio zmrożonego szkła.",
+                "4.Okraszamy olejkami cytrynowymi i dekorujemy dwiema żółtymi różyczkami"
+            ]
+        },
+        {
+            "id": 35,
+            "name": "WHITE NEGRONI",
+            "ingredients": [
+                "20 ml Bombay Sapphire",
+                "20 ml Suze",
+                "20 ml Lillet Blanc"
+            ],
+            "glass": "Whisky Glass",
+            "garnish": "olejki grejpfrutowe + zest z grejpfruta wycięty nożyczkami",
+            "method": [
+                "1.Wlewamy wszystkie składniki do szklanicy.",
+                "2.Mieszamy przez około 10 - 15 sekund.",
+                "3.Cedzimy do szkła po ściance",
+                "4.Okraszamy całość olejkami grejpfrutowymi i i dekorujemy żółtkiem z grejpfruta"
+            ]
+        },
+        {
+            "id": 36,
+            "name": "XX CENTURY COCKTAIL",
+            "ingredients": [
+                "20 ml Bombay Sapphire",
+                "20 ml Cocchi Americano",
+                "20 ml creme de cacao",
+                "20 ml soku z cytryny"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "zest z cytryny, przypięty do rantu szkła",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy z dużą ilością lodu.",
+                "2.Cedzimy koktajl podwójnie.",
+                "3.Spryskujemy całość olejkami cytrynowymi.",
+                "4.Dekorujemy zestem z cytryny."
+            ]
+        },
+        {
+            "id": 37,
+            "name": "AIR MAIL",
+            "ingredients": [
+                "50 ml Bacardi Carta Oro",
+                "20 ml Syrop miodowo-imbirowy",
+                "20 ml Soku z limonki",
+                "40 ml Prosecco"
+            ],
+            "glass": "Champagne Flute",
+            "garnish": "3 kosteczki imbiru na szpadce",
+            "method": [
+                "1.Wstrząsamy niezwykle intensywnie wszystkie składnik (z wyjątkiem Prosecco)",
+                "2.Cedzimy do uprzednio zmrożonego szkła",
+                "3.Dopełniamy Prosecco",
+                "4.Dekorujemy"
+            ]
+        },
+        {
+            "id": 38,
+            "name": "CAIPIRINHA",
+            "ingredients": [
+                "50 ml Cachaça",
+                "15 ml Syrop cukrowy",
+                "2 ćwiartki limonki"
+            ],
+            "glass": "Double Old Fashioned Glass",
+            "garnish": "1/4 limonki ułożona po środku koktajlu",
+            "method": [
+                "1.Ćwiartki limonki ucieramy za pomocą muddlera w szkle",
+                "2.Dodajemy cachaçę i zasypujemy w pełni lodem",
+                "3.Mieszamy intensywnie łyżą",
+                "4.Dosypujemy kruszonego lodu i dekorujemy limonką układając ją na wierzchu/po środku koktajlu"
+            ]
+        },
+        {
+            "id": 39,
+            "name": "CLASSIC RUM SWIZZLE",
+            "ingredients": [
+                "50 ml Bacardi Carta Blanca",
+                "30 ml Soku z limonki",
+                "20 ml Syrop cukrowy",
+                "4 x dash Angostura Bitters"
+            ],
+            "glass": "Collins",
+            "garnish": "Bukiet mięty + czips z limonki",
+            "method": [
+                "1.Do szkła wlewamy wszystkie składniki (z wyjątkiem Angostura Bitters)",
+                "2.Do szkła z płynem wkładamy Swizzle Stick",
+                "3.Zasypujemy w pełni kruszonym lodem",
+                "4.Robimy Swizzle przez około 10 sekund",
+                "5.Dopełniamy szkło kruszonym lodem, aby wystawało nieco ponad rant",
+                "6.Na górę wlewamy Angostura Bitters",
+                "7.Dekorujemy bukietem miętowym posypanym pudrem cytrusowym"
+            ]
+        },
+        {
+            "id": 40,
+            "name": "CORN 'N' OIL",
+            "ingredients": [
+                "20 ml Bacardi 4 Anejo Cuatro",
+                "10 ml Smith & Cross",
+                "20 ml Falernum",
+                "10 ml Aperol",
+                "1 x dash Angostura Bitters",
+                "1/2 limonki"
+            ],
+            "glass": "Double Old Fashioned Glass",
+            "garnish": "1/2 limonki",
+            "method": [
+                "1.Wszystkie składniki wlewamy do szkła",
+                "2.Mieszamy łyżeczką i dodajemy bryłkę lodową",
+                "3.1/2 limonki wyciskamy za pomocą łokcia i wrzucamy do środka",
+                "4.Mieszamy przez około 10 sekund i serwujemy"
+            ]
+        },
+        {
+            "id": 41,
+            "name": "CUBA LIBRE",
+            "ingredients": [
+                "40 ml Bacardi Cuatro Anejo",
+                "1/2 limonki (2 ćwiartki)",
+                "Cola - top up"
+            ],
+            "glass": "Collins",
+            "garnish": "1/4 limonki ułożona po środku koktajlu",
+            "method": [
+                "1.Ćwiartki limonki ucieramy za pomocą muddlera w szkle",
+                "2.Dodajemy rum i zasypujemy w pełni lodem",
+                "3.Dopełniamy koktajl colą",
+                "4.Dekorujemy limonką"
+            ]
+        },
+        {
+            "id": 42,
+            "name": "DAIQUIRI",
+            "ingredients": [
+                "50 ml Bacardi Carta Blanca",
+                "20 ml Soku z limonki",
+                "10 ml Syrop cukrowy"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Zest z limonki",
+            "method": [
+                "1.Wszystkie składniki intensywnie wstrząsamy z dużą ilością lodu",
+                "2.Cedzimy podwójnie do uprzednio zmrożonego szkła",
+                "3.Dekorujemy zestem z limonki"
+            ]
+        },
+        {
+            "id": 43,
+            "name": "DARK 'N' STORMY",
+            "ingredients": [
+                "40 ml Smith & Cross",
+                "1 x dash Angostura Bitters",
+                "1 ćwiartka limonki",
+                "Ginger Beer - top up"
+            ],
+            "glass": "Collins",
+            "garnish": "2 szczypy mięty",
+            "method": [
+                "1.Szkło wypełniamy w pełni lodem",
+                "2.Wlewamy Angosturę i piwo imbirowe, wciskamy ćwiartkę limonki",
+                "3.Po lodzie wlewamy rum - tworzą się warstwy",
+                "4.Dekorujemy miętą",
+                "5.Serwujemy z rurką - przed konsumpcją zamieszać"
+            ]
+        },
+        {
+            "id": 44,
+            "name": "EL PRESIDENTE",
+            "ingredients": [
+                "40 ml Bank’s Rum",
+                "15 ml Lillet Blanc",
+                "5 ml Cointreau",
+                "2,5 ml Syrop malinowy",
+                "2 x dash Orange Bitters"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Wiśnia + olejki pomarańczowe",
+            "method": [
+                "1.Wszystkie składniki mieszamy przez około 15 sekund",
+                "2.Cedzimy całość do uprzednio zmrożonego szkła",
+                "3.Okraszamy koktajl olejkami pomarańczowymi",
+                "4.Do środka wrzucamy wiśnię"
+            ]
+        },
+        {
+            "id": 45,
+            "name": "FISH HOUSE PUNCH",
+            "ingredients": [
+                "20 ml Hennessy V.S.",
+                "20 ml Bacardi 4 Anejo Cuatro",
+                "15 ml Peachtree",
+                "30 ml Napar z herbaty Earl Grey",
+                "20 ml Soku z cytryny",
+                "15 ml Oleo Saccharum"
+            ],
+            "glass": "Collins",
+            "garnish": "Bukiet mięty (3 szczypy) + ćwiartka cytryny",
+            "method": [
+                "1.Wlewamy składniki do shakera",
+                "2.Wstrząsamy intensywnie",
+                "3.Cedzimy na lód",
+                "4.Dekorujemy"
+            ]
+        },
+        {
+            "id": 46,
+            "name": "FOG CUTTER",
+            "ingredients": [
+                "20 ml Pisco",
+                "20 ml Bombay Sapphire",
+                "20 ml Bacardi Carta Oro",
+                "20 ml Orgeat",
+                "30 ml Soku z cytryny",
+                "30 ml Soku z pomarańczy",
+                "10 ml Ruby Port"
+            ],
+            "glass": "Collins",
+            "garnish": "Bukiet mięty + czips z ananasa - całość oprószona pudrem pomarańczowym",
+            "method": [
+                "1.Wstrząsamy niezwykle intensywnie wszystkie składniki",
+                "2.Cedzimy na lód do wysokiego szkła"
+            ]
+        },
+        {
+            "id": 47,
+            "name": "HEMINGWAY DAIQUIRI",
+            "ingredients": [
+                "40 ml Bacardi Carta Blanca",
+                "20 ml Sok grejpfrutowy",
+                "15 ml Soku z limonki",
+                "10 ml Syrop cukrowy",
+                "5 ml Luxardo Maraschino"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Olejki grejpfrutowe + wiśnia koktajlowa",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy intensywnie z lodem",
+                "2.Cedzimy do uprzednio zmrożonego szkła",
+                "3.Okraszamy olejkami grejpfrutowymi",
+                "4.Wrzucamy wiśnię do środka"
+            ]
+        },
+        {
+            "id": 48,
+            "name": "HOT RUM GROG",
+            "ingredients": [
+                "50 ml Bacardi Spiced",
+                "20 ml Soku z cytryny",
+                "15 ml Soku z grejpfruta",
+                "15 ml Soku z pomarańczy",
+                "20 ml Syrop waniliowy",
+                "1 x dash Angostura Bitters",
+                "Wrzątek"
+            ],
+            "glass": "Irish Coffee Cup",
+            "garnish": "Laska cynamonu + pół plasterka pomarańczy + kandyzowany imbir",
+            "method": [
+                "1.Szkło uzupełniamy wrzątkiem i trzymamy przez chwilę aby je rozgrzać",
+                "2.Wlewamy wszystkie składniki",
+                "3.Dopełniamy wrzątkiem"
+            ]
+        },
+        {
+            "id": 49,
+            "name": "MAI TAI",
+            "ingredients": [
+                "30 ml Bacardi Carta Blanca",
+                "20 ml Smith & Cross",
+                "15 ml Cointreau",
+                "10 ml Orgeat",
+                "30 ml Soku z limonki",
+                "5 ml Syrop cukrowy"
+            ],
+            "glass": "Double Old Fashioned Glass",
+            "garnish": "Czips z ananasa + bukiet mięty oprószony pudrem",
+            "method": [
+                "1.Wszystkie składniki wlewamy do shakera",
+                "2.Dodajemy kości lodu i wstrząsamy",
+                "3.Przelewamy wraz z lodem do szkła (Dirty Shake)",
+                "4.Dopełniamy lodem",
+                "5.Dekorujemy"
+            ]
+        },
+        {
+            "id": 50,
+            "name": "MOJITO",
+            "ingredients": [
+                "50 ml Bacardi Cuatro Anejo",
+                "1/2 limonki",
+                "15 ml Syrop miętowy",
+                "8 liści mięty",
+                "Woda gazowana"
+            ],
+            "glass": "Collins",
+            "garnish": "Bukiet mięty oprószony cukrem klasycznym lub cytrusowym",
+            "method": [
+                "1.Limonkę ucieramy wraz z syropem miętowym",
+                "2.Dodajemy miętę i rum",
+                "3.Zasypujemy w pełni lodem kruszonym",
+                "4.Intensywnie mieszamy łyżą barmańską",
+                "5.Dopełniamy lodem",
+                "6.Uzupełniamy wodą gazowaną",
+                "7.Dekorujemy miętą i ją opruszamy"
+            ]
+        },
+        {
+            "id": 51,
+            "name": "MOJITO NORBLITO",
+            "ingredients": [
+                "50 ml Bacardi Carta Blanca",
+                "30 ml Fake Lime Juice",
+                "20 ml Syrop miętowy",
+                "5 liści mięty"
+            ],
+            "glass": "Collins",
+            "garnish": "Bukiet mięty oprószony pudrem klasycznym bądź cytrusowym",
+            "method": [
+                "1.Premix wlewamy do shakera",
+                "2.Wstrząsamy intensywnie",
+                "3.Do szkła wlewamy splash wody gazowanej",
+                "4.Cedzimy koktajl podwójnie do szkła na wodę",
+                "5.Dopełniamy maksymalnie lodem",
+                "6.Dekorujemy miętą"
+            ]
+        },
+        {
+            "id": 52,
+            "name": "NUCLEAR DAIQUIRI",
+            "ingredients": [
+                "30 ml White Rum Overproof",
+                "20 ml Green Chartreuse",
+                "10 ml Wordl’s End Falernum",
+                "20 ml Sok z limonki",
+                "10 ml Syrop cukrowy"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Mięta w czipsie limonkowym",
+            "method": [
+                "1.Wstrząsamy niezwykle intensywnie wszystkie składniki",
+                "2.Cedzimy podwójnie do uprzednio zmrożonego szkła",
+                "3.Dekorujemy"
+            ]
+        },
+        {
+            "id": 53,
+            "name": "OLD CUBAN",
+            "ingredients": [
+                "50 ml Bacardi Cuatro Anejo",
+                "20 ml Syrop waniliowy",
+                "20 ml Sok z limonki",
+                "1 x dash Angostura Bitters",
+                "40 ml Prosecco",
+                "5 liści mięty"
+            ],
+            "glass": "Collins",
+            "garnish": "Mięta posypana pudrem",
+            "method": [
+                "1.Wszystkie składniki intensywnie wstrząsamy z dużą ilością lodu (z wyjątkiem prosecco)",
+                "2.Cedzimy podwójnie do szkła na lód",
+                "3.Dopełniamy Prosecco",
+                "4.Dekorujemy"
+            ]
+        },
+        {
+            "id": 54,
+            "name": "QUEEN'S PARK SWIZZLE",
+            "ingredients": [
+                "30 ml Bacardi Carta Oro",
+                "20 ml Smith & Cross",
+                "10 ml Falernum",
+                "20 ml Soku z limonki",
+                "10 ml Syrop waniliowy",
+                "10 liści mięty"
+            ],
+            "glass": "Collins",
+            "garnish": "Bukiet mięty + czips z ananasa - całość oprószona pudrem",
+            "method": [
+                "1.Do szkła wrzucamy miętę",
+                "2.Przyciskamy ją Swizzle Stick i wlewamy wszystkie składniki",
+                "3.Dopełniamy w pełni kruszonym lodem",
+                "4.Uprawiamy swizzle przez około 10-15 sekund",
+                "5.Dopełniamy kruszonym lodem, aby ponad rant wystawał kopczyk",
+                "6.Dekorujemy miętą i czipsem z ananasa - całość posypujemy cukrem pudrem cytrusowym"
+            ]
+        },
+        {
+            "id": 55,
+            "name": "PISCO SOUR",
+            "ingredients": [
+                "50 ml Pisco",
+                "30 ml soku z limonki",
+                "20 ml syropu cukrowego",
+                "20 ml albumina",
+                "3 krople Inca Bitters"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "3 krople Angostura Bitters na wierzchu koktajlu -",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy bez lodu.",
+                "2.Kolejno wstrząsamy z dużą ilością lodu",
+                "3.Cedzimy podwójnie do uprzednio zmrożonego szkła."
+            ]
+        },
+        {
+            "id": 56,
+            "name": "RIGHT HAND COCKTAIL",
+            "ingredients": [
+                "30 ml Bacardi 8 yo",
+                "20 ml Martini Bitter",
+                "20 ml Martini Rubino",
+                "5 ml Mozart Black Dark Chocolate"
+            ],
+            "glass": "Old Fashioned",
+            "garnish": "Coin z pomarańczy przypięte na spinaczu do rantu szkła",
+            "method": [
+                "1.Wlewamy wszystkie składniki do szklanicy",
+                "2.Intensywnie mieszamy przez około 15 sekund",
+                "3.Cedzimy do szkła na bryłkę",
+                "4.Okraszamy całość olejkami pomarańczowymi i dekorujemy coin na spinaczu przypiętym do rantu szkła"
+            ]
+        },
+        {
+            "id": 57,
+            "name": "ZOMBIE",
+            "ingredients": [
+                "30 ml Bacardi Carta Oro",
+                "20 ml Smith & Cross",
+                "10 ml World’ End Falernum",
+                "30 ml Soku z grejpfruta",
+                "20 ml Soku z limonki",
+                "20 ml Syrop piernikowy",
+                "5 ml Syrop malinowy",
+                "1 x dash Angostura Bitters",
+                "1 x spray Absynth"
+            ],
+            "glass": "Collins",
+            "garnish": "Bukiet mięty + tarta fasola tonka + imbir kandyzowany na szpadce",
+            "method": [
+                "1.Wlewamy wszystkie składniki do shakera",
+                "2.Wstrząsamy z dużą ilością lodu",
+                "3.Cedzimy na kości do wysokiego szkła"
+            ]
+        },
+        {
+            "id": 58,
+            "name": "PINK CHIHUAHUA",
+            "ingredients": [
+                "40 ml Rooster Rojo Blanco",
+                "15 ml soku z limonki",
+                "5 ml soku z cytryny",
+                "15 ml syropu malinowego",
+                "5 ml Orgeat",
+                "15 ml Albumina"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "kwiat Gomfreny + pył czerwony",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy bez lodu",
+                "2.Kolejno wstrząsamy z lodem.",
+                "3.Cedzimy podwójnie do uprzednio zmrożonego szkła."
+            ]
+        },
+        {
+            "id": 59,
+            "name": "MARGARITA",
+            "ingredients": [
+                "40 ml Rooster Rojo Blanco",
+                "20 ml Cointreau",
+                "20 ml Soku z limonki",
+                "dosłownie kilka kropli syropu cukrowego"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Wysokiej jakości sól na rancie",
+            "method": [
+                "1.Szkło dekorujemy solą - crustę umieszczamy,",
+                "2.Wszystkie składniki wstrząsamy intensywnie z dużą ilością",
+                "3.Serwis."
+            ]
+        },
+        {
+            "id": 60,
+            "name": "TOMMY’S MARGARITA",
+            "ingredients": [
+                "50 ml Rooster Rojo Reposado",
+                "20 ml Agave Mix",
+                "20 ml Soku z limonki"
+            ],
+            "glass": "Old Fashioned",
+            "garnish": "czips z ananas",
+            "method": [
+                "1.Wlewamy wszystkie składniki do shake",
+                "2.Wstrząsamy z dużą ilością lodu.",
+                "3.Cedzimy na lód do szkła.."
+            ]
+        },
+        {
+            "id": 61,
+            "name": "LA PALOMA",
+            "ingredients": [
+                "40 ml Rooster Rojo Blanco",
+                "20 ml Agave Mix",
+                "20 ml Soku z limonki",
+                "100 ml Three Cents Grapefruit Soda"
+            ],
+            "glass": "Collins",
+            "garnish": "mała ćwiartka grejpfruta + miks przypraw na rancie.",
+            "method": [
+                "1.Ściankę szklanki smarujemy limonką, bądź innym cytrusem. Posypujemy naszym pikantno - słonym miksem.",
+                "2.Do szkła wlewamy wszystkie składniki i mieszamy łyżeczką barmańską",
+                "3.Zasypujemy w pełni lodem i dekorujemy grejpfrutem."
+            ]
+        },
+        {
+            "id": 62,
+            "name": "AMARETTO SOUR",
+            "ingredients": [
+                "40 ml Galliano Amaretto",
+                "10 ml Dewars 8 Caribbean Smooth",
+                "30 ml soku z cytryny",
+                "10 ml syropu cukrowego",
+                "20 ml Albumina"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "wierzch koktajlu posypany pudrem buraczanym oraz suszony kwiatostan róży",
+            "method": [
+                "1.Wstrząsamy składniki bez lodu",
+                "2.Kolejno energicznie z lodem",
+                "3.Cedzimy koktajl do uprzednio zmrożonego szkła"
+            ]
+        },
+        {
+            "id": 63,
+            "name": "BLOOD & SAND",
+            "ingredients": [
+                "30 ml Dewars 12",
+                "20 ml Carpano Antica Formula",
+                "20 ml Cherry Heering",
+                "30 ml sok z pomarańczy",
+                "Islay Malt Spray"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "wiśnia na szpadce + olejki pomarańczowe",
+            "method": [
+                "1.Wszystkie składniki (z wyjątkiem Islay Malt Spray) wstrząsamy z dużą ilością lodu",
+                "2.Zanim przecedzimy koktajl, szkło spryskujemy Islay Malt Spray",
+                "3.Cedzimy podwójnie koktajl do zmrożonego i okraszonego aromatem Islay Malt Spray szkła"
+            ]
+        },
+        {
+            "id": 64,
+            "name": "BOULEVARDIER",
+            "ingredients": [
+                "30 ml Maker’s Mark",
+                "20 ml Martini Bitter",
+                "20 ml Martini Rubino"
+            ],
+            "glass": "Old Fashioned",
+            "garnish": "olejki pomarańczowe + coin z pomarańczy przypięte na spinaczu do rantu szkła",
+            "method": [
+                "1.Wlewamy składniki do szklanicy",
+                "2.Mieszamy przez około 15 sekund",
+                "3.Kolejno cedzimy do szkła z bryłką lodową ze stemplem (nie lejemy na lód, tylko po ściance aby nie rozmyć stempla)"
+            ]
+        },
+        {
+            "id": 65,
+            "name": "BRANDY CRUSTA",
+            "ingredients": [
+                "40 ml Hennessy V.S.",
+                "10 ml Cointreau",
+                "10 ml Luxardo Maraschino",
+                "20 ml soku z cytryny",
+                "5 ml syropu cukrowego"
+            ],
+            "glass": "Champagne Flute",
+            "garnish": "cukier pomarańczowy plus duży zest z pomarańczy",
+            "method": [
+                "1.Szkło opruszamy cukrem pomarańczowym - uprzednio smarujemycytryną aby się cukier",
+                "2.Wszystkie składniki wstrząsamy intensywnie.",
+                "3.Cedzimy podwójnie do szkła."
+            ]
+        },
+        {
+            "id": 66,
+            "name": "CAMERON'S KICK",
+            "ingredients": [
+                "20 ml Dewar’s 8 Caribbean Smooth",
+                "20 ml Tullamore DEW",
+                "25 ml soku z cytryny",
+                "20 ml Orgeat"
+            ],
+            "glass": "Old Fashioned Glass",
+            "garnish": "coin z pomarańczy",
+            "method": [
+                "1.Wstrząsamy wszystko z dużą ilością lodu.",
+                "2.Cedzimy do szkła w pełni wypełnionego lodem."
+            ]
+        },
+        {
+            "id": 67,
+            "name": "CORPSE REVIVER #1",
+            "ingredients": [
+                "20 ml Papidoux V.S.O.P.",
+                "20 ml Hennessy V.S.",
+                "20 ml Martini Rubino"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Olejki cytrynowe (serwujemy bez garnishu)",
+            "method": [
+                "1.Wlewamy wszystkie składniki do szklanicy.",
+                "2.Mieszamy z dużą ilością lodu przez 20 sekund.",
+                "3.Cedzimy do uprzednio zmrożonego szkła.",
+                "4.Spray z olejków cytrynowych."
+            ]
+        },
+        {
+            "id": 68,
+            "name": "DERBY",
+            "ingredients": [
+                "50 ml Maker’s Mark",
+                "30 ml soku grejpfrutowego",
+                "20 ml Syrop miodowo-imbirowy"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "zest z grejpfruta wycięty nożyczkami karbowanymi przypięty do rantu szkła",
+            "method": [
+                "1.Wszystkie składniki wstrząsamy intensywnie z dużą ilością lodu.",
+                "2.Okraszamy całość olejkami grejpfrutowymi.",
+                "3.Zest wycięty nożyczkami karbowanymi przypinamy na spinacz do rantu szkła"
+            ]
+        },
+        {
+            "id": 69,
+            "name": "HOT TODDY",
+            "ingredients": [
+                "50 ml Dewar’s 8 Caribbean Smooth",
+                "20 ml Syrop miodowo-imbirowy",
+                "20 ml sok z cytryny",
+                "Wrzątek",
+                "Laska cynamonu",
+                "plaster cytryn"
+            ],
+            "glass": "Hot Toddy Cup",
+            "garnish": "laska cynamonu + plaster cytryny",
+            "method": [
+                "1.Szkło zalewamy wrzątkiem.",
+                "2.Wylewamy wrzątek.",
+                "3.Wlewamy whisky, cytrynę i syrop.",
+                "4.Wkładamy laskę cynamonu i plaster cytryny.",
+                "5.Zalewamy wrzątkiem ( z ekspresu)"
+            ]
+        },
+        {
+            "id": 70,
+            "name": "IRISH COFFEE",
+            "ingredients": [
+                "50 ml Tullamore DEW",
+                "120 ml kawy przelewowej",
+                "15 ml syropu waniliowego"
+            ],
+            "glass": "Irish Coffee Cup",
+            "garnish": "tarta fasola tonka na wierzch + gwiazdka anyżu",
+            "method": [
+                "1.Do Irish Coffee Cup wlewamy wrzątek z ekspresu. Po chwili wylewamy",
+                "2.Kolejno wlewamy Whiskey i syrop waniliowy",
+                "3.Mieszamy łyżą barmańską",
+                "4.Wlewamy kawę, tak aby zostało 1,5 centymetra przestrzeni od rantu szkła",
+                "5.Z lodówki wyciągamy śmietankę i wstrząsamy ją",
+                "6.po łyżce nalewamy śmietankę"
+            ]
+        },
+        {
+            "id": 71,
+            "name": "JAPANESE COCKTAIL",
+            "ingredients": [
+                "40 ml Hennessyy V.S.",
+                "5 ml Orgeat",
+                "3 x dash Angostura Bitters"
+            ],
+            "glass": "Old Fashioned Glass",
+            "garnish": "Olejki ze skórki cytrynowej + wiśnia koktajlowa",
+            "method": [
+                "1.Mieszamy wszystkie składniki w szklanicy.",
+                "2.Cedzimy na bryłkę lodową do niskiego szkła.",
+                "3.Okraszamy olejkami cytrynowymi i dekorujemy wiśnią koktajlową na szpadce."
+            ]
+        },
+        {
+            "id": 72,
+            "name": "MANHATTAN",
+            "ingredients": [
+                "50 ml Maker’s Mark",
+                "20 ml Carpano Antica Formula",
+                "2 x dash Angostura Bitters"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Wiśnia Koktajlowa + spray z olejków pomarańczowych",
+            "method": [
+                "1.Wszystkie składniki mieszamy w szklanicy (potrzebujemy około 20 sekund mieszania)",
+                "2.Cedzimy do uprzednio schłodzonego szkła"
+            ]
+        },
+        {
+            "id": 73,
+            "name": "NEW YORK SOUR",
+            "ingredients": [
+                "40 ml Jim Beam Black",
+                "25 ml soku z cytryny",
+                "15 ml syropu cukrowego",
+                "20 ml albumina",
+                "1 x dash Angostura Bitters",
+                "15 ml Red Wine"
+            ],
+            "glass": "Double Old Fashioned Glass",
+            "garnish": "coin z pomarańczy",
+            "method": [
+                "1.Wstrząsamy wszystko bez lodu",
+                "2.Kolejno dynamiczny shake z lodem.",
+                "3.Cedzimy całość na lód do szkła",
+                "4.Czekamy chwilę i wlewamy na kostki lodu powoli wino.",
+                "5.Kręcimy szklanką dookoła aby wino równo się rozłożyło.",
+                "6.dekorujemy coinem z pomarańczy"
+            ]
+        },
+        {
+            "id": 74,
+            "name": "LORETTO OLD FASHIONED",
+            "ingredients": [
+                "50 ml Maker’s Mark",
+                "5 ml zalewy z wiśni",
+                "3 x dash Angostura Bitters",
+                "1 x dash Orange Bitters"
+            ],
+            "glass": "Old Fashioned",
+            "garnish": "Kółko - coin z pomarańczy położony na bryłce + wiśnia",
+            "method": [
+                "1.Wlewamy wszystkie składniki do szklanicy",
+                "2.intensywnie mieszamy przez około 15 sekund.",
+                "3.Kolejno cedzimy do szkła na bryłkę",
+                "4.Wykańczamy zestem z pomarańczy i dekorujemy wiśnią"
+            ]
+        },
+        {
+            "id": 75,
+            "name": "PAPER PLANE",
+            "ingredients": [
+                "20 ml Maker’s Mark",
+                "20 ml Amaro Nonino",
+                "20 ml Aperol",
+                "20 ml soku z cytryny"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "Zest z pomarańczy => przypięty do stópki.",
+            "method": [
+                "1.Wlewamy premix do shakera.",
+                "2.Dodajemy sok z cytryny",
+                "3.Wstrząsamy wszystko niezwykle intensywnie.",
+                "4.Cedzimy podwójnie do uprzednio zmrożonego szkła.",
+                "5.Okraszamy całość olejkami pomarańczowymi i przypinamy zest do stópki"
+            ]
+        },
+        {
+            "id": 76,
+            "name": "PENICILLIN",
+            "ingredients": [
+                "50 ml Dewar’s 8 Caribbean Smooth",
+                "20 ml syrop miodowo - imbirowy",
+                "20 ml soku z cytryny",
+                "Islay Malt Spray"
+            ],
+            "glass": "Old Fashioned Glass",
+            "garnish": "kandyzowany imbir na wykałaczce koktajlowej",
+            "method": [
+                "1.Wlewamy składniki do shakera.",
+                "2.Wstrząsamy intensywnie.",
+                "3.Cedzimy na lód.",
+                "4.Sprajujemy Islay Malt z atomizera.",
+                "5.Dekorujemy kandyzowanym imbirem."
+            ]
+        },
+        {
+            "id": 77,
+            "name": "SAZERAC",
+            "ingredients": [
+                "20 ml Jim Beam Rye",
+                "20 ml Hennessy V.S.",
+                "3 x dash Peychaud's Bitters",
+                "1 x dash Angostura Bitters",
+                "5 ml syrop cukrowy",
+                "Absynth Spray"
+            ],
+            "glass": "Szkło do koniaku - snifter",
+            "garnish": "olejki ze skórki cytrynowej",
+            "method": [
+                "1.Szkło schładzamy uzupełniając lodem i wodą.",
+                "2.Wszystkie składniki wlewamy do szklanicy (oprócz Absynth Spray)",
+                "3.Mieszamy intensywnie przez około 15 sekund.",
+                "4.Ze szkła wyrzucamy lód.",
+                "5.Spryskujemy Absynthem.",
+                "6.Okraszamy olejkami cytrynowymi (zest wyrzucamy - nie dekorujemy nim)"
+            ]
+        },
+        {
+            "id": 78,
+            "name": "TRYNIDAD SOUR",
+            "ingredients": [
+                "40 ml Angostura Aromatic Bitters",
+                "15 ml Jim Beam Rye",
+                "30 ml Orgeat",
+                "20 ml soku z cytryny"
+            ],
+            "glass": "Nick & Nora",
+            "garnish": "tarta gorzka czekolada + gwiazdka anyżu",
+            "method": [
+                "1.Wstrząsamy wszystkie składniki z duża ilością lodu.",
+                "2.Cedzimy podwójnie do uprzednio zmrożonego szkła.",
+                "3.Ścieramy gorzką czekoladę na wierzch i dekorujemy gwiazdką anyżu."
+            ]
+        },
+        {
+            "id": 79,
+            "name": "WHISKY SOUR",
+            "ingredients": [
+                "40 ml Dewar’s 8 Caribbean Smooth",
+                "25 ml soku z cytryny",
+                "15 ml syropu cukrowego",
+                "20 ml Albumina",
+                "1 x dash Angostura Bitters"
+            ],
+            "glass": "Double Old Fashioned Glass",
+            "garnish": "coin z pomarańczy",
+            "method": [
+                "1.Wstrząsamy wszystko bez lodu (szybki dry shake)",
+                "2.Kolejno dynamiczny shake z lodem",
+                "3.Cedzimy całość na lód do szkła"
+            ]
+        },
+        {
+            "id": 80,
+            "name": "WHISKEY SMASH",
+            "ingredients": [
+                "50 ml Maker’s Mark",
+                "20 ml syropu cukrowego",
+                "1/2 cytryny",
+                "8 liści mięty"
+            ],
+            "glass": "Old Fashioned",
+            "garnish": "Bukiet mięty opruszony pudrem pomarańczowym",
+            "method": [
+                "1.Mięte kładziemy na spodzie shakera => przykrywamy ją cytryną",
+                "2.Dodajemy syrop cukrowy i naciskamy na cytrynę muddlerem wyciskając z niej sok(intensywnie)",
+                "3.Dolewamy bourbon i uprawiamy bardzo mocny shake.",
+                "4.Cedzimy podwójnie na lód i dekorujemy miętą, którą finalnie"
+            ]
+        },
+        {
+            "id": 81,
+            "name": "VIEUX CAREE",
+            "ingredients": [
+                "20 ml Jim Beam Rye",
+                "20 ml Hennessy V.S.",
+                "20 ml Martini Rubino",
+                "10 ml D.O.M Benedictine",
+                "2 x dash Peychaud's Bitters",
+                "1 x dash Angostura Bitters"
+            ],
+            "glass": "Old fashioned",
+            "garnish": "coin z cytryny",
+            "method": [
+                "1.Wszystkie składniki mieszamy w szklanicy.",
+                "2.Cedzimy na bryłkę lodową- nie bezpośrednio na bryłkę, tak aby stempel się nie rozmył.",
+                "3.Okraszamy olejkami cytrynowymi i dekorujemy coinem cytrynowym"
+            ]
+        },
+        {
+            "id": 82,
+            "name": "NEGRONI 0%",
+            "ingredients": [
+                "20 ml Gin 0%",
+                "20 ml Giffard Bitter Syrop",
+                "20 ml Martini Vibrante"
+            ],
+            "glass": "Whisky Glass",
+            "garnish": "olejki pomarańczowe + kółko ,,coin” z pomarańczy.",
+            "method": [
+                "1.Wlewamy wszystkie składniki do szklanicy.",
+                "2.Mieszamy przez około 10 - 15 sekund.",
+                "3.Cedzimy do szkła po ściance (nie na bryłkę - tak aby nie zmazać stempla",
+                "4.Okraszamy całość olejkami pomarańczowymi i dekorujemy żółtkiem z pomarańcz"
+            ]
+        },
+        {
+            "id": 83,
+            "name": "MARTINI FIERO SPRITZ",
+            "ingredients": [
+                "80 ml Martini Fiero",
+                "100 ml Martini Prosecco",
+                "splash sody"
+            ],
+            "glass": "Copa Martini",
+            "garnish": "2 półplastry pomarańczy",
+            "method": [
+                "1.Wlewamy 80 ml Martini Fiero do kieliszka",
+                "2.Dolewamy 100 ml Martini Prosecco",
+                "3.Zasypujemy w pełni lodem"
+            ]
+        },
+        {
+            "id": 84,
+            "name": "MARTINI FIERO & TONIK",
+            "ingredients": [
+                "80 ml Martini Fiero",
+                "top up Kinley tonik"
+            ],
+            "glass": "Copa Martini",
+            "garnish": "2 półplastry pomarańczy",
+            "method": [
+                "1.Wlewamy 80 ml Martini Fiero do kieliszka",
+                "2.Zasypujemy w pełni lodem",
+                "3.Uzupełniamy tonikiem Kinley",
+                "4.Dekorujemy 2 półplastrami pomarańczy"
+            ]
+        },
+        {
+            "id": 85,
+            "name": "VIBRANTE/FLOREALE TONIK",
+            "ingredients": [
+                "40 ml Vibrante/Floreale",
+                "top up Kinley tonik"
+            ],
+            "glass": "Copa Martini",
+            "garnish": "2 półplastry pomarańczy",
+            "method": [
+                "1.Wlewamy 40 ml Martini Vibrante/Floreale",
+                "2.Zasypujemy w pełni lodem",
+                "3.Uzupełniamy tonikiem Kinley",
+                "4.Dekorujemy 2 półplastrami pomarańczy"
+            ]
+        },
+        {
+            "id": 86,
+            "name": "MARTINI VIBRANTE/FLOREALE SPRITZ",
+            "ingredients": [
+                "40 ml Martini Vibrante/Floreale",
+                "80 ml Prosecco Medbubbles",
+                "20 ml Belvoir Elderflower",
+                "splash sody"
+            ],
+            "glass": "Copa Martini",
+            "garnish": "2 półplastry pomarańczy",
+            "method": [
+                "1.Wlewamy 40 ml Martini Vibrante/Floreale do kieliszka",
+                "2.Dolewamy 80 ml Prosecco bezalkoholowego bezalkoholowego oraz kordiał z czarnego bzu",
+                "3.Zasypujemy w pełni lodem",
+                "4.Dodajemy splash wody gazowanej oraz dekorujemy 2 półplastrami pomarańczy"
+            ]
         }
     ]
 }
